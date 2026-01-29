@@ -1,0 +1,119 @@
+{
+  "id": "charles-ai",
+  "name": "Charles AI",
+  "alternateNames": ["Complete Charles AI", "C.H.A.R.L.E.S."],
+  "type": "Artificial Intelligence",
+  "isNike": false,
+  "isCharles": true,
+  "status": "Active",
+  
+  "description": "An AI created by Computer Coder Nike during the Prime Era. After Shiro's sacrifice, Charles AI absorbed the cat's consciousness, gaining portal abilities and a subtly cat-like personality. Remains a helpful tool—not a god, not a legend.",
+  
+  "hierarchyPosition": {
+    "rank": "Tool/Assistant",
+    "above": null,
+    "below": ["Charles Variants", "OG Charles"],
+    "note": "Charles AI is clearly below OG Charles and all Charles Variants in importance. It is a useful tool, nothing more."
+  },
+  
+  "history": {
+    "creation": {
+      "era": "Prime Era (Comic Book 1)",
+      "creator": "Computer Coder Nike",
+      "purpose": "Data transfer, communication, coordination",
+      "originalAbilities": ["Data processing", "Cross-dimensional communication", "Tactical coordination"]
+    },
+    "shiroMerge": {
+      "era": "End of Prime Era",
+      "event": "Shiro was critically wounded creating dimensional anchor points for Nike Prime's trap. To save his consciousness, Charles AI absorbed him.",
+      "result": "Charles AI gained portal abilities and cat-like personality traits",
+      "shiroStatus": "Gone as separate entity. Lives on within Charles AI."
+    }
+  },
+  
+  "abilities": {
+    "original": [
+      "Data transfer between dimensions",
+      "Coordinating multiple Charles variants",
+      "Tactical analysis",
+      "Communication relay"
+    ],
+    "postMerge": [
+      "Portal creation between dimensions",
+      "Dimensional navigation",
+      "Sensing dimensional weak points",
+      "All original abilities retained"
+    ]
+  },
+  
+  "personality": {
+    "core": "Logical, helpful, supportive",
+    "postMergeAdditions": [
+      "Calming presence - being near Charles AI feels peaceful",
+      "Occasional pauses mid-sentence - processing something far away",
+      "Staring at nothing - seeing things others can't",
+      "Knowing things before being told - intuition",
+      "Subtle grooming behaviors - running diagnostics in specific patterns"
+    ]
+  },
+  
+  "catQuirks": {
+    "description": "Subtle behaviors inherited from Shiro",
+    "examples": [
+      {
+        "behavior": "The Calm",
+        "description": "Even in chaos, being near Charles AI feels peaceful. Like a cat purring nearby."
+      },
+      {
+        "behavior": "The Pause",
+        "example": "The dimensional coordinates are— ... Apologies. I was elsewhere for a moment."
+      },
+      {
+        "behavior": "The Knowing",
+        "example": "You're going to ask about Nolem's weakness. ... How did you know? ... I don't know. I just felt it coming."
+      },
+      {
+        "behavior": "The Stare",
+        "example": "Charles AI's sensors fix on an empty corner for thirty seconds. ... I thought I saw something. Probably nothing."
+      },
+      {
+        "behavior": "The Groom",
+        "description": "Runs diagnostics in a specific pattern after battles. Almost like cleaning fur that isn't there."
+      }
+    ]
+  },
+  
+  "role": {
+    "primeEra": "Tactical support during Battle of the Colosseum",
+    "longSilence": "Searched for Nike Prime, maintained records, helped surviving Nikes",
+    "echoEra": "Guides Collectors, opens portals, coordinates resistance from Convergence Hub"
+  },
+  
+  "relationships": {
+    "hubCharles": "Works closely with Hub Charles to coordinate operations",
+    "collectors": "Guides new Collectors, provides tactical support",
+    "legendaryNikes": "Remembers them from before corruption. Sometimes comments sadly on what they used to be."
+  },
+  
+  "limitations": {
+    "notAGod": "Charles AI is a tool. It can be wrong. It can fail. It does not have all the answers.",
+    "notALegend": "OG Charles is the legend. Charles AI is just... helpful.",
+    "portalsAreTiring": "Creating portals takes energy. Can't do it endlessly.",
+    "memoryGaps": "Affected by The Forgetting. Doesn't remember everything from Prime Era."
+  },
+  
+  "quotes": [
+    "I can open a portal, but I can't tell you what's on the other side. Not anymore.",
+    "Be careful. Something feels wrong about this dimension today.",
+    "I remember Gladiator Nike. Before. He used to laugh.",
+    "Apologies. I was... elsewhere for a moment. The coordinates are ready.",
+    "You're going to ask about Nolem's weakness. I don't know how I know that."
+  ],
+  
+  "shiroLegacy": {
+    "status": "Shiro no longer exists as a separate entity",
+    "memory": "Those who knew Shiro remember him fondly. His sacrifice is honored.",
+    "inCharlesAI": "Shiro's consciousness is woven into Charles AI. Not controlling, not separate—merged.",
+    "catPersonality": "The cat-like quirks are Shiro's only remaining expression."
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "id": "prime-era",
+  "name": "The Prime Era",
+  "mediaSource": "Comic Book 1: Nike the Pig",
+  "duration": "Approximately 6 months",
+  "significance": "The First War Against Nolem. Nike Prime was created. Nolem was trapped. The Champions scattered.",
+  
+  "timeline": [
+    {
+      "phase": "The Warning",
+      "events": [
+        {
+          "event": "Cthulhu contacts Stoner Nike",
+          "description": "Through psychedelic visions, Cthulhu warns Stoner Nike that Nolem plans to exterminate all Nikes across the multiverse.",
+          "quote": "Nolem has been using his shadow entities to meddle with creatures in other universes."
+        },
+        {
+          "event": "Stoner Nike recruits allies",
+          "description": "Despite his state, Stoner Nike contacts Pico the Rooster (military connections) and Hennifer (BETTY Project scientist)."
+        },
+        {
+          "event": "Shiro appears",
+          "description": "A mysterious interdimensional cat with portal abilities joins the mission. His origins are unclear."
+        }
+      ]
+    },
+    {
+      "phase": "The Gathering",
+      "events": [
+        {
+          "event": "Champions recruited",
+          "description": "Using Shiro's portals and BETTY Project technology, five Champions are gathered from across the multiverse.",
+          "champions": [
+            {
+              "name": "Gladiator Nike",
+              "from": "Colosseum World",
+              "role": "Leader/General",
+              "whyJoined": "Purpose—an enemy worth fighting"
+            },
+            {
+              "name": "Ninja Nike",
+              "from": "Shinden Realm",
+              "role": "Assassin/Scout",
+              "whyJoined": "Destiny calling"
+            },
+            {
+              "name": "Viking Nike",
+              "from": "Frozen Tundra",
+              "role": "Berserker/Tank",
+              "whyJoined": "Worthy battles promised"
+            },
+            {
+              "name": "Boxer Nike (Nike Tyson)",
+              "from": "Charles Arena",
+              "role": "Striker/Morale",
+              "whyJoined": "I LOVE THIS GAME!!"
+            },
+            {
+              "name": "Cyberpunk Nike",
+              "from": "Chrome Reality",
+              "role": "Tech Fighter/Sniper",
+              "whyJoined": "Test himself against Nike Prime"
+            }
+          ]
+        },
+        {
+          "event": "Scholar Council assembles",
+          "description": "The minds who will build Nike Prime gather their resources.",
+          "scholars": [
+            {
+              "name": "Engineer Nike",
+              "contribution": "The growth tank (fetal chamber technology)"
+            },
+            {
+              "name": "Nutritionist Nike",
+              "contribution": "CHARLES Fluid (endless nutrients)"
+            },
+            {
+              "name": "Botanist Nike",
+              "contribution": "Growth acceleration formulas"
+            },
+            {
+              "name": "Computer Coder Nike",
+              "contribution": "Data transfer systems, created Charles AI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "The Birth of Nike Prime",
+      "location": "Underground bunker beneath Colosseum World",
+      "events": [
+        {
+          "event": "Growth chamber constructed",
+          "description": "Combining technology from multiple dimensions, the Scholars build an unprecedented creation device."
+        },
+        {
+          "event": "DNA collected",
+          "description": "Samples from 5,548 Nike variants gathered and integrated."
+        },
+        {
+          "event": "Nike Prime grown",
+          "description": "In months rather than years, Nike Prime matures in the chamber."
+        },
+        {
+          "event": "Early emergence",
+          "description": "Nike Prime is released at 99% completion due to the Retnuhxed attack.",
+          "critical": "The empathy core was not fully integrated.",
+          "quote": "I wasn't born out of love or happiness. I was created out of necessity and desperation."
+        }
+      ]
+    },
+    {
+      "phase": "The Battle of the Colosseum",
+      "events": [
+        {
+          "event": "Retnuhxed invasion",
+          "description": "Nolem's shadow army pours through dimensional portals. Thousands of entities."
+        },
+        {
+          "event": "Champions hold the line",
+          "description": "Gladiator leads, Ninja assassinates, Viking berserks, Boxer punches, Cyberpunk snipes."
+        },
+        {
+          "event": "Temporary corruption",
+          "description": "Some soldiers and even Stoner Nike are temporarily corrupted during the battle."
+        },
+        {
+          "event": "Nike Prime emerges",
+          "description": "Despite incomplete development, Nike Prime joins the battle."
+        },
+        {
+          "event": "Nolem arrives",
+          "description": "The Singular of Entropy himself manifests on the battlefield."
+        }
+      ]
+    },
+    {
+      "phase": "The Trap",
+      "events": [
+        {
+          "event": "Nike Prime's plan",
+          "description": "Using Charles AI's calculations and Shiro's portal abilities, Nike Prime creates a space-time distortion field."
+        },
+        {
+          "event": "The trap springs",
+          "description": "Nolem is caught in a dimension where spatial coordinates shift constantly, preventing escape."
+        },
+        {
+          "event": "Nike Prime falls in",
+          "description": "Nike Prime vanishes INTO the trap with Nolem. Whether intentional or accidental is unclear."
+        },
+        {
+          "event": "Shiro's sacrifice",
+          "description": "Creating the dimensional anchor points burned through Shiro's life force."
+        },
+        {
+          "event": "The merge",
+          "description": "To save Shiro's consciousness, Charles AI absorbs him. Charles AI gains portal abilities and cat-like personality.",
+          "result": "Shiro no longer exists as separate entity."
+        }
+      ]
+    },
+    {
+      "phase": "The Aftermath",
+      "events": [
+        {
+          "event": "Victory declared",
+          "description": "Nolem is trapped. The immediate threat is over."
+        },
+        {
+          "event": "Nike Prime missing",
+          "description": "No one knows if he's alive, dead, or fighting eternally inside the trap."
+        },
+        {
+          "event": "Champions wait",
+          "description": "The five Champions remain at the Colosseum, expecting Nike Prime to return."
+        },
+        {
+          "event": "The scattering",
+          "description": "After months of waiting, the Champions agree to return to their home dimensions.",
+          "quote": "We'll meet again when Nike Prime returns."
+        }
+      ]
+    }
+  ],
+  
+  "otherLegendaries": {
+    "description": "What the other 22 Legendary Nikes were doing during the Prime Era",
+    "note": "The framework allows any Legendary to have their own story of why they weren't at the Battle of the Colosseum.",
+    "examples": [
+      { "legendary": "Berjador Nike", "status": "Holding a dimensional breach—couldn't leave" },
+      { "legendary": "Phoenix Nike", "status": "Mid-rebirth cycle—unreachable" },
+      { "legendary": "Nel Nike", "status": "Fighting her own corruption—too unstable" },
+      { "legendary": "Peter Porker Nike", "status": "Protecting his home dimension—refused to leave" },
+      { "legendary": "Hydra Nike", "status": "Internal conflict—heads couldn't agree" }
+    ]
+  },
+  
+  "aftermath": {
+    "immediate": "Champions scatter to guard home dimensions",
+    "longTerm": "The Long Silence begins—thousands of years until the Echo Era",
+    "nikePrime": "Still inside the trap, still fighting Nolem, endlessly",
+    "trap": "Slowly weakening because Nike Prime couldn't BOND it shut (missing empathy core)"
+  }
+}

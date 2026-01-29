@@ -1,5 +1,4 @@
 {
-  "$schema": "../schemas/timeline.schema.json",
   "ages": [
     {
       "id": "formless-era",
@@ -9,7 +8,7 @@
       "description": "Only the Singulars existed, drifting in primordial chaos. No dimensions, no mortality, no structure.",
       "keyEvents": [
         "Singulars exist in undifferentiated potential",
-        "Nolem is simply entropy — a natural force, not yet malevolent"
+        "Nolem is simply entropy—a natural force, not yet malevolent"
       ],
       "endedBy": "Reality crystallizing into dimensions"
     },
@@ -53,7 +52,7 @@
         "OG Charles stumbles through the first dimensional rift",
         "OG Charles meets OG Nike, fleeing from Nolem",
         "OG Charles refuses to abandon OG Nike",
-        "The First Bond forms — two souls fusing on a cosmic level",
+        "The First Bond forms—two souls fusing on a cosmic level",
         "Together they resist Nolem's initial assault"
       ],
       "endedBy": "The Shattering of reality"
@@ -63,43 +62,122 @@
       "name": "The Shattering (The Great Echo)",
       "order": 5,
       "period": "A single moment that echoes eternally",
-      "description": "Reality fractured. The First Bond refused to break — instead, it echoed across all dimensions.",
+      "description": "Reality fractured. The First Bond refused to break—instead, it echoed across all dimensions.",
       "keyEvents": [
         "Reality fractures into infinite dimensions",
         "The First Bond echoes rather than breaks",
         "OG Nike fragments into 5,555 Nikes",
+        "27 Legendary Nikes emerge (special fragments with more of OG Nike's essence)",
         "OG Charles echoes into the Charles Constant",
-        "Both originals become 'templates' carrying the weight of all echoes",
+        "Both originals become templates carrying the weight of all echoes",
         "Nolem retreats to adapt his strategy"
       ],
       "endedBy": "The new order establishing itself"
     },
     {
-      "id": "age-of-echoes",
-      "name": "The Age of Echoes",
+      "id": "prime-era",
+      "name": "The Prime Era",
       "order": 6,
-      "period": "Current era",
-      "description": "The present day. Collectors bond with Nikes. Harbingers serve Nolem. The war for the multiverse continues.",
+      "period": "Months (but pivotal)",
+      "mediaSource": "Comic Book 1",
+      "description": "Cthulhu warns Stoner Nike of Nolem's return. Five Champions are gathered. The Scholar Nikes build Nike Prime. The Battle of the Colosseum is fought. Nike Prime traps Nolem but vanishes into the trap with him.",
       "keyEvents": [
-        "The Convergence Hub established as a nexus",
-        "Collectors begin bonding with Nikes",
-        "Nolem creates Harbingers from corrupted Nikes",
-        "Dexter Hun avatars spread across dimensions",
-        "The prophecy of Nike Prime emerges",
-        "A Collector rises who may restore the First Bond"
+        "Cthulhu contacts Stoner Nike with warning of Nolem's plan",
+        "Stoner Nike recruits Pico and contacts Hennifer (BETTY Project)",
+        "Five Champions gathered: Gladiator, Ninja, Viking, Nike Tyson, Cyberpunk",
+        "Scholar Nikes (Engineer, Nutritionist, Botanist, Computer Coder) build growth chamber",
+        "Nike Prime grown from DNA of 5,548 Nike variants",
+        "Nike Prime emerges at 99% completion (missing empathy core)",
+        "Battle of the Colosseum against Retnuhxed army",
+        "Nike Prime creates space-time distortion field trap",
+        "Nike Prime and Nolem fall into the trap together",
+        "Shiro critically wounded, merges with Charles AI",
+        "Charles AI gains portal abilities and cat-like personality",
+        "Champions scatter to guard their home dimensions"
+      ],
+      "endedBy": "Nike Prime vanishing into the trap with Nolem"
+    },
+    {
+      "id": "long-silence",
+      "name": "The Long Silence",
+      "order": 7,
+      "period": "Thousands of years",
+      "mediaSource": "Comic Books 2-??? (Expansion Space)",
+      "description": "The gap between the Prime Era and the Echo Era. Champions wait, then scatter. One by one, Legendary Nikes fall to corruption. History becomes legend becomes myth becomes nothing.",
+      "subPeriods": [
+        {
+          "name": "The Vigil",
+          "yearsAfterPrimeEra": "0-50",
+          "description": "Champions wait at the Colosseum for Nike Prime to return.",
+          "suggestedComic": "Comic Book 2"
+        },
+        {
+          "name": "The First Falls",
+          "yearsAfterPrimeEra": "50-100",
+          "description": "First Legendary Nikes fall to corruption.",
+          "suggestedComic": "Comic Book 3"
+        },
+        {
+          "name": "The Scholar Legacy",
+          "yearsAfterPrimeEra": "100-300",
+          "description": "Scholar Nikes discover Nike Prime's location, are hunted, scatter their knowledge.",
+          "suggestedComic": "Comic Book 4"
+        },
+        {
+          "name": "The Forgetting",
+          "yearsAfterPrimeEra": "300-500",
+          "description": "Memory of the Prime Era fades. History becomes legend.",
+          "suggestedComic": "Comic Book 5"
+        },
+        {
+          "name": "The Corruption Wars",
+          "yearsAfterPrimeEra": "500-1500",
+          "description": "War between corrupted and uncorrupted Legendaries.",
+          "suggestedComic": "Comic Book 6"
+        },
+        {
+          "name": "The Dark Age",
+          "yearsAfterPrimeEra": "1500-2900",
+          "description": "Nearly all Legendaries corrupted. Only fragments of resistance remain.",
+          "suggestedComic": "Multiple comics possible"
+        },
+        {
+          "name": "The Convergence",
+          "yearsAfterPrimeEra": "2900-3000",
+          "description": "The Convergence Hub is built. Hope returns.",
+          "suggestedComic": "Comic Book 7"
+        }
+      ],
+      "endedBy": "The founding of the Convergence Hub"
+    },
+    {
+      "id": "echo-era",
+      "name": "The Echo Era",
+      "order": 8,
+      "period": "Current era",
+      "mediaSource": "Discord Game",
+      "description": "All 27 Legendary Nikes are corrupted. A new Collector rises to free them. The trap holding Nolem weakens.",
+      "keyEvents": [
+        "The Convergence Hub serves as last safe nexus",
+        "Charles AI guides Collectors with portal abilities",
+        "New Collectors bond with regular Nikes",
+        "A special Collector begins freeing Legendary Nikes",
+        "Dimensional Anchors gathered from each region",
+        "The trap in Nolem's Maw weakens",
+        "Nike Prime still fights Nolem inside the trap"
       ],
       "endedBy": "The Coming Storm (prophesied)"
     },
     {
       "id": "coming-storm",
       "name": "The Coming Storm",
-      "order": 7,
+      "order": 9,
       "period": "Prophesied future",
-      "description": "The final battle. Nike Prime will rise. The First Bond may be restored. A sacrifice will be required.",
+      "description": "The final battle. Nike Prime may be completed. The First Bond may be restored.",
       "keyEvents": [
-        "Nolem reaches full strength",
-        "Nike Prime rises (5,555 souls as one)",
-        "The First Bond is restored",
+        "The Collector enters Nolem's Maw",
+        "Nike Prime is completed with the bonds the Collector gathered",
+        "TRUE Nike Prime rises (5,555 souls carrying each other)",
         "A sacrifice is made",
         "The fate of the multiverse is decided"
       ],

@@ -1,0 +1,183 @@
+{
+  "id": "long-silence",
+  "name": "The Long Silence",
+  "duration": "Approximately 3,000 years",
+  "description": "The gap between the Prime Era (Comic Book 1) and the Echo Era (Discord Game). This is expansion space for future comics.",
+  
+  "subPeriods": [
+    {
+      "id": "the-vigil",
+      "name": "The Vigil",
+      "yearsAfterPrimeEra": "0-50",
+      "suggestedComic": "Comic Book 2",
+      "summary": "Champions wait at the Colosseum for Nike Prime to return. He never does.",
+      "keyEvents": [
+        "Champions remain at Colosseum World",
+        "Charles AI searches dimensions for Nike Prime",
+        "Hope slowly fades",
+        "First cracks in Champion unity",
+        "Scholars begin documenting everything"
+      ],
+      "legendaryFalls": [],
+      "endsWhen": "Champions agree to scatter to their home dimensions"
+    },
+    {
+      "id": "the-first-falls",
+      "name": "The First Falls",
+      "yearsAfterPrimeEra": "50-100",
+      "suggestedComic": "Comic Book 3",
+      "summary": "The first Legendary Nikes fall to corruption. The first Harbingers are born.",
+      "keyEvents": [
+        "Nolem's whispers reach the isolated and exhausted",
+        "First Legendary falls to corruption",
+        "Other Legendaries refuse to believe it",
+        "First Legendary-vs-Legendary battle"
+      ],
+      "legendaryFalls": [
+        { "name": "Berjador Nike", "reason": "Exhaustion - couldn't stop fighting" },
+        { "name": "Bertus Maximus Nike", "reason": "Fulfillment - found endless war" }
+      ],
+      "endsWhen": "The horror of fighting former allies sets in"
+    },
+    {
+      "id": "the-scholar-legacy",
+      "name": "The Scholar Legacy",
+      "yearsAfterPrimeEra": "100-300",
+      "suggestedComic": "Comic Book 4",
+      "summary": "Scholar Nikes discover something about Nike Prime's location. Nolem's forces hunt them.",
+      "keyEvents": [
+        "Scholars decode data from Charles AI",
+        "They find a trace of Nike Prime in the trap",
+        "Retnuhxed hunt them across dimensions",
+        "Scholars scatter their research into hidden caches",
+        "The Scholar's Map is created (in fragments)"
+      ],
+      "legendaryFalls": [
+        { "name": "Dr Caleb Nike", "reason": "Curiosity - wanted to understand Nolem from inside" },
+        { "name": "Phoenix Nike", "reason": "Exhaustion - tired of endless rebirth" }
+      ],
+      "endsWhen": "Scholars sacrifice themselves, knowledge survives in hidden locations"
+    },
+    {
+      "id": "the-forgetting",
+      "name": "The Forgetting",
+      "yearsAfterPrimeEra": "300-500",
+      "suggestedComic": "Comic Book 5",
+      "summary": "Something is erasing memory. History becomes legend becomes myth becomes nothing.",
+      "keyEvents": [
+        "Nikes across dimensions start forgetting the Prime Era",
+        "Champions become 'old stories'",
+        "Charles AI tries to maintain records but is also affected",
+        "The last Nike who remembers writes the 'Aeth'kai Warning'",
+        "Truth: It wasn't written by Aeth'kai - it was a Scholar Nike"
+      ],
+      "legendaryFalls": [
+        { "name": "Ninja Nike", "reason": "Lost purpose - saw futures without hope" },
+        { "name": "Viking Nike", "reason": "Addiction - needed battle to feel alive" },
+        { "name": "Nel Nike", "reason": "Self-hatred - believed she deserved corruption" },
+        { "name": "Wolf Mode Nike", "reason": "Curse - the wolf was always there" }
+      ],
+      "endsWhen": "The Prime Era is forgotten by most. Only fragments remain."
+    },
+    {
+      "id": "the-corruption-wars",
+      "name": "The Corruption Wars",
+      "yearsAfterPrimeEra": "500-1500",
+      "suggestedComic": "Comic Book 6 (and possibly more)",
+      "summary": "Multiple Legendaries are Harbingers now. War between former friends.",
+      "keyEvents": [
+        "Gladiator Nike vs corrupted Champions",
+        "Dimension after dimension falls",
+        "The remaining free Legendaries struggle to survive",
+        "Alliances form and break",
+        "Some Legendaries go into hiding"
+      ],
+      "legendaryFalls": [
+        { "name": "Gladiator Nike", "reason": "Contract - fighting became all he knew" },
+        { "name": "Nike Tyson Nike", "reason": "Loneliness - boredom at the top" },
+        { "name": "Cyberpunk Nike", "reason": "Ideology - believed Nolem's way was better" },
+        { "name": "Colossal Nike", "reason": "Guilt - destroyed a dimension trying to save it" },
+        { "name": "Pigsterio Nike", "reason": "Guilt - used power and destroyed something precious" },
+        { "name": "Olecram Nike", "reason": "Identity loss - Nolem promised to make him whole" },
+        { "name": "Hydra Nike", "reason": "Internal conflict - Nolem offered peace between heads" }
+      ],
+      "endsWhen": "Only fragments of resistance remain"
+    },
+    {
+      "id": "the-dark-age",
+      "name": "The Dark Age",
+      "yearsAfterPrimeEra": "1500-2900",
+      "suggestedComic": "Multiple comics possible",
+      "summary": "Nearly all Legendaries corrupted. Only fragments of resistance remain.",
+      "keyEvents": [
+        "Most dimensions under Nolem's influence",
+        "Small pockets of resistance hide",
+        "The Lost Builders preserve knowledge in secret",
+        "The Remnant forms in shadows",
+        "Hope is nearly extinct"
+      ],
+      "legendaryFalls": [
+        { "name": "Cosmic Nike", "reason": "Nihilism - saw heat death of universe" },
+        { "name": "Peter Porker Nike", "reason": "Exhaustion - carried too much alone" },
+        { "name": "Cardano Whale Nike", "reason": "Grief - lost something in the depths" },
+        { "name": "Professor Nike", "reason": "Unknown" },
+        { "name": "Corey Hort Nike", "reason": "Unknown" },
+        { "name": "Guthix Nike", "reason": "Unknown" },
+        { "name": "Jedi Nike", "reason": "Unknown" },
+        { "name": "Elbonzys Nike", "reason": "Unknown" }
+      ],
+      "endsWhen": "A mysterious Charles variant begins building something"
+    },
+    {
+      "id": "the-convergence",
+      "name": "The Convergence",
+      "yearsAfterPrimeEra": "2900-3000",
+      "suggestedComic": "Comic Book 7",
+      "summary": "The Convergence Hub is built. Hope returns.",
+      "keyEvents": [
+        "Hub Charles arrives (origin mysterious)",
+        "The Convergence Hub is constructed on Aeth'kai ruins",
+        "Charles AI assists with portal network",
+        "First new Collectors recruited",
+        "Old stories are rediscovered",
+        "The Remnant reveals itself to worthy allies"
+      ],
+      "legendaryFalls": [
+        { "name": "McJared Nike", "reason": "Calculation - the math said Nolem wins" },
+        { "name": "Satoshi Nike", "reason": "Regret - his systems weren't enough" }
+      ],
+      "endsWhen": "The stage is set for a new generation"
+    },
+    {
+      "id": "genesis",
+      "name": "Genesis",
+      "yearsAfterPrimeEra": "~3000",
+      "suggestedComic": "Comic Book 8",
+      "summary": "The modern era begins. The Discord Game starts.",
+      "keyEvents": [
+        "Hub Charles takes his post",
+        "Legendary Nike locations are mapped",
+        "The trap in Nolem's Maw weakens noticeably",
+        "A new Collector begins their journey",
+        "The prophecy of Nike Prime's return spreads"
+      ],
+      "legendaryFalls": [],
+      "endsWhen": "The Echo Era begins (Discord Game)"
+    }
+  ],
+  
+  "expansionNotes": {
+    "purpose": "This timeline provides structure but allows flexibility for future comics",
+    "adjustable": [
+      "Exact years can shift",
+      "Legendary fall order can change",
+      "New events can be inserted",
+      "Sub-periods can be expanded into multiple comics"
+    ],
+    "fixed": [
+      "Prime Era ends with Nike Prime vanishing",
+      "Echo Era begins with all 27 Legendaries corrupted",
+      "The general progression from hope to despair to hope"
+    ]
+  }
+}

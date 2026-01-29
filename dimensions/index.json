@@ -1,5 +1,5 @@
 {
-  "description": "Playable dimensions in the Nikeverse campaign. Each dimension has its own Charles variant, Legendary Nike, and Harbinger.",
+  "description": "The Eight Dimensions of the Echo Era (Discord Game). Each connects to the Prime Era (Comic Book 1).",
   "playOrder": [
     "convergence-hub",
     "shinden",
@@ -10,6 +10,7 @@
     "void-terminus",
     "nolem-maw"
   ],
+  
   "dimensions": [
     {
       "id": "convergence-hub",
@@ -19,7 +20,11 @@
       "charles": "Hub Charles",
       "legendaryNike": null,
       "harbinger": null,
-      "file": "convergence-hub.json"
+      "primeEraConnection": {
+        "existed": false,
+        "note": "Built during The Long Silence on Aeth'kai ruins"
+      },
+      "secret": "The Hub's architecture contains encoded messages from Scholar Nikes"
     },
     {
       "id": "shinden",
@@ -29,7 +34,15 @@
       "charles": "Ronin Charles",
       "legendaryNike": "Ninja Nike",
       "harbinger": "Yuki",
-      "file": "shinden.json"
+      "primeEraConnection": {
+        "existed": true,
+        "primeEraName": "Shinden Realm",
+        "role": "Ninja Nike's home dimension. He was recruited as Champion - Assassin/Scout.",
+        "comicAppearance": "Comic Book 1"
+      },
+      "then": "Proud warrior culture where Ninja Nike was legend",
+      "now": "Shadow Clan corrupted. Ninja Nike trapped in endless prophecy-visions.",
+      "secret": "The purple mist covering Shinden is Ninja Nike's psychic scream. Free him, and it clears."
     },
     {
       "id": "frostfall",
@@ -39,7 +52,15 @@
       "charles": "Farmer Charles",
       "legendaryNike": "Viking Nike",
       "harbinger": "Erik",
-      "file": "frostfall.json"
+      "primeEraConnection": {
+        "existed": true,
+        "primeEraName": "Frozen Tundra",
+        "role": "Viking Nike's home dimension. He was recruited as Champion - Berserker/Tank.",
+        "comicAppearance": "Comic Book 1"
+      },
+      "then": "Harsh but thriving warrior culture. Viking Nike was their king.",
+      "now": "Endless winter intensified. Viking Nike sits on an empty throne.",
+      "secret": "The endless winter is Nolem's punishment for the dimension that produced his strongest foe."
     },
     {
       "id": "grand-arena",
@@ -47,9 +68,18 @@
       "theme": "Boxing / Fighting",
       "levelRange": "46-55",
       "charles": "Gladiator Charles",
-      "legendaryNike": "Nike Tyson",
+      "legendaryNike": "Nike Tyson Nike",
       "harbinger": "Slate",
-      "file": "grand-arena.json"
+      "primeEraConnection": {
+        "existed": true,
+        "primeEraName": "Charles Arena",
+        "role": "Nike Tyson's home dimension. He was called 'Boxer Nike' then, recruited as Champion - Striker/Morale.",
+        "comicAppearance": "Comic Book 1",
+        "nameEvolution": "The arena was named after Charles. Nike Tyson was 'Boxer Nike' in ancient times. Both names evolved over millennia."
+      },
+      "then": "World of honorable combat. Boxer Nike was undefeated champion. 'I LOVE THIS GAME!!'",
+      "now": "Fights have become brutal and meaningless.",
+      "secret": "Nike Tyson IS Boxer Nike. Name changed over millennia as legend became myth."
     },
     {
       "id": "imperial-colosseum",
@@ -59,7 +89,15 @@
       "charles": "Colosseum Charles",
       "legendaryNike": "Gladiator Nike",
       "harbinger": "Cassius",
-      "file": "imperial-colosseum.json"
+      "primeEraConnection": {
+        "existed": true,
+        "primeEraName": "Colosseum World",
+        "role": "THE BASE OF OPERATIONS for the entire Prime Era war. Where Nike Prime was born. Where the Battle of the Colosseum was fought.",
+        "comicAppearance": "Comic Book 1 - PRIMARY LOCATION"
+      },
+      "then": "Where Nike Prime was created. Where the Champions gathered. The heart of hope.",
+      "now": "A corrupted empire built on the ruins of heroism. The underground bunker is sealed, forbidden, forgotten.",
+      "secret": "The bunker still exists. Nike Prime's empty growth tank is inside. With ONE DROP of original CHARLES Fluid remaining."
     },
     {
       "id": "neon-city",
@@ -67,9 +105,18 @@
       "theme": "Cyberpunk",
       "levelRange": "71-85",
       "charles": "Analog Charles",
+      "charlesCompanion": "Pixel (AI)",
       "legendaryNike": "Cyberpunk Nike",
       "harbinger": "Echo",
-      "file": "neon-city.json"
+      "primeEraConnection": {
+        "existed": true,
+        "primeEraName": "Chrome Reality",
+        "role": "Cyberpunk Nike's home dimension. He was recruited as Champion - Tech Fighter/Sniper. Also where Charles Interface Chips originated.",
+        "comicAppearance": "Comic Book 1"
+      },
+      "then": "Technological utopia. Cyberpunk Nike was greatest hacker-warrior.",
+      "now": "Technology advanced. Humanity retreated. More machine than soul.",
+      "secret": "Fragments of the original Charles AI code still exist in the network. The 'glitches' are Charles AI trying to remember the Prime Era."
     },
     {
       "id": "void-terminus",
@@ -77,9 +124,15 @@
       "theme": "Edge of Reality",
       "levelRange": "86-95",
       "charles": "Void Charles",
-      "legendaryNike": "Dimension Eater",
+      "legendaryNike": "Various (Cosmic Nike, Phoenix Nike, etc.)",
       "harbinger": "Abyssal Horror",
-      "file": "void-terminus.json"
+      "primeEraConnection": {
+        "existed": false,
+        "note": "The Void existed but wasn't a 'dimension' until repeated dimensional breaches gave it form."
+      },
+      "then": "Just the edge. The boundary. The nothing.",
+      "now": "Repeated breaches have given the Void form. It's becoming a place.",
+      "secret": "OG Nike waits here. He's been catching the souls of Nikes killed by Nolem, preventing Nolem from absorbing them. He's not resting—he's WORKING."
     },
     {
       "id": "nolem-maw",
@@ -90,7 +143,29 @@
       "legendaryNike": null,
       "harbinger": null,
       "boss": "Nolem's Shadow",
-      "file": "nolem-maw.json"
+      "primeEraConnection": {
+        "existed": true,
+        "primeEraName": "The Trap",
+        "role": "The space-time distortion field created by Nike Prime to trap Nolem.",
+        "comicAppearance": "Comic Book 1 - ENDING"
+      },
+      "then": "A prison dimension Nike Prime created. Nolem was sealed inside.",
+      "now": "The prison became a kingdom. Nolem didn't escape—he EXPANDED. The Maw is growing.",
+      "secret": "Nike Prime is still inside. Still fighting Nolem. Endlessly. For thousands of years. Alone."
     }
-  ]
+  ],
+  
+  "dimensionMapping": {
+    "description": "How Comic Book 1 dimensions map to Discord Game dimensions",
+    "mapping": [
+      { "comic": "Colosseum World", "game": "Imperial Colosseum", "status": "Primary Comic Location" },
+      { "comic": "Shinden Realm", "game": "Shinden", "status": "Champion Home" },
+      { "comic": "Frozen Tundra", "game": "Frostfall", "status": "Champion Home" },
+      { "comic": "Charles Arena", "game": "Grand Arena", "status": "Champion Home" },
+      { "comic": "Chrome Reality", "game": "Neon City", "status": "Champion Home" },
+      { "comic": "The Trap", "game": "Nolem's Maw", "status": "Final Location" },
+      { "comic": null, "game": "Convergence Hub", "status": "Built Later" },
+      { "comic": null, "game": "Void Terminus", "status": "Formed Later" }
+    ]
+  }
 }

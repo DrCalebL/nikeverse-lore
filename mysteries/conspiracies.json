@@ -1,0 +1,159 @@
+{
+  "description": "The Five Great Mysteries of the Nikeverse. Conspiracy theories and unsolved questions that span the timeline.",
+  
+  "mysteries": [
+    {
+      "id": "incomplete-prime",
+      "name": "The Incomplete Prime",
+      "category": "Prime Era",
+      
+      "officialStory": "Nike Prime was released at 99% completion. He was fully functional.",
+      
+      "theConspiracy": {
+        "question": "What was the missing 1%?",
+        "theory": "The empathy core wasn't fully integrated. Nike Prime could think, fight, and strategize—but he couldn't truly connect.",
+        "implications": [
+          "Nike Prime never laughed, never cried, never connected",
+          "He called his creation 'necessity and desperation' not love",
+          "The Champions noticed he was 'cold' but dismissed it",
+          "The trap is weakening because it needed a BOND to seal permanently",
+          "A bond requires connection. Nike Prime couldn't form one."
+        ]
+      },
+      
+      "evidence": [
+        "Engineer Nike's last words: 'Wait, the empathy core isn't—'",
+        "Nike Prime's dialogue shows no emotional connection",
+        "The trap is failing after thousands of years when it should be permanent"
+      ],
+      
+      "revelation": "This is why the Collector matters. They're gathering BONDS—the one thing Nike Prime was missing."
+    },
+    {
+      "id": "charles-divergence",
+      "name": "The Charles Divergence",
+      "category": "Prime Era",
+      
+      "officialStory": "Every dimension has ONE Charles because of the Charles Constant.",
+      
+      "theConspiracy": {
+        "question": "Why were there so many Charles variants in Comic Book 1?",
+        "theory": "The Charles Constant weakens when Nolem grows strong. During the Prime Era, Charles variants were MULTIPLYING chaotically.",
+        "implications": [
+          "President Charles, Dr. Charles, Professor Charles, Charles AI, Charles Security Company—all in overlapping dimensions",
+          "This is too many for the normal pattern",
+          "Reality was destabilizing",
+          "The Charles Constant might be breakable"
+        ]
+      },
+      
+      "evidence": [
+        "Comic Book 1 shows multiple Charles variants where there should be one",
+        "The Charles Constant is described as 'cosmic law' but laws can be broken",
+        "Nolem's goal might be severing the Charles Constant entirely"
+      ],
+      
+      "revelation": "If the Charles Constant breaks completely, Nikes lose their shepherds. This might be Nolem's TRUE goal—not to kill Nikes directly, but to leave them without guidance."
+    },
+    {
+      "id": "sixth-champion",
+      "name": "The Sixth Champion",
+      "category": "Prime Era",
+      
+      "officialStory": "Five Champions were gathered—Gladiator, Ninja, Viking, Nike Tyson (Boxer), Cyberpunk.",
+      
+      "theConspiracy": {
+        "question": "Was there supposed to be a Sixth Champion?",
+        "theory": "Someone was supposed to join but backed out, was eliminated, or was erased from history.",
+        "candidates": [
+          "Stoner Nike himself - Refused the combat role?",
+          "A Nike who betrayed them - The first Harbinger before the term existed?",
+          "A Nike Nolem already killed - Erased from memory?"
+        ]
+      },
+      
+      "evidence": [
+        "The final battle formation has an empty position",
+        "Stoner Nike visited MANY dimensions but only recruited five",
+        "Some of Gladiator Nike's speeches have numbers that don't add up"
+      ],
+      
+      "revelation": "The Sixth Champion's identity is a mystery that could be revealed in future comics."
+    },
+    {
+      "id": "dexter-pattern",
+      "name": "The Dexter Pattern",
+      "category": "Cosmic",
+      
+      "officialStory": "Dexter Hun is Nolem's avatar, appearing differently in each dimension.",
+      
+      "theConspiracy": {
+        "question": "What if Dexter Hun is more than an avatar?",
+        "theory": "RETNUHXED backwards is DEXHUNTER. Dexter Hun isn't just an avatar—he's the ORIGINAL Retnuhxed.",
+        "implications": [
+          "Before Nolem created an army, he created ONE perfect infiltrator",
+          "Dexter Hun has been the same being all along",
+          "Dimension-hopping for eons, destabilizing worlds",
+          "Each attack is perfectly tailored—no mortal could be this effective"
+        ]
+      },
+      
+      "evidence": [
+        "The anagram: RETNUHXED = DEXHUNTER",
+        "Dexter Hun's attacks are impossibly well-planned across dimensions",
+        "He always targets the same weak points: food, reproduction, unity"
+      ],
+      
+      "darkTheory": "Dexter Hun might be what remains of a Nike who tried to solo Nolem and lost. His true name might be hidden in the anagram."
+    },
+    {
+      "id": "og-absence",
+      "name": "The OG Absence",
+      "category": "Prime Era",
+      
+      "officialStory": "OG Nike and OG Charles are 'templates' who exist at the edge of reality, too exhausted to act.",
+      
+      "theConspiracy": {
+        "question": "Where were OG Nike and OG Charles during Comic Book 1?",
+        "theory": "They were already compromised. Nolem's first move was slowly exhausting the Templates over eons.",
+        "implications": [
+          "NO ONE in Comic Book 1 mentions OG Nike or OG Charles",
+          "Cthulhu contacted Stoner Nike—why not OG Nike directly?",
+          "The First Bond is the ultimate weapon but was never used",
+          "The Templates might have been Nolem's first targets"
+        ]
+      },
+      
+      "evidence": [
+        "Complete absence from Comic Book 1 narrative",
+        "Nolem targets the isolated and exhausted—the Templates fit perfectly",
+        "The First Bond would have ended the war instantly if available"
+      ],
+      
+      "darkTheory": "The Discord Game's final boss might not be Nolem. It might be a corrupted OG Nike or OG Charles."
+    }
+  ],
+  
+  "unsolvedQuestions": [
+    {
+      "question": "Where exactly is Nike Prime?",
+      "hints": "Inside the trap with Nolem. Still fighting. For thousands of years."
+    },
+    {
+      "question": "Can the trap be opened without releasing Nolem?",
+      "hints": "Unknown. The Scholar's research might hold the answer."
+    },
+    {
+      "question": "What happened to the Scholar Nikes?",
+      "hints": "Some died. Some might have uploaded to Charles AI. Their knowledge survives in hidden caches."
+    },
+    {
+      "question": "Why did Shiro specifically seek out Stoner Nike?",
+      "hints": "Shiro's origins were always mysterious. Now he's part of Charles AI."
+    },
+    {
+      "question": "Is the Aeth'kai Warning actually from the Aeth'kai?",
+      "hints": "It might have been written by a Scholar Nike during The Forgetting."
+    }
+  ]
+}

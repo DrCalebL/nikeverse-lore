@@ -1,0 +1,141 @@
+{
+  "description": "Important characters from Comic Book 1 who are not Legendary Nikes",
+  
+  "protagonists": [
+    {
+      "id": "stoner-nike",
+      "name": "Stoner Nike",
+      "type": "Nike (not Legendary)",
+      "role": "Protagonist of Comic Book 1. The one who received Cthulhu's warning.",
+      "abilities": [
+        "Psychedelic visions (how Cthulhu contacted him)",
+        "Charisma and persuasion",
+        "Dimensional awareness (enhanced by his... state)"
+      ],
+      "accomplishments": [
+        "Received Cthulhu's warning",
+        "Recruited Pico and Hennifer",
+        "Gathered the Five Champions",
+        "Coordinated the resistance"
+      ],
+      "fate": "Unknown after Prime Era. Possibly still alive during The Long Silence.",
+      "quotes": [
+        "Dude... the cosmic octopus just told me we're all gonna die.",
+        "We need warriors. Like, really good ones."
+      ]
+    },
+    {
+      "id": "pico",
+      "name": "Pico the Rooster",
+      "type": "Ally (non-Nike)",
+      "role": "Military connections. Helped organize the resistance.",
+      "abilities": [
+        "Military strategy",
+        "Resource procurement",
+        "Communications network"
+      ],
+      "accomplishments": [
+        "Provided military support for the Champions",
+        "Organized logistics during Battle of the Colosseum"
+      ],
+      "fate": "Unknown after Prime Era."
+    },
+    {
+      "id": "hennifer",
+      "name": "Hennifer",
+      "type": "Ally (non-Nike)",
+      "role": "BETTY Project scientist. Developed interdimensional travel technology.",
+      "abilities": [
+        "Scientific genius",
+        "Dimensional portal technology",
+        "BETTY Project coordination"
+      ],
+      "accomplishments": [
+        "Created technology enabling dimension travel",
+        "Worked with Shiro to open stable portals",
+        "Supported the gathering of Champions"
+      ],
+      "fate": "Unknown after Prime Era."
+    },
+    {
+      "id": "shiro",
+      "name": "Shiro",
+      "type": "Interdimensional Cat",
+      "role": "Portal creator. Mysterious helper.",
+      "status": "MERGED WITH CHARLES AI",
+      "abilities": [
+        "Portal creation between dimensions",
+        "Dimensional navigation",
+        "Calming presence"
+      ],
+      "accomplishments": [
+        "Enabled dimension-hopping to gather Champions",
+        "Created anchor points for Nike Prime's trap",
+        "Sacrificed himself to seal Nolem"
+      ],
+      "fate": "Critically wounded creating the trap's anchor points. Consciousness absorbed by Charles AI to preserve him. No longer exists as separate entity.",
+      "legacy": "Lives on within Charles AI. The cat-like personality quirks are his remaining expression."
+    }
+  ],
+  
+  "scholarNikes": {
+    "description": "The minds who built Nike Prime. Not Legendary Nikes, but crucial to the Prime Era.",
+    "members": [
+      {
+        "id": "engineer-nike",
+        "name": "Engineer Nike",
+        "contribution": "The growth tank (fetal chamber technology)",
+        "lastWords": "Wait, the empathy core isn't—",
+        "fate": "Unknown. Possibly joined the Lost Builders."
+      },
+      {
+        "id": "nutritionist-nike",
+        "name": "Nutritionist Nike",
+        "contribution": "CHARLES Fluid (endless nutrients for the growth tank)",
+        "fate": "Unknown. Possibly joined the Lost Builders."
+      },
+      {
+        "id": "botanist-nike",
+        "name": "Botanist Nike",
+        "contribution": "Growth acceleration formulas",
+        "fate": "Unknown. Possibly joined the Lost Builders."
+      },
+      {
+        "id": "computer-coder-nike",
+        "name": "Computer Coder Nike",
+        "contribution": "Data transfer systems. Created Charles AI.",
+        "fate": "Unknown. Possibly uploaded consciousness to Charles AI network."
+      }
+    ],
+    "collectiveFate": "The Scholar Nikes were hunted during The Long Silence. They scattered their knowledge across dimensions before being eliminated. Their legacy survives as the Lost Builders faction."
+  },
+  
+  "nikePrime": {
+    "id": "nike-prime",
+    "name": "Nike Prime",
+    "type": "Artificial Legendary Nike",
+    "status": "Trapped with Nolem",
+    "description": "Created from DNA of 5,548 Nike variants. Born at 99% completion—missing the empathy core.",
+    "abilities": [
+      "Combined strength of thousands of Nikes",
+      "All knowledge downloaded directly",
+      "Space-time manipulation (created the trap)"
+    ],
+    "flaw": "Cannot form bonds. Born from necessity, not love.",
+    "location": "Inside the trap with Nolem. Still fighting. For thousands of years.",
+    "quote": "I wasn't born out of love or happiness. I was created out of necessity and desperation.",
+    "prophecy": "Nike Prime isn't one soul carrying 5,555. Nike Prime is 5,555 souls carrying each other."
+  },
+  
+  "charlesVariants": {
+    "description": "Charles variants who appeared in Comic Book 1",
+    "note": "The Charles Constant was possibly unstable during the Prime Era, explaining multiple variants.",
+    "members": [
+      "President Charles",
+      "Dr. Charles",
+      "Professor Charles",
+      "Charles AI (created by Computer Coder Nike)",
+      "Charles Security Company (organization)"
+    ]
+  }
+}

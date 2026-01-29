@@ -1,0 +1,208 @@
+{
+  "description": "When and why each of the 27 Legendary Nikes fell to corruption",
+  "note": "OG Nike is not corrupted but is exhausted. The Coming Storm may change this.",
+  
+  "corruptionReasons": {
+    "exhaustion": "Fought too long, forgot what they were fighting for",
+    "contract": "Made a deal with Nolem for something they wanted",
+    "fulfillment": "Found what they wanted in Nolem's service",
+    "boredom": "No worthy challenges left",
+    "ideology": "Came to believe Nolem's way was better",
+    "self-hatred": "Believed they deserved corruption",
+    "curiosity": "Wanted to understand Nolem from inside",
+    "grief": "Lost something precious, Nolem offered to help forget",
+    "guilt": "Did something terrible, couldn't live with it",
+    "identity-loss": "Lost sense of self, Nolem offered wholeness",
+    "internal-conflict": "Multiple minds couldn't agree, Nolem offered unity",
+    "nihilism": "Saw the futility of existence",
+    "calculation": "The math said Nolem wins",
+    "regret": "Past decisions haunted them",
+    "curse": "Something inside was always waiting to emerge"
+  },
+  
+  "fallsByEra": [
+    {
+      "era": "The First Falls",
+      "yearsAfterPrimeEra": "50-100",
+      "falls": [
+        {
+          "name": "Berjador Nike",
+          "reason": "exhaustion",
+          "story": "Held a dimensional breach for seven days. Never learned how to stop fighting. Nolem just let him burn until he forgot what he was fighting FOR."
+        },
+        {
+          "name": "Bertus Maximus Nike",
+          "reason": "fulfillment",
+          "story": "A living weapon who found his purpose in endless war. Nolem offered enemies without end. He didn't resist. He didn't even hesitate."
+        }
+      ]
+    },
+    {
+      "era": "The Scholar Legacy",
+      "yearsAfterPrimeEra": "100-300",
+      "falls": [
+        {
+          "name": "Dr Caleb Nike",
+          "reason": "curiosity",
+          "story": "Wanted to understand Nolem from the inside. Believed he could find a weakness. He found only absorption."
+        },
+        {
+          "name": "Phoenix Nike",
+          "reason": "exhaustion",
+          "story": "Died and reborn a thousand times. Just wanted to sleep. Nolem offered eternal rest."
+        }
+      ]
+    },
+    {
+      "era": "The Forgetting",
+      "yearsAfterPrimeEra": "300-500",
+      "falls": [
+        {
+          "name": "Ninja Nike",
+          "reason": "contract",
+          "story": "Saw futures without hope. Made a contract to end the visions. The price was his freedom."
+        },
+        {
+          "name": "Viking Nike",
+          "reason": "boredom",
+          "story": "Killed everything worth killing. Needed battle to feel alive. Nolem promised worthy opponents forever."
+        },
+        {
+          "name": "Nel Nike",
+          "reason": "self-hatred",
+          "story": "Always fighting her own corruption. Believed she deserved to fall. Stopped fighting."
+        },
+        {
+          "name": "Wolf Mode Nike",
+          "reason": "curse",
+          "story": "The wolf was always there. Nolem didn't corrupt him. He just let the wolf out."
+        }
+      ]
+    },
+    {
+      "era": "The Corruption Wars",
+      "yearsAfterPrimeEra": "500-1500",
+      "falls": [
+        {
+          "name": "Gladiator Nike",
+          "reason": "contract",
+          "story": "Fighting was all he knew. When Nolem offered an arena spanning infinity, he signed the contract."
+        },
+        {
+          "name": "Nike Tyson Nike",
+          "reason": "boredom",
+          "story": "The greatest boxer with no worthy opponents. Lonely at the top. Nolem offered the fight he craved."
+        },
+        {
+          "name": "Cyberpunk Nike",
+          "reason": "ideology",
+          "story": "Believed the system was broken beyond repair. Came to see Nolem as inevitable progress."
+        },
+        {
+          "name": "Colossal Nike",
+          "reason": "guilt",
+          "story": "Accidentally destroyed a dimension trying to save it. Couldn't live with what he'd done."
+        },
+        {
+          "name": "Pigsterio Nike",
+          "reason": "guilt",
+          "story": "Used his power once and destroyed something precious. Let the guilt consume him."
+        },
+        {
+          "name": "Olecram Nike",
+          "reason": "identity-loss",
+          "story": "Chimera who lost himself. Nolem promised to make him whole. The wholeness was absorption."
+        },
+        {
+          "name": "Hydra Nike",
+          "reason": "internal-conflict",
+          "story": "Multiple heads that couldn't agree on anything. Nolem offered silence. Unity. Peace."
+        }
+      ]
+    },
+    {
+      "era": "The Dark Age",
+      "yearsAfterPrimeEra": "1500-2900",
+      "falls": [
+        {
+          "name": "Cosmic Nike",
+          "reason": "nihilism",
+          "story": "Saw the heat death of the universe. Everything ends. Why delay the inevitable?"
+        },
+        {
+          "name": "Peter Porker Nike",
+          "reason": "exhaustion",
+          "story": "With great power comes exhaustion. Carried too much alone for too long."
+        },
+        {
+          "name": "Cardano Whale Nike",
+          "reason": "grief",
+          "story": "Lost something in the dimensional currents. Nolem showed him how to forget."
+        },
+        {
+          "name": "Professor Nike",
+          "reason": "unknown",
+          "story": "Details lost to history."
+        },
+        {
+          "name": "Corey Hort Nike",
+          "reason": "unknown",
+          "story": "Details lost to history."
+        },
+        {
+          "name": "Guthix Nike",
+          "reason": "unknown",
+          "story": "Details lost to history."
+        },
+        {
+          "name": "Jedi Nike",
+          "reason": "unknown",
+          "story": "Details lost to history."
+        },
+        {
+          "name": "Elbonzys Nike",
+          "reason": "unknown",
+          "story": "Details lost to history."
+        }
+      ]
+    },
+    {
+      "era": "The Convergence",
+      "yearsAfterPrimeEra": "2900-3000",
+      "falls": [
+        {
+          "name": "McJared Nike",
+          "reason": "calculation",
+          "story": "The odds were 99.7% that Nolem wins. He's just being rational."
+        },
+        {
+          "name": "Satoshi Nike",
+          "reason": "regret",
+          "story": "Built systems meant to last forever. Nothing lasts forever. The regret consumed him."
+        }
+      ]
+    },
+    {
+      "era": "Special Status",
+      "falls": [
+        {
+          "name": "Melon Nike",
+          "reason": "willing-betrayal",
+          "story": "Chose to join Nolem. Community vote determines fate."
+        },
+        {
+          "name": "OG Nike",
+          "reason": "NOT CORRUPTED",
+          "story": "Template. Exhausted from carrying 5,555 souls. The Coming Storm may change this.",
+          "status": "exhausted-but-uncorrupted"
+        }
+      ]
+    }
+  ],
+  
+  "totalCount": {
+    "corrupted": 26,
+    "uncorrupted": 1,
+    "note": "OG Nike is the only Legendary Nike not corrupted (but he is exhausted)"
+  }
+}

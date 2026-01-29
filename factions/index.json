@@ -1,0 +1,107 @@
+{
+  "description": "Hidden factions operating across the Nikeverse timeline",
+  
+  "factions": [
+    {
+      "id": "the-remnant",
+      "name": "The Remnant",
+      "symbol": "A pig silhouette with a star where the heart should be",
+      "color": "Blue",
+      "alignment": "Allied",
+      
+      "description": "Descendants of Nikes who fought in the Prime Era. They remember what others have forgotten.",
+      
+      "goal": "Find Nike Prime. Restore the Champions. Preserve the true history.",
+      
+      "beliefs": [
+        "Nike Prime will return",
+        "The Champions can be saved",
+        "The truth must be preserved"
+      ],
+      
+      "activities": [
+        "Graffiti in backgrounds of various dimensions",
+        "Secret handshakes between certain Charles variants",
+        "NPCs who say things that seem like flavor text but are clues",
+        "Hidden caches of Prime Era artifacts"
+      ],
+      
+      "conspiracy": "The Remnant might have already FOUND Nike Prime. They might be keeping him hidden because he's too dangerous to release unprepared."
+    },
+    {
+      "id": "the-unravelers",
+      "name": "The Unravelers",
+      "symbol": "A spiral descending into darkness",
+      "color": "Red",
+      "alignment": "Hostile",
+      
+      "description": "Nikes who WILLINGLY serve Nolem. Not corrupted—converted. They believe existence is suffering.",
+      
+      "goal": "Accelerate Nolem's victory. End the suffering of existence.",
+      
+      "beliefs": [
+        "Existence is suffering",
+        "Nolem offers peace through absorption",
+        "Fighting is pointless—entropy always wins"
+      ],
+      
+      "philosophy": "To be absorbed by Nolem is to finally rest. Why do you fight sleep?",
+      
+      "activities": [
+        "Cults in various dimensions",
+        "Sabotaging resistance efforts",
+        "Recruiting exhausted and despairing Nikes",
+        "Weakening dimensional barriers"
+      ],
+      
+      "conspiracy": "The Harbingers aren't their leaders. The Unravelers have their OWN hierarchy, and it might include a corrupted Charles."
+    },
+    {
+      "id": "the-lost-builders",
+      "name": "The Lost Builders",
+      "symbol": "A gear with a pig silhouette inside",
+      "color": "Green",
+      "alignment": "Allied (hidden)",
+      
+      "description": "What remains of the Scholar Nikes' legacy. They preserve knowledge and guide future generations.",
+      
+      "goal": "Preserve knowledge. Ensure the truth survives. Guide worthy Collectors to hidden information.",
+      
+      "origins": "The Scholar Nikes (Engineer, Nutritionist, Botanist, Computer Coder) scattered their knowledge before being hunted to extinction. Some may have uploaded consciousness into the Charles AI network.",
+      
+      "activities": [
+        "Hidden archives in 'Aeth'kai ruins' (actually Scholar Nike installations)",
+        "Encrypted messages in ancient technology",
+        "Guiding worthy seekers to critical information",
+        "Maintaining the Scholar's research"
+      ],
+      
+      "artifacts": [
+        "The Scholar's Map (fragments showing Nike Prime's location)",
+        "CHARLES Fluid formula (hidden)",
+        "Growth chamber blueprints (scattered)",
+        "The True History (encoded)"
+      ],
+      
+      "conspiracy": "Some Lost Builders aren't dead—they uploaded themselves into the Charles AI network. They're watching. Waiting. They know where Nike Prime is because THEY PUT HIM THERE."
+    }
+  ],
+  
+  "potentialFactions": {
+    "note": "Factions that could be developed in future content",
+    "ideas": [
+      {
+        "name": "The Watchers",
+        "concept": "Servants of Cthulhu who maintain 'interesting' outcomes"
+      },
+      {
+        "name": "The Void Walkers",
+        "concept": "Those who entered the Void Between and survived... changed"
+      },
+      {
+        "name": "The Sixth",
+        "concept": "Followers of the mysterious Sixth Champion who was supposed to be recruited"
+      }
+    ]
+  }
+}

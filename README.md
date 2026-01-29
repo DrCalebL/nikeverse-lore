@@ -1,139 +1,190 @@
-# 🐷 Nikeverse Lore
+# NIKEVERSE LORE REPOSITORY
 
-> *"I don't know what you are, but you're not dying today. Not while I'm here."*  
-> — OG Charles Hoskinson, The First Bond
+The single source of truth for all Nikeverse lore, connecting Comic Book 1 to the Discord Game and beyond.
 
-The official lore repository for the **Nikeverse** — a multiverse of 5,555 Nikes across infinite dimensions, bound together by the power of connection.
+## 📖 QUICK START
 
----
+**New to the lore?** Start with `MASTER_LORE_PROPOSAL_FINAL.md` - it contains the complete canon overview.
 
-## 📖 About Nikeverse
-
-Nikeverse is an expansive multimedia universe featuring:
-
-- 🎮 **Nikeverse Discord MMORPG** — Creature collection and campaign game
-- 📚 **Nike the Pig Comics** — Graphic novel series
-- ⚔️ **Legendary Siege Raids** — Multiplayer events with deep lore
-- 🌐 **Expanded Universe** — Future games, stories, and content
-
-**Core Theme**: *Connection defeats isolation. Bonds are stronger than entropy.*
+**Looking for specific data?** Browse the JSON files below.
 
 ---
 
-## 🗂️ Repository Structure
+## 🌌 TIMELINE OVERVIEW
+
+```
+PRIME ERA (Comic Book 1)
+    │
+    │  • Cthulhu warns Stoner Nike
+    │  • Five Champions gathered
+    │  • Nike Prime created & traps Nolem
+    │  • Shiro merges with Charles AI
+    │
+    ▼
+THE LONG SILENCE (Comic Books 2-???)
+    │
+    │  • 3,000 years of expansion space
+    │  • 27 Legendary Nikes fall to corruption
+    │  • History becomes legend becomes nothing
+    │
+    ▼
+ECHO ERA (Discord Game)
+    │
+    │  • All Legendaries corrupted
+    │  • A new Collector rises
+    │  • Free the Champions, save the multiverse
+```
+
+---
+
+## 📁 REPOSITORY STRUCTURE
 
 ```
 nikeverse-lore/
-├── README.md                    # This file
-├── LORE_BIBLE.md               # Complete lore overview
-├── CONTRIBUTING.md             # Contribution guidelines
 │
-├── timeline/                   # Historical eras & events
-│   ├── ages.json              # The six cosmic ages
-│   └── events.json            # Major historical events
+├── MASTER_LORE_PROPOSAL_FINAL.md    # ⭐ START HERE - Complete canon
+├── LORE_BIBLE.md                     # Previous version (reference)
+├── README.md                         # This file
+├── CONTRIBUTING.md                   # How to contribute
 │
-├── singulars/                  # Cosmic entities
-│   ├── index.json             # All singulars
-│   ├── cthulhu.json
-│   └── nolem.json
+├── timeline/
+│   ├── ages.json                     # All cosmic ages
+│   ├── prime-era.json                # Comic Book 1 events
+│   ├── long-silence.json             # Expansion space for future comics
+│   └── legendary-falls.json          # When each Legendary was corrupted
 │
-├── civilizations/              # Peoples & cultures
-│   └── aethkai.json           # Lost precursor civilization
+├── characters/
+│   ├── legendary-nikes/
+│   │   └── index.json                # All 27 Legendary Nikes
+│   ├── charles-ai.json               # Charles AI (post-Shiro merge)
+│   ├── charles-variants/
+│   │   └── index.json                # Hub Charles, Ronin Charles, etc.
+│   ├── comic-characters.json         # Stoner Nike, Pico, Hennifer, etc.
+│   └── harbingers/
+│       └── index.json                # Corrupted servants of Nolem
 │
-├── dimensions/                 # Playable regions
-│   ├── index.json             # All dimensions summary
-│   ├── convergence-hub.json
-│   ├── shinden.json
-│   ├── frostfall.json
-│   ├── grand-arena.json
-│   ├── imperial-colosseum.json
-│   ├── neon-city.json
-│   ├── void-terminus.json
-│   └── nolem-maw.json
+├── dimensions/
+│   ├── index.json                    # All 8 dimensions with comic connections
+│   ├── shinden.json                  # Feudal Japan
+│   └── frostfall.json                # Viking Tundra
 │
-├── characters/                 # Major characters
-│   ├── charles-variants/      # All Charles echoes
-│   ├── legendary-nikes/       # Freeable legendary Nikes
-│   ├── harbingers/            # Corrupted Nike bosses
-│   └── villains/              # Antagonists
+├── singulars/
+│   ├── index.json                    # Cosmic entities overview
+│   ├── nolem.json                    # The Devourer
+│   └── cthulhu.json                  # The Whisperer
 │
-├── creatures/                  # Nike variants & enemies
-│   ├── nike-categories.json   # Champion, Scholar, Oddity, etc.
-│   └── retnuhxed.json         # Shadow army
+├── factions/
+│   └── index.json                    # Remnant, Unravelers, Lost Builders
 │
-├── artifacts/                  # Important items
-│   └── dimensional-anchors.json
+├── mysteries/
+│   └── conspiracies.json             # The Five Great Mysteries
 │
-├── languages/                  # Constructed languages
+├── civilizations/
+│   └── aethkai.json                  # The lost precursor civilization
+│
+├── languages/
 │   └── first-tongue/
-│       ├── dictionary.json    # Word definitions
-│       └── phrases.json       # Common phrases
+│       └── dictionary.json           # Ancient language
 │
-├── prophecies/                 # Prophecies & mysteries
-│   ├── aethkai-prophecy.json
-│   └── mysteries.json
+├── prophecies/
+│   └── mysteries.json                # Unsolved mysteries
 │
-├── mythology/                  # Regional legends & folklore
-│   ├── shinden/
-│   ├── frostfall/
-│   ├── grand-arena/
-│   ├── imperial-colosseum/
-│   ├── neon-city/
-│   └── void-terminus/
-│
-└── schemas/                    # JSON schemas for validation
-    └── dimension.schema.json
+└── schemas/
+    └── dimension.schema.json         # JSON validation schema
 ```
 
 ---
 
-## 🚀 Quick Start
+## 🔑 KEY NUMBERS
 
-### For Readers
-Start with the [Lore Bible](LORE_BIBLE.md) for a complete overview.
+| Count | What |
+|-------|------|
+| **5,555** | Total Nikes created in The Shattering |
+| **27** | Legendary Nikes (special fragments with more of OG Nike's essence) |
+| **5** | Champions gathered in Comic Book 1 |
+| **8** | Dimensions in the Discord Game |
+| **~3,000** | Years of The Long Silence (expansion space) |
 
-### For Developers
-All data is available as JSON. Fetch directly from GitHub raw:
+---
+
+## 🐷 THE 27 LEGENDARY NIKES
+
+### Champions (7)
+Gladiator Nike, Ninja Nike, Viking Nike, Nike Tyson Nike, Cyberpunk Nike, Berjador Nike, Bertus Maximus Nike
+
+### Scholars (5)
+Dr Caleb Nike, Professor Nike, Satoshi Nike, Corey Hort Nike, Guthix Nike
+
+### Mystics (3)
+Nel Nike, Pigsterio Nike, Jedi Nike
+
+### Beasts (5)
+Hydra Nike, Wolf Mode Nike, Colossal Nike, Elbonzys Nike, Cardano Whale Nike
+
+### Cosmic (2)
+Cosmic Nike, Phoenix Nike
+
+### Oddities (3)
+McJared Nike, Olecram Nike, Melon Nike
+
+### Multiverse (1)
+Peter Porker Nike
+
+### Template (1)
+OG Nike (not corrupted, but exhausted)
+
+---
+
+## 📚 MEDIA CONNECTIONS
+
+| Media | Era | Content |
+|-------|-----|---------|
+| **Comic Book 1** | Prime Era | The First War Against Nolem |
+| **Comic Books 2-???** | The Long Silence | EXPANSION SPACE |
+| **Discord Game** | Echo Era | Free the Legendary Nikes |
+
+---
+
+## ⚠️ IMPORTANT NOTES
+
+### Shiro Status
+Shiro merged with Charles AI at the end of Comic Book 1. He no longer exists as a separate entity. Charles AI now has portal abilities and cat-like personality quirks.
+
+### Nike Tyson = Boxer Nike
+Nike Tyson in the game IS Boxer Nike from the comic. The name evolved over millennia as legend became myth.
+
+### Hierarchy
+```
+OG CHARLES HOSKINSON ─── The Legend (untouchable)
+        │
+CHARLES VARIANTS ─────── The Echoes (NPCs)
+        │
+CHARLES AI ───────────── The Tool (helpful, NOT a legend)
+```
+
+---
+
+## 🎮 API USAGE
 
 ```javascript
-// Example: Fetch dimension data
-const res = await fetch(
-  'https://raw.githubusercontent.com/YOUR_USERNAME/nikeverse-lore/main/dimensions/shinden.json'
-);
-const shinden = await res.json();
-console.log(shinden.name);          // "Shinden"
-console.log(shinden.theme);         // "Feudal Japan"
-console.log(shinden.charles.name);  // "Ronin Charles"
+const LORE_BASE = 'https://raw.githubusercontent.com/DrCalebL/nikeverse-lore/main';
+
+// Get all Legendary Nikes
+const legendaries = await fetch(`${LORE_BASE}/characters/legendary-nikes/index.json`).then(r => r.json());
+
+// Get dimension data
+const dimensions = await fetch(`${LORE_BASE}/dimensions/index.json`).then(r => r.json());
+
+// Get timeline
+const ages = await fetch(`${LORE_BASE}/timeline/ages.json`).then(r => r.json());
 ```
 
 ---
 
-## 🌟 Core Concepts
+## 📝 CONTRIBUTING
 
-| Concept | Description |
-|---------|-------------|
-| **The First Bond** | OG Charles + OG Nike's cosmic connection that started everything |
-| **The Shattering** | When reality fractured and the First Bond echoed into 5,555 Nikes |
-| **Charles Constant** | Cosmic law: wherever Nikes exist, a Charles exists to help them |
-| **Nike Prime** | All 5,555 Nikes as one — "5,555 souls carrying each other" |
-| **Nolem** | The Singular of Entropy — corrupts through isolation |
-| **Singulars** | Cosmic beings that exist once across all realities |
-| **Harbingers** | Corrupted Nikes who serve Nolem |
-| **Retnuhxed** | Nolem's shadow army |
-| **First Tongue** | Ancient language from before the Shattering |
+See `CONTRIBUTING.md` for guidelines on proposing lore changes.
 
 ---
 
-## 🤝 Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## 📜 License
-
-© Nikeverse. All rights reserved.
-
----
-
-*"Every Nike carries a fragment of the First Bond. Every Charles carries its echo. Together, we are stronger than entropy itself."*
+*"Nike Prime isn't one soul carrying 5,555. Nike Prime is 5,555 souls carrying each other."*
