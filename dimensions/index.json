@@ -1,0 +1,96 @@
+{
+  "description": "Playable dimensions in the Nikeverse campaign. Each dimension has its own Charles variant, Legendary Nike, and Harbinger.",
+  "playOrder": [
+    "convergence-hub",
+    "shinden",
+    "frostfall",
+    "grand-arena",
+    "imperial-colosseum",
+    "neon-city",
+    "void-terminus",
+    "nolem-maw"
+  ],
+  "dimensions": [
+    {
+      "id": "convergence-hub",
+      "name": "Convergence Hub",
+      "theme": "Nexus / Tutorial",
+      "levelRange": "1-10",
+      "charles": "Hub Charles",
+      "legendaryNike": null,
+      "harbinger": null,
+      "file": "convergence-hub.json"
+    },
+    {
+      "id": "shinden",
+      "name": "Shinden",
+      "theme": "Feudal Japan",
+      "levelRange": "11-30",
+      "charles": "Ronin Charles",
+      "legendaryNike": "Ninja Nike",
+      "harbinger": "Yuki",
+      "file": "shinden.json"
+    },
+    {
+      "id": "frostfall",
+      "name": "Frostfall",
+      "theme": "Viking Tundra",
+      "levelRange": "31-45",
+      "charles": "Farmer Charles",
+      "legendaryNike": "Viking Nike",
+      "harbinger": "Erik",
+      "file": "frostfall.json"
+    },
+    {
+      "id": "grand-arena",
+      "name": "Grand Arena",
+      "theme": "Boxing / Fighting",
+      "levelRange": "46-55",
+      "charles": "Gladiator Charles",
+      "legendaryNike": "Nike Tyson",
+      "harbinger": "Slate",
+      "file": "grand-arena.json"
+    },
+    {
+      "id": "imperial-colosseum",
+      "name": "Imperial Colosseum",
+      "theme": "Roman Empire",
+      "levelRange": "56-70",
+      "charles": "Colosseum Charles",
+      "legendaryNike": "Gladiator Nike",
+      "harbinger": "Cassius",
+      "file": "imperial-colosseum.json"
+    },
+    {
+      "id": "neon-city",
+      "name": "Neon City",
+      "theme": "Cyberpunk",
+      "levelRange": "71-85",
+      "charles": "Analog Charles",
+      "legendaryNike": "Cyberpunk Nike",
+      "harbinger": "Echo",
+      "file": "neon-city.json"
+    },
+    {
+      "id": "void-terminus",
+      "name": "Void Terminus",
+      "theme": "Edge of Reality",
+      "levelRange": "86-95",
+      "charles": "Void Charles",
+      "legendaryNike": "Dimension Eater",
+      "harbinger": "Abyssal Horror",
+      "file": "void-terminus.json"
+    },
+    {
+      "id": "nolem-maw",
+      "name": "Nolem's Maw",
+      "theme": "Final Battle",
+      "levelRange": "96-100",
+      "charles": "Corrupted Charles",
+      "legendaryNike": null,
+      "harbinger": null,
+      "boss": "Nolem's Shadow",
+      "file": "nolem-maw.json"
+    }
+  ]
+}

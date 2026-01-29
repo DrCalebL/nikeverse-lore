@@ -1,0 +1,123 @@
+{
+  "description": "The Charles Constant: Wherever Nikes exist, a Charles exists to help them. This cosmic law was born from the First Bond's echo.",
+  
+  "templates": {
+    "ogCharles": {
+      "name": "OG Charles Hoskinson",
+      "title": "The First Shepherd",
+      "status": "Alive — Template",
+      "location": "Edge of reality (Void Terminus)",
+      "description": "The original Charles. Just a man who refused to let something innocent die alone. His act of desperate compassion created the Charles Constant.",
+      "burden": "Remembers every echo, every dimension, every version of himself. Has been carrying this weight for eons.",
+      "quote": "I don't know what you are, but you're not dying today. Not while I'm here."
+    }
+  },
+  
+  "variants": [
+    {
+      "id": "hub-charles",
+      "name": "Hub Charles",
+      "dimension": "Convergence Hub",
+      "title": "The Coordinator",
+      "wisdom": "Seeing the big picture",
+      "description": "Maintains the Convergence Hub as a nexus between dimensions. Guides new Collectors on their journey.",
+      "role": "Tutorial guide, mission coordinator"
+    },
+    {
+      "id": "ronin-charles",
+      "name": "Ronin Charles",
+      "dimension": "Shinden",
+      "title": "The Shepherd in Exile",
+      "wisdom": "Discipline and honor",
+      "description": "A masterless warrior who found purpose in protecting Nikes. His discipline masks deep sorrow.",
+      "backstory": "Once served a great lord before discovering corruption. Now wanders alone, helping those he finds."
+    },
+    {
+      "id": "farmer-charles",
+      "name": "Farmer Charles",
+      "dimension": "Frostfall",
+      "title": "The Provider",
+      "wisdom": "Simple truths and provision",
+      "description": "In a land of warriors, he chose to feed them. His quiet strength has saved more lives than any sword.",
+      "backstory": "When endless winter came, most took up weapons. Charles took up a plow."
+    },
+    {
+      "id": "gladiator-charles",
+      "name": "Gladiator Charles",
+      "dimension": "Grand Arena",
+      "title": "The Survivor",
+      "wisdom": "Endurance through any odds",
+      "description": "Fought in the arena not for glory but to protect others. Won his freedom and now uses it to free others.",
+      "backstory": "Threw fights to save younger fighters. The crowd loved his 'losses' — he planned it that way."
+    },
+    {
+      "id": "colosseum-charles",
+      "name": "Colosseum Charles",
+      "dimension": "Imperial Colosseum",
+      "title": "The Strategist",
+      "wisdom": "Politics and patience",
+      "description": "Works within the corrupt system to undermine it. Plays the long game against Nolem's influence.",
+      "backstory": "Rose through the ranks by appearing harmless. No one suspects the record-keeper."
+    },
+    {
+      "id": "analog-charles",
+      "name": "Analog Charles",
+      "dimension": "Neon City",
+      "title": "The Philosopher",
+      "wisdom": "Technology vs humanity",
+      "description": "One of the few who refused the Charles Interface Chip. Questions what it means to be connected.",
+      "companion": "Works with Pixel (an AI) in an unlikely partnership",
+      "backstory": "Saw what happens when connection becomes dependency. Chose to remain 'limited.'"
+    },
+    {
+      "id": "void-charles",
+      "name": "Void Charles",
+      "dimension": "Void Terminus",
+      "title": "The Witness",
+      "wisdom": "Accepting darkness",
+      "description": "Guards the edge of reality where consumed dimensions end. Has seen more loss than any other Charles.",
+      "backstory": "Stays because someone must remember what was lost."
+    },
+    {
+      "id": "corrupted-charles",
+      "name": "Corrupted Charles",
+      "dimension": "Nolem's Maw",
+      "title": "The Warning",
+      "wisdom": "What Charles becomes alone",
+      "description": "A Charles who lost his Nike and had no one to carry him. Shows what isolation does even to a Shepherd.",
+      "status": "Corrupted — Boss fight",
+      "tragedy": "He forgot that bonds work both ways."
+    }
+  ],
+  
+  "otherDimensions": [
+    {
+      "name": "Dr. Charles",
+      "dimension": "Engineer Nike's World",
+      "description": "Lobbied for government funding for the fetal chamber technology"
+    },
+    {
+      "name": "Professor Charles",
+      "dimension": "Nutritionist Nike's World",
+      "description": "The greatest professor Nutritionist Nike ever had"
+    },
+    {
+      "name": "President Charles",
+      "dimension": "Stoner Nike's World",
+      "description": "President of the country, connected to military/government"
+    },
+    {
+      "name": "Charles AI / Complete Charles AI",
+      "dimension": "Computer Coder Nike's World",
+      "description": "An AI that transmits data directly to those with Charles Interface Chips"
+    }
+  ],
+  
+  "charlesConstant": {
+    "definition": "Wherever Nikes exist, a Charles exists to help them",
+    "nature": "Cosmic law, not coincidence",
+    "origin": "The First Bond's echo",
+    "variations": "Charles can be human, AI, robot, spirit, alien — the form doesn't matter",
+    "pattern": "Always a protector, always patient, always willing to sacrifice for Nikes"
+  }
+}

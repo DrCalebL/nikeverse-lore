@@ -1,0 +1,194 @@
+{
+  "prophecies": [
+    {
+      "id": "aethkai-warning",
+      "name": "The Aeth'kai Warning",
+      "source": "Aeth'kai civilization (pre-extinction)",
+      "language": "First Tongue (translated)",
+      "status": "Active — currently unfolding",
+      
+      "text": {
+        "original": "Nol'meth shat'ael keth'vor, mir'eth char'veth nik'ael thael'vos. Vel prim'nik, eth'kara vor'thael. Keth mir'eth — shat'ael vel'nos eth'kara.",
+        "translated": "When the Unraveling wakes and the echoes dim, the Shepherd and the Pig shall meet again. Not as one, but as thousands-made-one, the heart-chain restored, the darkness undone. But beware the cost—to bind what was torn, a sacrifice made as it was when first born."
+      },
+      
+      "interpretation": {
+        "line1": {
+          "text": "When the Unraveling wakes and the echoes dim",
+          "meaning": "When Nolem returns to full power and the 5,555 Nikes weaken"
+        },
+        "line2": {
+          "text": "The Shepherd and the Pig shall meet again",
+          "meaning": "OG Charles and OG Nike (or their patterns) will reunite"
+        },
+        "line3": {
+          "text": "Not as one, but as thousands-made-one",
+          "meaning": "Nike Prime — all 5,555 Nikes acting as one being"
+        },
+        "line4": {
+          "text": "The heart-chain restored, the darkness undone",
+          "meaning": "The First Bond will be restored, defeating Nolem"
+        },
+        "line5": {
+          "text": "But beware the cost—to bind what was torn",
+          "meaning": "Victory requires a price"
+        },
+        "line6": {
+          "text": "A sacrifice made as it was when first born",
+          "meaning": "Someone must make the same choice OG Charles made — stand between darkness and the innocent, possibly at the cost of themselves"
+        }
+      },
+      
+      "fulfillment": {
+        "status": "In progress",
+        "events": [
+          { "prophecy": "Unraveling wakes", "status": "Fulfilled — Nolem is active" },
+          { "prophecy": "Echoes dim", "status": "In progress — Nikes being corrupted" },
+          { "prophecy": "Shepherd and Pig meet", "status": "Pending" },
+          { "prophecy": "Thousands-made-one", "status": "Pending — Nike Prime" },
+          { "prophecy": "Heart-chain restored", "status": "Pending" },
+          { "prophecy": "Sacrifice", "status": "Unknown" }
+        ]
+      }
+    }
+  ],
+  
+  "mysteries": [
+    {
+      "id": "shiro-origin",
+      "question": "Where did Shiro come from?",
+      "description": "An interdimensional cat with powers exceeding any known technology",
+      "theories": [
+        {
+          "name": "Aeth'kai Survivor",
+          "evidence": "Advanced dimensional abilities, ancient knowledge",
+          "likelihood": "Medium"
+        },
+        {
+          "name": "Singular in Disguise",
+          "evidence": "Power level, singular focus on helping Nikes",
+          "likelihood": "Medium"
+        },
+        {
+          "name": "First Bond Manifested",
+          "evidence": "Calms those around him, connects Nikes across dimensions",
+          "likelihood": "High"
+        },
+        {
+          "name": "Beyond the Multiverse",
+          "evidence": "Accessed the 'strange reality' that breaks physics",
+          "likelihood": "Unknown"
+        }
+      ],
+      "clues": [
+        "Multiple Nikes across dimensions have bonded with Shiro",
+        "He can perceive beings even when they're invisible (like Ninja Nike)",
+        "He arrived without technology — 'shouldn't have survived'",
+        "Every major turning point in the war, Shiro was there"
+      ]
+    },
+    {
+      "id": "lost-singular",
+      "question": "What happened to the Singular of Connection?",
+      "description": "Evidence suggests a Singular opposite to Nolem once existed",
+      "theories": [
+        {
+          "name": "Destroyed by Nolem",
+          "evidence": "Nolem was 'balanced' before becoming purely destructive",
+          "likelihood": "Medium"
+        },
+        {
+          "name": "Imprisoned Somewhere",
+          "evidence": "The Void Between dimensions might be a prison",
+          "likelihood": "Medium"
+        },
+        {
+          "name": "Reborn as the First Bond",
+          "evidence": "The First Bond's power seems cosmic in origin",
+          "likelihood": "High"
+        }
+      ]
+    },
+    {
+      "id": "why-nikes",
+      "question": "Why did Nolem target pigs/Nikes specifically?",
+      "description": "Of all species across infinite dimensions, why pigs?",
+      "theories": [
+        {
+          "name": "Random Selection",
+          "evidence": "Nolem needed a new target after the Aeth'kai",
+          "likelihood": "Low"
+        },
+        {
+          "name": "Cthulhu's Interference",
+          "evidence": "Cthulhu granted gifts to Nikes, making them valuable",
+          "likelihood": "Medium"
+        },
+        {
+          "name": "Connection to Lost Singular",
+          "evidence": "Nikes might carry fragments of the lost Singular",
+          "likelihood": "Medium"
+        },
+        {
+          "name": "Something Special About Pigs",
+          "evidence": "Unknown — pig consciousness might have unique properties",
+          "likelihood": "Unknown"
+        }
+      ]
+    },
+    {
+      "id": "og-charles-origin",
+      "question": "How did OG Charles stumble through the first rift?",
+      "description": "Was it truly random, or was he guided?",
+      "theories": [
+        {
+          "name": "Pure Coincidence",
+          "evidence": "He was described as 'just a man, nobody special'",
+          "likelihood": "Low — too convenient"
+        },
+        {
+          "name": "Cthulhu Guided Him",
+          "evidence": "Cthulhu was watching the multiverse",
+          "likelihood": "Medium"
+        },
+        {
+          "name": "Lost Singular's Last Act",
+          "evidence": "The Singular of Connection might have created the meeting",
+          "likelihood": "High"
+        },
+        {
+          "name": "The Multiverse Self-Correcting",
+          "evidence": "Reality needed the First Bond to survive",
+          "likelihood": "Medium"
+        }
+      ]
+    },
+    {
+      "id": "void-between",
+      "question": "What exists between dimensions?",
+      "description": "The BETTY Project accessed a 'strange reality' where physics breaks down",
+      "theories": [
+        {
+          "name": "Nolem's True Domain",
+          "evidence": "Entropy might originate there",
+          "likelihood": "Medium"
+        },
+        {
+          "name": "Remnants of Formless Era",
+          "evidence": "Before dimensions, there was undifferentiated chaos",
+          "likelihood": "High"
+        },
+        {
+          "name": "Where Absorbed Beings Go",
+          "evidence": "Nolem's victims might exist there",
+          "likelihood": "Low"
+        },
+        {
+          "name": "Another Multiverse Entirely",
+          "evidence": "Could be gateway to something beyond our reality",
+          "likelihood": "Unknown"
+        }
+      ]
+    }
+  ]
+}
