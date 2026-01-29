@@ -1,0 +1,186 @@
+{
+  "language": {
+    "name": "First Tongue",
+    "alternateNames": ["The Old Speech", "Aeth'kai Language", "Pre-Shattering"],
+    "description": "The primordial language spoken before the Shattering. Fragments survive as runes on artifacts, inscriptions in ancient ruins, and words of power.",
+    "origin": "Spoken by OG Nike and OG Charles, and the Aeth'kai civilization",
+    "power": "Speaking certain words in First Tongue has power — especially names"
+  },
+  
+  "phonology": {
+    "notes": "Apostrophes indicate glottal stops. 'Th' is always voiced (as in 'the'). Stress typically falls on the first syllable.",
+    "vowels": ["a", "e", "i", "o", "u", "ae"],
+    "consonants": ["b", "d", "g", "k", "l", "m", "n", "p", "r", "s", "t", "v", "th", "sh", "x"]
+  },
+  
+  "dictionary": [
+    {
+      "word": "Nik'ael",
+      "pronunciation": "NIK-ah-el",
+      "partOfSpeech": "noun",
+      "meaning": "Soul-bonded one; beloved companion",
+      "etymology": "nik (pig/swine) + ael (soul/spirit)",
+      "usage": "What OG Charles called OG Nike",
+      "notes": "Term of deep affection and cosmic significance"
+    },
+    {
+      "word": "Char'veth",
+      "pronunciation": "CHAR-veth",
+      "partOfSpeech": "noun",
+      "meaning": "Shepherd; protector-guide",
+      "etymology": "char (to guide) + veth (one who)",
+      "usage": "Nike term for Charles variants",
+      "notes": "Implies both protection and direction"
+    },
+    {
+      "word": "Nol'meth",
+      "pronunciation": "NOL-meth",
+      "partOfSpeech": "noun (proper)",
+      "meaning": "The Unraveling; entropy-that-hungers",
+      "etymology": "nol (to unravel/decay) + meth (eternal/endless)",
+      "usage": "Nolem's true name",
+      "notes": "Speaking this name with intent has power over Nolem"
+    },
+    {
+      "word": "Eth'kara",
+      "pronunciation": "ETH-kah-rah",
+      "partOfSpeech": "noun",
+      "meaning": "Heart-chain; soul bond; the First Bond",
+      "etymology": "eth (heart/core) + kara (chain/link)",
+      "usage": "Describes the connection between OG Nike and OG Charles",
+      "notes": "The most sacred term in the language"
+    },
+    {
+      "word": "Ret'nux",
+      "pronunciation": "RET-nuks",
+      "partOfSpeech": "noun",
+      "meaning": "Shadow servant; entropy's hand",
+      "etymology": "ret (shadow) + nux (servant/slave)",
+      "usage": "Origin of 'Retnuhxed'",
+      "notes": "Describes beings absorbed by Nolem"
+    },
+    {
+      "word": "Shat'ael",
+      "pronunciation": "SHAT-ah-el",
+      "partOfSpeech": "noun",
+      "meaning": "The Echoing; the great fragmentation",
+      "etymology": "shat (to shatter/fragment) + ael (soul/spirit)",
+      "usage": "The Shattering event",
+      "notes": "Also called the Great Echo"
+    },
+    {
+      "word": "Prim'nik",
+      "pronunciation": "PRIM-nik",
+      "partOfSpeech": "noun",
+      "meaning": "All-as-one; unity of many; Nike Prime",
+      "etymology": "prim (first/prime/all) + nik (pig)",
+      "usage": "The concept of Nike Prime",
+      "notes": "Prophetic term"
+    },
+    {
+      "word": "Aeth'kai",
+      "pronunciation": "AYTH-kai",
+      "partOfSpeech": "noun (proper)",
+      "meaning": "The First People; those who came before",
+      "etymology": "aeth (ancient/first) + kai (people/civilization)",
+      "usage": "The lost precursor civilization",
+      "notes": "They created this language"
+    },
+    {
+      "word": "Vel'thora",
+      "pronunciation": "VEL-thor-ah",
+      "partOfSpeech": "noun",
+      "meaning": "Dimensional barrier; the veil between worlds",
+      "etymology": "vel (curtain/veil) + thora (between)",
+      "usage": "Describes dimensional boundaries",
+      "notes": "Used in dimensional travel terminology"
+    },
+    {
+      "word": "Keth'nor",
+      "pronunciation": "KETH-nor",
+      "partOfSpeech": "noun",
+      "meaning": "Corruption; the taint of entropy",
+      "etymology": "keth (stain/taint) + nor (of Nolem)",
+      "usage": "Describes Nolem's corruption",
+      "notes": "A warning word"
+    },
+    {
+      "word": "Thael'vos",
+      "pronunciation": "THALE-vos",
+      "partOfSpeech": "verb",
+      "meaning": "To bond; to connect souls",
+      "etymology": "thael (to join) + vos (spirit/will)",
+      "usage": "The act of forming a bond",
+      "notes": "Sacred action"
+    },
+    {
+      "word": "Mir'eth",
+      "pronunciation": "MEER-eth",
+      "partOfSpeech": "noun",
+      "meaning": "Template; original pattern",
+      "etymology": "mir (mirror/reflection) + eth (heart/origin)",
+      "usage": "Describes OG Nike and OG Charles",
+      "notes": "The source of all echoes"
+    },
+    {
+      "word": "Dex'tur",
+      "pronunciation": "DEX-tur",
+      "partOfSpeech": "noun",
+      "meaning": "Avatar; flesh-vessel of a greater power",
+      "etymology": "dex (to wear) + tur (body/form)",
+      "usage": "Describes Dexter Hun",
+      "notes": "Nolem's mortal form"
+    },
+    {
+      "word": "Har'ben",
+      "pronunciation": "HAR-ben",
+      "partOfSpeech": "noun",
+      "meaning": "Fallen herald; corrupted messenger",
+      "etymology": "har (to herald/announce) + ben (fallen/broken)",
+      "usage": "Origin of 'Harbinger'",
+      "notes": "Corrupted Nikes"
+    }
+  ],
+  
+  "phrases": [
+    {
+      "phrase": "Eth'kara vel'nos",
+      "pronunciation": "ETH-kah-rah VEL-nos",
+      "meaning": "The bond cannot be broken",
+      "usage": "Affirmation of connection"
+    },
+    {
+      "phrase": "Nol'meth keth'vor",
+      "pronunciation": "NOL-meth KETH-vor",
+      "meaning": "Nolem takes/corrupts",
+      "usage": "Warning of danger"
+    },
+    {
+      "phrase": "Prim'nik shat'ael thael",
+      "pronunciation": "PRIM-nik SHAT-ah-el THALE",
+      "meaning": "Nike Prime echoes/bonds (all)",
+      "usage": "Prophetic phrase"
+    },
+    {
+      "phrase": "Char'veth nik'ael vor",
+      "pronunciation": "CHAR-veth NIK-ah-el VOR",
+      "meaning": "The shepherd protects the bonded one",
+      "usage": "The Charles Constant expressed"
+    }
+  ],
+  
+  "inscriptions": [
+    {
+      "location": "Aeth'kai Ruins",
+      "text": "Nol'meth aeth'kai keth'vor. Thael'vos mir'eth eth'kara.",
+      "translation": "Nolem consumed the Aeth'kai. Bond with the templates through the heart-chain.",
+      "significance": "Warning and instruction left by the Aeth'kai"
+    },
+    {
+      "location": "Dimensional Anchors",
+      "text": "Vel'thora eth'kara",
+      "translation": "Through the veil, by the bond",
+      "significance": "Activation phrase for dimensional travel"
+    }
+  ]
+}

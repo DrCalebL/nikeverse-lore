@@ -1,0 +1,43 @@
+{
+  "description": "Singulars are cosmic entities that exist ONCE across all realities. No variants, no echoes — singular existence.",
+  "properties": {
+    "unique": "No variants exist across dimensions",
+    "immortal": "Cannot be permanently destroyed",
+    "dimensional": "Can perceive all realities simultaneously",
+    "limited": "Cannot freely enter most dimensions directly",
+    "ancient": "Predate the concept of time itself"
+  },
+  "known": [
+    {
+      "id": "cthulhu",
+      "name": "Cthulhu",
+      "domain": ["Madness", "Knowledge", "Observation"],
+      "alignment": "Neutral",
+      "status": "Active — observing",
+      "file": "cthulhu.json"
+    },
+    {
+      "id": "nolem",
+      "name": "Nolem",
+      "trueName": "Nol'meth",
+      "domain": ["Entropy", "Isolation", "Despair"],
+      "alignment": "Malevolent",
+      "status": "Active — hunting",
+      "file": "nolem.json"
+    }
+  ],
+  "theoretical": [
+    {
+      "id": "the-weaver",
+      "name": "The Weaver (Theoretical)",
+      "domain": ["Connection", "Bonds", "Unity"],
+      "alignment": "Benevolent",
+      "status": "Unknown — possibly destroyed, possibly reborn as the First Bond",
+      "evidence": [
+        "The First Bond's power seems cosmic in origin",
+        "Nolem was balanced in the Formless Era",
+        "Something changed to make him purely destructive"
+      ]
+    }
+  ]
+}

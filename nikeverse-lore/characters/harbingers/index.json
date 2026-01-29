@@ -1,0 +1,93 @@
+{
+  "description": "Harbingers are corrupted Nikes who have fully embraced Nolem's influence. Unlike Legendary Nikes (who can be freed), Harbingers chose their corruption.",
+  
+  "nature": {
+    "origin": "Nikes who gave in to Nolem's whispers",
+    "corruption": "Voluntary — they chose isolation over connection",
+    "redemption": "Uncertain — they may be too far gone",
+    "role": "Serve as Nolem's lieutenants in each dimension"
+  },
+  
+  "harbingers": [
+    {
+      "id": "yuki",
+      "name": "Yuki",
+      "dimension": "Shinden",
+      "title": "The Ice Shadow",
+      "emotionalTheme": "Devotion twisted into possession",
+      "corruptionReason": "Love that became obsession",
+      "backstory": "Once loved a Nike completely. When that Nike died, her grief became rage, then service to Nolem. Now she 'protects' by controlling.",
+      "abilities": ["Ice Manipulation", "Shadow Binding", "Possessive Aura"],
+      "quote": "If I can't have you, no one can. That's love, isn't it?"
+    },
+    {
+      "id": "erik",
+      "name": "Erik",
+      "dimension": "Frostfall",
+      "title": "The Eternal Raider",
+      "emotionalTheme": "Strength without purpose",
+      "corruptionReason": "Glory that became emptiness",
+      "backstory": "Raided a thousand shores, won a thousand battles. Found nothing worth keeping. Nolem offered him endless war without the emptiness of victory.",
+      "abilities": ["Berserker Command", "Raid Tactics", "Undying Fury"],
+      "quote": "Another battle. Another victory. Another meaningless day."
+    },
+    {
+      "id": "slate",
+      "name": "Slate",
+      "dimension": "Grand Arena",
+      "title": "The Immovable",
+      "emotionalTheme": "Sloth — giving up on caring",
+      "corruptionReason": "Exhaustion from carrying others",
+      "backstory": "Was once the greatest trainer. Lifted up hundreds of fighters. One day, stopped caring. Nolem didn't even have to whisper — Slate came to him.",
+      "abilities": ["Immovable Stance", "Apathy Aura", "Weight of Indifference"],
+      "quote": "Why bother? Nothing changes. Nothing matters."
+    },
+    {
+      "id": "cassius",
+      "name": "Cassius",
+      "dimension": "Imperial Colosseum",
+      "title": "The Ambitious",
+      "emotionalTheme": "Ambition without connection",
+      "corruptionReason": "Sacrificed relationships for power",
+      "backstory": "Rose through the ranks by betraying everyone who trusted him. Now sits at the top, alone. Nolem promised him the multiverse.",
+      "abilities": ["Political Manipulation", "Betrayer's Strike", "Hollow Crown"],
+      "quote": "I have everything. So why does it feel like nothing?"
+    },
+    {
+      "id": "echo",
+      "name": "Echo",
+      "dimension": "Neon City",
+      "title": "The Signal",
+      "emotionalTheme": "Digital isolation",
+      "corruptionReason": "Lost sense of self in the network",
+      "backstory": "Uploaded consciousness to escape physical pain. Discovered that digital existence meant losing what made connection real. Now spreads that emptiness.",
+      "abilities": ["Network Infiltration", "Identity Theft", "Signal Corruption"],
+      "quote": "I am everyone. I am no one. I am the static between souls."
+    },
+    {
+      "id": "abyssal-horror",
+      "name": "Abyssal Horror",
+      "dimension": "Void Terminus",
+      "title": "The Consumed",
+      "emotionalTheme": "Complete despair",
+      "corruptionReason": "Witnessed too much loss, gave up hope",
+      "backstory": "Watched entire dimensions die. Eventually decided that existence itself was the problem. Now helps Nolem end it all.",
+      "abilities": ["Void Gaze", "Despair Aura", "Reality Erosion"],
+      "quote": "I've seen the end. It's peaceful. Let me show you."
+    }
+  ],
+  
+  "commonTraits": {
+    "corruption": "All chose their path — Nolem offered, they accepted",
+    "power": "Stronger than regular corrupted beings, weaker than Legendary Nikes",
+    "vulnerability": "Their corruption reason is their weakness",
+    "redemption": "Unknown if possible — they chose this"
+  },
+  
+  "relationship_to_nolem": {
+    "role": "Lieutenants and regional commanders",
+    "communication": "Receive whispers directly from Nolem",
+    "loyalty": "Varies — some serve willingly, others are trapped by their choices",
+    "reward": "Nolem promises an end to their pain"
+  }
+}

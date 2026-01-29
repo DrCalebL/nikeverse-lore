@@ -1,0 +1,113 @@
+{
+  "id": "shinden",
+  "name": "Shinden",
+  "theme": "Feudal Japan",
+  "levelRange": {
+    "min": 11,
+    "max": 30
+  },
+  "playOrder": 2,
+  
+  "description": "A dimension of ancient traditions, shadow clans, and deadly honor. Cherry blossoms fall over blood-stained dojos as warriors seek enlightenment through combat.",
+  
+  "atmosphere": {
+    "visual": "Purple mists, bamboo forests, traditional architecture",
+    "mood": "Mysterious, honorable, deadly",
+    "danger": "Shadow assassins, corrupted spirits, political intrigue"
+  },
+  
+  "charles": {
+    "name": "Ronin Charles",
+    "title": "The Shepherd in Exile",
+    "description": "A masterless warrior who found purpose in protecting Nikes. His discipline masks deep sorrow.",
+    "wisdom": "Discipline and honor",
+    "backstory": "Once served a great lord before discovering the corruption of the Shadow Clan. Now wanders alone, helping those he finds."
+  },
+  
+  "legendaryNike": {
+    "name": "Ninja Nike",
+    "title": "The Shadow That Sees All Futures",
+    "description": "Master of shadow arts, able to perceive possible futures. Corrupted by Nolem's whispers of isolation.",
+    "corruptionReason": "The loneliness of seeing futures where everyone he loves dies",
+    "abilities": ["Shadow Step", "Future Sight", "Assassination Arts"],
+    "freedBy": "Showing him futures where connection survives"
+  },
+  
+  "harbinger": {
+    "name": "Yuki",
+    "title": "The Ice Shadow",
+    "emotionalTheme": "Devotion twisted into possession",
+    "corruptionReason": "Love that became obsession",
+    "description": "Once loved a Nike completely. When that Nike died, her grief became rage, then service to Nolem."
+  },
+  
+  "locations": [
+    {
+      "name": "The Veil",
+      "type": "Entry Point",
+      "description": "The dimensional barrier, appearing as an endless wall of mist"
+    },
+    {
+      "name": "Dojo Entrance",
+      "type": "Settlement",
+      "description": "Training grounds where warriors first learn the ways of Shinden"
+    },
+    {
+      "name": "Bamboo Forest",
+      "type": "Wilderness",
+      "description": "Endless green stalks that whisper secrets to those who listen"
+    },
+    {
+      "name": "Ronin's Camp",
+      "type": "Safe Haven",
+      "description": "Where Ronin Charles shelters those fleeing the Shadow Clan"
+    },
+    {
+      "name": "Shadow Temple",
+      "type": "Dungeon",
+      "description": "The corrupted heart of the Shadow Clan's power"
+    },
+    {
+      "name": "Midnight Gardens",
+      "type": "Boss Arena",
+      "description": "Where Ninja Nike waits, seeing all possible futures"
+    }
+  ],
+  
+  "factions": [
+    {
+      "name": "The Shadow Clan",
+      "alignment": "Hostile",
+      "description": "Assassins corrupted by Nolem's influence"
+    },
+    {
+      "name": "The Ronin",
+      "alignment": "Allied",
+      "description": "Masterless warriors who resist the Shadow Clan"
+    },
+    {
+      "name": "The Temple Monks",
+      "alignment": "Neutral",
+      "description": "Keepers of ancient wisdom, wary of outsiders"
+    }
+  ],
+  
+  "sideQuests": [
+    "The Cursed Diviner",
+    "The Defiled Shrine", 
+    "The Fallen Warlord",
+    "Masks of Deception",
+    "Whispers of the Teahouse"
+  ],
+  
+  "dimensionalAnchor": {
+    "name": "Shadow Kunai",
+    "description": "A blade that exists in shadow and light simultaneously",
+    "obtainedFrom": "Ninja Nike after freeing him"
+  },
+  
+  "ogForeshadowing": {
+    "mention": "The First Bond's echo",
+    "quote": "Their bond was so strong that when reality fractured, it echoed across every dimension instead of breaking."
+  }
+}
