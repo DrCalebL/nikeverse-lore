@@ -598,12 +598,15 @@ traps Nolem                                          now corrupted
 
 ## Current State of the Multiverse
 
-- **All 27 Legendary Nikes** are corrupted (except OG Nike, who is exhausted)
-- **Nolem's trap** is weakening after millennia
-- **Nike Prime** is still inside, fighting endlessly
+- **All 27 Legendary Nikes** are corrupted (except OG Nike, who is exhausted but active as guardian)
+- **Nolem's trap** is weakening after three millennia
+- **Nike Prime** is still inside, fighting endlessly — without his empathy core, he can delay but not win
 - **The Convergence Hub** serves as the last safe nexus
-- **Charles AI** guides new Collectors with portal abilities
-- **A new Collector** rises with the potential to free the Legendaries
+- **Hub Charles** — the local Shepherd — guides and trains new Collectors on the ground
+- **Charles AI** — Computer Coder Nike's creation from the Prime Era — operates as a separate entity providing dimensional portals, tactical coordination, and inter-reality communication. Displays subtle cat-like behavioral quirks: calming presence, mysterious pauses, uncanny intuition, staring at nothing
+- **A new Collector** rises with the potential to free the Legendaries and build the 5,555 bonds needed to complete Nike Prime
+
+*For the full Collector's progression structure, see: `characters/collectors-journey.json`*
 
 ---
 
@@ -615,7 +618,9 @@ traps Nolem                                          now corrupted
 | Aspect | Detail |
 |--------|--------|
 | Theme | Nexus / Tutorial |
-| Charles | Hub Charles |
+| Charles Variant | Hub Charles (the Shepherd) |
+| Charles AI | Separate entity — portal creation, dimensional navigation, comms |
+| Key NPCs | Elena (veteran Collector), Alice (Triforce instructor) |
 | Purpose | Train new Collectors, coordinate resistance |
 | Secret | The Hub's architecture contains encoded Scholar messages |
 
@@ -703,10 +708,19 @@ traps Nolem                                          now corrupted
 |--------|--------|
 | Theme | Edge of Reality |
 | Charles | Void Charles |
-| Legendary Nike | (Varies—Cosmic Nike, Phoenix Nike, others) |
+| Legendary Nikes | Cosmic Nike, Phoenix Nike, Cardano Whale Nike, Elbonzys Nike |
 | Harbinger | Abyssal Horror |
 | Purpose | Where consumed dimensions end |
-| Secret | OG Nike waits here, catching souls of Nikes killed by Nolem |
+| Act 2 Guide | OG Nike — active guardian, not just exhausted remnant |
+
+**OG Nike's Active Role**: Far more than "exhausted at the edge of reality." OG Nike serves as the pivotal late-game guide. He catches the souls of every Nike killed by Nolem's forces before they can be absorbed—a duty he's maintained for three thousand years without rest. He appears multiple times during the Void Terminus campaign: first to warn the Walker about the four Legendary guardians blocking the path (Cosmic, Phoenix, Cardano Whale, Elbonzys), then to give his blessing before the Walker enters Nolem's Maw. He is the first to speak the 5,555 prophecy aloud. His dialogue reveals a being who has held vigil for millennia with steadily diminishing hope—until the Walker arrives.
+
+**Key OG Nike Moments**:
+- "Every Nike killed by Nolem's forces... I catch their souls before he can absorb them. If I stop, even for a moment, he gets stronger."
+- "I've been doing this for three thousand years. Give or take."
+- Confirms he never earned Elbonzys Nike's respect—the Walker succeeds where OG Nike could not
+- Delivers the prophecy: "Nike Prime isn't one soul carrying 5,555..."
+- "He's... he's me, in a way. Every fragment of him was once part of me."
 
 ---
 
@@ -718,9 +732,11 @@ traps Nolem                                          now corrupted
 | Theme | Final Battle |
 | Charles | Corrupted Charles |
 | Boss | Nolem's Shadow |
+| Legendary | Melon Nike — The Betrayer (unique: willingly chose Nolem, uncorrupted) |
 | Then | A prison dimension Nike Prime created |
 | Now | The prison became a kingdom—Nolem expanded it |
 | Secret | Nike Prime is still inside, still fighting Nolem, endlessly |
+| Reveal | Scholar Recording confirms the 5,555 Prophecy and the path to victory |
 
 ---
 
@@ -821,25 +837,52 @@ traps Nolem                                          now corrupted
 
 # PART 10: THE MASTER REVELATION
 
-## What Actually Happened (To Be Revealed Across Media)
+## What Actually Happened (Revealed Through Game Campaign)
+
+### The 99% Problem (Comic Book 1 → Game)
+Nike Prime was released from his growth chamber at 99% completion. The Retnuhxed invasion forced the Scientists' hand—there was no time to install the empathy core. Nike Prime emerged with all knowledge, all power, all tactical brilliance—but no capacity to bond. No ability to draw strength from connection. He trapped Nolem through raw power alone.
 
 ### The Incomplete Victory
-Nike Prime successfully trapped Nolem. But without an empathy core, Nike Prime couldn't BOND the trap shut. The trap is slowly weakening over millennia.
+Nike Prime successfully trapped Nolem in a pocket of warped space-time. But without the empathy core, Nike Prime couldn't BOND the trap shut permanently. The trap has been slowly weakening over three millennia.
 
 ### The Long Imprisonment
-Nike Prime is IN the trap WITH Nolem. Still fighting, endlessly, for thousands of years. Still emotionless. Still alone. He can't win, but he won't lose.
+Nike Prime is IN the trap WITH Nolem. Still fighting, endlessly, for three thousand years. Still emotionless. Still alone. He can't win—but he won't lose. Not yet.
+
+### How The Truth Is Revealed (Game Structure)
+
+**Stage 1 — The Scholar Bunker (Imperial Colosseum, Act 2)**
+Freeing Gladiator Nike opens the underground bunker beneath the Colosseum—the same lab where Nike Prime was created during Comic Book 1. Five Scholar Legendaries (Dr Caleb, Professor, Satoshi, Corey Hort, Guthix) are found in its depths, each guarding a section of knowledge. Together they reveal:
+
+- Nike Prime's design documents and the empty growth tank
+- The empathy core was never installed—they ran out of time
+- The design called for the empathy core to be powered by **collective bonds—5,555 bonds, to be precise**
+- The Aeth'kai prophecy: *"When 5,555 souls carry each other, the trap may open."*
+
+**Stage 2 — OG Nike's Warning (Void Terminus, Act 2)**
+OG Nike, guardian at the edge of reality, speaks the prophecy aloud for the first time:
+> *"Nike Prime isn't one soul carrying 5,555. Nike Prime is 5,555 souls carrying each other."*
+
+**Stage 3 — The Scholar Recording (Nolem's Maw, Act 2)**
+After defeating Nolem's Shadow, a hidden mechanism triggers: an ancient holographic recording left by the Scholars. It confirms the full truth:
+
+- The 5,555 fragments that scattered when OG Nike shattered become the 5,555 bonds that heal
+- The trap can only be opened **safely** when 5,555 souls stand together
+- When that happens, Nike Prime will finally be complete—and complete, he can WIN
 
 ### The New Hope
-The Collector (player) forms bonds with Legendary Nikes. These bonds are what Nike Prime was missing. The Collector isn't just freeing Champions—they're gathering the empathy Nike Prime needs.
+The Collector forms bonds with Nikes across dimensions. Every Nike caught, every Legendary freed, every Collector who joins the fight—it all counts toward the 5,555 bonds needed. The Collector isn't just freeing Champions. They're gathering the empathy Nike Prime was never given.
 
 ### The True Final Battle
-The Collector must enter Nolem's Maw. Not to replace Nike Prime—to COMPLETE him. To give him the bonds he was missing. To finally, truly seal Nolem forever.
+The Collector must eventually return to Nolem's Maw. Not to replace Nike Prime—to COMPLETE him. To give him the bonds he was missing. To finally, truly seal Nolem forever.
 
 ### The Prophecy
 > *"Nike Prime isn't one soul carrying 5,555.*
 > *Nike Prime is 5,555 souls carrying each other."*
 
 **TRUE Nike Prime** = The Collector + their bonded Nikes + the freed Legendaries + the original Nike Prime
+
+### The Math (Comic Book 1 Origin)
+Stoner Nike asked for 5,548 vials to collect DNA from other Nikes across the multiverse. Add the 4 Scientist Nikes, the 5 Champions, Stoner Nike himself, and Nike Prime—the number was always approaching 5,555. The prophecy's number has its literal origin in those DNA collection trips across realities.
 
 ---
 

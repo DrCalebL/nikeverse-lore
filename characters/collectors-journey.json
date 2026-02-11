@@ -1,0 +1,140 @@
+{
+    "id": "collectors-journey",
+    "name": "The Collector's Journey",
+    "description": "The structured path a new Collector follows from arrival at the Convergence Hub through the liberation of all Legendary Nikes and the revelation of the 5,555 Prophecy.",
+    "overview": {
+        "premise": "A new Dimensional Walker falls through a convergence point and arrives at the Convergence Hub. Hub Charles recognizes them as a potential Collector—someone capable of bonding with Nikes and protecting them from Nolem's corruption. Charles AI provides dimensional transit and tactical support. The Walker must travel across eight dimensions, freeing corrupted Legendary Nikes and building the bonds that will one day complete Nike Prime.",
+        "distinction": "Dimensional Walkers can survive dimensional transit. Collectors are Walkers who can BOND with Nikes. Not all Walkers become Collectors—the bond requires mutual trust, not capture."
+    },
+    "tutorial": {
+        "phase": "Convergence Hub - Opening",
+        "events": [
+            "Walker falls through an unstable dimensional tear, arriving at the Hub",
+            "Hub Charles and Piglet Nike find the Walker and provide orientation",
+            "Retnuhxed track the dimensional tear and breach the Hub perimeter",
+            "Walker chooses a starter Nike (Piglet Nike, Emo Nike, or Chef Nike) and fights",
+            "Hub Charles explains the Collector's purpose: bonding protects Nikes from corruption",
+            "Charles AI is introduced as the separate dimensional transit and communication system",
+            "Hub Charles shares his vigil—a memorial of every Walker he couldn't save",
+            "Hub Charles explains Nolem, the First Bond, and the stakes",
+            "Dimensional training in pocket dimensions"
+        ]
+    },
+    "rescueMission": {
+        "phase": "Convergence Hub - Elena's Rescue",
+        "events": [
+            "Distress signal from a collapsing dimension reaches Charles AI",
+            "Walker enters the dying world to find Elena, a veteran Collector",
+            "Together they rescue 17 dormant Nikes from the collapsing reality",
+            "Elena becomes a mentor figure, demonstrating advanced Collector techniques",
+            "The Blackout Beast—first major combat challenge",
+            "Elena's rescue establishes the stakes: dimensions are actively dying"
+        ]
+    },
+    "triforceSystem": {
+        "phase": "Convergence Hub - The Triforce",
+        "description": "A fellow Collector named Alice introduces the Triforce system—the three mechanisms that justify and explain PvP between Collectors.",
+        "mechanisms": [
+            {
+                "name": "Corruption Discharge",
+                "explanation": "When two Collectors battle, the friction of clashing bonds burns off residual corruption from their Nikes. PvP is literally therapeutic."
+            },
+            {
+                "name": "Genetic Memory Exchange",
+                "explanation": "Nikes that battle each other share trace genetic memories. Both grow stronger from the exchange. Competition strengthens the whole."
+            },
+            {
+                "name": "Convergence Web",
+                "explanation": "Every battle between Collectors strengthens the web of bonds across the multiverse. The more connections, the harder it is for Nolem to isolate and corrupt individual Nikes."
+            }
+        ],
+        "lorePurpose": "The Triforce system ensures that Collector-vs-Collector battles are not contradictions to the mission—they actively advance it."
+    },
+    "harbingerBriefing": {
+        "phase": "Convergence Hub - The Harbingers",
+        "description": "Hub Charles briefs the Walker on the six Harbingers—corrupted Nikes who serve as Nolem's regional lieutenants, each blocking the path to a Legendary Nike. Each fell for deeply personal, tragic reasons."
+    },
+    "dimensionProgression": {
+        "description": "The Walker travels to each dimension in a gated progression based on level and bonds formed.",
+        "act1Structure": {
+            "pattern": "Each dimension follows the same narrative arc in Act 1",
+            "steps": [
+                "Arrive in the dimension, meet the local Charles Variant",
+                "Explore the region, learn its history and how corruption changed it",
+                "Encounter and defeat the regional Harbinger",
+                "Face the corrupted Legendary Nike (the region's boss)",
+                "Free the Legendary, beginning the dimension's healing"
+            ]
+        },
+        "act2Structure": {
+            "pattern": "Freeing the Act 1 Legendary unlocks deeper content in each dimension",
+            "steps": [
+                "Return to the dimension after Act 1 completion",
+                "Discover hidden Legendaries revealed by the healing process",
+                "Face 2-5 additional Legendary Nikes per region",
+                "Uncover deeper lore about the Prime Era and Nolem's methods"
+            ]
+        },
+        "regions": [
+            {
+                "name": "Shinden",
+                "levelRange": "1-20",
+                "act1Boss": "Ninja Nike",
+                "harbinger": "Yuki",
+                "act2Legendaries": ["Nel Nike", "Jedi Nike", "Wolf Mode Nike"]
+            },
+            {
+                "name": "Frostfall",
+                "levelRange": "15-35",
+                "act1Boss": "Viking Nike",
+                "harbinger": "Erik",
+                "act2Legendaries": ["Bertus Maximus Nike", "Colossal Nike", "Hydra Nike"]
+            },
+            {
+                "name": "Grand Arena",
+                "levelRange": "30-50",
+                "act1Boss": "Nike Tyson Nike",
+                "harbinger": "Slate",
+                "act2Legendaries": ["Berjador Nike", "Peter Porker Nike"]
+            },
+            {
+                "name": "Imperial Colosseum",
+                "levelRange": "45-65",
+                "act1Boss": "Gladiator Nike",
+                "harbinger": "Cassius",
+                "act2Legendaries": ["Dr Caleb Nike", "Professor Nike", "Satoshi Nike", "Corey Hort Nike", "Guthix Nike"],
+                "majorReveal": "The Scholar Bunker — Nike Prime's growth chamber, the missing empathy core, the 5,555 prophecy first explained"
+            },
+            {
+                "name": "Neon City",
+                "levelRange": "55-75",
+                "act1Boss": "Cyberpunk Nike",
+                "harbinger": "Echo",
+                "act2Legendaries": ["McJared Nike", "Olecram Nike", "Pigsterio Nike"],
+                "note": "Act 2 Legendaries exist as corrupted programs in the Deep Network"
+            },
+            {
+                "name": "Void Terminus",
+                "levelRange": "70-90",
+                "act1Boss": "Abyssal Horror (Harbinger)",
+                "guide": "OG Nike",
+                "act2Legendaries": ["Cosmic Nike", "Phoenix Nike", "Cardano Whale Nike", "Elbonzys Nike"],
+                "note": "OG Nike serves as guide, not boss. Elbonzys is a gatekeeper test, not a corruption fight."
+            },
+            {
+                "name": "Nolem's Maw",
+                "levelRange": "85-100",
+                "act1Boss": "Nolem's Shadow",
+                "act2Legendaries": ["Melon Nike"],
+                "majorReveal": "The 5,555 Prophecy — Scholar recording confirms Nike Prime's incomplete state and the path to victory",
+                "note": "Melon Nike is unique: willingly chose Nolem, completely uncorrupted. The Betrayer."
+            }
+        ]
+    },
+    "endgame": {
+        "description": "After clearing Nolem's Maw, the Collector understands the true mission: gathering 5,555 bonds to complete Nike Prime's missing empathy core. The war continues.",
+        "truthRevealed": "Nike Prime is still inside the trap with Nolem, fighting endlessly for three thousand years. Without the empathy core, he cannot bond the trap shut. The trap is slowly weakening.",
+        "prophecy": "Nike Prime isn't one soul carrying 5,555. Nike Prime IS 5,555 souls carrying each other.",
+        "path_forward": "Every Nike caught, every Legendary freed, every bond formed between Collectors—it all counts toward the 5,555 needed to complete Nike Prime and seal Nolem forever."
+    }
+}
