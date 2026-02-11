@@ -64,6 +64,15 @@
                         "status": "Unknown"
                     }
                 ]
+            },
+            "patternConnection": {
+                "note": "The Aeth'kai term 'keth'vor' (heart-chain) is the oldest known name for what is now called The Pattern. The prophecy predates the Shattering\u2014the Aeth'kai foresaw the web of connections that would one day span all realities.",
+                "terminology": {
+                    "keth'vor": "Aeth'kai name (ancient, pre-Shattering)",
+                    "The First Bond": "Scholar/historical name (origin event)",
+                    "The Charles Constant": "Scholar/theoretical name (the law that Charles echoes everywhere)",
+                    "The Pattern": "Echo Era name (living experience, used by Collectors and Charles Variants)"
+                }
             }
         },
         {
