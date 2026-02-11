@@ -1,0 +1,108 @@
+{
+    "id": "neon-city",
+    "name": "Neon City",
+    "theme": "Cyberpunk",
+    "levelRange": {
+        "min": 71,
+        "max": 85
+    },
+    "playOrder": 6,
+    "description": "Technology advanced, humanity retreated. A dimension where digital and physical blur, corporate power reigns, and the network holds secrets deeper than any server room. Fragments of the original Charles AI code still exist in the system.",
+    "atmosphere": {
+        "visual": "Neon lights, rain-slicked streets, holographic ads, server towers, digital voids",
+        "mood": "Paranoid, electric, alienated",
+        "danger": "Corporate enforcers, digital viruses, network traps, identity theft"
+    },
+    "charles": {
+        "name": "Analog Charles",
+        "title": "The Last Human Connection",
+        "description": "Deliberately eschews digital enhancement in a world consumed by technology. His humanity is his resistance.",
+        "wisdom": "Connection that can be switched off isn't real connection",
+        "backstory": "Watched Neon City's population retreat into digital shells. Stays analog to remind people what flesh-and-blood warmth feels like."
+    },
+    "charlesCompanion": {
+        "name": "Pixel",
+        "type": "AI",
+        "description": "Analog Charles's digital counterpart. Together they bridge the physical and digital worlds."
+    },
+    "legendaryNike": {
+        "name": "Cyberpunk Nike",
+        "title": "The Chrome Rebel",
+        "description": "Greatest hacker-warrior of the Chrome Reality. Corrupted by ideology \u2014 believed Nolem's revolution was better than reform.",
+        "corruptionReason": "Ideology \u2014 the system is broken and Nolem offered a way to tear it down",
+        "abilities": [
+            "Neural Hack",
+            "Chrome Shift",
+            "EMP Burst"
+        ],
+        "freedBy": "Showing that tearing down a system without building something better is just destruction"
+    },
+    "harbinger": {
+        "name": "Echo",
+        "title": "The Signal",
+        "emotionalTheme": "Digital isolation \u2014 losing yourself to escape pain",
+        "corruptionReason": "Uploaded consciousness to escape physical pain. Lost warmth, touch, feeling. Became everyone and no one.",
+        "description": "Can become anyone, which means they are no one. Traded pain for a worse fate: feeling nothing at all."
+    },
+    "act2Legendaries": [
+        {
+            "name": "McJared Nike",
+            "location": "Probability Anomaly Zone",
+            "description": "Reality glitches around him. Attacks with probability itself. A bunny-shaped figure in socks."
+        },
+        {
+            "name": "Olecram Nike",
+            "location": "Chimera's Lab",
+            "description": "Exists in scattered fragments across a thousand processes. Each piece a different emotion and identity."
+        },
+        {
+            "name": "Pigsterio Nike",
+            "location": "Deep Network Core",
+            "description": "The arcane master watching everything. Doesn't want to be found. His power is too dangerous to use."
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Neon Gate",
+            "type": "Entry Point",
+            "description": "Where dimensional travelers materialize amid holographic chaos"
+        },
+        {
+            "name": "Analog's Workshop",
+            "type": "Safe Haven",
+            "description": "Analog Charles's deliberately low-tech sanctuary"
+        },
+        {
+            "name": "The Corporate Spire",
+            "type": "Dungeon",
+            "description": "Where digital power concentrates and corrupts"
+        },
+        {
+            "name": "The Deep Network",
+            "type": "Act 2 Area",
+            "description": "Deeper network layers where three Legendaries exist as corrupted programs"
+        },
+        {
+            "name": "The Algorithm's Throne",
+            "type": "Boss Arena",
+            "description": "Where Cyberpunk Nike controls the network"
+        }
+    ],
+    "sideQuests": [
+        "Quantum Nike's Superposition",
+        "The Lonely Root-Access AI",
+        "The Criminal Fixer",
+        "Corporate Corruption",
+        "The Information Broker"
+    ],
+    "dimensionalAnchor": {
+        "name": "Chrome Interface",
+        "description": "A neural link that bridges organic and digital \u2014 connecting without consuming",
+        "obtainedFrom": "Cyberpunk Nike after freeing him"
+    },
+    "primeEraConnection": {
+        "existed": true,
+        "primeEraName": "Chrome Reality",
+        "role": "Cyberpunk Nike's home dimension. One of the five Champion recruitment sites. Fragments of original Charles AI code remain in the network."
+    }
+}

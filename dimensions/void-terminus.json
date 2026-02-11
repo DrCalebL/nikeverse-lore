@@ -1,0 +1,112 @@
+{
+    "id": "void-terminus",
+    "name": "Void Terminus",
+    "theme": "Edge of Reality",
+    "levelRange": {
+        "min": 86,
+        "max": 95
+    },
+    "playOrder": 7,
+    "description": "Where consumed dimensions end and reality itself frays into nothing. OG Nike maintains his eternal vigil here, catching the souls of Nikes killed by Nolem before they can be absorbed. Four broken Legendaries guard the path to Nolem's Maw, and an ancient dragon stands at the final gate.",
+    "atmosphere": {
+        "visual": "Void, stardust trails, dead dimensions, the shimmer of consumed realities",
+        "mood": "Desolate, vast, haunted, but with unexpected hope",
+        "danger": "Void beasts, dimensional currents, absolute despair, existential threats"
+    },
+    "charles": {
+        "name": "Void Charles",
+        "title": "The Witness",
+        "description": "Has watched dimensions die. His testimony is all that remains of consumed worlds.",
+        "wisdom": "Remembering is its own form of resistance",
+        "backstory": "Stationed at the edge where reality ends. Records the names and histories of consumed dimensions so they are not forgotten entirely."
+    },
+    "legendaryNike": null,
+    "ogNike": {
+        "name": "OG Nike",
+        "title": "The Template",
+        "role": "Active guardian, not just exhausted remnant. Catches souls of every Nike killed by Nolem's forces before absorption. Has done this for three thousand years.",
+        "keyMoments": [
+            "Warns Walker about four Legendary guardians blocking the path",
+            "Reveals he never earned Elbonzys Nike's respect",
+            "First to speak the 5,555 prophecy aloud",
+            "Gives blessing before Walker enters Nolem's Maw"
+        ],
+        "quote": "Three thousand years. Give or take. I catch their souls before he can absorb them. If I stop, even for a moment, he gets stronger."
+    },
+    "harbinger": {
+        "name": "Abyssal Horror",
+        "title": "The Consumed",
+        "emotionalTheme": "Complete despair \u2014 survived what destroyed everyone else",
+        "corruptionReason": "Watched entire dimension consumed by Nolem. Sole survivor. Grief became monstrous.",
+        "description": "Most alien Harbinger. Barely recognizable as a Nike. Emanates despair rather than speaking."
+    },
+    "act2Legendaries": [
+        {
+            "name": "Cosmic Nike",
+            "location": "Stardust Trail",
+            "description": "A figure of stardust and void. Stars born and die within him in seconds. Corruption is nihilism."
+        },
+        {
+            "name": "Phoenix Nike",
+            "location": "Ash and Flame",
+            "description": "Endless death-rebirth cycle. Each flame a scream of 'please let me rest.' The undying flame."
+        },
+        {
+            "name": "Cardano Whale Nike",
+            "location": "Deep Currents",
+            "description": "Massive beyond comprehension. Searches endlessly for a lost calf. Grief that became an ocean."
+        },
+        {
+            "name": "Elbonzys Nike",
+            "location": "The Final Gate",
+            "description": "Ancient dragon gatekeeper. NOT corrupted \u2014 a test to be passed, not corruption to be broken. Guards the entrance to Nolem's Maw."
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Edge",
+            "type": "Entry Point",
+            "description": "Where reality begins to fray into nothing"
+        },
+        {
+            "name": "OG Nike's Vigil",
+            "type": "Landmark",
+            "description": "Where the Template maintains his eternal watch"
+        },
+        {
+            "name": "Stardust Trail",
+            "type": "Act 2 Area",
+            "description": "Where Cosmic Nike drifts among dying stars"
+        },
+        {
+            "name": "Ash and Flame",
+            "type": "Act 2 Area",
+            "description": "Phoenix Nike's endless death-rebirth zone"
+        },
+        {
+            "name": "Deep Currents",
+            "type": "Act 2 Area",
+            "description": "Dimensional rivers where Cardano Whale Nike searches"
+        },
+        {
+            "name": "The Final Gate",
+            "type": "Act 2 Area",
+            "description": "Elbonzys Nike's dragon gate \u2014 last barrier before Nolem's Maw"
+        },
+        {
+            "name": "The Ember",
+            "type": "Hidden",
+            "description": "Last spark of a consumed dimension. A side encounter."
+        }
+    ],
+    "sideQuests": [
+        "The Ember's Last Light",
+        "Shadow-Self Confrontation",
+        "The Previous Failed Walker",
+        "Consumed Dimension Survivor"
+    ],
+    "primeEraConnection": {
+        "existed": false,
+        "note": "Void Terminus formed where Nike Prime and Nolem vanished. Near the original trap location."
+    }
+}

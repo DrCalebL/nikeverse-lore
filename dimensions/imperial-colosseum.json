@@ -1,0 +1,125 @@
+{
+    "id": "imperial-colosseum",
+    "name": "Imperial Colosseum",
+    "theme": "Roman Empire",
+    "levelRange": {
+        "min": 56,
+        "max": 70
+    },
+    "playOrder": 5,
+    "description": "A corrupted empire built on the ruins of heroism. This is where Nike Prime was born \u2014 beneath the Colosseum in a secret laboratory. The most lore-critical dimension in the game. Freeing Gladiator Nike unlocks the Scholar Bunker containing the truth of Nike Prime's missing empathy core.",
+    "atmosphere": {
+        "visual": "Roman architecture, gladiatorial arenas, senate halls, underground bunker",
+        "mood": "Grand but hollow. Glory built on corruption.",
+        "danger": "Political manipulation, gladiatorial combat, ancient automated defenses"
+    },
+    "charles": {
+        "name": "Colosseum Charles",
+        "title": "The Senator",
+        "description": "Trained Cassius, watched him fall. Now navigates the corrupted political landscape to protect what remains.",
+        "wisdom": "Power without connection is just ambition",
+        "backstory": "Once the greatest teacher in the Colosseum. His best student Cassius betrayed everything for Nolem's power. That failure defines him."
+    },
+    "legendaryNike": {
+        "name": "Gladiator Nike",
+        "title": "The Eternal Champion",
+        "description": "Leader and General of the Five Champions during Comic Book 1. His identity has collapsed entirely into combat \u2014 fighting is all he knows, all he remembers.",
+        "corruptionReason": "Identity beyond purpose \u2014 fighting is all he has left",
+        "abilities": [
+            "Gladius Mastery",
+            "Shield Wall",
+            "Commander's Rally"
+        ],
+        "freedBy": "Reminding him that a general fights to protect, not to prove"
+    },
+    "harbinger": {
+        "name": "Cassius",
+        "title": "The Fallen Student",
+        "emotionalTheme": "Ambition that consumed loyalty",
+        "corruptionReason": "Colosseum Charles's best student. Ambition outgrew bonds. Sacrificed every relationship for power.",
+        "description": "Brilliant, charismatic, driven \u2014 but hollow. The tragedy: he was talented enough to be great without Nolem. Still craves his teacher's approval."
+    },
+    "act2Legendaries": [
+        {
+            "name": "Dr Caleb Nike",
+            "location": "Medical Wing",
+            "description": "Still running experiments after millennia. Cultivates corruption in himself to study it."
+        },
+        {
+            "name": "Professor Nike",
+            "location": "The Endless Archives",
+            "description": "Still reading, cataloging, unable to stop. Wields information as a weapon."
+        },
+        {
+            "name": "Satoshi Nike",
+            "location": "The Systems Core",
+            "description": "Maintains the bunker's computing arrays. His perfect systems turn against intruders."
+        },
+        {
+            "name": "Corey Hort Nike",
+            "location": "The Aeth'kai Vault",
+            "description": "Guards the oldest secrets. Attacks to share his burden of ancient knowledge."
+        },
+        {
+            "name": "Guthix Nike",
+            "location": "The Harmony Chamber",
+            "description": "Maintains a perfect balance of dimensional frequencies that's slowly killing him."
+        }
+    ],
+    "scholarBunker": {
+        "description": "The underground laboratory beneath the Colosseum where Nike Prime was created during Comic Book 1. Contains the empty growth tank, Nike Prime's design documents, and the truth of the missing empathy core.",
+        "revealContent": "All five Scholars together reveal: Nike Prime was 99% complete, the empathy core was never installed, 5,555 bonds are needed to complete him.",
+        "rooms": [
+            "Medical Wing",
+            "Endless Archives",
+            "Systems Core",
+            "Aeth'kai Vault",
+            "Harmony Chamber",
+            "Truth Chamber"
+        ]
+    },
+    "locations": [
+        {
+            "name": "The Gates",
+            "type": "Entry Point",
+            "description": "Grand entrance to the corrupted empire"
+        },
+        {
+            "name": "The Senate",
+            "type": "Settlement",
+            "description": "Where political machinations unfold"
+        },
+        {
+            "name": "Champion's Cells",
+            "type": "Dungeon",
+            "description": "Where gladiators are kept before combat"
+        },
+        {
+            "name": "The Scholar Bunker",
+            "type": "Act 2 Area",
+            "description": "Underground lab \u2014 Nike Prime's birthplace. Contains five Scholar Legendaries."
+        },
+        {
+            "name": "The Arena Floor",
+            "type": "Boss Arena",
+            "description": "Where Gladiator Nike fights endlessly"
+        }
+    ],
+    "sideQuests": [
+        "The Sane Emperor",
+        "Victor's Ghost",
+        "The Divine Trials",
+        "Senate Conspiracy",
+        "The Scholar's Legacy"
+    ],
+    "dimensionalAnchor": {
+        "name": "General's Sigil",
+        "description": "Gladiator Nike's command seal. Still carries the authority of the Five Champions.",
+        "obtainedFrom": "Gladiator Nike after freeing him"
+    },
+    "primeEraConnection": {
+        "existed": true,
+        "primeEraName": "Colosseum World",
+        "role": "THE ground zero. Gladiator Nike's home dimension AND base of operations for the entire Nike Prime Project. The growth chamber, the battle, everything happened here."
+    }
+}

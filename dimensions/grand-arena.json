@@ -1,0 +1,106 @@
+{
+    "id": "grand-arena",
+    "name": "Grand Arena",
+    "theme": "Boxing / Fighting",
+    "levelRange": {
+        "min": 46,
+        "max": 55
+    },
+    "playOrder": 4,
+    "description": "A dimension where combat is everything \u2014 honor, currency, identity. Once a world of noble competition where Boxer Nike was undefeated champion. Now fights are brutal and meaningless, the arena's glory hollowed out by corruption.",
+    "atmosphere": {
+        "visual": "Boxing rings, neon fight cards, underground pits, roaring crowds",
+        "mood": "Intense, competitive, degraded",
+        "danger": "Corrupted fighters, rigged matches, fight-to-the-death pits"
+    },
+    "charles": {
+        "name": "Gladiator Charles",
+        "title": "The Cornerman",
+        "description": "Trains fighters not just to win, but to fight with meaning. Has watched the Arena descend from honor to brutality.",
+        "wisdom": "True strength is knowing when not to fight",
+        "backstory": "Once the greatest trainer in the Arena. Now operates underground, preparing those who still believe combat can be noble."
+    },
+    "legendaryNike": {
+        "name": "Nike Tyson Nike",
+        "title": "The Knockout King",
+        "primeEraName": "Boxer Nike",
+        "description": "Undefeated champion whose name evolved from Boxer Nike to Nike Tyson over millennia as legend became myth. His Fiery Fists of Furociousness are legendary. In Comic Book 1, he sacrificed himself fighting Nolem directly.",
+        "corruptionReason": "Boredom \u2014 no worthy opponents left. The loneliness of greatness.",
+        "abilities": [
+            "Fiery Fists of Furociousness",
+            "Knockout Punch",
+            "Iron Will"
+        ],
+        "freedBy": "Proving that a worthy opponent isn't someone who can match your fists \u2014 it's someone worth fighting FOR"
+    },
+    "harbinger": {
+        "name": "Slate",
+        "title": "The Burned-Out Collector",
+        "emotionalTheme": "Trauma disguised as apathy \u2014 lost six partners",
+        "corruptionReason": "After losing six partners to corruption, severed all bonds rather than risk more pain. Didn't join Nolem \u2014 just stopped caring.",
+        "description": "Most sympathetic Harbinger. Not evil, just exhausted. Fights out of habit. First Harbinger redeemed in the game \u2014 watches the Walker's bonds in action and chooses to reconnect.",
+        "redemptionArc": true
+    },
+    "act2Legendaries": [
+        {
+            "name": "Berjador Nike",
+            "location": "The Dragon's Pit",
+            "description": "Paces endlessly with white-hot scales, fighting shadows for centuries. His Infinite Charge builds with every blow."
+        },
+        {
+            "name": "Peter Porker Nike",
+            "location": "The Rafters",
+            "description": "Exhausted spider-sense hero in ancient webs. Attacks from desperate need to prove he can still protect something."
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Ring",
+            "type": "Entry Point",
+            "description": "The main fighting arena where challengers are tested"
+        },
+        {
+            "name": "The Underground",
+            "type": "Settlement",
+            "description": "Where Gladiator Charles trains fighters in secret"
+        },
+        {
+            "name": "The Champion's Walk",
+            "type": "Dungeon",
+            "description": "Hall of corrupted former champions"
+        },
+        {
+            "name": "The Dragon's Pit",
+            "type": "Act 2 Area",
+            "description": "Berjador Nike's burning domain beneath the Arena"
+        },
+        {
+            "name": "The Rafters",
+            "type": "Act 2 Area",
+            "description": "Where Peter Porker Nike watches from ancient webs"
+        },
+        {
+            "name": "The Title Ring",
+            "type": "Boss Arena",
+            "description": "Where Nike Tyson waits for a worthy challenger"
+        }
+    ],
+    "sideQuests": [
+        "The Underground Circuit",
+        "The Hologram Champion",
+        "Fight-Fixing Conspiracy",
+        "The Immovable Sumo",
+        "The Nameless Ghost",
+        "Slate's Redemption"
+    ],
+    "dimensionalAnchor": {
+        "name": "Champion's Wraps",
+        "description": "Hand wraps that glow with the fire of every honest fight ever fought in the Arena",
+        "obtainedFrom": "Nike Tyson Nike after freeing him"
+    },
+    "primeEraConnection": {
+        "existed": true,
+        "primeEraName": "Charles Arena",
+        "role": "Boxer Nike's home dimension. One of the five Champion recruitment sites."
+    }
+}

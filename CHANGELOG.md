@@ -178,3 +178,24 @@ Old Void Terminus was 7 table rows. New version includes:
 - characters/collectors-journey.json (NEW FILE)
 - prophecies/mysteries.json (5,555 Prophecy added)
 - PATTERN_BLEND_PROPOSAL.md (NEW FILE — proposal, not yet implemented)
+
+---
+
+## REPO CLEANUP
+
+### Removed Files
+- **LORE_BIBLE.md**: Superseded by `MASTER_LORE_PROPOSAL_FINAL.md`. All content existed in better form in the Master Lore.
+- **mysteries/conspiracies.json**: Duplicate of Part 8 in Master Lore. Single source of truth now in `MASTER_LORE_PROPOSAL_FINAL.md`.
+- **mysteries/** directory: Removed (empty after conspiracies.json deletion).
+
+### Updated Files
+- **characters/comic-characters.json**: Shiro entry deprecated with `ipNote` explaining phase-out. Narrative functions absorbed into Charles AI.
+- **README.md**: Updated repo structure (removed LORE_BIBLE.md, mysteries/, added all 8 dimension files, collectors-journey, Pattern section, Hub Charles vs Charles AI note, Shiro deprecation note).
+
+### New Dimension Detail Files (6 of 8 were missing)
+- **dimensions/convergence-hub.json**: Tutorial/Nexus — Hub Charles, Charles AI, Pattern nexus, key NPCs
+- **dimensions/grand-arena.json**: Boxing/Fighting — Nike Tyson, Slate (redeemable Harbinger), Berjador + Peter Porker Act 2
+- **dimensions/imperial-colosseum.json**: Roman Empire — Gladiator Nike, Cassius, Scholar Bunker with 5 Scholar Legendaries, Nike Prime birthplace
+- **dimensions/neon-city.json**: Cyberpunk — Cyberpunk Nike, Echo, Analog Charles + Pixel, McJared/Olecram/Pigsterio Act 2
+- **dimensions/void-terminus.json**: Edge of Reality — OG Nike's vigil, 4 Act 2 Legendaries (Cosmic/Phoenix/Cardano Whale/Elbonzys), Abyssal Horror
+- **dimensions/nolem-maw.json**: Final Battle — Melon Nike (willing betrayer), Nolem's Shadow, 5,555 Prophecy reveal, Scholar Recording

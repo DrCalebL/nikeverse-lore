@@ -1,0 +1,67 @@
+{
+    "id": "nolem-maw",
+    "name": "Nolem's Maw",
+    "theme": "Final Battle",
+    "levelRange": {
+        "min": 96,
+        "max": 100
+    },
+    "playOrder": 8,
+    "description": "The space-time distortion field from Comic Book 1, transformed. What was created as a prison for Nolem has become his kingdom \u2014 expanded and corrupted over three millennia. Nike Prime is still inside, still fighting. The coordinates shift constantly, as designed, but Nolem has learned to navigate his cage.",
+    "atmosphere": {
+        "visual": "Absolute darkness, sickly green light, consumed reality, throne of devoured dimensions",
+        "mood": "Oppressive, final, terrifying",
+        "danger": "Nolem's Shadow, spatial distortion, corruption at maximum intensity"
+    },
+    "charles": {
+        "name": "Corrupted Charles",
+        "title": "The Turned Shepherd",
+        "description": "A Charles Variant who fell to Nolem's influence inside the Maw. Proof that even shepherds can break.",
+        "wisdom": "None \u2014 his wisdom has been consumed"
+    },
+    "legendaryNike": {
+        "name": "Melon Nike",
+        "title": "The Betrayer",
+        "description": "The ONLY Legendary who willingly chose Nolem's side. Completely uncorrupted. Casual, intelligent, genuinely convinced Nolem is right. Tracked the Walker's progress since Shinden.",
+        "corruptionReason": "No corruption. Willing, conscious, strategic choice. Believes Nolem's victory is inevitable.",
+        "abilities": [
+            "Strategic Analysis",
+            "Conviction Armor",
+            "Unwavering Certainty"
+        ],
+        "unique": "Unlike every other Legendary, she's not fighting corruption \u2014 she embraced it willingly. Her conviction is her armor. The most unsettling encounter because she might be RIGHT."
+    },
+    "boss": {
+        "name": "Nolem's Shadow",
+        "description": "Not Nolem himself \u2014 a projection of his power. The real Nolem remains deeper, locked in eternal combat with Nike Prime."
+    },
+    "harbinger": null,
+    "locations": [
+        {
+            "name": "The Betrayer's Path",
+            "type": "Entry",
+            "description": "Sickly green light guides you to Melon Nike. She's been waiting."
+        },
+        {
+            "name": "The Throne of Devouring",
+            "type": "Boss Arena",
+            "description": "Throne of consumed dimensions where Nolem's Shadow sits"
+        },
+        {
+            "name": "The Truth Chamber",
+            "type": "Reveal",
+            "description": "Where the Scholar Recording activates after Nolem's Shadow is defeated, revealing the 5,555 Prophecy"
+        }
+    ],
+    "majorReveal": {
+        "name": "The 5,555 Prophecy",
+        "trigger": "Defeating Nolem's Shadow activates a hidden Scholar recording",
+        "content": "Nike Prime is trapped with Nolem, fighting for three thousand years. He was created incomplete \u2014 missing the empathy core. The 5,555 fragments that scattered when OG Nike shattered become the 5,555 bonds that heal. When 5,555 souls stand together, Nike Prime can be completed.",
+        "prophecy": "Nike Prime isn't one soul carrying 5,555. Nike Prime IS 5,555 souls carrying each other."
+    },
+    "primeEraConnection": {
+        "existed": true,
+        "primeEraName": "The Trap",
+        "role": "The space-time distortion pocket Nike Prime created to imprison Nolem during the Battle of the Colosseum. Coordinates shift constantly to prevent escape. The prison became a kingdom."
+    }
+}

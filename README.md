@@ -17,8 +17,9 @@ PRIME ERA (Comic Book 1)
     │
     │  • Cthulhu warns Stoner Nike
     │  • Five Champions gathered
-    │  • Nike Prime created & traps Nolem
-    │  • Shiro merges with Charles AI
+    │  • Nike Prime created at 99% — missing empathy core
+    │  • Nike Prime traps Nolem, vanishes into the trap
+    │  • The Pattern pulses through every fragment
     │
     ▼
 THE LONG SILENCE (Comic Books 2-???)
@@ -32,7 +33,8 @@ ECHO ERA (Discord Game)
     │
     │  • All Legendaries corrupted
     │  • A new Collector rises
-    │  • Free the Champions, save the multiverse
+    │  • Free the Champions, gather 5,555 bonds
+    │  • Complete Nike Prime's missing empathy core
 ```
 
 ---
@@ -43,9 +45,9 @@ ECHO ERA (Discord Game)
 nikeverse-lore/
 │
 ├── MASTER_LORE_PROPOSAL_FINAL.md    # ⭐ START HERE - Complete canon
-├── LORE_BIBLE.md                     # Previous version (reference)
 ├── README.md                         # This file
 ├── CONTRIBUTING.md                   # How to contribute
+├── CHANGELOG.md                      # Change history
 │
 ├── timeline/
 │   ├── ages.json                     # All cosmic ages
@@ -55,18 +57,25 @@ nikeverse-lore/
 │
 ├── characters/
 │   ├── legendary-nikes/
-│   │   └── index.json                # All 27 Legendary Nikes
-│   ├── charles-ai.json               # Charles AI (post-Shiro merge)
+│   │   └── index.json                # All 27 Legendary Nikes + game encounters
+│   ├── charles-ai.json               # Charles AI (portal abilities, cat quirks)
 │   ├── charles-variants/
 │   │   └── index.json                # Hub Charles, Ronin Charles, etc.
 │   ├── comic-characters.json         # Stoner Nike, Pico, Hennifer, etc.
+│   ├── collectors-journey.json       # Game campaign structure & progression
 │   └── harbingers/
-│       └── index.json                # Corrupted servants of Nolem
+│       └── index.json                # Nolem's corrupted lieutenants
 │
 ├── dimensions/
-│   ├── index.json                    # All 8 dimensions with comic connections
+│   ├── index.json                    # All 8 dimensions (summary)
+│   ├── convergence-hub.json          # Tutorial / Nexus
 │   ├── shinden.json                  # Feudal Japan
-│   └── frostfall.json                # Viking Tundra
+│   ├── frostfall.json                # Viking Tundra
+│   ├── grand-arena.json              # Boxing / Fighting
+│   ├── imperial-colosseum.json       # Roman Empire (Nike Prime's birthplace)
+│   ├── neon-city.json                # Cyberpunk
+│   ├── void-terminus.json            # Edge of Reality (OG Nike's vigil)
+│   └── nolem-maw.json               # Final Battle
 │
 ├── singulars/
 │   ├── index.json                    # Cosmic entities overview
@@ -76,18 +85,15 @@ nikeverse-lore/
 ├── factions/
 │   └── index.json                    # Remnant, Unravelers, Lost Builders
 │
-├── mysteries/
-│   └── conspiracies.json             # The Five Great Mysteries
+├── prophecies/
+│   └── mysteries.json                # Prophecies & the 5,555 Prophecy
 │
 ├── civilizations/
 │   └── aethkai.json                  # The lost precursor civilization
 │
 ├── languages/
 │   └── first-tongue/
-│       └── dictionary.json           # Ancient language
-│
-├── prophecies/
-│   └── mysteries.json                # Unsolved mysteries
+│       └── dictionary.json           # Ancient Aeth'kai language
 │
 └── schemas/
     └── dimension.schema.json         # JSON validation schema
@@ -99,10 +105,11 @@ nikeverse-lore/
 
 | Count | What |
 |-------|------|
-| **5,555** | Total Nikes created in The Shattering |
+| **5,555** | Total Nike souls — bonds needed to complete Nike Prime |
 | **27** | Legendary Nikes (special fragments with more of OG Nike's essence) |
 | **5** | Champions gathered in Comic Book 1 |
 | **8** | Dimensions in the Discord Game |
+| **6** | Harbingers — Nolem's corrupted lieutenants |
 | **~3,000** | Years of The Long Silence (expansion space) |
 
 ---
@@ -125,13 +132,26 @@ Hydra Nike, Wolf Mode Nike, Colossal Nike, Elbonzys Nike, Cardano Whale Nike
 Cosmic Nike, Phoenix Nike
 
 ### Oddities (3)
-McJared Nike, Olecram Nike, Melon Nike
+McJared Nike, Olecram Nike, Melon Nike (The Betrayer — willingly chose Nolem)
 
 ### Multiverse (1)
 Peter Porker Nike
 
 ### Template (1)
-OG Nike (not corrupted, but exhausted)
+OG Nike (not corrupted — active guardian at Void Terminus)
+
+---
+
+## 🌐 THE PATTERN
+
+The living web of connections between all 5,555 Nike fragments and all Charles Variants. Different names across history:
+
+| Term | Who Uses It |
+|------|-------------|
+| **keth'vor** (heart-chain) | Aeth'kai prophecy (ancient) |
+| **The First Bond** | Scholars, OG Nike (origin event) |
+| **The Charles Constant** | Theorists (the law) |
+| **The Pattern** | Collectors, Charles Variants (lived experience) |
 
 ---
 
@@ -141,14 +161,17 @@ OG Nike (not corrupted, but exhausted)
 |-------|-----|---------|
 | **Comic Book 1** | Prime Era | The First War Against Nolem |
 | **Comic Books 2-???** | The Long Silence | EXPANSION SPACE |
-| **Discord Game** | Echo Era | Free the Legendary Nikes |
+| **Discord Game** | Echo Era | Free the Legendary Nikes, gather 5,555 bonds |
 
 ---
 
 ## ⚠️ IMPORTANT NOTES
 
+### Hub Charles vs Charles AI
+**Hub Charles** is the local Shepherd at the Convergence Hub — a person. **Charles AI** is a separate floating interface built by Computer Coder Nike — a tool with portal abilities and subtle cat-like behavioral quirks (calming presence, mysterious pauses, uncanny intuition). They are distinct entities.
+
 ### Shiro Status
-Shiro merged with Charles AI at the end of Comic Book 1. He no longer exists as a separate entity. Charles AI now has portal abilities and cat-like personality quirks.
+Shiro is being phased out of Nikeverse IP. His narrative functions have been absorbed into Charles AI as subtle behavioral quirks with deliberately mysterious origin. New content should not reference Shiro directly.
 
 ### Nike Tyson = Boxer Nike
 Nike Tyson in the game IS Boxer Nike from the comic. The name evolved over millennia as legend became myth.
@@ -177,6 +200,9 @@ const dimensions = await fetch(`${LORE_BASE}/dimensions/index.json`).then(r => r
 
 // Get timeline
 const ages = await fetch(`${LORE_BASE}/timeline/ages.json`).then(r => r.json());
+
+// Get Collector's Journey structure
+const journey = await fetch(`${LORE_BASE}/characters/collectors-journey.json`).then(r => r.json());
 ```
 
 ---

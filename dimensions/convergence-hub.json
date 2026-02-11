@@ -1,0 +1,84 @@
+{
+    "id": "convergence-hub",
+    "name": "Convergence Hub",
+    "theme": "Nexus / Tutorial",
+    "levelRange": {
+        "min": 1,
+        "max": 10
+    },
+    "playOrder": 1,
+    "description": "The last safe nexus between dimensions. Built during The Long Silence on the ruins of an Aeth'kai outpost, the Hub exists at a convergence of dimensional threads \u2014 the strongest concentration of The Pattern in any reality. New Walkers are drawn here instinctively.",
+    "atmosphere": {
+        "visual": "Glowing grass, three moons, ancient stone pillars with embedded devices, memorial lights",
+        "mood": "Safe but urgent. A shelter under siege.",
+        "danger": "Retnuhxed incursions through dimensional tears"
+    },
+    "charles": {
+        "name": "Hub Charles",
+        "title": "The Shepherd",
+        "description": "A weathered man with kind eyes who has spent decades guiding Walkers, training Collectors, and mourning those he couldn't save. Feels The Pattern most acutely at this nexus point.",
+        "wisdom": "Hope \u2014 the steady kind that might actually matter",
+        "backstory": "Has been fighting Nolem's forces for thirty-seven years. Remembers every face, every name, every Walker he said 'you're ready' to and was wrong. Keeps a memorial of lights for every one he's lost."
+    },
+    "charlesAI": {
+        "name": "Charles AI",
+        "title": "Dimensional Transit System",
+        "description": "A separate entity from Hub Charles. A floating interface built by Computer Coder Nike during the Prime Era. Opens portals, coordinates across dimensions, maintains the communication network. Displays subtle cat-like behavioral quirks: calming presence, mysterious pauses, staring at nothing, uncanny intuition.",
+        "origin": "Created by Computer Coder Nike as a data transfer and communication system. Portal abilities acquired during the Prime Era. Three thousand years of continuous operation.",
+        "catQuirks": [
+            "The Calm",
+            "The Pause",
+            "The Knowing",
+            "The Stare",
+            "The Groom"
+        ]
+    },
+    "legendaryNike": null,
+    "harbinger": null,
+    "keyNPCs": [
+        {
+            "name": "Piglet Nike",
+            "role": "Hub companion, potential starter Nike"
+        },
+        {
+            "name": "Elena",
+            "role": "Veteran Collector, mentor figure. Rescued from collapsing dimension early in campaign."
+        },
+        {
+            "name": "Alice",
+            "role": "Fellow Collector who introduces the Triforce system (Corruption Discharge, Genetic Memory Exchange, Convergence Web)"
+        }
+    ],
+    "locations": [
+        {
+            "name": "Charles's Farm",
+            "type": "Entry Point",
+            "description": "Where new Walkers land after falling through convergence points"
+        },
+        {
+            "name": "The Memorial",
+            "type": "Landmark",
+            "description": "Lights representing every Walker Hub Charles couldn't save"
+        },
+        {
+            "name": "The Sanctuary",
+            "type": "Safe Haven",
+            "description": "Where rescued Nikes shelter before bonding"
+        },
+        {
+            "name": "Training Grounds",
+            "type": "Training",
+            "description": "Pocket dimensions for combat training during dimensional instability"
+        },
+        {
+            "name": "The Convergence Point",
+            "type": "Portal",
+            "description": "Where Charles AI opens portals to other dimensions"
+        }
+    ],
+    "patternNote": "The Convergence Hub sits at a nexus of The Pattern \u2014 the strongest concentration of threads in any dimension. This is why Hub Charles feels The Pattern most acutely here, and why new Walkers are drawn to this point.",
+    "primeEraConnection": {
+        "existed": false,
+        "note": "Built during The Long Silence on Aeth'kai ruins. The architecture contains encoded Scholar messages."
+    }
+}
