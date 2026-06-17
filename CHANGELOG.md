@@ -1,5 +1,25 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: June 17, 2026 — First Tongue disambiguation (`keth'vor` retired)
+
+**The contradiction.** `keth'vor` had been glossed two incompatible ways across the corpus —
+in-language it always sat in a corruption/decay clause ("Nolem takes/corrupts", "Nolem consumed
+the Aeth'kai", "the echoes dim"), yet the English metadata repeatedly named it "heart-chain / the
+oldest name for The Pattern." Both senses already have their own canonical First-Tongue words, so
+`keth'vor` is **retired entirely** and split onto the words that already mean each sense:
+- **`keth'nor`** (`keth` stain/taint + `nor` of-Nolem = "corruption; the taint of entropy") — the
+  in-language corruption sites: the `dictionary.json` phrase + the Aeth'kai-Ruins inscription, and
+  the Aeth'kai Warning prophecy `original`. English *translations* are byte-identical (they already
+  read as corruption).
+- **`Eth'kara`** (`eth` heart/core + `kara` chain/link = "heart-chain; the First Bond") — every
+  English gloss that wrongly named `keth'vor` the heart-chain: the `MASTER_LORE` Pattern table + the
+  Hub Charles quote, the `README` glossary, `timeline/ages.json` "The Pattern Emerges", and the
+  `mysteries.json` `patternConnection` note + terminology key (incl. the stale line below).
+
+A grep-lint (`scripts/check-canon-terms.sh`) now fails if `keth'vor` reappears anywhere.
+
+---
+
 ## Date: February 11, 2026
 
 ---
@@ -138,7 +158,7 @@ Old Void Terminus was 7 table rows. New version includes:
 - Mystery #2 updated: Charles Constant connected to The Pattern; Nolem's strategy may be to sever The Pattern itself
 
 **prophecies/mysteries.json:**
-- Aeth'kai Warning: `patternConnection` added — keth'vor is the oldest name for The Pattern
+- Aeth'kai Warning: `patternConnection` added — Eth'kara is the oldest name for The Pattern
 - 5,555 Prophecy: `patternConnection` added — prophecy describes Pattern completion
 
 **timeline/ages.json:**

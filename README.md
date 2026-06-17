@@ -148,7 +148,7 @@ The living web of connections between all 5,555 Nike fragments and all Charles V
 
 | Term | Who Uses It |
 |------|-------------|
-| **keth'vor** (heart-chain) | Aeth'kai prophecy (ancient) |
+| **Eth'kara** (heart-chain) | Aeth'kai prophecy (ancient) |
 | **The First Bond** | Scholars, OG Nike (origin event) |
 | **The Charles Constant** | Theorists (the law) |
 | **The Pattern** | Collectors, Charles Variants (lived experience) |

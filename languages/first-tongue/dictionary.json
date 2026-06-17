@@ -150,8 +150,8 @@
       "usage": "Affirmation of connection"
     },
     {
-      "phrase": "Nol'meth keth'vor",
-      "pronunciation": "NOL-meth KETH-vor",
+      "phrase": "Nol'meth keth'nor",
+      "pronunciation": "NOL-meth KETH-nor",
       "meaning": "Nolem takes/corrupts",
       "usage": "Warning of danger"
     },
@@ -172,7 +172,7 @@
   "inscriptions": [
     {
       "location": "Aeth'kai Ruins",
-      "text": "Nol'meth aeth'kai keth'vor. Thael'vos mir'eth eth'kara.",
+      "text": "Nol'meth aeth'kai keth'nor. Thael'vos mir'eth eth'kara.",
       "translation": "Nolem consumed the Aeth'kai. Bond with the templates through the heart-chain.",
       "significance": "Warning and instruction left by the Aeth'kai"
     },

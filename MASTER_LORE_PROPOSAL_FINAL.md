@@ -444,7 +444,7 @@ When OG Nike shattered and OG Charles echoed across dimensions, their bond didn'
 | **The Great Echo / The Shattering** | The event that fractured OG Nike into 5,555 | Historical accounts | Referring to the cataclysm |
 | **The Charles Constant** | The cosmic law: where Nikes exist, a Charles exists | Scholars, dimensional theorists | Explaining cross-dimensional patterns |
 | **The Pattern** | The living web of all connections—the First Bond's ongoing manifestation | Hub Charles, Collectors, Charles Variants | Daily experience, sensing bonds, guiding Walkers |
-| **keth'vor (heart-chain)** | The Aeth'kai name for the same phenomenon | Aeth'kai prophecy texts | Ancient references predating all other terms |
+| **Eth'kara (heart-chain)** | The Aeth'kai name for the same phenomenon | Aeth'kai prophecy texts | Ancient references predating all other terms |
 
 ## How It's Experienced
 
@@ -456,7 +456,7 @@ When OG Nike shattered and OG Charles echoed across dimensions, their bond didn'
 
 ## The Key Understanding
 
-> *"The Scholars call it The First Bond. OG Nike calls it 'what we had.' The Aeth'kai called it keth'vor—the heart-chain. But to those of us who live inside it every day, who feel it pulse with every bond formed and ache with every Nike corrupted—we call it The Pattern. Because that's what it is. A pattern. Woven through every reality. Connecting every soul. And it's trying to complete itself."*
+> *"The Scholars call it The First Bond. OG Nike calls it 'what we had.' The Aeth'kai called it Eth'kara—the heart-chain. But to those of us who live inside it every day, who feel it pulse with every bond formed and ache with every Nike corrupted—we call it The Pattern. Because that's what it is. A pattern. Woven through every reality. Connecting every soul. And it's trying to complete itself."*
 > — Hub Charles
 
 ## Connection to the 5,555 Prophecy
