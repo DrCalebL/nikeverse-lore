@@ -1,7 +1,7 @@
 {
-  "description": "Harbingers are corrupted Collectors (the player-kind) who serve as Nolem's regional lieutenants. (The first Harbingers, in the Prime era, were fallen Legendary Nikes per Comic Book 3; but by the Echo era the regional lieutenants the Collector faces are mostly fallen Collectors and other souls who gave in to Nolem.) Each has a deeply personal, tragic relationship with their fall.",
+  "description": "Harbingers are corrupted Collectors (the player-kind: fallen people, never Nikes) who serve as Nolem's regional lieutenants, each blocking the path to a corrupted Legendary Nike. A fallen Legendary Nike is a separate category, a 'Corrupted Legendary' (a 'Fallen Champion'): the region bosses the Collector purifies, NOT a Harbinger. Each Harbinger has a deeply personal, tragic relationship with their fall.",
   "nature": {
-    "origin": "Collectors (and, in the Prime era, fallen Legendary Nikes) who gave in to Nolem's whispers \u2014 each for deeply personal reasons",
+    "origin": "Collectors who gave in to Nolem's whispers \u2014 each for deeply personal reasons",
     "corruption": "Voluntary in most cases, though the 'choice' was often made from unbearable pain",
     "redemption": "Possible \u2014 proven by Slate's redemption in the Grand Arena",
     "role": "Serve as Nolem's lieutenants, blocking paths to Legendary Nikes"
@@ -101,7 +101,7 @@
       "emotionalTheme": "Complete despair \u2014 survived what destroyed everyone else",
       "corruptionReason": "Watched entire dimension consumed by Nolem. Sole survivor. Grief became monstrous.",
       "backstory": "Watched every friend, family member, every living soul consumed by Nolem. Sole survivor. Grief deepened, solidified, became something monstrous. Didn't choose Nolem \u2014 became an extension of the destruction.",
-      "gameCharacterization": "Most alien Harbinger. Barely recognizable as a Nike. Emanates despair rather than speaking. Fighting means confronting absolute hopelessness \u2014 the conviction that everything ends, everything is consumed.",
+      "gameCharacterization": "Most alien Harbinger. Barely recognizable as the Collector he once was. Emanates despair rather than speaking. Fighting means confronting absolute hopelessness \u2014 the conviction that everything ends, everything is consumed.",
       "abilities": [
         "Void Gaze",
         "Despair Aura",

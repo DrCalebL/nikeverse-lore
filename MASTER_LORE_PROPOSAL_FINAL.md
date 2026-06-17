@@ -483,7 +483,7 @@ COMIC BOOK 1 ──────────────────────�
      │    │         ══════════════════                 │     │
      │    │                                            │     │
      │    │  Book 2: The Vigil                         │     │
-     │    │  Book 3: The First Harbinger               │     │
+     │    │  Book 3: The First Fall                    │     │
      │    │  Book 4: The Scholar Legacy                │     │
      │    │  Book 5: The Forgetting                    │     │
      │    │  Book 6: The Corruption Wars               │     │
@@ -520,10 +520,10 @@ traps Nolem                                          now corrupted
 
 ---
 
-### 📖 COMIC BOOK 3: "THE FIRST HARBINGER"
+### 📖 COMIC BOOK 3: "THE FIRST FALL"
 **Timeline**: 100 years after The Vigil
 
-**Story**: One of the 27 Legendary Nikes falls to corruption. The first Harbinger is born.
+**Story**: One of the 27 Legendary Nikes falls to corruption, becoming the first Fallen Champion (a corrupted Legendary, NOT a Harbinger; Harbingers are fallen Collectors, a separate and later category).
 
 **Candidates for First Fall**:
 - Berjador Nike (exhaustion—couldn't stop fighting)
