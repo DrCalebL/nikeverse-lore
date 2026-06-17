@@ -83,7 +83,7 @@ nikeverse-lore/
 │   └── cthulhu.json                  # The Whisperer
 │
 ├── factions/
-│   └── index.json                    # Remnant, Unravelers, Lost Builders
+│   └── index.json                    # Remnant, Harbingers, Lost Builders
 │
 ├── prophecies/
 │   └── mysteries.json                # Prophecies & the 5,555 Prophecy

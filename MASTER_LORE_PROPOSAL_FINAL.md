@@ -860,8 +860,8 @@ traps Nolem                                          now corrupted
 
 ---
 
-### 🔴 THE UNRAVELERS
-**What**: Nikes and Collectors who WILLINGLY serve Nolem. Not corrupted—converted.
+### 🔴 THE HARBINGERS
+**What**: Fallen Collector humans who follow Nolem — the player-kind who chose to serve. Not corrupted—converted. (A Harbinger is ONLY a fallen Collector human; Nolem's Corrupted Nikes and Retnuhxed fight alongside them but are a separate kind.)
 
 **Goal**: Accelerate Nolem's victory.
 
@@ -954,7 +954,7 @@ characters/
 └── comic-characters.json   # Stoner Nike, Pico, Hennifer, etc.
 
 factions/
-└── index.json              # Remnant, Unravelers, Lost Builders
+└── index.json              # Remnant, Harbingers, Lost Builders
 
 mysteries/
 └── conspiracies.json       # The 5 Great Mysteries
