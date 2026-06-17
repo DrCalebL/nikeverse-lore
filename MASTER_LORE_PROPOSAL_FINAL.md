@@ -861,7 +861,7 @@ traps Nolem                                          now corrupted
 ---
 
 ### 🔴 THE UNRAVELERS
-**What**: Nikes who WILLINGLY serve Nolem. Not corrupted—converted.
+**What**: Nikes and Collectors who WILLINGLY serve Nolem. Not corrupted—converted.
 
 **Goal**: Accelerate Nolem's victory.
 
