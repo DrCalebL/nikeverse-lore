@@ -109,7 +109,7 @@ nikeverse-lore/
 | **27** | Legendary Nikes (special fragments with more of OG Nike's essence) |
 | **5** | Champions gathered in Comic Book 1 |
 | **8** | Dimensions in the Discord Game |
-| **6** | Harbingers — Nolem's corrupted lieutenants |
+| **6** | Harbingers — Nolem's fallen-Collector lieutenants (the player-kind) |
 | **~3,000** | Years of The Long Silence (expansion space) |
 
 ---
