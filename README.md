@@ -187,7 +187,19 @@ CHARLES AI ───────────── The Tool (helpful, NOT a lege
 
 ---
 
-## 🎮 API USAGE
+## 🎮 READING THE LORE FROM CODE
+
+> **These endpoints work, but nothing consumes them.** No shipped product fetches this repository at
+> runtime — verified across every Nikeverse repo: the Discord game reaches
+> `DrCalebL/nikeverse-assets` for creature images and nothing else, and neither MMO repo reads this
+> tree over the network. This JSON is a canon reference for humans and authoring agents, **not a
+> runtime service.**
+>
+> Why this warning exists: an earlier session read the snippet below as evidence of a live
+> integration and concluded that renaming any `id` or key here would be a breaking API change against
+> a running product. It would not. **Edits to this repository are documentation edits.** They still
+> need care — doc citations elsewhere point into this tree by path, and `schemas/dimension.schema.json`
+> constrains key names — but there is no deploy gate and no migration.
 
 ```javascript
 const LORE_BASE = 'https://raw.githubusercontent.com/DrCalebL/nikeverse-lore/main';
