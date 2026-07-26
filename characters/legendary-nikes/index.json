@@ -416,9 +416,9 @@
             "description": "Charizard-like dragon master, born from flame",
             "primeEraRole": "Guarding his own territory",
             "whyNotRecruited": "Refused to leave his domain",
-            "corruptionTheme": "Unknown",
-            "corruptionReason": "Unknown",
-            "corruptionEra": "The Dark Age",
+            "corruptionTheme": "None — never corrupted",
+            "corruptionReason": "NOT CORRUPTED — never fell. His bond is to the door itself; he is a test to be passed, not a corruption to be broken.",
+            "corruptionEra": "None — un-fallen",
             "raidBoss": false,
             "campaignBoss": false,
             "gameEncounter": {

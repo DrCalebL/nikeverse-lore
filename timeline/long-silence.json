@@ -123,8 +123,7 @@
         { "name": "Professor Nike", "reason": "Unknown" },
         { "name": "Corey Hort Nike", "reason": "Unknown" },
         { "name": "Guthix Nike", "reason": "Unknown" },
-        { "name": "Jedi Nike", "reason": "Unknown" },
-        { "name": "Elbonzys Nike", "reason": "Unknown" }
+        { "name": "Jedi Nike", "reason": "Unknown" }
       ],
       "endsWhen": "A mysterious Charles variant begins building something"
     },

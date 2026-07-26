@@ -1,5 +1,36 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 26, 2026 — 24 of the 27 Legendaries fell, not 26
+
+**Owner ruling, this date.** `timeline/legendary-falls.json` declared `corrupted: 26, uncorrupted: 1`. It was
+wrong on **two independent counts**, and this repo's own records already proved it:
+
+- **Melon Nike** was counted among the fallen, while `dimensions/nolem-maw.json` says *"Completely uncorrupted"*
+  and *"No corruption. Willing, conscious, strategic choice."*
+- **Elbonzys Nike** was filed among The Dark Age falls, while `characters/legendary-nikes/index.json` calls him
+  *"Not corrupted—just patient"* and *"The uncorrupted gatekeeper"*, and `characters/collectors-journey.json:122`
+  says *"Elbonzys is a gatekeeper test, not a corruption fight."*
+
+Both MMO spec repos already said **24 + 3**, and the shipped Discord game teaches the distinction in dialogue:
+*"He is not corrupted. He **chose**. Remember the difference."*
+
+**The three are three DISTINCT statuses and must never be collapsed into one "uncorrupted" bucket:**
+Melon (willing defector, entirely uncorrupted) · Elbonzys (un-fallen gatekeeper) · OG Nike (the Template,
+uncorrupted but exhausted).
+
+**Changed:**
+- `timeline/legendary-falls.json` — `description` and `note` rewritten; Elbonzys moved out of The Dark Age into
+  Special Status with `reason: "NOT CORRUPTED"` and `status: "un-fallen-gatekeeper"`; `totalCount` is now
+  `24 / 3` with a `breakdown` naming each status.
+- `characters/legendary-nikes/index.json` — Elbonzys's `corruptionTheme` / `corruptionReason` / `corruptionEra`
+  no longer assert a corruption that his own `gameNarrative` denies.
+- `timeline/long-silence.json` — Elbonzys removed from The Dark Age `legendaryFalls`.
+
+**Verified after the edit:** the seven eras sum to 27 entries, exactly 24 carry a corruption reason, there are no
+duplicates, and the roster matches `characters/legendary-nikes/index.json` exactly.
+
+---
+
 ## Date: July 26, 2026 — Melon Nike is he/him (lore aligned to the shipped game)
 
 **Owner ruling, this date.** Melon Nike's pronoun is **he/him** everywhere. The lore repo was the last
