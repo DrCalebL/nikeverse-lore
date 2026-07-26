@@ -1,5 +1,34 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 26, 2026 — Melon Nike is he/him (lore aligned to the shipped game)
+
+**Owner ruling, this date.** Melon Nike's pronoun is **he/him** everywhere. The lore repo was the last
+holdout and has been swept.
+
+**Why the game, not the lore, was right.** The pronoun is not a typo — it is the consequence of a ratified
+creative decision recorded in `nikeverse-mmo-rpg/docs/wave-log.md:1587`, which re-grounded Melon as a
+roman-à-clef of a real, male figure. Three of the four repos had already landed it: the live Discord game is
+he/him **unanimously**, including player-facing UI (`handlers/raidButtons.js:2588` renders
+"MELON NIKE — Choose **His** Path") and the seed database; both MMO spec repos declare it, one as a numbered
+hard content constraint. Only this repo still said "she".
+
+**Changed here (4 sites):**
+- `dimensions/nolem-maw.json` — the `legendaryNike.unique` line, and the Betrayer's-Path zone description
+  ("**He**'s been waiting.")
+- `characters/legendary-nikes/index.json` — Melon's `gameNarrative` and `gameCharacterization`
+
+**Deliberately NOT changed:**
+- The `gameCharacterization` quotation at CHANGELOG line ~99 of this file. It is a dated record of the field
+  as it read at the time; rewriting a changelog falsifies the log.
+- `"...a Nike who embraced **his** cause..."` in `gameNarrative` — that "his" refers to **Nolem**, not Melon,
+  and was already correct. Any future pronoun pass on this entry must preserve it.
+
+**Still open, deliberately.** Harbinger **Yuki** has the same divergence in the same direction — female here,
+male throughout the shipped Shinden arc — with **no rationale recorded anywhere**. The owner reviewed it in
+this pass and held it open. **Do not sweep Yuki in either direction** until that ruling lands.
+
+---
+
 ## Date: June 17, 2026 — First Tongue disambiguation (`keth'vor` retired)
 
 **The contradiction.** `keth'vor` had been glossed two incompatible ways across the corpus —

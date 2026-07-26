@@ -29,7 +29,7 @@
             "Conviction Armor",
             "Unwavering Certainty"
         ],
-        "unique": "Unlike every other Legendary, she's not fighting corruption \u2014 she embraced it willingly. Her conviction is her armor. The most unsettling encounter because she might be RIGHT."
+        "unique": "Unlike every other Legendary, he's not fighting corruption \u2014 he embraced it willingly. His conviction is his armor. The most unsettling encounter because he might be RIGHT."
     },
     "boss": {
         "name": "Nolem's Shadow",
@@ -40,7 +40,7 @@
         {
             "name": "The Betrayer's Path",
             "type": "Entry",
-            "description": "Sickly green light guides you to Melon Nike. She's been waiting."
+            "description": "Sickly green light guides you to Melon Nike. He's been waiting."
         },
         {
             "name": "The Throne of Devouring",
