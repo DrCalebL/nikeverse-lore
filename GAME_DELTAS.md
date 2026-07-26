@@ -157,6 +157,26 @@ These are transcription drifts, not design disagreements. Recommended direction:
 > **Recommended ruling:** `campaignBoss` = "a boss fight in the main campaign (Act 1)". Revert Melon to `false`.
 > One record changes, not twenty. Owner call — do not sweep before it.
 
+> #### ⛔ HARBINGER ENTRIES DISSOLVED — owner ruling 2026-07-26. Do not work E7, E8 or W4.
+> **Harbingers are a POPULATION, not a cast.** Hundreds of them; Collectors fall every day; in the MMO a Hollow
+> player *becomes* one. Six are named and authored; the rest need no lore. **Therefore Harbinger lore does NOT
+> need to align across games** — different products may give them different names, titles and premises, and that
+> is not a defect. See `CANON.md` §3.1.
+> - **E7 (Yuki's premise — dead-love vs living-caged-master) — DISSOLVED.** Each game picks its own. The MMO's
+>   Shinden spec simply states the MMO's version; it need not match the Discord game.
+> - **E8 (Slate / Echo / Abyssal Horror titles the game doesn't use) — DISSOLVED.** Cross-game title drift is now
+>   explicitly permitted.
+> - **W4 (the Abyssal Horror's title differs) — DISSOLVED.** Same class.
+> - **E5 and E6 SURVIVE, rescoped to internal coherence only.** Both are splits *inside this repository*
+>   (`dimensions/*.json` vs `characters/harbingers/index.json`). One repo giving one character two titles is an
+>   ordinary error and still gets fixed — the ruling permits divergence *between games*, not *within a file set*.
+> - **O1 (Yuki's pronouns) is UNAFFECTED** and still open. It is a respect question, not a lore-alignment one.
+>
+> **NET-NEW and canon-bearing: THE FIRST HARBINGER.** The first Collector ever to fall and worship Nolem —
+> likely strongest, and the leader. This one DOES need to align everywhere. He does not exist yet.
+> ⚠ **Naming collision to resolve first:** "First Harbinger" already means *"first Harbinger **redeemed**
+> in-game"* (Slate) in `characters/harbingers/index.json` and `dimensions/grand-arena.json`.
+
 ---
 
 ## 3 · Open — the owner has not ruled
