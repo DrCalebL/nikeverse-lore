@@ -29,13 +29,13 @@
       "conspiracy": "The Remnant might have already FOUND Nike Prime. They might be keeping him hidden because he's too dangerous to release unprepared."
     },
     {
-      "id": "the-unravelers",
-      "name": "The Unravelers",
+      "id": "the-harbingers",
+      "name": "The Harbingers",
       "symbol": "A spiral descending into darkness",
       "color": "Red",
       "alignment": "Hostile",
       
-      "description": "Nikes and Collectors who WILLINGLY serve Nolem. Not corrupted—converted. They believe existence is suffering.",
+      "description": "Fallen Collector humans who follow Nolem — the player-kind who chose to serve. Not corrupted—converted. They believe existence is suffering. (A Harbinger is ONLY a fallen Collector human. Nolem's Nike-forces — Corrupted Nikes sliding toward becoming Retnuhxed — fight alongside the Harbingers but are a separate kind, never called Harbingers.)",
       
       "goal": "Accelerate Nolem's victory. End the suffering of existence.",
       
@@ -50,11 +50,11 @@
       "activities": [
         "Cults in various dimensions",
         "Sabotaging resistance efforts",
-        "Recruiting exhausted and despairing Nikes",
+        "Recruiting the exhausted and despairing — Collectors to their ranks, Nikes to corruption",
         "Weakening dimensional barriers"
       ],
       
-      "conspiracy": "The Harbingers aren't their leaders. The Unravelers have their OWN hierarchy, and it might include a corrupted Charles."
+      "conspiracy": "The Harbingers answer to a hidden hierarchy that may include a corrupted Charles — a Shepherd who, alone too long, became the thing he guarded against."
     },
     {
       "id": "the-lost-builders",

@@ -7,7 +7,7 @@
             "language": "First Tongue (translated)",
             "status": "Active \u2014 currently unfolding",
             "text": {
-                "original": "Nol'meth shat'ael keth'vor, mir'eth char'veth nik'ael thael'vos. Vel prim'nik, eth'kara vor'thael. Keth mir'eth \u2014 shat'ael vel'nos eth'kara.",
+                "original": "Nol'meth shat'ael keth'nor, mir'eth char'veth nik'ael thael'vos. Vel prim'nik, eth'kara vor'thael. Keth mir'eth \u2014 shat'ael vel'nos eth'kara.",
                 "translated": "When the Unraveling wakes and the echoes dim, the Shepherd and the Pig shall meet again. Not as one, but as thousands-made-one, the heart-chain restored, the darkness undone. But beware the cost\u2014to bind what was torn, a sacrifice made as it was when first born."
             },
             "interpretation": {
@@ -66,9 +66,9 @@
                 ]
             },
             "patternConnection": {
-                "note": "The Aeth'kai term 'keth'vor' (heart-chain) is the oldest known name for what is now called The Pattern. The prophecy predates the Shattering\u2014the Aeth'kai foresaw the web of connections that would one day span all realities.",
+                "note": "The Aeth'kai term 'Eth'kara' (heart-chain) is the oldest known name for what is now called The Pattern. The prophecy predates the Shattering\u2014the Aeth'kai foresaw the web of connections that would one day span all realities.",
                 "terminology": {
-                    "keth'vor": "Aeth'kai name (ancient, pre-Shattering)",
+                    "Eth'kara": "Aeth'kai name (ancient, pre-Shattering)",
                     "The First Bond": "Scholar/historical name (origin event)",
                     "The Charles Constant": "Scholar/theoretical name (the law that Charles echoes everywhere)",
                     "The Pattern": "Echo Era name (living experience, used by Collectors and Charles Variants)"

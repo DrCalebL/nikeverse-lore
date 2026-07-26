@@ -83,7 +83,7 @@ nikeverse-lore/
 │   └── cthulhu.json                  # The Whisperer
 │
 ├── factions/
-│   └── index.json                    # Remnant, Unravelers, Lost Builders
+│   └── index.json                    # Remnant, Harbingers, Lost Builders
 │
 ├── prophecies/
 │   └── mysteries.json                # Prophecies & the 5,555 Prophecy
@@ -109,7 +109,7 @@ nikeverse-lore/
 | **27** | Legendary Nikes (special fragments with more of OG Nike's essence) |
 | **5** | Champions gathered in Comic Book 1 |
 | **8** | Dimensions in the Discord Game |
-| **6** | Harbingers — Nolem's corrupted lieutenants |
+| **6** | Harbingers — Nolem's fallen-Collector lieutenants (the player-kind) |
 | **~3,000** | Years of The Long Silence (expansion space) |
 
 ---
@@ -148,7 +148,7 @@ The living web of connections between all 5,555 Nike fragments and all Charles V
 
 | Term | Who Uses It |
 |------|-------------|
-| **keth'vor** (heart-chain) | Aeth'kai prophecy (ancient) |
+| **Eth'kara** (heart-chain) | Aeth'kai prophecy (ancient) |
 | **The First Bond** | Scholars, OG Nike (origin event) |
 | **The Charles Constant** | Theorists (the law) |
 | **The Pattern** | Collectors, Charles Variants (lived experience) |

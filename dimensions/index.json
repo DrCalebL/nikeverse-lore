@@ -10,6 +10,7 @@
         "void-terminus",
         "nolem-maw"
     ],
+    "orderingRule": "playOrder is the RECOMMENDED/optimal path, NOT a forced sequence (owner-ratified 2026-06-17). The three acts are fixed in order, but zones WITHIN an act are FREE-ORDER bands: Act II (frostfall + grand-arena) and Act III (neon-city + void-terminus) may be played in either order. Hard order-binds only: convergence-hub then shinden first; BOTH Act-II zones before imperial-colosseum; void-terminus before nolem-maw. The per-zone levelRange is a band-level floor under scale-up-only band-scaling (the ESO One-Tamriel model): an under-level player scales UP to the content, never down, and loot stays level-appropriate.",
     "dimensions": [
         {
             "id": "convergence-hub",
