@@ -107,9 +107,27 @@ These are transcription drifts, not design disagreements. Recommended direction:
 |---|---|---|---|---|
 | L1 | **Who is in the trap** | *"He's felt this signature before — for 3,000 years, pressed against it in the space-time trap"* — of **OG Nike** | **Nike Prime** is in the trap; OG Nike keeps vigil at the edge of reality | A one-line authoring slip, not a rival cosmology: three other lines in the same file place OG Nike at the edge, and another shipped node says of Nike Prime *"before he sealed himself away for three thousand years."* Low blast radius — the line only renders on the worst Resonance band. Fixable with a preposition. |
 | L2 | **The name of the cataclysm** | "the Fracturing" (3 uses, one raid victory template) | **The Shattering / The Great Echo** | An inconsistency *inside* the Discord game — it uses the sanctioned name elsewhere (*"He existed before the Shattering"*). Prose only, no engine dependency. |
-| L3 | **What a Retnuhxed is made of** | *"Charles was corrupted. I was **CREATED**. There is no other way for me."* | **partially absorbed beings** — and the First Tongue agrees: `Ret'nux`, *"beings absorbed by Nolem"* | ⚠ **The most consequential entry in this document.** A Retnuhxed that was created from nothing has no soul to release — which breaks the ratified `is_nike` ruling that a slain husk releases a warm soul-mote (`CANON.md` §2.1). The Discord game **contradicts itself**: its own database row for the same creature reads *"Once a legendary Nike, now…"* and agrees with this repository. Fix the story node. |
+| L3 ✅ **FIXED** | **What a Retnuhxed is made of** | *"Charles was corrupted. I was **CREATED**. There is no other way for me."* | **partially absorbed beings** — and the First Tongue agrees: `Ret'nux`, *"beings absorbed by Nolem"* | ⚠ **The most consequential entry in this document.** A Retnuhxed that was created from nothing has no soul to release — which breaks the ratified `is_nike` ruling that a slain husk releases a warm soul-mote (`CANON.md` §2.1). The Discord game **contradicts itself**: its own database row for the same creature reads *"Once a legendary Nike, now…"* and agrees with this repository. Fix the story node. |
 | L4 | **Level bands, internally** | — | `collectors-journey.json` and `dimensions/*.json` give different bands | This repository disagreeing with itself. Reconcile here. |
 | L5 | **`dimensions/index.json` vs its own detail files** | — | Void Terminus and Nolem's Maw rows disagreed with their per-dimension files | ✅ **FIXED** — reconciled, with a CI check so it cannot recur. |
+
+> #### ✅ L3 executed — in the game, as ruled, and it was four sites not one
+> `campaign-data/story_nodes/nolem_maw/miniboss_apex.json`. The created-from-nothing premise ran through the
+> node description, the chamber narration (*"Nolem refined his creations… his masterwork"*), the line itself,
+> and the parting warning (*"I was created by him"*). All four now rest on hollowing. The Apex keeps his
+> despair and his refusal — he **was** someone and declines to go looking — so nothing was redeemed to fix a
+> cosmology. One detail this register had slightly off: the `Ret'nux` support is in the dictionary entry's
+> **`notes`** field (*"Describes beings absorbed by Nolem"*), not its `meaning` (*"Shadow servant; entropy's
+> hand"*). The claim stands; the citation is now precise.
+
+> #### ⚑ Found while fixing L3 — a scope question, NOT a defect. Do not "fix" this.
+> `CANON.md` §4.2 (**FROZEN**) says the Collector never speaks, with *"Carry me."* the single reserved line.
+> The Discord game uses **`"speaker": "COLLECTOR"` 663 times** across its story nodes, including in this very
+> node. That is the shipped product's established convention, and §4.2's provenance (`CANON.md` §6) is the
+> **MMO** spec — `Nikeverse-mmo-rpg-from-scratch/docs/GAME_SPEC.md:113, :395, :429` — not the Discord game.
+> **Open question for the owner: does §4.2 bind the Discord game at all, or is it an MMO-only design law?**
+> Recorded here so a future session that reads `CANON.md` and then greps the Discord repo does not open 663
+> "violations" and start rewriting shipped dialogue.
 
 ---
 
