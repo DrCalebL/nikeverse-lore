@@ -120,10 +120,19 @@ different titles is an ordinary error and stays fixable.)*
 **The ONE exception — THE FIRST HARBINGER.** The first Collector ever to fall and worship Nolem: likely the
 strongest of them, and the leader the rest answer to. This figure **is** canon-bearing and must align everywhere
 he appears. He does **not exist yet** — the concept is the owner's (2026-07-26) and is un-authored.
-> ⚠ **NAMING COLLISION, resolve before authoring.** "First Harbinger" is *already* used in this repo to mean
-> *"first Harbinger **redeemed** in-game"* — that is Slate (`characters/harbingers/index.json`, and
-> `dimensions/grand-arena.json`). The original fallen Collector is **not** the first redeemed. Pick a distinct
-> name or qualifier for the new figure and re-word Slate's entry so the two can never be confused.
+> **TWO DIFFERENT PEOPLE — owner clarification 2026-07-26. Do not conflate them.**
+> - **THE FIRST HARBINGER** — the *original*. The first Collector ever to fall and worship Nolem. Likely the
+>   strongest, and the leader the rest answer to. Canon-bearing, must align everywhere, **un-authored**.
+> - **THE FIRST HARBINGER REDEEMED** — **Slate**, the first Harbinger the player redeems **back into a Collector**
+>   in-game (`characters/harbingers/index.json`, `dimensions/grand-arena.json`). A gameplay milestone, not a
+>   cosmological one, and — per the ruling above — free to differ between games.
+>
+> These have nothing to do with each other. **Never shorten Slate's milestone to "the First Harbinger."** Always
+> write it as *"the first Harbinger redeemed"* or *"the first redemption."*
+>
+> Note the mechanic the clarification confirms: **redemption returns a Harbinger to being a COLLECTOR.** A fall is
+> not one-way. That is the hopeful mirror of "a Hollow player becomes a Harbinger" — the door swings both ways,
+> which is what makes the Fallen Path a path rather than an ending.
 
 Their fall was voluntary in most cases though the choice was usually made out of unbearable pain.
 Redemption is possible; Slate proved it in the Grand Arena.
