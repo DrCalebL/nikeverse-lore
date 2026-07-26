@@ -138,10 +138,24 @@ These are transcription drifts, not design disagreements. Recommended direction:
 > **Also caught in passing, and it is the softlock law again:** Viking's record read *"**Freeing** Viking Nike
 > begins the thaw."* The engine gates `act2_001_the_thaw` on `viking_nike_**defeated**`. Same defect class as W1.
 > Corrected to name defeat, with "either resolution counts" made explicit.
-> **Deliberately NOT swept:** `campaignBoss` is `false` on Bertus though he has a shipped boss node with a
-> `catchOpportunity`. That field currently means "Act-1 anchor" for 26 records and "has a campaign boss node" for
-> one (Melon, promoted by E10) — a 21-record inconsistency that needs an owner ruling on the field's meaning
-> before anyone touches it. Do not flip it one row at a time.
+> **⚑ `campaignBoss` — RE-ANALYSED 2026-07-26; the earlier reading in this register was WRONG.**
+> It was recorded here as "a 21-record inconsistency" implying 20 records should flip to `true`. The shipped data
+> says the opposite. **Act 2 is post-campaign endgame** — every Act-2 chain entry is gated on `campaign_complete`
+> (8 entry nodes carry it; the 55 downstream nodes chain off them). So an Act-2 boss is *not* a campaign boss, and
+> the 20 `false` records are CORRECT.
+> **Exactly one record is doubtful: Melon.** He is `campaignBoss:true` but his chain entry
+> (`nolem_maw/act2_001_betrayer_path`) requires `campaign_complete` — post-campaign by the same test. E10 promoted
+> him on the criterion "an Act-2 sub-boss with a `catchOpportunity`", which **20 other records also satisfy while
+> reading `false`.**
+> **Also corrected:** this register and Melon's own `campaignBossNote` both claimed his node has "no
+> `isAnchorBoss`". **False** — it sets `isAnchorBoss:true`, which is the engine's CATCHABILITY gate, not a
+> region-anchor marker. What he lacks is `grantAnchor`.
+> **The six `grantAnchor` holders (the real anchors):** Viking · Nike Tyson · Gladiator · Cyberpunk · Ninja ·
+> **OG Nike** (`void_terminus/main_005_og_nike.json` → `final_fragment`). Note OG Nike grants an anchor without
+> being a boss fight, and correctly reads `campaignBoss:false` — which is itself evidence the field means
+> *boss fight in Act 1*, not *anchor*.
+> **Recommended ruling:** `campaignBoss` = "a boss fight in the main campaign (Act 1)". Revert Melon to `false`.
+> One record changes, not twenty. Owner call — do not sweep before it.
 
 ---
 
