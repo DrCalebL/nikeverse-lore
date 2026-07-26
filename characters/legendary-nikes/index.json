@@ -46,7 +46,7 @@
             "homeDimension": "Shinden Realm (now Shinden)",
             "corruptionTheme": "The loner finding belonging",
             "corruptionReason": "Contract - saw futures without hope",
-            "corruptionEra": "The Forgetting (300-500 years after Prime Era)",
+            "corruptionEra": "Fifteen years ago \u2014 NOT The Forgetting. He made a deal to protect his people from a Retnuhxed Apex that came through a rift in the Shadow Temple, taking corruption to save them from something worse. The shipped Shinden arc depends on this being recent: his clan still remembers him.",
             "raidBoss": true,
             "campaignBoss": true,
             "quote": "I thought I saw Shiro leave through a portal. I convinced myself I was dreaming.",
@@ -349,7 +349,7 @@
             "dualType": "Shadow",
             "description": "Multi-headed terror of the depths",
             "primeEraRole": "Multiple minds couldn't agree to join",
-            "whyNotRecruited": "Internal conflict - heads argued endlessly",
+            "whyNotRecruited": "Internal conflict - the three heads argued endlessly",
             "corruptionTheme": "Unity from division",
             "corruptionReason": "Internal conflict - Nolem offered peace between the heads",
             "corruptionEra": "The Dark Age",
@@ -359,7 +359,7 @@
             "gameEncounter": {
                 "encounterDimension": "Frostfall",
                 "encounterAct": "Act 2",
-                "gameNarrative": "Five arguing heads breach the frozen sea as the thaw spreads. Head 1 wants destruction, Head 2 urges caution, Head 3 wants to sleep, Head 4 is paranoid, Head 5 is calm. They can't agree on anything\u2014which is exactly why Nolem corrupted them: he offered the only thing all five wanted. Silence. Nolem's corruption forces unity through suppression.",
+                "gameNarrative": "Three arguing heads breach the frozen sea as the thaw spreads. One wants destruction, one urges caution, one just wants to go back to sleep. They were not always three: one Nike, then a dimensional collision, and suddenly three minds in one body. Charles helped them find balance, and for a while the Hydra was the Convergence's greatest success story \u2014 proof that even the broken could be made whole. Then Nolem found the fracture and corrupted only the weakest head, the one that whispered 'why do we have to share?'. That head corrupted the others. Now all three are twisted, each blaming the others, each trying to take control, and every time you cut one down the others grow stronger.",
                 "quote_game": "FINALLY FREE! I say we DESTROY everything! / Wait. We should assess\u2014 / I just want to go back to sleep."
             }
         },
@@ -438,7 +438,7 @@
             "primeEraRole": "Deep in dimensional currents - couldn't be reached",
             "whyNotRecruited": "No way to communicate with him",
             "corruptionTheme": "New purpose after loss",
-            "corruptionReason": "Grief - lost something in the depths",
+            "corruptionReason": "Grief - lost his pod, his family, in the depths",
             "corruptionEra": "The Dark Age",
             "raidBoss": true,
             "campaignBoss": false,
@@ -446,8 +446,8 @@
             "gameEncounter": {
                 "encounterDimension": "Void Terminus",
                 "encounterAct": "Act 2",
-                "gameNarrative": "Rises from the dimensional currents between realities, massive beyond comprehension. Has been searching the void for a lost calf\u2014endlessly, desperately. Her form blocks out the void itself. The madness of searching for something you'll never find. Grief that became an ocean.",
-                "quote_game": "Have you seen my child? She was just here. She was JUST HERE."
+                "gameNarrative": "Rises from the dimensional currents between realities, massive beyond comprehension. He has been searching the void for his pod \u2014 his family \u2014 endlessly, desperately, and he can no longer remember their names. His form blocks out the void itself. The madness of searching for something you'll never find. Grief that became an ocean. (The raid layer frames the same wound wider: 'Then Nolem devoured his ocean.')",
+                "quote_game": "I searched for so long... and I was searching for them. My pod. My family. And I can't even remember..."
             }
         },
         {
@@ -551,12 +551,13 @@
             "corruptionReason": "Willing betrayal - chose to join Nolem",
             "corruptionEra": "Unknown",
             "raidBoss": true,
-            "campaignBoss": false,
+            "campaignBoss": true,
+            "campaignBossNote": "act2_002_melon_boss in Nolem's Maw \u2014 an Act-2 sub-boss with a catchOpportunity, NOT one of the five region anchors (his node carries no isAnchorBoss and no grantAnchor). Also a raid boss (RaidBossConfig MELON). The lore record previously said campaignBoss:false while its own gameEncounter described the campaign encounter.",
             "specialNote": "Community vote determines fate",
             "gameEncounter": {
                 "encounterDimension": "Nolem's Maw",
                 "encounterAct": "Act 2 - The Betrayer",
-                "gameNarrative": "The only Legendary who willingly and consciously chose Nolem's side without any corruption. Found inside Nolem's Maw, completely uncorrupted, arms crossed, utterly calm. Tracked the Walker's progress since Shinden. Intelligent, casual, genuinely convinced Nolem is right. Argues that three thousand years of fighting has accomplished nothing\u2014Nolem's victory is inevitable, and joining early was a strategic choice. Not evil. Not broken. Just... a realist who chose survival over hope. The lone Legendary who sided with Nolem by choice \u2014 not a Harbinger (those are fallen Collector humans), but a Nike who embraced his cause and would shepherd others toward it. Unlike every other Legendary, he's not fighting corruption\u2014he's embraced it willingly, and his conviction is his armor.",
+                "gameNarrative": "The only Legendary who willingly and consciously chose Nolem's side without any corruption. Found inside Nolem's Maw, completely uncorrupted, arms crossed, utterly calm. Tracked the Walker's progress since Shinden. Intelligent, casual, genuinely convinced Nolem is right. Argues that three thousand years of fighting has accomplished nothing\u2014Nolem's victory is inevitable, and joining early was a strategic choice. Not evil. Not broken. Just... a realist who chose survival over hope \u2014 but that is the surface, and the game shows what is under it. Pressed hard enough he breaks: \"I was SCARED, okay?! Is that what you want to hear?! I saw the numbers and I was TERRIFIED and I couldn't... I couldn't face another loss...\" The realism is armour over fear. The lone Legendary who sided with Nolem by choice \u2014 not a Harbinger (those are fallen Collector humans), but a Nike who embraced his cause and would shepherd others toward it. Unlike every other Legendary, he's not fighting corruption\u2014he's embraced it willingly, and his conviction is his armor.",
                 "gameCharacterization": "Casual, intelligent, articulate. No malice. Genuinely believes he made the rational choice. The most unsettling Legendary encounter because he might be RIGHT. Makes the player question whether hope is strategy or delusion.",
                 "corruptionTheme_updated": "Willing betrayal \u2014 Redemption vs Justice. Is survival pragmatism or cowardice? Is hope strategy or delusion?",
                 "quote_game": "'Betrayer.' Such an ugly word. I prefer 'realist.' Or 'convert.' Or even 'the only one who actually THOUGHT about it.'"

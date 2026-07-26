@@ -36,17 +36,38 @@ These are transcription drifts, not design disagreements. Recommended direction:
 
 | # | What | This repository says | The game says | Note |
 |---|---|---|---|---|
-| E1 | **Hydra Nike's heads** | "Five arguing heads… Head 4 is paranoid, Head 5 is calm" | **Three**, everywhere | Decisive: this repo's own `quote_game` is the three shipped head lines stitched with " / ". Also **live code** — `RaidBossConfig.js` defines a trait named `Three Heads` and the raid survive-chokepoint keys off that name. |
-| E2 | **Cardano Whale's gender** | *"**Her** form blocks out the void"* | he/him throughout | Self-refuting: the same record's `whyNotRecruited` reads *"No way to communicate with **him**."* |
-| E3 | **What Cardano Whale lost** | a lost calf | a **pod — his family**, whose names the void ate | A third version exists in the raid layer: *"Nolem devoured his ocean."* Three accounts, one soul. |
+| E1 ✅ **FIXED** | **Hydra Nike's heads** | "Five arguing heads… Head 4 is paranoid, Head 5 is calm" | **Three**, everywhere | Decisive: this repo's own `quote_game` is the three shipped head lines stitched with " / ". Also **live code** — `RaidBossConfig.js` defines a trait named `Three Heads` and the raid survive-chokepoint keys off that name. |
+| E2 ✅ **FIXED** | **Cardano Whale's gender** | *"**Her** form blocks out the void"* | he/him throughout | Self-refuting: the same record's `whyNotRecruited` reads *"No way to communicate with **him**."* |
+| E3 ✅ **FIXED** | **What Cardano Whale lost** | a lost calf | a **pod — his family**, whose names the void ate | A third version exists in the raid layer: *"Nolem devoured his ocean."* Three accounts, one soul. |
 | E4 | **Bertus Maximus's story** | froze himself from guilt over a dimension he destroyed | intercepted alive at the village edge; three centuries of hunting, *"no hall to come home to"* | **A copy-paste.** Bertus and Colossal Nike carry a **byte-identical** `quote_game`, and the shipped game gives that line to Colossal. This record is also self-refuting — its own `corruptionReason` is "Fulfillment — found endless war." ⚠ **See §3.5 before fixing.** |
 | E5 | **Harbinger Erik** | "The Eternal Raider" · glory that became emptiness | "The Prisoner in His Own Body" · *"I offered my service for my people's safety. He laughed. Said he'd take my service AND my people."* | A split **inside this repository** — `dimensions/frostfall.json` disagrees with `characters/harbingers/index.json`. The game adjudicates. |
 | E6 | **Harbinger Yuki's title** | "The Ice Shadow" (`dimensions/shinden.json`) | "The Devoted Shadow" | Same internal split — `characters/harbingers/index.json` already says "The Devoted Shadow" and matches the game. |
 | E7 | **Yuki's premise** | the Nike she loved **died**; grief became rage | the master is **alive** and corrupted; Yuki stays to be near him | Changes the whole character: grief-for-the-dead versus devotion-that-cages. |
 | E8 | **Other Harbinger titles** | Slate, Echo and the Abyssal Horror carry titles the shipped game does not use | — | Same class as E5/E6. |
-| E9 | **When Ninja Nike fell** | "The Forgetting", 300–500 years after the Prime Era | **fifteen years ago** | The shipped arc depends on it: his clan still remembers him. |
-| E10 | **Melon's boss classification** | `raidBoss: true, campaignBoss: false` | a campaign **anchor** boss *and* a raid boss | Self-refuted here too — the same record's `gameEncounter` describes a campaign encounter in Nolem's Maw. |
-| E11 | **Melon under pressure** | "Not evil. Not broken. Just… a realist" | breaks: *"I was SCARED, okay?!"* | This repo has the surface; the game has what is underneath it. |
+| E9 ✅ **FIXED** | **When Ninja Nike fell** | "The Forgetting", 300–500 years after the Prime Era | **fifteen years ago** | The shipped arc depends on it: his clan still remembers him. |
+| E10 ✅ **FIXED** | **Melon's boss classification** | `raidBoss: true, campaignBoss: false` | a campaign **anchor** boss *and* a raid boss | Self-refuted here too — the same record's `gameEncounter` describes a campaign encounter in Nolem's Maw. |
+| E11 ✅ **FIXED** | **Melon under pressure** | "Not evil. Not broken. Just… a realist" | breaks: *"I was SCARED, okay?!"* | This repo has the surface; the game has what is underneath it. |
+
+> #### ✅ E1, E2, E3, E9, E10, E11 executed — with one correction to this register itself
+> **E10's word "anchor" was wrong.** Melon is a campaign boss, but he is **not** a region anchor:
+> `act2_002_melon_boss.json` carries **no `isAnchorBoss` and no `grantAnchor`**, and the Discord repo's own
+> `CLAUDE.md` names the five anchors, none of them Melon. He is one of the 21 Act-2 sub-bosses (with a
+> `catchOpportunity`) *and* a raid boss (`RaidBossConfig` `MELON`). Lore now reads `campaignBoss: true` with a
+> note recording exactly that, rather than promoting him to an anchor he never was.
+>
+> **E9 was self-refuting inside one record.** Ninja Nike's `corruptionEra` said *"The Forgetting (300–500
+> years after Prime Era)"* while his own `gameNarrative`, four lines below, said the mist had covered the realm
+> *"for fifteen years."* Only his date moved — **"The Forgetting" is a shared era** used by three other
+> Legendaries and by `timeline/long-silence.json` and `timeline/ages.json`, and sweeping the phrase would have
+> moved four falls to fix one.
+>
+> **E3 had a second site the register did not list:** `dimensions/void-terminus.json` carried the same
+> "lost calf" line as the Legendary record. Both are now the pod.
+>
+> **E1's fix is larger than a numeral.** The five-head reading carried per-head personalities for heads 4 and 5
+> that had to be deleted, not renumbered, and the shipped backstory tells a different story than lore did:
+> they were one Nike until a dimensional collision, Charles balanced them, and Nolem corrupted only the
+> *weakest* head, which corrupted the others. Lore said Nolem "offered silence to all five."
 
 ### 1.2 The world
 
