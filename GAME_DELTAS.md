@@ -177,6 +177,16 @@ These are transcription drifts, not design disagreements. Recommended direction:
 > ⚠ **Naming collision to resolve first:** "First Harbinger" already means *"first Harbinger **redeemed**
 > in-game"* (Slate) in `characters/harbingers/index.json` and `dimensions/grand-arena.json`.
 
+> #### ✅ E1 CLOSED HARDER — the Hydra has THREE heads, in the ART too (owner, 2026-07-26)
+> The prior reconciliation everywhere was *"trait named `Three Heads`, visual is 5 heads."* **The owner has ruled
+> the image is three as well.** So there is no split to maintain: three heads, destruction · caution · sleep, in
+> the art and in the trait name alike. The two extra heads (*"paranoia, calm"*) were never canon.
+> **Corroborated by the shipped voice**, which has exactly three speakers: *"FINALLY FREE! I say we DESTROY
+> everything!" / "Wait. We should assess—" / "I just want to go back to sleep."* The design doc reads them the
+> same way — a **parliament**, a council that argued its way to a decision, silenced into one agreeing voice.
+> Swept from both spec twins (6 sites). The trait name `Three Heads` stays — it is live code the raid
+> survive-chokepoint keys off by string.
+
 ---
 
 ## 3 · Open — the owner has not ruled
