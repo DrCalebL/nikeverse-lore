@@ -121,8 +121,14 @@ different titles is an ordinary error and stays fixable.)*
 strongest of them, and the leader the rest answer to. This figure **is** canon-bearing and must align everywhere
 he appears. He does **not exist yet** — the concept is the owner's (2026-07-26) and is un-authored.
 > **TWO DIFFERENT PEOPLE — owner clarification 2026-07-26. Do not conflate them.**
-> - **THE FIRST HARBINGER** — the *original*. The first Collector ever to fall and worship Nolem. Likely the
->   strongest, and the leader the rest answer to. Canon-bearing, must align everywhere, **un-authored**.
+> - **VANE, "The Unanswered"** — the *original* First Harbinger, **NAMED BY THE OWNER 2026-07-26.** The first
+>   Collector ever to fall and worship Nolem; the strongest, and the leader the rest answer to.
+>   **His fall is the Collector's reserved ASK, spent and unanswered.** Alone and dying in the Long Silence, Vane
+>   asked to be carried. Nothing came. He concluded the Pattern is a rumour and Nolem is the only thing that has
+>   ever answered — and every named Harbinger since is obeying a catechism he wrote out of that silence.
+>   **He is the exact inversion of the player**, who carries everyone for 178 hours and asks only once, at the end,
+>   and *is* answered. **Role (3/3 consensus):** NOT a critical-path boss. He is a recurring voice — orders, sigils,
+>   graffiti, words other Harbingers quote without knowing whose they are — standing up in person at most once, late.
 > - **THE FIRST HARBINGER REDEEMED** — **Slate**, the first Harbinger the player redeems **back into a Collector**
 >   in-game (`characters/harbingers/index.json`, `dimensions/grand-arena.json`). A gameplay milestone, not a
 >   cosmological one, and — per the ruling above — free to differ between games.

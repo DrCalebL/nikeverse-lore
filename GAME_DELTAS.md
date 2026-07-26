@@ -193,7 +193,7 @@ These are transcription drifts, not design disagreements. Recommended direction:
 
 | # | What | Why it is open |
 |---|---|---|
-| O1 | **Harbinger Yuki's gender** | Female here, male throughout the shipped Shinden arc, with **no rationale recorded anywhere** — unlike Melon, whose he/him has a written reason. Reviewed and deliberately held open (2026-07-26). **Do not sweep in either direction.** |
+| O1 ✅ **RULED — Yuki is FEMALE, she/her (owner, 2026-07-26)** | **Harbinger Yuki's gender** | Female here, male throughout the shipped Shinden arc, with **no rationale recorded anywhere** — unlike Melon, whose he/him has a written reason. Reviewed and deliberately held open (2026-07-26). **Do not sweep in either direction.** |
 | O2 | **Is Melon corrupted at all?** | This repository and the Maw node say entirely uncorrupted. The raid layer says *"neither fully corrupted nor truly free — the shadow clings to him."* A game-internal split as much as a lore one. |
 | O3 | **Per-region level bands** | This repository's bands are a clean non-overlapping partition; the game's overlap by design ("you can start here"). Both defensible. The enforced gates are per-node minimums, so the region bands are display text. |
 | O4 | **Neon City's Charles** | "Analog Charles" here; the shipped node uses "Neon Charles" throughout while titling him "The Analog Rebel". Possibly two names for one character on purpose. |
