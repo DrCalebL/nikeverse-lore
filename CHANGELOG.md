@@ -1,5 +1,57 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 26, 2026 — CANON.md and GAME_DELTAS.md: the core lore comes home
+
+**The problem.** This repository called itself "the single source of truth for all Nikeverse lore" while
+**nine settled rules existed only inside game-repository documents it had never heard of** — including two the
+owner ratified on 2026-06-16. It was therefore possible, and it actually happened, for a work session to read
+this repository, find a mystery listed as open, and reason from it after the owner had already answered it.
+
+**[`CANON.md`](CANON.md) — the settled centre.** Every rule carries an honest status rather than a blanket
+claim of authority:
+
+- **RATIFIED** — owner-signed, dated. §1.4 the Three Canon Pillars (2026-06-16) · §2.1 the souls/husks/constructs
+  ruling and the declined yokai re-tag (2026-06-16) · §2.2 no roles, no role names (2026-06-15) · §2.3 the two
+  art laws (2026-07-25). Plus the constants and the taxonomy this repository already held.
+- **FROZEN** — locked in practice across every implementation, but with **no dated owner stamp**, and said so
+  plainly: §4.1 the six dark questions · §4.2 the Collector's silence · §5.1 the three ends of reaching ·
+  §5.2 both endings of a confrontation being real.
+
+The distinction is the point. Four of the nine had a real owner ratification behind them and four did not, and
+flattening that into "canon" is what made "which lore is non-alterable?" a hard question.
+
+**Two things §1.4 settles that this repository still carries as open:** Mystery #3 "The Sixth Champion" and the
+Weaver's "(Theoretical)" status. Both have answers. They stay unspoken *in the world* — §4.1 — but they are no
+longer unknown to us.
+
+**One rule is recorded as having no ancestry here at all:** putting a soul down for good. It is a game
+invention, theme-consistent (it is exactly the one path that does not advance the Pattern), and CANON.md says so
+rather than dressing it as old canon.
+
+**⚠ A terminology hazard is now written down.** The word "free" carries two nearly opposite senses across these
+repositories: here and in the Discord game, **"freed"** means *purified and liberated from corruption*; in the
+MMO's wild-catch vocabulary, **"Free"** means *released without being kept*. CANON.md §5.1 therefore never uses
+the bare verb for the second sense. Do not introduce it.
+
+**[`GAME_DELTAS.md`](GAME_DELTAS.md) — the honest margin.** Every known place this repository and a shipped game
+disagree, with a direction-of-truth ruling. The uncomfortable finding: **for regions and their contents, this
+repository is frequently the stale side.** Much of it was transcribed from the Discord game and then drifted,
+and the drift is visible in its own records — this repository describes Hydra Nike as five arguing heads while
+its own `quote_game` for that entry is a verbatim stitch of exactly **three** shipped lines.
+
+19 entries where the game is right · 5 where this repository is right · 6 open owner calls · 5 extensions that
+are not conflicts · **7 claims investigated and refuted**, recorded so nobody re-raises them.
+
+**The single most consequential entry is L3.** A Maw story node has the Retnuhxed Apex say *"Charles was
+corrupted. I was CREATED."* That breaks the ratified soul-mote ruling — a Retnuhxed created from nothing has no
+trapped soul to release. This repository is right (`Ret'nux` is glossed "beings absorbed by Nolem"), and the
+Discord game's own database row agrees with us: *"Once a legendary Nike, now commands Retnuhxed armies."* The
+story node is the outlier.
+
+Nothing in either document changes an entity record. They describe the state; the sweeps remain owner calls.
+
+---
+
 ## Date: July 26, 2026 — 24 of the 27 Legendaries fell, not 26
 
 **Owner ruling, this date.** `timeline/legendary-falls.json` declared `corrupted: 26, uncorrupted: 1`. It was

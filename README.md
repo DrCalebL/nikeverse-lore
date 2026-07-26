@@ -4,7 +4,15 @@ The single source of truth for all Nikeverse lore, connecting Comic Book 1 to th
 
 ## 📖 QUICK START
 
-**New to the lore?** Start with `MASTER_LORE_PROPOSAL_FINAL.md` - it contains the complete canon overview.
+**"What may I not change?"** → **[`CANON.md`](CANON.md)** — the settled centre, with every rule marked
+RATIFIED (owner-signed, dated) or FROZEN (locked in practice, no owner stamp). Read this before editing anything.
+
+**"The game says something different."** → **[`GAME_DELTAS.md`](GAME_DELTAS.md)** — every known divergence
+between this repository and a shipped game, with a ruling on which side is right. It is often the game: several
+regions here were transcribed *from* the Discord game and then drifted.
+
+**New to the lore?** `MASTER_LORE_PROPOSAL_FINAL.md` is the long-form narrative canon — the cosmic timeline, the
+Prime Era, the 27 Legendaries, the mysteries.
 
 **Looking for specific data?** Browse the JSON files below.
 

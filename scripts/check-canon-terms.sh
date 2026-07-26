@@ -39,10 +39,13 @@ unraveler
 reacher
 sasuke"
 
-# Search all canon content. Exclude .git, this scripts dir, and CHANGELOG.md — the linter header and the
-# changelog entries both NAME the retired terms on purpose, in order to document the retirement.
+# Search all canon content. Three files are excluded because they NAME the retired terms on purpose, in order
+# to document the retirement: this script's own header, CHANGELOG.md, and CANON.md §3.2 (the retired-names
+# section — the canonical statement of what each term was replaced by). Everything else is canon content and
+# must stay clean. If you add another doc that must name a retired term, add it here and say why.
 for TERM in $RETIRED_TERMS; do
-  HITS="$(grep -rnwi --exclude-dir=.git --exclude-dir=scripts --exclude=CHANGELOG.md -- "$TERM" "$ROOT" || true)"
+  HITS="$(grep -rnwi --exclude-dir=.git --exclude-dir=scripts \
+            --exclude=CHANGELOG.md --exclude=CANON.md -- "$TERM" "$ROOT" || true)"
   if [ -n "$HITS" ]; then
     echo "RETIRED canon term '$TERM' found — see scripts/check-canon-terms.sh header for its replacement:"
     echo "$HITS"
