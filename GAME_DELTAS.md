@@ -52,14 +52,31 @@ These are transcription drifts, not design disagreements. Recommended direction:
 
 | # | What | This repository says | The game says | Note |
 |---|---|---|---|---|
-| W1 | **The Dimensional Anchors — all six** | Shadow Kunai · Frostfire Axe · Champion's Wraps · General's Sigil · Chrome Interface | `blade_of_shadows` **Blade of Shadows** · `crown_of_berserker` **Crown of the Berserker** · `champions_belt` **Champion's Belt** · `champions_laurel` **Champion's Laurel** · `source_code` **Source Code** | **Live engine state** — these ids are granted on boss defeat and gate region unlocks. Frostfall differs in *form*, not just name (an axe here, a helm there). Shinden's game name also appears in the MMO's generated relic table, so three of four repositories carry it. |
-| W2 | **The sixth anchor** | absent — only five are recorded | Void Terminus grants `final_fragment` **Final Fragment** | An enumeration gap, not a conflict. Six anchor flags are hardcoded in the engine. |
+| W1 ✅ **FIXED** | **The Dimensional Anchors — all six** | Shadow Kunai · Frostfire Axe · Champion's Wraps · General's Sigil · Chrome Interface | `blade_of_shadows` **Blade of Shadows** · `crown_of_berserker` **Crown of the Berserker** · `champions_belt` **Champion's Belt** · `champions_laurel` **Champion's Laurel** · `source_code` **Source Code** | **Live engine state** — these ids are granted on boss defeat and gate region unlocks. Frostfall differs in *form*, not just name (an axe here, a helm there). Shinden's game name also appears in the MMO's generated relic table, so three of four repositories carry it. |
+| W2 ✅ **FIXED** | **The sixth anchor** | absent — only five are recorded | Void Terminus grants `final_fragment` **Final Fragment** | An enumeration gap, not a conflict. Six anchor flags are hardcoded in the engine. |
 | W3 | **Void Terminus's boss** | "Abyssal Horror (Harbinger)" as Act-1 boss | the **Dimension Eater**, "THE DEVOURER OF WORLDS"; the Abyssal Horror is an *elite mini-boss* that gates it | *"Dimension Eater"* returns **zero hits** in this repository. A whole region boss is missing from canon. |
 | W4 | **The Abyssal Horror's title** | differs from the shipped title | — | Same class as the Harbinger titles. |
 | W5 | **The Act-2 gate** | "Freeing the Act 1 Legendary unlocks deeper content in each dimension" | every one of the seven Act-2 entries additionally requires **`campaign_complete`** | Act 2 is post-campaign endgame, not mid-region content. A structural difference, not a wording one. |
 | W6 | **Side-quest rosters** | Grand Arena, Neon City and Void Terminus rosters do not match what shipped | — | Frostfall and Shinden **do** match. |
 | W7 | **"The Usurper's Throne"** | Frostfall's boss arena, where Erik holds court | a shipped **side quest** about a kinslayer king; Erik is elsewhere | — |
 | W8 | **`quote_game` is unreliable** | asserts a line is spoken in-game | **9 of 27** are present verbatim; 18 are not | Four of the 18 are paraphrases of real lines; one gives Bertus a line the game gives to Colossal. Treat `quote_game` as *authored flavour*, never as a citation. |
+
+> #### ✅ W1 + W2 executed — and they carried a third defect the register had not recorded
+> All six lore anchors now match live engine state 6-for-6, by `id` **and** display name, and each lore entry
+> now carries the engine `id` so the pairing is checkable rather than inferred.
+>
+> **The third defect:** every lore anchor read `"obtainedFrom": "<Boss> after freeing him"`. The engine grants
+> them on **defeat** — `grantedOnBossDefeat: true`, and `grantAnchor` sits in the `completion` block as a
+> *sibling* of `setFlagsOnCatch`/`setFlagsOnKO`, so it fires on either outcome. "After freeing him" is exactly
+> the `_freed` gating that `CANON.md` §5.2 and both game repos' `CLAUDE.md` forbid, because it softlocks the
+> supported KO path. All five now say the anchor is granted on defeat, both resolutions counting.
+>
+> **Void Terminus is legitimately different and this is not a contradiction.** `final_fragment` is
+> `grantedOnBossDefeat: false, grantedByNPC: "OG Nike"` — a gift, not a drop. That is what lets
+> `dimensions/index.json`'s *"No region anchor Legendary — deliberate. The bottom of the world is not a boss."*
+> and `nikeverse-mmo-rpg/docs/story/SPINE_LOCK.md` §8's *"Void Terminus 'no region anchor' is correct"* both
+> stand while the region still completes the set of six. The new lore entry says so explicitly, so nobody
+> "fixes" it into a boss drop later.
 
 ---
 

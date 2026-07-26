@@ -79,9 +79,10 @@
   ],
   
   "dimensionalAnchor": {
-    "name": "Frostfire Axe",
-    "description": "Burns with cold flame, warming allies and freezing enemies",
-    "obtainedFrom": "Viking Nike after freeing him"
+    "id": "crown_of_berserker",
+    "name": "Crown of the Berserker",
+    "description": "A helm forged in endless battle. It whispers of rage, but also of the peace that comes after.",
+    "obtainedFrom": "Viking Nike — granted on his defeat — both resolutions count, whether he is freed from corruption or put down"
   },
   
   "ogForeshadowing": {

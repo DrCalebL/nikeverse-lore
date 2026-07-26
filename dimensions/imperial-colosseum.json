@@ -113,9 +113,10 @@
         "The Scholar's Legacy"
     ],
     "dimensionalAnchor": {
-        "name": "General's Sigil",
-        "description": "Gladiator Nike's command seal. Still carries the authority of the Five Champions.",
-        "obtainedFrom": "Gladiator Nike after freeing him"
+        "id": "champions_laurel",
+        "name": "Champion's Laurel",
+        "description": "A crown of victory worn by one who finally chose freedom over glory.",
+        "obtainedFrom": "Gladiator Nike \u2014 granted on his defeat \u2014 both resolutions count, whether he is freed from corruption or put down"
     },
     "primeEraConnection": {
         "existed": true,

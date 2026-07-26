@@ -96,9 +96,10 @@
         "The Information Broker"
     ],
     "dimensionalAnchor": {
-        "name": "Chrome Interface",
-        "description": "A neural link that bridges organic and digital \u2014 connecting without consuming",
-        "obtainedFrom": "Cyberpunk Nike after freeing him"
+        "id": "source_code",
+        "name": "Source Code",
+        "description": "The original programming that defines reality in this dimension \u2014 now rewritten to choose connection over control.",
+        "obtainedFrom": "Cyberpunk Nike \u2014 granted on his defeat \u2014 both resolutions count, whether he is freed from corruption or put down"
     },
     "primeEraConnection": {
         "existed": true,
