@@ -1,6 +1,6 @@
 {
-  "description": "When and why each of the 27 Legendary Nikes fell to corruption",
-  "note": "OG Nike is not corrupted but is exhausted. The Coming Storm may change this.",
+  "description": "When and why 24 of the 27 Legendary Nikes fell to corruption. Three never fell, and they are three DISTINCT statuses, not one category: Elbonzys Nike (un-fallen gatekeeper), Melon Nike (willing defector, entirely uncorrupted), OG Nike (the Template, uncorrupted but exhausted).",
+  "note": "Do not collapse the three into a single 'uncorrupted' bucket. Elbonzys never fell — his bond is to the door itself, and he is a test to be passed rather than a corruption to be broken. Melon is not corrupted at all; he CHOSE Nolem, which the game teaches as a distinct category ('He is not corrupted. He chose. Remember the difference.'). OG Nike is uncorrupted but exhausted, and The Coming Storm may change this.",
   
   "corruptionReasons": {
     "exhaustion": "Fought too long, forgot what they were fighting for",
@@ -158,11 +158,6 @@
           "name": "Jedi Nike",
           "reason": "unknown",
           "story": "Details lost to history."
-        },
-        {
-          "name": "Elbonzys Nike",
-          "reason": "unknown",
-          "story": "Details lost to history."
         }
       ]
     },
@@ -195,14 +190,26 @@
           "reason": "NOT CORRUPTED",
           "story": "Template. Exhausted from carrying 5,555 souls. The Coming Storm may change this.",
           "status": "exhausted-but-uncorrupted"
+        },
+        {
+          "name": "Elbonzys Nike",
+          "reason": "NOT CORRUPTED",
+          "story": "Ancient gatekeeper of the Final Gate before Nolem's Maw. Never fell — his bond is to the door itself. A test to be passed, not a corruption to be broken. Even OG Nike never earned his respect.",
+          "status": "un-fallen-gatekeeper"
         }
       ]
     }
   ],
   
   "totalCount": {
-    "corrupted": 26,
-    "uncorrupted": 1,
-    "note": "OG Nike is the only Legendary Nike not corrupted (but he is exhausted)"
+    "corrupted": 24,
+    "uncorrupted": 3,
+    "breakdown": {
+      "corrupted": 24,
+      "willingDefectorUncorrupted": 1,
+      "unFallenGatekeeper": 1,
+      "templateUnFallenButExhausted": 1
+    },
+    "note": "24 of 27 fell to corruption. The other three are three DISTINCT statuses and must not be merged: Melon Nike is entirely uncorrupted and CHOSE Nolem; Elbonzys Nike never fell and is a trial rather than a corruption; OG Nike is the Template, uncorrupted but exhausted, and The Coming Storm may change this."
   }
 }

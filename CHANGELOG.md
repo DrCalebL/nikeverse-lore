@@ -1,5 +1,117 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 26, 2026 — CANON.md and GAME_DELTAS.md: the core lore comes home
+
+**The problem.** This repository called itself "the single source of truth for all Nikeverse lore" while
+**nine settled rules existed only inside game-repository documents it had never heard of** — including two the
+owner ratified on 2026-06-16. It was therefore possible, and it actually happened, for a work session to read
+this repository, find a mystery listed as open, and reason from it after the owner had already answered it.
+
+**[`CANON.md`](CANON.md) — the settled centre.** Every rule carries an honest status rather than a blanket
+claim of authority:
+
+- **RATIFIED** — owner-signed, dated. §1.4 the Three Canon Pillars (2026-06-16) · §2.1 the souls/husks/constructs
+  ruling and the declined yokai re-tag (2026-06-16) · §2.2 no roles, no role names (2026-06-15) · §2.3 the two
+  art laws (2026-07-25). Plus the constants and the taxonomy this repository already held.
+- **FROZEN** — locked in practice across every implementation, but with **no dated owner stamp**, and said so
+  plainly: §4.1 the six dark questions · §4.2 the Collector's silence · §5.1 the three ends of reaching ·
+  §5.2 both endings of a confrontation being real.
+
+The distinction is the point. Four of the nine had a real owner ratification behind them and four did not, and
+flattening that into "canon" is what made "which lore is non-alterable?" a hard question.
+
+**Two things §1.4 settles that this repository still carries as open:** Mystery #3 "The Sixth Champion" and the
+Weaver's "(Theoretical)" status. Both have answers. They stay unspoken *in the world* — §4.1 — but they are no
+longer unknown to us.
+
+**One rule is recorded as having no ancestry here at all:** putting a soul down for good. It is a game
+invention, theme-consistent (it is exactly the one path that does not advance the Pattern), and CANON.md says so
+rather than dressing it as old canon.
+
+**⚠ A terminology hazard is now written down.** The word "free" carries two nearly opposite senses across these
+repositories: here and in the Discord game, **"freed"** means *purified and liberated from corruption*; in the
+MMO's wild-catch vocabulary, **"Free"** means *released without being kept*. CANON.md §5.1 therefore never uses
+the bare verb for the second sense. Do not introduce it.
+
+**[`GAME_DELTAS.md`](GAME_DELTAS.md) — the honest margin.** Every known place this repository and a shipped game
+disagree, with a direction-of-truth ruling. The uncomfortable finding: **for regions and their contents, this
+repository is frequently the stale side.** Much of it was transcribed from the Discord game and then drifted,
+and the drift is visible in its own records — this repository describes Hydra Nike as five arguing heads while
+its own `quote_game` for that entry is a verbatim stitch of exactly **three** shipped lines.
+
+19 entries where the game is right · 5 where this repository is right · 6 open owner calls · 5 extensions that
+are not conflicts · **7 claims investigated and refuted**, recorded so nobody re-raises them.
+
+**The single most consequential entry is L3.** A Maw story node has the Retnuhxed Apex say *"Charles was
+corrupted. I was CREATED."* That breaks the ratified soul-mote ruling — a Retnuhxed created from nothing has no
+trapped soul to release. This repository is right (`Ret'nux` is glossed "beings absorbed by Nolem"), and the
+Discord game's own database row agrees with us: *"Once a legendary Nike, now commands Retnuhxed armies."* The
+story node is the outlier.
+
+Nothing in either document changes an entity record. They describe the state; the sweeps remain owner calls.
+
+---
+
+## Date: July 26, 2026 — 24 of the 27 Legendaries fell, not 26
+
+**Owner ruling, this date.** `timeline/legendary-falls.json` declared `corrupted: 26, uncorrupted: 1`. It was
+wrong on **two independent counts**, and this repo's own records already proved it:
+
+- **Melon Nike** was counted among the fallen, while `dimensions/nolem-maw.json` says *"Completely uncorrupted"*
+  and *"No corruption. Willing, conscious, strategic choice."*
+- **Elbonzys Nike** was filed among The Dark Age falls, while `characters/legendary-nikes/index.json` calls him
+  *"Not corrupted—just patient"* and *"The uncorrupted gatekeeper"*, and `characters/collectors-journey.json:122`
+  says *"Elbonzys is a gatekeeper test, not a corruption fight."*
+
+Both MMO spec repos already said **24 + 3**, and the shipped Discord game teaches the distinction in dialogue:
+*"He is not corrupted. He **chose**. Remember the difference."*
+
+**The three are three DISTINCT statuses and must never be collapsed into one "uncorrupted" bucket:**
+Melon (willing defector, entirely uncorrupted) · Elbonzys (un-fallen gatekeeper) · OG Nike (the Template,
+uncorrupted but exhausted).
+
+**Changed:**
+- `timeline/legendary-falls.json` — `description` and `note` rewritten; Elbonzys moved out of The Dark Age into
+  Special Status with `reason: "NOT CORRUPTED"` and `status: "un-fallen-gatekeeper"`; `totalCount` is now
+  `24 / 3` with a `breakdown` naming each status.
+- `characters/legendary-nikes/index.json` — Elbonzys's `corruptionTheme` / `corruptionReason` / `corruptionEra`
+  no longer assert a corruption that his own `gameNarrative` denies.
+- `timeline/long-silence.json` — Elbonzys removed from The Dark Age `legendaryFalls`.
+
+**Verified after the edit:** the seven eras sum to 27 entries, exactly 24 carry a corruption reason, there are no
+duplicates, and the roster matches `characters/legendary-nikes/index.json` exactly.
+
+---
+
+## Date: July 26, 2026 — Melon Nike is he/him (lore aligned to the shipped game)
+
+**Owner ruling, this date.** Melon Nike's pronoun is **he/him** everywhere. The lore repo was the last
+holdout and has been swept.
+
+**Why the game, not the lore, was right.** The pronoun is not a typo — it is the consequence of a ratified
+creative decision recorded in `nikeverse-mmo-rpg/docs/wave-log.md:1587`, which re-grounded Melon as a
+roman-à-clef of a real, male figure. Three of the four repos had already landed it: the live Discord game is
+he/him **unanimously**, including player-facing UI (`handlers/raidButtons.js:2588` renders
+"MELON NIKE — Choose **His** Path") and the seed database; both MMO spec repos declare it, one as a numbered
+hard content constraint. Only this repo still said "she".
+
+**Changed here (4 sites):**
+- `dimensions/nolem-maw.json` — the `legendaryNike.unique` line, and the Betrayer's-Path zone description
+  ("**He**'s been waiting.")
+- `characters/legendary-nikes/index.json` — Melon's `gameNarrative` and `gameCharacterization`
+
+**Deliberately NOT changed:**
+- The `gameCharacterization` quotation at CHANGELOG line ~99 of this file. It is a dated record of the field
+  as it read at the time; rewriting a changelog falsifies the log.
+- `"...a Nike who embraced **his** cause..."` in `gameNarrative` — that "his" refers to **Nolem**, not Melon,
+  and was already correct. Any future pronoun pass on this entry must preserve it.
+
+**Still open, deliberately.** Harbinger **Yuki** has the same divergence in the same direction — female here,
+male throughout the shipped Shinden arc — with **no rationale recorded anywhere**. The owner reviewed it in
+this pass and held it open. **Do not sweep Yuki in either direction** until that ruling lands.
+
+---
+
 ## Date: June 17, 2026 — First Tongue disambiguation (`keth'vor` retired)
 
 **The contradiction.** `keth'vor` had been glossed two incompatible ways across the corpus —

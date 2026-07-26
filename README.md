@@ -4,7 +4,15 @@ The single source of truth for all Nikeverse lore, connecting Comic Book 1 to th
 
 ## 📖 QUICK START
 
-**New to the lore?** Start with `MASTER_LORE_PROPOSAL_FINAL.md` - it contains the complete canon overview.
+**"What may I not change?"** → **[`CANON.md`](CANON.md)** — the settled centre, with every rule marked
+RATIFIED (owner-signed, dated) or FROZEN (locked in practice, no owner stamp). Read this before editing anything.
+
+**"The game says something different."** → **[`GAME_DELTAS.md`](GAME_DELTAS.md)** — every known divergence
+between this repository and a shipped game, with a ruling on which side is right. It is often the game: several
+regions here were transcribed *from* the Discord game and then drifted.
+
+**New to the lore?** `MASTER_LORE_PROPOSAL_FINAL.md` is the long-form narrative canon — the cosmic timeline, the
+Prime Era, the 27 Legendaries, the mysteries.
 
 **Looking for specific data?** Browse the JSON files below.
 
@@ -187,7 +195,19 @@ CHARLES AI ───────────── The Tool (helpful, NOT a lege
 
 ---
 
-## 🎮 API USAGE
+## 🎮 READING THE LORE FROM CODE
+
+> **These endpoints work, but nothing consumes them.** No shipped product fetches this repository at
+> runtime — verified across every Nikeverse repo: the Discord game reaches
+> `DrCalebL/nikeverse-assets` for creature images and nothing else, and neither MMO repo reads this
+> tree over the network. This JSON is a canon reference for humans and authoring agents, **not a
+> runtime service.**
+>
+> Why this warning exists: an earlier session read the snippet below as evidence of a live
+> integration and concluded that renaming any `id` or key here would be a breaking API change against
+> a running product. It would not. **Edits to this repository are documentation edits.** They still
+> need care — doc citations elsewhere point into this tree by path, and `schemas/dimension.schema.json`
+> constrains key names — but there is no deploy gate and no migration.
 
 ```javascript
 const LORE_BASE = 'https://raw.githubusercontent.com/DrCalebL/nikeverse-lore/main';
