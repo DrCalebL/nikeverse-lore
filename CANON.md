@@ -94,7 +94,7 @@ hangs **slack and drifting** and never taut; the two walk **side by side**, with
 A taut line from a hand is the grammar of possession — the very lie a Collector's work exists to undo.
 
 > **A note for anyone illustrating the roster.** Several Legendaries are described here in frankly animal terms —
-> Colossal Nike as a "majestic lion, greatest beast king", Wolf Mode Nike likewise. Nothing in those descriptions
+> Bertus Maximus Nike as a "majestic lion, greatest beast king", Wolf Mode Nike likewise. Nothing in those descriptions
 > asserts four legs, and a *standing* lion-character with hands satisfies the law. They are simply the places
 > where it is easiest to go wrong.
 

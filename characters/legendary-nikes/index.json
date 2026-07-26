@@ -75,7 +75,7 @@
             "gameEncounter": {
                 "encounterDimension": "Frostfall",
                 "encounterAct": "Act 1 - Boss",
-                "gameNarrative": "Sits on an empty throne in the endless winter. The winter itself is Nolem's punishment for Frostfall producing one of his strongest foes. Erik, once like a son to Frostfall's elder Bjorn, was corrupted trying to negotiate for his people's safety. Freeing Viking Nike begins the thaw that awakens three more entombed Legendaries.",
+                "gameNarrative": "Sits on an empty throne in the endless winter. The winter itself is Nolem's punishment for Frostfall producing one of his strongest foes. Erik, once like a son to Frostfall's elder Bjorn, was corrupted trying to negotiate for his people's safety. Putting Viking Nike down begins the thaw that awakens three more entombed Legendaries \u2014 either resolution counts, freed or not.",
                 "quote_game": "I've killed everything worth killing. What's left?"
             }
         },
@@ -165,8 +165,8 @@
             "gameEncounter": {
                 "encounterDimension": "Frostfall",
                 "encounterAct": "Act 2",
-                "gameNarrative": "The Beast King, entombed in Frostfall's ice for centuries. A lion-formed Nike of impossible size, mane crackling with frost and fire. His frozen domain thaws when Viking Nike is freed. Froze himself mid-stride from guilt over a dimension he accidentally destroyed\u2014the weight of uncontrollable power.",
-                "quote_game": "I TRIED TO HELP. I ALWAYS TRY. EVERYTHING I TOUCH... BREAKS."
+                "gameNarrative": "Frozen mid-hunt and waking with the thaw to continue exactly where he stopped. The Beast King\u2014a lion-formed Nike of impossible size, mane crackling with frost and fire\u2014came to Frostfall seeking a worthy opponent, found only prey, and took Nolem's offer of endless war. You intercept him at the village edge. Three centuries on the ice: no jarl, no pack, no hall to come home to.",
+                "quote_game": "Nolem promised me endless war. Endless prey. He never promised me a hall to come home to."
             }
         },
         {

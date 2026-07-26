@@ -39,7 +39,7 @@ These are transcription drifts, not design disagreements. Recommended direction:
 | E1 ✅ **FIXED** | **Hydra Nike's heads** | "Five arguing heads… Head 4 is paranoid, Head 5 is calm" | **Three**, everywhere | Decisive: this repo's own `quote_game` is the three shipped head lines stitched with " / ". Also **live code** — `RaidBossConfig.js` defines a trait named `Three Heads` and the raid survive-chokepoint keys off that name. |
 | E2 ✅ **FIXED** | **Cardano Whale's gender** | *"**Her** form blocks out the void"* | he/him throughout | Self-refuting: the same record's `whyNotRecruited` reads *"No way to communicate with **him**."* |
 | E3 ✅ **FIXED** | **What Cardano Whale lost** | a lost calf | a **pod — his family**, whose names the void ate | A third version exists in the raid layer: *"Nolem devoured his ocean."* Three accounts, one soul. |
-| E4 | **Bertus Maximus's story** | froze himself from guilt over a dimension he destroyed | intercepted alive at the village edge; three centuries of hunting, *"no hall to come home to"* | **A copy-paste.** Bertus and Colossal Nike carry a **byte-identical** `quote_game`, and the shipped game gives that line to Colossal. This record is also self-refuting — its own `corruptionReason` is "Fulfillment — found endless war." ⚠ **See §3.5 before fixing.** |
+| E4 ✅ **FIXED** | **Bertus Maximus's story** | froze himself from guilt over a dimension he destroyed | intercepted alive at the village edge; three centuries of hunting, *"no hall to come home to"* | **A copy-paste.** Bertus and Colossal Nike carry a **byte-identical** `quote_game`, and the shipped game gives that line to Colossal. This record is also self-refuting — its own `corruptionReason` is "Fulfillment — found endless war." *(The old pointer here read "see §3.5" — no such section exists; it meant row O5, now resolved.)* |
 | E5 | **Harbinger Erik** | "The Eternal Raider" · glory that became emptiness | "The Prisoner in His Own Body" · *"I offered my service for my people's safety. He laughed. Said he'd take my service AND my people."* | A split **inside this repository** — `dimensions/frostfall.json` disagrees with `characters/harbingers/index.json`. The game adjudicates. |
 | E6 | **Harbinger Yuki's title** | "The Ice Shadow" (`dimensions/shinden.json`) | "The Devoted Shadow" | Same internal split — `characters/harbingers/index.json` already says "The Devoted Shadow" and matches the game. |
 | E7 | **Yuki's premise** | the Nike she loved **died**; grief became rage | the master is **alive** and corrupted; Yuki stays to be near him | Changes the whole character: grief-for-the-dead versus devotion-that-cages. |
@@ -80,7 +80,7 @@ These are transcription drifts, not design disagreements. Recommended direction:
 | W5 | **The Act-2 gate** | "Freeing the Act 1 Legendary unlocks deeper content in each dimension" | every one of the seven Act-2 entries additionally requires **`campaign_complete`** | Act 2 is post-campaign endgame, not mid-region content. A structural difference, not a wording one. |
 | W6 | **Side-quest rosters** | Grand Arena, Neon City and Void Terminus rosters do not match what shipped | — | Frostfall and Shinden **do** match. |
 | W7 | **"The Usurper's Throne"** | Frostfall's boss arena, where Erik holds court | a shipped **side quest** about a kinslayer king; Erik is elsewhere | — |
-| W8 | **`quote_game` is unreliable** | asserts a line is spoken in-game | **9 of 27** are present verbatim; 18 are not | Four of the 18 are paraphrases of real lines; one gives Bertus a line the game gives to Colossal. Treat `quote_game` as *authored flavour*, never as a citation. |
+| W8 | **`quote_game` is unreliable** | asserts a line is spoken in-game | **10 of 27** are present verbatim; 17 are not | Four are paraphrases of real lines. *(The Bertus/Colossal duplicate that used to sit here is fixed — E4.)* Treat `quote_game` as *authored flavour*, never as a citation. |
 
 > #### ✅ W1 + W2 executed — and they carried a third defect the register had not recorded
 > All six lore anchors now match live engine state 6-for-6, by `id` **and** display name, and each lore entry
@@ -129,6 +129,20 @@ These are transcription drifts, not design disagreements. Recommended direction:
 > Recorded here so a future session that reads `CANON.md` and then greps the Discord repo does not open 663
 > "violations" and start rewriting shipped dialogue.
 
+> #### ✅ E4 + O5 executed — and the copy-paste had a twin
+> Bertus's `gameEncounter` was rebuilt from the shipped Frostfall nodes and his `quote_game` is now his own wound
+> line; the duplicate string is gone (1 occurrence left, Colossal's, correct). **A second, independent
+> Bertus↔Colossal swap turned up next door:** `CANON.md`'s illustrator note attributed *"majestic lion, greatest
+> beast king"* — Bertus's description — to **Colossal**, whose own is *"Mountains tremble at its approach."* Two
+> swaps between the same pair is a pattern, not an accident. Fixed.
+> **Also caught in passing, and it is the softlock law again:** Viking's record read *"**Freeing** Viking Nike
+> begins the thaw."* The engine gates `act2_001_the_thaw` on `viking_nike_**defeated**`. Same defect class as W1.
+> Corrected to name defeat, with "either resolution counts" made explicit.
+> **Deliberately NOT swept:** `campaignBoss` is `false` on Bertus though he has a shipped boss node with a
+> `catchOpportunity`. That field currently means "Act-1 anchor" for 26 records and "has a campaign boss node" for
+> one (Melon, promoted by E10) — a 21-record inconsistency that needs an owner ruling on the field's meaning
+> before anyone touches it. Do not flip it one row at a time.
+
 ---
 
 ## 3 · Open — the owner has not ruled
@@ -139,7 +153,7 @@ These are transcription drifts, not design disagreements. Recommended direction:
 | O2 | **Is Melon corrupted at all?** | This repository and the Maw node say entirely uncorrupted. The raid layer says *"neither fully corrupted nor truly free — the shadow clings to him."* A game-internal split as much as a lore one. |
 | O3 | **Per-region level bands** | This repository's bands are a clean non-overlapping partition; the game's overlap by design ("you can start here"). Both defensible. The enforced gates are per-node minimums, so the region bands are display text. |
 | O4 | **Neon City's Charles** | "Analog Charles" here; the shipped node uses "Neon Charles" throughout while titling him "The Analog Rebel". Possibly two names for one character on purpose. |
-| O5 | **Fixing Bertus (E4)** | Correcting it **invalidates a landed design document**: the prior MMO's `LEGENDARY_MOTIVATIONS.md` records "OLD motivation: guilt over a dimension he broke" and builds a whole new wound on that premise. The premise was a copy-paste error. Raise before fixing. |
+| O5 ✅ **RULED — fix both (owner, 2026-07-26)** | **Fixing Bertus (E4)** | Correcting it **invalidates a landed design document**: the prior MMO's `LEGENDARY_MOTIVATIONS.md` records "OLD motivation: guilt over a dimension he broke" and builds a whole new wound on that premise. The premise was a copy-paste error. **Owner ruled Option B: correct the lore AND rewrite the design row.** Both landed; the `ABSOLVE` freeing-key was re-keyed to `OFFER-THE-HALL` because a fulfillment premise leaves nothing to absolve. |
 | O6 | **The anchor count shown to players** | Two shipped surfaces disagree: one progress bar renders **/7**, the map footer renders **/6**. Engine truth is six; the /7 comes from a flag list containing a phantom entry no node ever sets. A game bug, recorded here because it is player-visible. |
 
 ---
