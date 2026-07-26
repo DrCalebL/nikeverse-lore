@@ -125,7 +125,8 @@
             "theme": "Edge of Reality",
             "levelRange": "86-95",
             "charles": "Void Charles",
-            "legendaryNike": "Various (Cosmic Nike, Phoenix Nike, etc.)",
+            "legendaryNike": null,
+            "legendaryNikeNote": "No region anchor Legendary — deliberate. The bottom of the world is not a boss. Cosmic, Phoenix, Cardano Whale and Elbonzys are Act 2 Legendaries here, not the region's anchor; see void-terminus.json act2Legendaries. OG Nike is present as a guide, not a fight.",
             "harbinger": "Abyssal Horror",
             "primeEraConnection": {
                 "existed": false,
@@ -141,8 +142,9 @@
             "theme": "Final Battle",
             "levelRange": "96-100",
             "charles": "Corrupted Charles",
-            "legendaryNike": null,
+            "legendaryNike": "Melon Nike",
             "harbinger": null,
+            "harbingerNote": "No Harbinger — the Maw is the final dimension. There are 6 Harbingers across 8 dimensions; Convergence Hub (tutorial) and Nolem's Maw (finale) have none.",
             "boss": "Nolem's Shadow",
             "primeEraConnection": {
                 "existed": true,
