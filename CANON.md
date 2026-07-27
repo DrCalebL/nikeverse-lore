@@ -117,7 +117,18 @@ reconciliation work on Harbinger titles or backstories; do not "fix" a Harbinger
 *(Named Harbingers must still be internally coherent within a single artifact — one repo giving one character two
 different titles is an ordinary error and stays fixable.)*
 
-**The ONE exception — THE FIRST HARBINGER.** The first Collector ever to fall and worship Nolem: likely the
+**THE TWO EXCEPTIONS — the only Harbingers that must align everywhere (owner, 2026-07-27).**
+Harbinger lore is otherwise free to differ between products — names, titles, premises, backstories, all of it.
+**Two figures are canon-bearing and must be identical across the lore bible and every build:**
+1. **VANE** — the first Harbinger (see below).
+2. **SLATE** — the **first Harbinger redeemed back into a Collector.** He is not merely a nice arc: he is the
+   **proof that the fall is reversible**, and the whole Fallen Path depends on that proof existing. A Hollow
+   player becomes a Harbinger; Slate is the standing evidence that they can come back. Change his fall, his
+   region or his redemption and you change whether the door swings both ways.
+*(Everything else about Slate — his exact wounds, his dialogue, his title in any given product — remains free.
+What must align is that HE is the first redeemed, and that redemption returns a Harbinger to Collector.)*
+
+**EXCEPTION 1 — THE FIRST HARBINGER.** The first Collector ever to fall and worship Nolem: likely the
 strongest of them, and the leader the rest answer to. This figure **is** canon-bearing and must align everywhere
 he appears. He does **not exist yet** — the concept is the owner's (2026-07-26) and is un-authored.
 > **TWO DIFFERENT PEOPLE — owner clarification 2026-07-26. Do not conflate them.**
