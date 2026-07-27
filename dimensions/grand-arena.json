@@ -9,7 +9,10 @@
     "tiers": {
       "anchor": "31-45",
       "deep": "46-55",
-      "deepFloorIsTheAct2Gate": 46,
+      "deepFloor": 46,
+      "mmoAct2Gate": 46,
+      "shippedDiscordAct2Gate": 50,
+      "gateDivergenceNote": "The MMO gate is the Deep floor; the shipped Discord value differs and that is CORRECT for that product. Co-banded pairs need SYMMETRIC floors or the second sibling walls; Discord is hard-ordered and keeps its asymmetric value. Do not \"fix\" either to match the other.",
       "source": "SPINE_LOCK.md, owner-ratified 2026-07-26"
     },
     "playOrder": 4,

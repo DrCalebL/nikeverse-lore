@@ -167,7 +167,8 @@
             "canonQuestion": "Where Shiro came from.",
             "tierSource": "CANON.md \u00a74.1 (FROZEN) question 6; GAME_SPEC.md \u00a73.16 item 6 \u2014 'never named, never interactive, never explained; silent visual cameos are the ceiling'.",
             "neverAnswerTerms": [
-                "shiro",
+                "re:\\bshiro\\b[^.!?]{0,45}\\b(came from|comes from|come from|was created|was made|was born|was forged|origin|origins|originated|is really|truly is|actually is|really is)\\b",
+        "re:\\b(where|what|who|how)\\b[^.!?]{0,35}\\bshiro\\b[^.!?]{0,35}\\b(from|is|was|made|created)\\b",
                 "re:\\bportal[- ]cat\\b"
             ],
             "mayAnswer": [
@@ -261,7 +262,7 @@
                 "why pigs",
                 "why nikes",
                 "re:\\bwhy\\b[^.!?]{0,45}\\b(target|targets|targeted|choose|chose|chosen|hunt|hunts|hunted|came for|come for|pick|picked|want|wanted|need|needed)\\b[^.!?]{0,30}\\b(the\\s+)?(pigs?|nikes?)\\b",
-                "re:\\b(targeted|targets|chose|chooses|came for|picked|selected)\\b[^.!?]{0,25}\\b(the\\s+)?(pigs?|nikes?)\\b",
+                "re:\\b(targeted|targets|chose|chooses|came for|picked|selected)\\b[^.!?]{0,25}\\b(the\\s+)?(pigs|nikes)\\b",
                 "re:\\bof all\\b[^.!?]{0,45}\\bwhy\\b[^.!?]{0,20}\\b(pigs?|nikes?)\\b"
             ],
             "mayAnswer": [
@@ -300,7 +301,7 @@
             "canonQuestion": "How OG Charles first came through.",
             "tierSource": "CANON.md \u00a74.1 (FROZEN) question 3; GAME_SPEC.md \u00a73.16 item 3. UNIVERSE_DEPTH_SPEC.md \u00a7T1: 'the First Bond stays a little miraculous'.",
             "neverAnswerTerms": [
-                "re:\\bog charles\\b[^.!?]{0,60}\\b(came through|come through|stumbl(e|es|ed|ing)|crossed over|crossed into|first rift)\\b",
+                        "re:\\bog charles\\b[^.!?]{0,60}\\b(came through|come through|stumbl(e|es|ed|ing)|crossed over|crossed into|first rift)\\b",
                 "re:\\bfirst (dimensional )?rift\\b[^.!?]{0,60}\\b(og charles|the first shepherd)\\b",
                 "re:\\b(came through|come through|stumbl(e|es|ed|ing) (in|into|through)|crossed into)\\b[^.!?]{0,40}\\bfirst (dimensional )?rift\\b",
                 "how og charles came through",
@@ -342,7 +343,8 @@
             "canonQuestion": "What lies in the Void Between.",
             "tierSource": "CANON.md \u00a74.1 (FROZEN) question 2; GAME_SPEC.md \u00a73.16 item 2. UNIVERSE_DEPTH_SPEC.md \u00a7T1: 'its existence canon, its nature dark'.",
             "neverAnswerTerms": [
-                "void between",
+                "re:\\bvoid between\\b[^.!?]{0,45}\\b(is|are|contains?|holds?|consists?|made of|full of|nothing but|turns out|was full of|was nothing)\\b",
+        "re:\\b(what|whose|which)\\b[^.!?]{0,30}\\b(is|lies|exists?|lives?|waits?)\\b[^.!?]{0,30}\\bvoid between\\b",
                 "re:\\bwhat\\s+(lies|exists?|is|waits?|lives?)\\s+(in|between)\\b[^.!?]{0,30}\\bdimensions?\\b"
             ],
             "mayAnswer": [

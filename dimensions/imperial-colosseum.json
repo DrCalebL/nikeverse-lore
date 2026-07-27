@@ -9,7 +9,9 @@
     "tiers": {
       "anchor": "56-61",
       "deep": "62-70",
-      "deepFloorIsTheAct2Gate": 62,
+      "deepFloor": 62,
+      "mmoAct2Gate": 62,
+      "shippedDiscordAct2Gate": 62,
       "source": "derived from the shipped Act-2 minimumLevel; proposed, not ratified"
     },
     "playOrder": 5,

@@ -110,7 +110,6 @@ RESOLUTION = re.compile(r"""(?ix)
     | \b that'?s \s+ the \s+ (?: answer | reason | truth | origin ) \b
     | \b the \s+ reason \s+ [a-z'\s]{0,30}? \s* (?: is | was ) \b
     | \b (?: was | were ) \s+ (?: consumed | devoured | eaten | absorbed | unmade ) \s+ by \b
-    | \b (?: was | were ) \s+ (?: named | called ) \b
     | \b names? \s+ (?: of \s+ [^.!?]{0,45} )? (?: was | were | is | are ) \b
     | \b the \s+ reason \s+ (?: is | was | why | he | she | it | they ) \b
     | \b the \s+ (?: truth | answer ) \s+ (?: is | was ) \b
@@ -133,7 +132,13 @@ RESOLUTION = re.compile(r"""(?ix)
     # PROXIMITY below: measured, an unproximate "because" costs false positives
     # (one long GAME_SPEC line pairs a Shiro cameo with an unrelated
     # "Because you were worth saving"), a proximate one costs none.
-    | \b because \b | \b which \s+ is \s+ why \b | \b for \s+ that \s+ reason \b )""")
+    | \b which \s+ is \s+ why \b | \b for \s+ that \s+ reason \b
+    # A causal clause is only safe when the pattern carries its OWN context. Bare `because`
+    # was removed: measured, it false-positived on ordinary shipped prose ('Shiro appears at
+    # the Hub because...'). These two pin it to a crossing/origin verb, so they cannot.
+    | \b (?: came | come | comes | crossed | stumbled | fell ) \s+ (?: through | into ) \b
+        [^.!?]{0,45} \b (?: because | so \s+ that ) \b
+    | \b (?: was | were ) \s+ (?: taken | pulled | drawn | sent ) \s+ (?: through | into | by ) \b )""")
 
 # The subject and the resolution must be NEAR EACH OTHER, not merely on the same
 # line. Content lines here run to 2,000+ characters; without this a subject in
