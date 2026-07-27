@@ -1,0 +1,21 @@
+{
+  "description": "Cosmic-scale beings that are neither Singulars, Nikes, Charles variants nor Harbingers. Narrative-only: none is bondable, catchable or purifiable, and none counts toward the 5,555.",
+  "rule": "Nothing in this directory may be promoted to a Singular, given a purify path, or made larger in the story than Nolem. If a proposal needs one of those, it does not belong here.",
+  "whyNotDimensions": "These records deliberately do NOT live in dimensions/. That directory is CI-checked by the dimensions-agree job, which asserts one detail file per index row — a non-dimension file there fails the build. Burying a cosmology-bearing entity inside a region record is also how register row W3 happened: the Dimension Eater was named in six shipped nodes and a database row and was invisible to a search of the bible.",
+  "entities": [
+    {
+      "id": "dimension-eater",
+      "name": "The Dimension Eater",
+      "trueName": "Nol'tur",
+      "class": "Instrument of a Singular — a severed appetite, given a body",
+      "dimension": "void-terminus",
+      "status": "Turned — holds the Dimension Maw as an ark",
+      "file": "dimension-eater.json"
+    }
+  ],
+  "unauthored": [
+    "Nolem's Shadow (Nolem's Maw) — narrative-only, no purify path",
+    "The Nexus Watcher (Nolem's Maw) — narrative-only, no purify path",
+    "Despair Incarnate (Void Terminus) — narrative-only, no purify path"
+  ]
+}

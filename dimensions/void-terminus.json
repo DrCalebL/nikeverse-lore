@@ -7,10 +7,10 @@
         "max": 95
     },
     "tiers": {
-      "anchor": "71-83",
-      "deep": "84-95",
-      "deepFloorIsTheAct2Gate": 84,
-      "source": "SPINE_LOCK.md, owner-ratified 2026-07-26"
+        "anchor": "71-83",
+        "deep": "84-95",
+        "deepFloorIsTheAct2Gate": 84,
+        "source": "SPINE_LOCK.md, owner-ratified 2026-07-26"
     },
     "playOrder": 7,
     "description": "Where consumed dimensions end and reality itself frays into nothing. OG Nike maintains his eternal vigil here, catching the souls of Nikes killed by Nolem before they can be absorbed. Four broken Legendaries guard the path to Nolem's Maw, and an ancient dragon stands at the final gate.",
@@ -68,6 +68,16 @@
             "description": "Ancient dragon gatekeeper. NOT corrupted \u2014 a test to be passed, not corruption to be broken. Guards the entrance to Nolem's Maw."
         }
     ],
+    "regionBoss": {
+        "id": "dimension-eater",
+        "name": "The Dimension Eater",
+        "title": "THE DEVOURER OF WORLDS",
+        "file": "../entities/dimension-eater.json",
+        "isRegionAnchor": false,
+        "isRegionCompletion": false,
+        "note": "Narrative-only, no purify path, not a Nike, not catchable. The gate on the road to OG Nike \u2014 NOT the region anchor and NOT the completion boss. The shipped node carries isRegionBoss:false and isAnchorBoss:false; region completion runs on the Abyssal Horror. 'No region anchor \u2014 the bottom of the world is not a boss' stands, and always did.",
+        "arc": "It does not fall \u2014 it changes. It discovers it preserved rather than destroyed, the Collector names it an ark, and it opens the road to OG Nike."
+    },
     "locations": [
         {
             "name": "The Edge",
@@ -103,6 +113,11 @@
             "name": "The Ember",
             "type": "Hidden",
             "description": "Last spark of a consumed dimension. A side encounter."
+        },
+        {
+            "name": "Dimension Maw",
+            "type": "Boss Area",
+            "description": "A mouth at the edge of existence. The Dimension Eater's post \u2014 before the turn, and after it"
         }
     ],
     "sideQuests": [

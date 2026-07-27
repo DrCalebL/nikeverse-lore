@@ -33,6 +33,10 @@
     {
       "name": "Retnuhxed Creation",
       "description": "Can create shadow entities from partially absorbed beings."
+    },
+    {
+      "name": "Severance",
+      "description": "Can cut a specialised appetite out of himself and give it a body, so that it may enter dimensions he cannot. He has done this once. He has never made one complete, and that is precisely why the one he made kept everything it ate."
     }
   ],
   
@@ -61,12 +65,17 @@
     {
       "type": "Harbingers",
       "description": "Corrupted Collectors (the player-kind) who chose to serve Nolem. Distinct from corrupted Legendary Nikes, who are fallen fragments, not Harbingers."
+    },
+    {
+      "type": "The Dimension Eater (Nol'tur)",
+      "description": "NOT a servant \u2014 a severed organ. Nolem cut out the part of himself that hungered for PLACES rather than for people and gave it a body, because a Singular cannot freely enter most dimensions and a bond happens in a room, not in a mind. It ate ten thousand dimensions during the Age of Silence while he slept. He gave it the mouth and kept the throat, so it never digested any of them: confronted by a Collector who refused to be alone, it discovered it had preserved rather than destroyed, and became an ark. Nolem lost a limb rather than a soldier. See entities/dimension-eater.json.",
+      "status": "Lost to him \u2014 turned, and holds what it took"
     }
   ],
   
   "history": {
     "formlessEra": "Existed as natural entropy",
-    "ageOfSeparation": "Discovered absorption, consumed the Aeth'kai",
+    "ageOfSeparation": "Discovered absorption, consumed the Aeth'kai. Near the end of it he cut the Dimension Eater out of himself, to take the places he could not enter.",
     "ageOfSilence": "Dormant, digesting power",
     "firstBondEra": "Awakened, began targeting Nikes",
     "shattering": "Failed to break the First Bond",

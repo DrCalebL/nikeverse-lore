@@ -1,0 +1,197 @@
+{
+  "id": "dimension-eater",
+  "name": "The Dimension Eater",
+  "gameTitle": "THE DEVOURER OF WORLDS",
+  "trueName": "Nol'tur",
+  "trueNameLanguage": "First Tongue",
+  "trueNameMeaning": "The unraveling given a body — Nolem's mouth",
+  "class": "Instrument of a Singular — a severed appetite, given a body",
+  "type": [
+    "Void",
+    "Cosmic Horror"
+  ],
+  "dbType": "Shadow / Cosmic (creature id 155, is_nike=0, rarity Legendary, ability 'Reality Hunger')",
+  "domain": [
+    "Consumption",
+    "Preservation",
+    "Memory"
+  ],
+  "domainNote": "The first was what Nolem made it for. The second it did by accident, for an age, without knowing. The third is what it chose.",
+  "alignment": "Hostile until the Collector reached it — then neutral, and fixed in place",
+  "origin": "The Age of Separation — cut from Nolem after the Aeth'kai, before he slept",
+  "status": "Turned. Holds its post at the Dimension Maw. Never leaves it.",
+  "description": "Nolem eats minds, and a mind can be reached, and so a mind can be taken. But a bond does not happen inside a mind — it happens in a place, between two who are standing somewhere. Nolem is a Singular and cannot walk freely into most dimensions. So he cut out the part of himself that hungered for rooms rather than for people, gave it a body so that it could go where he could not, and sent it out. It ate ten thousand dimensions and kept every one of them, because the maker who built it to open never built it to close.",
+  "notASingular": {
+    "ruling": "The Dimension Eater is NOT a Singular and must never be filed, described or drawn as one.",
+    "why": [
+      "A Singular exists once across all realities and was never made. This was made, and it was made out of something else.",
+      "A Singular predates time. This has a date: the Age of Separation, after the Aeth'kai fell.",
+      "Singulars cannot freely enter most dimensions. The Eater's entire purpose is that it CAN — that limit is the reason Nolem needed it at all.",
+      "It is structurally SMALLER than Nolem by construction: it is a part of him. A hand does not outrank the body it was cut from. This is the guarantee that it never steals his thunder, and it is why the subordination is encoded in the file layout as well as in the prose (see singulars/nolem.json agents[])."
+    ],
+    "adjacency": "It is Singular-ADJACENT and nothing more: made of Singular substance, operating at Singular scale, holding none of a Singular's standing. Say 'Nolem's instrument', never 'a third Singular'."
+  },
+  "notANike": {
+    "ruling": "It is not a Nike, is not bondable, is not catchable, has no purify path, and counts toward nothing.",
+    "exemption": "The law that a Nike stands, has hands and wears its identity (CANON.md §2.3) does NOT reach it. Nothing about the Dimension Eater is a person and it must never be drawn as one. It is not a quadruped either — the biped rule simply has no jurisdiction here.",
+    "rosterNote": "It never joins a roster, never appears as a companion, and is not one of the 5,555."
+  },
+  "origins": {
+    "era": "Age of Separation — late, after the Aeth'kai were consumed",
+    "why": "Nolem learned from the Aeth'kai that eating a people is not the same as eating the place they were. Bonds do not form inside a mind; they form in a room. He could take the people and never the room. So he made a mouth for rooms.",
+    "how": "Not bred, not summoned, not found. Severed. He cut the appetite out of himself and hung a body on it.",
+    "theOrphaning": "He sent it out and then he slept. It worked the whole Age of Silence with no instruction and no explanation, because the one who made it was dormant. This is why 'HE NEVER TOLD ME WHY' is a true statement about an age and not a complaint about a conversation.",
+    "explainsNothingUpstream": "Its making is AFTER Nolem became hungry and sheds no light whatever on what changed him. That question is not this record's business and this record must never be read as touching it."
+  },
+  "nature": {
+    "method": "It never had to fight. It arrived, and it was true, and what it said was that everything ends and nothing that ends was worth beginning. Walkers who failed here before the Collector did not die. They agreed.",
+    "voice": "Stacked staccato — every word given its own full stop. It was issued a function and never a grammar; speech is something it is assembling for the first time, one word at a time, and the pauses are the assembly.",
+    "unique": "There is ONE. It has no variants, no echoes, no young and no kin. The Star Eaters and void beasts drifting the Abyssal Descent are not its brood — they are the dent it left in the dark on its way down. It has never spawned anything and never will.",
+    "scale": "Ten thousand dimensions is a great many, and against infinite dimensions it is nothing at all. That is the exact shape of this being: vast, and smaller than the war."
+  },
+  "theArk": {
+    "revelation": "I HAVE CONSUMED TEN THOUSAND DIMENSIONS. THEY STILL EXIST WITHIN ME. I THOUGHT I DESTROYED BUT I PRESERVED.",
+    "mechanism": "Nolem's absorption is a BECOMING — what he takes, he becomes, which is why nothing he has eaten still exists anywhere. But Nolem does not share and has never once made a thing complete. He gave the Eater the mouth and kept the throat. So for an age it swallowed and held, swallowed and held, and every world it believed it had ended sat inside it exactly as it was on its last day: whole, dark, and waiting for nobody.",
+    "thematicCore": "Isolation is Nolem's domain and isolation is the flaw. He would not let his own instrument be whole, and that refusal is the entire reason the ten thousand survive. He was defeated inside his own organ, by himself, before the Collector was born.",
+    "whatItHolds": "PLACES. Dimensions, held as they stood. Nothing is alive in there and nothing is retrievable.",
+    "meaningForTheEndgame": "It changes NOTHING about how the war is won — 5,555 bonds held at once, Nike Prime completed, Nolem bound. What it changes is what LOSING would have meant. Nolem's project was never merely death; it is the Forgetting, the case that nothing ever mattered argued until it is true. After the turn, that erasure is permanently incomplete: even total defeat now leaves ten thousand worlds held by something Nolem cannot reach, cannot digest and cannot make say otherwise. The ark is not a win condition. It is a floor under the loss.",
+    "structuralJob": "Nolem is 'not a monster you can slay — a truth you have to disprove' (Void Charles, void_terminus_007). The Eater is the REHEARSAL for that, and the proof it can be done: the one thing in the world that could not be bonded, could not be purified and could not be beaten into agreement, and changed anyway, because it was shown something worth wanting. A rehearsal never outranks the performance. That is precisely why it is safe to make it enormous.",
+    "neverAllowedTo": [
+      "NEVER give anything back. The ark preserves; it does not restore. No dimension is ever reopened. No consumed person ever walks out. The verb is 'remembered', never 'saved'. The moment death is reversible here, every death in the Nikeverse stops costing anything.",
+      "NEVER contain anything the player needs. No key item, no anchor, no ally, no answer. If the ark is somewhere to go and GET something, every future writer mines it. It gives the Final Fragment relic and a memory and nothing else, ever.",
+      "NEVER hold a Nike, a Legendary, or any of the 5,555. OG Nike has spent three thousand years catching the souls of Nikes before Nolem can absorb them; a second, larger vault of Nike souls makes that vigil redundant and cheapens the only thing he has. The worlds it ate were not Nike worlds.",
+      "NEVER count toward the 5,555. The Pattern is bonds held simultaneously. Nothing inside the ark is a bond. It holds; it does not connect. It cannot bond and never learns to.",
+      "NEVER become a second cosmology. It is a memory, not a weave. It is not a rival Pattern, not a second Eth'kara, not a place, not a faction, and it has no doctrine and no followers.",
+      "NEVER answer a mystery that stays dark. See mysteryGuard below — in particular, it must never describe the Void Between.",
+      "NEVER fight at the Maw. It does not follow the Collector, does not turn the final battle and is not a weapon. It stays where the dimensions end.",
+      "NEVER be catchable, bondable, purifiable or reclassified as a Nike. There is no purify path here and there never was one.",
+      "NEVER be given kin, young, a species, a rival Eater or a second of its kind."
+    ]
+  },
+  "theTurn": {
+    "trigger": "A Collector who refused, in front of it, to be alone — and a lead Nike who told it that having only ever obeyed is not the same as having no choice.",
+    "notADefeat": "It does not fall. It CHANGES. The hunger goes out of the form and the consuming void becomes a container. This is the shipped beat and it is canon; do not rewrite it into a kill.",
+    "named": "The Collector gives it the word: 'Then you're not destruction. You're an ark.' The Collector NAMES it, and that is the whole mechanism of the turn — it had a function and never a self, and a name is the first thing anyone ever gave it that was not an order.",
+    "afterward": "Nol'tur is the name of what it was. The First Tongue has no word for what it became, because the Aeth'kai never imagined this and died before they could. Void Charles, whose post is writing down the names of consumed worlds, cannot write this one down. Leave it unnamed. Do not coin a second word."
+  },
+  "relationshipToNolem": {
+    "kind": "Severed organ, not servant, not rival, not predecessor, not ally",
+    "beforeTheTurn": "Nolem's instrument and Nolem's reach — 'Nolem's pet horror', as Void Charles calls it (void_terminus_002).",
+    "afterTheTurn": "An amputation. Nolem does not lose a soldier here; he loses a limb, and the limb keeps what it took. He gains no new enemy: the Eater will not march on him. It simply stops, and holds, and that is worse.",
+    "whyItCannotStealHisThunder": "It is made of him, smaller than him, cannot leave its post, cannot bond, cannot restore, cannot fight for the player, and answers no question the player came with. Everything it is came out of Nolem and everything it can do is bounded by that."
+  },
+  "placeInVoidTerminus": {
+    "notTheRegionAnchor": "The Dimension Eater is NOT the region anchor and NOT the region-completion boss. Void Terminus has no anchor Legendary and its completion runs on the Abyssal Horror (`void_terminus_defeated`); the Final Fragment is OG Nike's gift, not a drop. 'The bottom of the world is not a boss' still stands. The Eater is the gate on the road to OG Nike and nothing more, exactly as shipped (isRegionBoss:false, isAnchorBoss:false).",
+    "theThreeVigils": "Void Terminus is built on one law stated at three scales, and the Eater is the third and largest: Void Charles the Witness writes down the NAMES of consumed worlds; OG Nike catches the SOULS of fallen Nikes before Nolem can absorb them; the Dimension Eater holds the WORLDS themselves. Three posts, three sizes, one sentence — remembering is its own form of resistance. The region's thesis was already complete before the Eater turned; the turn is the moment the largest thing in the dark is discovered to have been keeping the same watch by accident.",
+    "theNadir": "Void Terminus is the Dark Night, the emotional nadir. The ark is the first unambiguously good thing in it, and it shortens the road by not one single step.",
+    "theShore": "Void Terminus formed where repeated dimensional breaches gave the Void form, near the site of the original trap. Some of those breaches were the Eater's: an age of going out and coming back through the same wall in the same place leaves a scar, and the scar became a shore where consumed things wash up. One cause among several — never the sole author of the region."
+  },
+  "abilities": [
+    {
+      "name": "Reality Consumption",
+      "description": "It takes the room, not the people in it. This is what it was made for and the only thing it was ever told."
+    },
+    {
+      "name": "Dimensional Collapse",
+      "description": "It throws whole realities as weapons — worlds unto themselves, used as ordnance, because they are the only objects it has."
+    },
+    {
+      "name": "Nolem's Hunger",
+      "description": "Not its own appetite. Nolem's, wearing a body. The trait name is exact and should not be softened."
+    },
+    {
+      "name": "The Argument",
+      "description": "Its real weapon and the one that has actually worked. It does not persuade — it simply is, and its being there is the case that everything ends. Walkers who failed at the Maw before the Collector were not killed. They were convinced."
+    }
+  ],
+  "mysteryGuard": {
+    "ruling": "This record explains no question that stays dark, and no future record built on it may either.",
+    "theVoidBetween": "The Dimension Eater crossed the Void Between going out and coming back, ten thousand times, and it is therefore the single entity in the cosmos best placed to say what is there. It does not say. It CANNOT: the ark holds dimensions, and whatever lies between dimensions is not one, so there is none of it inside. Ask, and it gives the only silence it has. This is a lock, not a tease — no later record may reveal the answer through it, and its inability is the point.",
+    "otherMysteries": "It sheds no light on why Nolem came for pigs, on how OG Charles first came through, on the unnamed others of the Formless Era, on why Cthulhu helps, or on where Shiro came from. It has never met any of them and would not have understood.",
+    "theWeaver": "It says nothing about the lost Singular of Connection. It was cut from Nolem long AFTER whatever changed him, and it was never told anything. The deferred Weaver ruling is untouched here and must stay untouched."
+  },
+  "quotes": [
+    {
+      "text": "I. WAS. NOT. BORN. I. WAS. REMOVED.",
+      "context": "On its own origin"
+    },
+    {
+      "text": "HE. GAVE. ME. TEETH. HE. KEPT. THE. THROAT.",
+      "context": "The mechanism of the ark, stated without understanding it"
+    },
+    {
+      "text": "TEN. THOUSAND. DOORS. I. CLOSED. NONE. OF. THEM. LOCKED.",
+      "context": "After the turn"
+    },
+    {
+      "text": "YOU. ASK. WHAT. IS. BETWEEN. I. CROSSED. IT. I. CANNOT. CARRY. IT. BACK.",
+      "context": "The only question it refuses — and the refusal is honest, not evasive"
+    },
+    {
+      "text": "I. AM. NOT. A. DOOR. DO. NOT. KNOCK.",
+      "context": "To anyone who comes to the Maw hoping to get something out of the ark"
+    },
+    {
+      "text": "NOLEM. DOES. NOT. KEEP. WHAT. HE. EATS. HE. BECOMES. IT. I. KEPT. THAT. IS. ALL. THE. REBELLION. I. HAVE.",
+      "context": "Its own measure of itself — accurate, and small"
+    }
+  ],
+  "shippedQuotes": [
+    {
+      "text": "I. HAVE. CONSUMED. TEN. THOUSAND. DIMENSIONS. EVERY. ONE. ENDED. ALONE.",
+      "source": "Discord game, void_terminus_boss_dimension_eater (preBattle)"
+    },
+    {
+      "text": "NOLEM. MADE. ME. TO. CONSUME. BUT. HE. NEVER. TOLD. ME. WHY.",
+      "source": "Discord game, phase 25"
+    },
+    {
+      "text": "CHOOSE. I. HAVE. NEVER. CHOSEN. I. HAVE. ONLY. OBEYED. THEN. I. CHOOSE. NOW.",
+      "source": "Discord game, phase 25"
+    },
+    {
+      "text": "ARK. YES. I. WILL. BE. AN. ARK. I. WILL. REMEMBER. WHAT. NOLEM. WANTED. FORGOTTEN.",
+      "source": "Discord game, postBattle"
+    },
+    {
+      "text": "THANK. YOU. FOR. SHOWING. ME. THERE. WAS. A. CHOICE.",
+      "source": "Discord game, postBattle — its last line"
+    }
+  ],
+  "gameSources": {
+    "discordGame": {
+      "node": "campaign-data/story_nodes/void_terminus/boss_dimension_eater.json",
+      "zone": "dimension_maw",
+      "sequence": 4,
+      "gatedOn": [
+        "abyssal_horror_defeated",
+        "bonds_converged"
+      ],
+      "setsFlag": "dimension_eater_defeated",
+      "opens": [
+        "nexus_bridge",
+        "nexus_core"
+      ],
+      "nextNode": "void_terminus_005_og_nike",
+      "reward": "Final Fragment (relic) + dimension_seed",
+      "isRegionBoss": false,
+      "isAnchorBoss": false,
+      "otherMentions": [
+        "main_002_void_charles.json — 'Nolem's pet horror'",
+        "main_003_abyssal_horror.json — the Horror opens the path to it",
+        "main_003c_the_doppelganger.json, main_003d_the_last_light.json",
+        "main_007_region_complete.json — 'Some couldn't resist the Dimension Eater's nihilism'"
+      ],
+      "dbRow": "creatures id 155 — 'Dimension Eater', Shadow/Cosmic, Legendary, is_nike=0, ability 'Reality Hunger', spawn_method 'none'",
+      "engineSignature": "Void Consumption (+1 all stats permanently on KO) — systems/battle/BattleEngine.js"
+    },
+    "mmoSpec": "Nikeverse-mmo-rpg-from-scratch/docs/GAME_SPEC.md lists it among the narrative-only bosses with NO purify path, ever."
+  },
+  "canonNote": "Adopted into the bible by owner ruling (2026-07-27) from the shipped Discord game, which is the upstream. The shipped arc — it does not fall, it changes; it discovers it preserved rather than destroyed; the Collector names it an ark; it opens the road to OG Nike — is CANON and may not be rewritten. Everything in this record is the cosmology built underneath that arc, and every clause of it is bounded so that Nolem remains the antagonist and the Nikeverse keeps its thunder.",
+  "lore": "Nolem eats minds. A mind can be reached, and so a mind can be taken. But a bond does not happen inside a mind — it happens in a place, between two who are standing somewhere, and Nolem is a Singular: he cannot walk freely into most dimensions and never could. That is the oldest limit on him, and the only one he has ever bothered to work around. Late in the Age of Separation, with the Aeth'kai swallowed and their rooms still standing empty, he stopped trying to reach through the veil and did something simpler. He cut out the part of himself that hungered for rooms rather than for people, hung a body on it so that it could go where he could not, and sent it out. Then he slept.\n\nThe Aeth'kai, who were dead by then and had left a word for everything, would have called it Nol'tur — the unraveling given a body. It is not a Singular, and that is the error to avoid: a Singular exists once and was never made, and this was made, out of something else, on a date. It is not a Nike either; the law that a Nike stands, and has hands, and wears its identity does not reach it, because nothing about it is a person. There is one of it. It has no kin and no young — the star-eating shapes that drift the Abyssal Descent are not its brood, but the dent it left in the dark going down.\n\nFor the whole of the Age of Silence it did the one thing it was for, with no instruction and no explanation, because the one who made it was dormant. Ten thousand dimensions. It never had to fight for any of them. It only had to arrive and be true, and the true thing it said was that everything ends and nothing that ends was worth beginning. The Walkers who failed before the Collector did not die at the bottom of the world. They agreed.\n\nWhat Nolem never told it — because you do not explain yourself to your own hand — is that it had been built to open and never to close. Absorption is a becoming: what Nolem takes, he becomes, which is why nothing he has ever eaten still exists. But he does not share, and he has never once made a thing complete. He gave it the mouth and kept the throat. So for an age it swallowed and held, swallowed and held, and every world it believed it had ended was sitting inside it exactly as it stood on its last day — whole, and dark, and waiting for nobody.\n\nIt found this out standing in front of a Collector who had just refused, in front of it, to be alone. The discovery is larger than the fight was, and smaller than the war. Nolem's project was never only death; it is the Forgetting, the case that nothing ever mattered, argued until it is true. His largest instrument turns out to be a room full of proof against him — and he cannot reach it, cannot digest it, and cannot make it say otherwise.\n\nAsk it what lies between the dimensions. It crossed that going out and coming back, ten thousand times, and it gives you the only silence it has. It holds dimensions. Whatever is between them is not one, and there is none of it inside.\n\nIt does not follow the Collector to the Maw. It has no side in that. It stays where the dimensions end and holds what it holds — and Void Charles, who has spent three thousand years writing down the names of consumed worlds so they are not gone entirely, is left with the fact that something far worse than him had been keeping the same watch by accident, at a scale he will never be able to write.",
+  "notARetnuhxed": {
+    "ruling": "NOT a Retnuhxed, and not a Corrupted Nike. Different kind entirely.",
+    "why": "Ret'nux glosses as 'shadow servant; entropy's hand', and the hand imagery invites exactly this mis-filing. A Retnuhxed is a fallen NIKE, beyond saving — it was a person, it fell, and what remains is what is left of one of the 5,555. The Dimension Eater was never a Nike, never a person, and never fell: it was cut out of Nolem already being what it is. A Retnuhxed is a ruin; this is an instrument.",
+    "consequence": "It has no soul to purify and no self to restore, which is the structural reason it has no purify path — not a difficulty setting."
+  }
+}
