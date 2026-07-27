@@ -67,7 +67,7 @@
             ]
         },
         "act2Structure": {
-            "pattern": "Freeing the Act 1 Legendary unlocks deeper content in each dimension",
+            "pattern": "DEFEATING the Act 1 Legendary unlocks deeper content in each dimension (never gate on _freed — a KO-path player must reach it; both resolutions count)",
             "steps": [
                 "Return to the dimension after Act 1 completion",
                 "Discover hidden Legendaries revealed by the healing process",
