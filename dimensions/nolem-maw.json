@@ -6,6 +6,12 @@
         "min": 96,
         "max": 100
     },
+    "tiers": {
+      "anchor": "96-97",
+      "deep": "98-100",
+      "deepFloorIsTheAct2Gate": 98,
+      "source": "derived from the shipped Act-2 minimumLevel; proposed, not ratified"
+    },
     "playOrder": 8,
     "description": "The space-time distortion field from Comic Book 1, transformed. What was created as a prison for Nolem has become his kingdom \u2014 expanded and corrupted over three millennia. Nike Prime is still inside, still fighting. The coordinates shift constantly, as designed, but Nolem has learned to navigate his cage.",
     "atmosphere": {

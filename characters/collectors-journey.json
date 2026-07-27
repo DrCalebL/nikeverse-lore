@@ -67,7 +67,7 @@
             ]
         },
         "act2Structure": {
-            "pattern": "DEFEATING the Act 1 Legendary unlocks deeper content in each dimension (never gate on _freed — a KO-path player must reach it; both resolutions count). Opens IN-REGION and IMMEDIATELY — never 'return after the campaign'. Ruling 2026-07-27, unanimous: Deep tier is per-region, gated on <region>_anchor_defeated + the region level band, never campaign_complete",
+            "pattern": "DEFEATING the Act 1 Legendary unlocks deeper content in each dimension (never gate on _freed — a KO-path player must reach it; both resolutions count). Opens IN-REGION and IMMEDIATELY — never 'return after the campaign'. Ruling 2026-07-27, unanimous: Deep tier is per-region, gated on <region>_anchor_defeated + the region's DEEP-TIER floor (NOT the band floor — free-order siblings are co-banded, so the band floor would open the Deep tier the instant the anchor fell), never campaign_complete",
             "steps": [
                 "Return to the dimension after Act 1 completion",
                 "Discover hidden Legendaries revealed by the healing process",
@@ -78,28 +78,28 @@
         "regions": [
             {
                 "name": "Shinden",
-                "levelRange": "1-20",
+                "levelRange": "11-30",
                 "act1Boss": "Ninja Nike",
                 "harbinger": "Yuki",
                 "act2Legendaries": ["Nel Nike", "Jedi Nike", "Wolf Mode Nike"]
             },
             {
                 "name": "Frostfall",
-                "levelRange": "15-35",
+                "levelRange": "31-55",
                 "act1Boss": "Viking Nike",
                 "harbinger": "Erik",
                 "act2Legendaries": ["Bertus Maximus Nike", "Colossal Nike", "Hydra Nike"]
             },
             {
                 "name": "Grand Arena",
-                "levelRange": "30-50",
+                "levelRange": "31-55",
                 "act1Boss": "Nike Tyson Nike",
                 "harbinger": "Slate",
                 "act2Legendaries": ["Berjador Nike", "Peter Porker Nike"]
             },
             {
                 "name": "Imperial Colosseum",
-                "levelRange": "45-65",
+                "levelRange": "56-70",
                 "act1Boss": "Gladiator Nike",
                 "harbinger": "Cassius",
                 "act2Legendaries": ["Dr Caleb Nike", "Professor Nike", "Satoshi Nike", "Corey Hort Nike", "Guthix Nike"],
@@ -107,7 +107,7 @@
             },
             {
                 "name": "Neon City",
-                "levelRange": "55-75",
+                "levelRange": "71-95",
                 "act1Boss": "Cyberpunk Nike",
                 "harbinger": "Echo",
                 "act2Legendaries": ["McJared Nike", "Olecram Nike", "Pigsterio Nike"],
@@ -115,7 +115,7 @@
             },
             {
                 "name": "Void Terminus",
-                "levelRange": "70-90",
+                "levelRange": "71-95",
                 "act1Boss": "Abyssal Horror (Harbinger)",
                 "guide": "OG Nike",
                 "act2Legendaries": ["Cosmic Nike", "Phoenix Nike", "Cardano Whale Nike", "Elbonzys Nike"],
@@ -123,7 +123,7 @@
             },
             {
                 "name": "Nolem's Maw",
-                "levelRange": "85-100",
+                "levelRange": "96-100",
                 "act1Boss": "Nolem's Shadow",
                 "act2Legendaries": ["Melon Nike"],
                 "majorReveal": "The 5,555 Prophecy — Scholar recording confirms Nike Prime's incomplete state and the path to victory",

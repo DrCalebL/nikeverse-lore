@@ -6,6 +6,12 @@
         "min": 56,
         "max": 70
     },
+    "tiers": {
+      "anchor": "56-61",
+      "deep": "62-70",
+      "deepFloorIsTheAct2Gate": 62,
+      "source": "derived from the shipped Act-2 minimumLevel; proposed, not ratified"
+    },
     "playOrder": 5,
     "description": "A corrupted empire built on the ruins of heroism. This is where Nike Prime was born \u2014 beneath the Colosseum in a secret laboratory. The most lore-critical dimension in the game. DEFEATING Gladiator Nike unlocks the Scholar Bunker (never _freed — the KO path must reach the midpoint reveal) containing the truth of Nike Prime's missing empathy core.",
     "atmosphere": {
@@ -110,7 +116,7 @@
         "Victor's Ghost",
         "The Divine Trials",
         "Senate Conspiracy",
-        "The Scholar's Legacy"
+        "Jupiter's Judgment"
     ],
     "dimensionalAnchor": {
         "id": "champions_laurel",

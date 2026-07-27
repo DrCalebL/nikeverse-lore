@@ -3,8 +3,14 @@
     "name": "Grand Arena",
     "theme": "Boxing / Fighting",
     "levelRange": {
-        "min": 46,
+        "min": 31,
         "max": 55
+    },
+    "tiers": {
+      "anchor": "31-45",
+      "deep": "46-55",
+      "deepFloorIsTheAct2Gate": 46,
+      "source": "SPINE_LOCK.md, owner-ratified 2026-07-26"
     },
     "playOrder": 4,
     "description": "A dimension where combat is everything \u2014 honor, currency, identity. Once a world of noble competition where Boxer Nike was undefeated champion. Now fights are brutal and meaningless, the arena's glory hollowed out by corruption.",
@@ -91,7 +97,7 @@
         "Fight-Fixing Conspiracy",
         "The Immovable Sumo",
         "The Nameless Ghost",
-        "Slate's Redemption"
+        "The Corner Doctor"
     ],
     "dimensionalAnchor": {
         "id": "champions_belt",

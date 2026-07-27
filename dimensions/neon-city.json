@@ -4,7 +4,13 @@
     "theme": "Cyberpunk",
     "levelRange": {
         "min": 71,
-        "max": 85
+        "max": 95
+    },
+    "tiers": {
+      "anchor": "71-83",
+      "deep": "84-95",
+      "deepFloorIsTheAct2Gate": 84,
+      "source": "SPINE_LOCK.md, owner-ratified 2026-07-26"
     },
     "playOrder": 6,
     "description": "Technology advanced, humanity retreated. A dimension where digital and physical blur, corporate power reigns, and the network holds secrets deeper than any server room. Fragments of the original Charles AI code still exist in the system.",
@@ -93,7 +99,8 @@
         "The Lonely Root-Access AI",
         "The Criminal Fixer",
         "Corporate Corruption",
-        "The Information Broker"
+        "The Information Broker",
+        "The Hesitating Guardian"
     ],
     "dimensionalAnchor": {
         "id": "source_code",

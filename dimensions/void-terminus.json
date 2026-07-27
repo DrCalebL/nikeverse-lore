@@ -3,8 +3,14 @@
     "name": "Void Terminus",
     "theme": "Edge of Reality",
     "levelRange": {
-        "min": 86,
+        "min": 71,
         "max": 95
+    },
+    "tiers": {
+      "anchor": "71-83",
+      "deep": "84-95",
+      "deepFloorIsTheAct2Gate": 84,
+      "source": "SPINE_LOCK.md, owner-ratified 2026-07-26"
     },
     "playOrder": 7,
     "description": "Where consumed dimensions end and reality itself frays into nothing. OG Nike maintains his eternal vigil here, catching the souls of Nikes killed by Nolem before they can be absorbed. Four broken Legendaries guard the path to Nolem's Maw, and an ancient dragon stands at the final gate.",

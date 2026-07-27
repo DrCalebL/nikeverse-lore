@@ -6,6 +6,12 @@
     "min": 11,
     "max": 30
   },
+  "tiers": {
+    "anchor": "11-21",
+    "deep": "22-30",
+    "deepFloorIsTheAct2Gate": 22,
+    "source": "derived from the shipped Act-2 minimumLevel; proposed, not ratified"
+  },
   "playOrder": 2,
   
   "description": "A dimension of ancient traditions, shadow clans, and deadly honor. Cherry blossoms fall over blood-stained dojos as warriors seek enlightenment through combat.",
@@ -35,10 +41,10 @@
   
   "harbinger": {
     "name": "Yuki",
-    "title": "The Ice Shadow",
-    "emotionalTheme": "Devotion twisted into possession",
-    "corruptionReason": "Love that became obsession",
-    "description": "Once loved a Nike completely. When that Nike died, her grief became rage, then service to Nolem."
+    "title": "The Devoted Shadow",
+    "emotionalTheme": "Devotion twisted into possession \u2014 born from genuine love",
+    "corruptionReason": "Three years holding the line while she watched her master suffer. Nolem offered the one thing she still wanted: to stay at his side.",
+    "description": "Ninja Nike's best and most devoted student. She stood against the corruption for three years \u2014 longer than anyone in Shinden \u2014 while holding her screaming master. Accepting Nolem's gift was not weakness but exhausted devotion choosing the only path it could still see. Her master is not dead; he is corrupted, and she still loves him."
   },
   
   "locations": [
@@ -69,8 +75,13 @@
     },
     {
       "name": "Midnight Gardens",
+      "type": "Story",
+      "description": "A serene garden bathed in eternal moonlight \u2014 the stillness before the deepest shadow"
+    },
+    {
+      "name": "Dojo Arena",
       "type": "Boss Arena",
-      "description": "Where Ninja Nike waits, seeing all possible futures"
+      "description": "The heart of Shinden Dojo, where Ninja Nike waits in the deepest shadow, seeing all possible futures"
     }
   ],
   
