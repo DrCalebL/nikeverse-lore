@@ -40,8 +40,8 @@ These are transcription drifts, not design disagreements. Recommended direction:
 | E2 ✅ **FIXED** | **Cardano Whale's gender** | *"**Her** form blocks out the void"* | he/him throughout | Self-refuting: the same record's `whyNotRecruited` reads *"No way to communicate with **him**."* |
 | E3 ✅ **FIXED** | **What Cardano Whale lost** | a lost calf | a **pod — his family**, whose names the void ate | A third version exists in the raid layer: *"Nolem devoured his ocean."* Three accounts, one soul. |
 | E4 ✅ **FIXED** | **Bertus Maximus's story** | froze himself from guilt over a dimension he destroyed | intercepted alive at the village edge; three centuries of hunting, *"no hall to come home to"* | **A copy-paste.** Bertus and Colossal Nike carry a **byte-identical** `quote_game`, and the shipped game gives that line to Colossal. This record is also self-refuting — its own `corruptionReason` is "Fulfillment — found endless war." *(The old pointer here read "see §3.5" — no such section exists; it meant row O5, now resolved.)* |
-| E5 | **Harbinger Erik** | "The Eternal Raider" · glory that became emptiness | "The Prisoner in His Own Body" · *"I offered my service for my people's safety. He laughed. Said he'd take my service AND my people."* | A split **inside this repository** — `dimensions/frostfall.json` disagrees with `characters/harbingers/index.json`. The game adjudicates. |
-| E6 | **Harbinger Yuki's title** | "The Ice Shadow" (`dimensions/shinden.json`) | "The Devoted Shadow" | Same internal split — `characters/harbingers/index.json` already says "The Devoted Shadow" and matches the game. |
+| E5 ✅ **FIXED** | **Harbinger Erik** | "The Eternal Raider" · glory that became emptiness | "The Prisoner in His Own Body" | **Internal split, closed on the game's evidence.** `frostfall/main_004_harbinger_erik.json` is *titled* `THE PRISONER IN HIS OWN BODY` and carries the bargain verbatim in `battle.preBattle`. "The Eternal Raider" was a premise the game never shipped, and it was already self-refuting here: Erik's own record gives his vulnerability as *"His family. The bonds he never stopped feeling"* while the dimension file said he *"found nothing worth keeping."* Both sites now agree, casing included. |
+| E6 ✅ **FIXED** | **Harbinger Yuki's title** | "The Ice Shadow" (`dimensions/shinden.json`) | "The Devoted Shadow" | **Internal split, closed — and the game speaks the lore title out loud.** In `shinden_008_shadow_temple.json` Yuki says *"That Yuki died the night she accepted Nolem's gift. I am what remains — **the Devoted Shadow**."* "Ice Shadow" returns **zero hits** in the shipped game. The dead-love premise (E7) went with it: her master is **corrupted, not dead**, and she stayed to be near him. |
 | E7 | **Yuki's premise** | the Nike she loved **died**; grief became rage | the master is **alive** and corrupted; Yuki stays to be near him | Changes the whole character: grief-for-the-dead versus devotion-that-cages. |
 | E8 | **Other Harbinger titles** | Slate, Echo and the Abyssal Horror carry titles the shipped game does not use | — | Same class as E5/E6. |
 | E9 ✅ **FIXED** | **When Ninja Nike fell** | "The Forgetting", 300–500 years after the Prime Era | **fifteen years ago** | The shipped arc depends on it: his clan still remembers him. |
@@ -75,12 +75,53 @@ These are transcription drifts, not design disagreements. Recommended direction:
 |---|---|---|---|---|
 | W1 ✅ **FIXED** | **The Dimensional Anchors — all six** | Shadow Kunai · Frostfire Axe · Champion's Wraps · General's Sigil · Chrome Interface | `blade_of_shadows` **Blade of Shadows** · `crown_of_berserker` **Crown of the Berserker** · `champions_belt` **Champion's Belt** · `champions_laurel` **Champion's Laurel** · `source_code` **Source Code** | **Live engine state** — these ids are granted on boss defeat and gate region unlocks. Frostfall differs in *form*, not just name (an axe here, a helm there). Shinden's game name also appears in the MMO's generated relic table, so three of four repositories carry it. |
 | W2 ✅ **FIXED** | **The sixth anchor** | absent — only five are recorded | Void Terminus grants `final_fragment` **Final Fragment** | An enumeration gap, not a conflict. Six anchor flags are hardcoded in the engine. |
-| W3 | **Void Terminus's boss** | "Abyssal Horror (Harbinger)" as Act-1 boss | the **Dimension Eater**, "THE DEVOURER OF WORLDS"; the Abyssal Horror is an *elite mini-boss* that gates it | *"Dimension Eater"* returns **zero hits** in this repository. A whole region boss is missing from canon. |
+| W3 ✅ **FIXED** | **Void Terminus's boss** | "Abyssal Horror (Harbinger)" as Act-1 boss | the **Dimension Eater**, "THE DEVOURER OF WORLDS" | **The gap was real; the CONFLICT never existed.** ADOPTED by owner ruling 2026-07-27 and authored into canon at `entities/dimension-eater.json`. The shipped node carries `isRegionBoss: false` **and** `isAnchorBoss: false` — it was never Void Terminus's region boss, so *"no region anchor — the bottom of the world is not a boss"* (W1/W2) was never in tension with it. It is a **narrative-only gate** on the road to OG Nike, with no purify path. |
 | W4 | **The Abyssal Horror's title** | differs from the shipped title | — | Same class as the Harbinger titles. |
 | W5 | **The Act-2 gate** | "Freeing the Act 1 Legendary unlocks deeper content in each dimension" | every one of the seven Act-2 entries additionally requires **`campaign_complete`** | ⚑ **REVERSED 2026-07-27 — the LORE was right and the shipped gate is an engine artifact.** Deep tier ("Act 2") opens **PER-REGION**, on that region's own anchor falling. The `campaign_complete` gate is not canon: it lives in **engine code** (`StoryNodeLoader.js:149,158,258` — `n.act === 2 && !flags.campaign_complete`), not in the 63 nodes, and the shipped DATA contradicts it — the seven Deep-tier entries carry a monotone **minimumLevel staircase 22·38·50·62·78·90·98**, interleaved with the region bands. Shinden's Deep tier gates at **level 22**, inside Shinden's own 11–30 band; a genuinely post-campaign tier would flatten all seven to campaign-exit level. The MMO port must **DELETE that predicate**, not inherit it. **The shipped Discord game KEEPS its global gate — owner decision 2026-07-27, leave that story alone.** This is a CLOSED, accepted, permanent divergence between the two products, not an open defect: the Discord game has players mid-campaign and flipping the gate would change what 20+ nodes do for every existing save. Do not re-open it, and do not "fix" `StoryNodeLoader.js`. |
-| W6 | **Side-quest rosters** | Grand Arena, Neon City and Void Terminus rosters do not match what shipped | — | Frostfall and Shinden **do** match. |
-| W7 | **"The Usurper's Throne"** | Frostfall's boss arena, where Erik holds court | a shipped **side quest** about a kinslayer king; Erik is elsewhere | — |
+| W6 ✅ **FIXED** | **Side-quest rosters** | Grand Arena, Neon City and Imperial rosters did not match what shipped | — | **The row was right about two regions, wrong about the third, and silent about a fourth.** Grand Arena spent a slot on *"Slate's Redemption"*, which is a **main** node (`grand_arena_004_slate_battle`, `type: "main"`), and dropped the shipped `corner` chain → **"The Corner Doctor"**. Neon City was missing the `defense` chain → **"The Hesitating Guardian"** (the shipped node's own title). Imperial listed *"The Scholar's Legacy"*, which has **no shipped side chain at all** (the scholars are the Act-2 bunker arc), while the `storm` chain was unrepresented → **"Jupiter's Judgment"**. **Void Terminus is REFUTED — see §5.** Frostfall and Shinden do match, as the row said. |
+| W7 ✅ **FIXED** | **"The Usurper's Throne"** | Frostfall's boss arena, where Erik holds court | a shipped **side quest** about a kinslayer king; Erik is elsewhere | **One file used one name for two different things.** The `sideQuests` use was correct; the `locations` use was wrong on all three fields. Erik never holds court — he is at `mountain_pass` (`exploration`); the boss arena is `eternal_battlefield` (Viking Nike); the Usurper content is `warlords_hall`, a `secret` zone. Replaced with those three real locations, and the `locations` entry "The Ghost Fleet" renamed to its shipped name **Frozen Harbor** so the file stops colliding a location with a side quest. **An unrecorded TWIN was found and fixed in Shinden:** `midnight_gardens` ships as `type: "story"`, and the boss arena is `dojo_arena`. |
 | W8 | **`quote_game` is unreliable** | asserts a line is spoken in-game | **10 of 27** are present verbatim; 17 are not | Four are paraphrases of real lines. *(The Bertus/Colossal duplicate that used to sit here is fixed — E4.)* Treat `quote_game` as *authored flavour*, never as a citation. |
+
+> #### ✅ W3, W6, W7 executed — one adoption, one over-claim, one file naming two things
+> **W3 — the gap was real, the conflict was invented by this register.** *"Dimension Eater"* genuinely
+> returned zero hits: a being with ten thousand consumed dimensions behind it, named in six shipped nodes and
+> a DB row, was invisible to the bible. But the row framed it as a **region-boss conflict**, and it never was
+> one — the shipped node carries `isRegionBoss: false` **and** `isAnchorBoss: false`. Adopted by owner ruling
+> and authored at `entities/dimension-eater.json`, in a new `entities/` directory for the narrative-only,
+> never-purifiable class (it could not live in `dimensions/` — the `dimensions-agree` CI job counts files
+> against index rows, so a new file there fails the build). It is filed as **Nolem's instrument, never a third
+> Singular**, and reachable from `singulars/nolem.json` `agents[]` so the subordination is structural rather
+> than asserted in prose.
+>
+> **W6 over-claimed by one region and under-claimed by another.** Void Terminus is 4/4 and moves to §5. Imperial
+> was wrong and the row never said so. The recurring shape: *the roster was checked against the region's story,
+> not against the shipped chain list.*
+>
+> **W7 was one file using one name for two different things** — "The Usurper's Throne" as both a side quest
+> (correct) and a boss arena (wrong on all three fields). Its twin in Shinden had never been recorded at all.
+>
+> #### ✅ E5 + E6 executed — and the two halves of the Harbinger ruling must not be confused
+> The 2026-07-26 ruling says Harbinger lore **need not align BETWEEN products** — there are hundreds of them and
+> Collectors fall daily; only **Vane** (the First Harbinger) and **Slate** (the first redeemed) are canon-bearing
+> across builds. That half is **dissolved and must not be re-opened.** E5 and E6 were the *other* thing: splits
+> **inside this repository**, one character with two mutually exclusive titles and origins across two files. The
+> ruling permits divergence between games, never within one file set. A `dimensions-agree` CI check now asserts
+> the harbinger title in `dimensions/<d>.json` equals the one in `characters/harbingers/index.json` — the exact
+> check that would have caught both.
+>
+> #### ⚑ Five rows opened while closing the above — verify before acting on any of them
+> 1. **The Dimension Eater is typed two ways.** DB row `creatures` id 155 says **Shadow/Cosmic**, ability
+>    **"Reality Hunger"**; the story node says **Void/Cosmic Horror**, traits **Reality Consumption ·
+>    Dimensional Collapse · Nolem's Hunger**. The lore record carries both under `type` and `dbType` rather than
+>    picking a winner.
+> 2. **`void_terminus_defeated` exists only in the MMO spec.** The Discord game runs
+>    `og_nike_blessing_received` → `void_terminus_complete`. An enumeration difference, not a conflict.
+> 3. **`GAME_SPEC.md` §3.15's "Five Great Mysteries"** (Incomplete Prime · Charles Divergence · Sixth Champion ·
+>    Dexter Pattern · OG Absence) is a **second, disjoint mystery set** with no home in this repository at all.
+>    Harmless to the Tier-3 lint, which keys only on Tier 3 — but it is a real gap.
+> 4. **`CANON.md` §4.1 is FROZEN at "six questions" while SEVEN subjects are now dark** — `lost-singular` joined
+>    by owner deferral 2026-07-26. Recommend a **note** under §4.1; do **not** renumber a frozen section.
+> 5. **O1's premise was wrong** — restated above on measured pronoun counts.
 
 > #### ✅ W1 + W2 executed — and they carried a third defect the register had not recorded
 > All six lore anchors now match live engine state 6-for-6, by `id` **and** display name, and each lore entry
@@ -108,7 +149,7 @@ These are transcription drifts, not design disagreements. Recommended direction:
 | L1 | **Who is in the trap** | *"He's felt this signature before — for 3,000 years, pressed against it in the space-time trap"* — of **OG Nike** | **Nike Prime** is in the trap; OG Nike keeps vigil at the edge of reality | A one-line authoring slip, not a rival cosmology: three other lines in the same file place OG Nike at the edge, and another shipped node says of Nike Prime *"before he sealed himself away for three thousand years."* Low blast radius — the line only renders on the worst Resonance band. Fixable with a preposition. |
 | L2 | **The name of the cataclysm** | "the Fracturing" (3 uses, one raid victory template) | **The Shattering / The Great Echo** | An inconsistency *inside* the Discord game — it uses the sanctioned name elsewhere (*"He existed before the Shattering"*). Prose only, no engine dependency. |
 | L3 ✅ **FIXED** | **What a Retnuhxed is made of** | *"Charles was corrupted. I was **CREATED**. There is no other way for me."* | **partially absorbed beings** — and the First Tongue agrees: `Ret'nux`, *"beings absorbed by Nolem"* | ⚠ **The most consequential entry in this document.** A Retnuhxed that was created from nothing has no soul to release — which breaks the ratified `is_nike` ruling that a slain husk releases a warm soul-mote (`CANON.md` §2.1). The Discord game **contradicts itself**: its own database row for the same creature reads *"Once a legendary Nike, now…"* and agrees with this repository. Fix the story node. |
-| L4 | **Level bands, internally** | — | `collectors-journey.json` and `dimensions/*.json` give different bands | This repository disagreeing with itself. Reconcile here. |
+| L4 ✅ **FIXED** | **Level bands, internally** | — | `collectors-journey.json` and `dimensions/*.json` gave different bands | **This was never an open design question — it was a PROPAGATION failure, and that distinction is the lesson.** `nikeverse-mmo-rpg/docs/story/SPINE_LOCK.md` has carried *"✅ FREE-ORDER LEVEL BANDS — 3/3 consensus 2026-07-26. **Each pair SHARES one band**"* since the owner ratified it; it simply never reached the lore repo or `GAME_SPEC.md`, which still carried an open ⚠ describing the very problem the ruling had solved. Applied, not re-litigated: **Frostfall ⇄ Grand Arena = 31–55** (anchor 31–45 · Deep 46–55), **Neon ⇄ Void = 71–95** (anchor 71–83 · Deep 84–95). `collectors-journey.json` had all seven ranges wrong — directionally right to overlap, numerically wrong. All seven shipped Act-2 `minimumLevel` values still sit inside their region's band, so **no Discord content changed**. A `level-bands` CI job now enforces it. |
 | L5 | **`dimensions/index.json` vs its own detail files** | — | Void Terminus and Nolem's Maw rows disagreed with their per-dimension files | ✅ **FIXED** — reconciled, with a CI check so it cannot recur. |
 
 > #### ✅ L3 executed — in the game, as ruled, and it was four sites not one
@@ -164,6 +205,11 @@ These are transcription drifts, not design disagreements. Recommended direction:
 > is not a defect. See `CANON.md` §3.1.
 > - **E7 (Yuki's premise — dead-love vs living-caged-master) — DISSOLVED.** Each game picks its own. The MMO's
 >   Shinden spec simply states the MMO's version; it need not match the Discord game.
+>   **⚑ 2026-07-27 — this repository's OWN copy still changed, and that is not E7 being worked.** The owner
+>   ruled separately that Yuki is a girl and her backstory is **devoted-student, never dead-love**. Fixing E6
+>   rewrote `dimensions/shinden.json`'s harbinger block anyway, and leaving a dead-love premise there while
+>   `characters/harbingers/index.json` said devoted-student would have re-created the exact internal split E6
+>   exists to close. Cross-game divergence on Yuki remains permitted; this repo just has to agree with itself.
 > - **E8 (Slate / Echo / Abyssal Horror titles the game doesn't use) — DISSOLVED.** Cross-game title drift is now
 >   explicitly permitted.
 > - **W4 (the Abyssal Horror's title differs) — DISSOLVED.** Same class.
@@ -193,7 +239,7 @@ These are transcription drifts, not design disagreements. Recommended direction:
 
 | # | What | Why it is open |
 |---|---|---|
-| O1 ✅ **RULED — Yuki is FEMALE, she/her (owner, 2026-07-26)** | **Harbinger Yuki's gender** | Female here, male throughout the shipped Shinden arc, with **no rationale recorded anywhere** — unlike Melon, whose he/him has a written reason. Reviewed and deliberately held open (2026-07-26). **Do not sweep in either direction.** |
+| O1 ✅ **RULED — Yuki is FEMALE, she/her (owner, 2026-07-26)** | **Harbinger Yuki's gender** | **The premise was measurably wrong and is now corrected.** Not "male throughout the shipped Shinden arc" — in `shinden_008_shadow_temple.json` the pronouns run **13 female to 5 male**, and the male strays sit *inside the same sentences as the female ones* (*"**She** was the first to accept Nolem's whispers after **her** master fell… **He** guards the Temple…"*). So the shipped game's dominant voice already matches the owner ruling, and what exists is a **pronoun bug inside one shipped node**, not a lore-vs-game divergence. The lore file was already right. **Do not sweep the Discord repo** — that story is owner-frozen (see W5); the strays are recorded here, not fixed. |
 | O2 | **Is Melon corrupted at all?** | This repository and the Maw node say entirely uncorrupted. The raid layer says *"neither fully corrupted nor truly free — the shadow clings to him."* A game-internal split as much as a lore one. |
 | O3 | **Per-region level bands** | This repository's bands are a clean non-overlapping partition; the game's overlap by design ("you can start here"). Both defensible. The enforced gates are per-node minimums, so the region bands are display text. |
 | O4 | **Neon City's Charles** | "Analog Charles" here; the shipped node uses "Neon Charles" throughout while titling him "The Analog Rebel". Possibly two names for one character on purpose. |
@@ -220,6 +266,7 @@ Each was investigated and did not survive.
 
 | Claim | Why it fails |
 |---|---|
+| "Void Terminus's side-quest roster does not match what shipped" (part of W6) | It matches **4/4**. `hope`→"The Ember's Last Light" (the NPC *is* THE EMBER) · `mirror`→"Shadow-Self Confrontation" · `walker`→"The Previous Failed Walker" · `survivor`→"Consumed Dimension Survivor". Only the array **order** differs, and order is not canon. |
 | "The Imperial Colosseum side-quest roster is a direct inversion (Sane/Mad Emperor)" | No inversion. The shipped quest *is* a mad-seeming emperor who is secretly sane. This repo's title names the twist; the game's title names the surface. |
 | "Nolem is 'pure evil' in the game but 'neither good nor evil' here" | Not a conflict. "Neither good nor evil" is explicitly his **original** state; "current" is "actively malevolent". The game line is present-tense and in-character. |
 | "The Retnuhxed definition is broader in the games" | Could not be confirmed. The MMO phrasing is consistent with this repository's. |
