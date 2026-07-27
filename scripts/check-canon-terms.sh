@@ -27,10 +27,15 @@
 #   hypothetical — it fires on real content in the sibling Discord-game repo. Do not "simplify" this
 #   back to -F.
 #
-# Usage: scripts/check-canon-terms.sh   (run from repo root; exits 1 on any hit)
+# Usage: scripts/check-canon-terms.sh [ROOT]   (exits 1 on any hit)
+#   No argument  → scans this repo (the script's own parent directory), as before.
+#   With a ROOT  → scans that tree with the SAME rules. The retired terms were coined and retired
+#                  ACROSS repos, so the check has to be runnable across repos: point it at a sibling
+#                  checkout (the Discord game, the MMO build) to prove a retired term did not survive
+#                  there. That is also why -w below is load-bearing — see the header note.
 
 set -eu
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+ROOT="${1:-$(cd "$(dirname "$0")/.." && pwd)}"
 STATUS=0
 
 # One term per line. Matched case-insensitively (-i) and on word boundaries (-w).
@@ -39,13 +44,15 @@ unraveler
 reacher
 sasuke"
 
-# Search all canon content. Three files are excluded because they NAME the retired terms on purpose, in order
-# to document the retirement: this script's own header, CHANGELOG.md, and CANON.md §3.2 (the retired-names
-# section — the canonical statement of what each term was replaced by). Everything else is canon content and
-# must stay clean. If you add another doc that must name a retired term, add it here and say why.
+# Search all canon content. Four files are excluded because they NAME the retired terms on purpose, in order
+# to document the retirement: this script's own header, CHANGELOG.md, CANON.md §3.2 (the retired-names
+# section — the canonical statement of what each term was replaced by), and CANON_MAP.md (the cross-repo
+# reconciliation table, which has to quote the retired spelling to say what it became). Everything else is
+# canon content and must stay clean. If you add another doc that must name a retired term, add it here and
+# say why.
 for TERM in $RETIRED_TERMS; do
   HITS="$(grep -rnwi --exclude-dir=.git --exclude-dir=scripts \
-            --exclude=CHANGELOG.md --exclude=CANON.md -- "$TERM" "$ROOT" || true)"
+            --exclude=CHANGELOG.md --exclude=CANON.md --exclude=CANON_MAP.md -- "$TERM" "$ROOT" || true)"
   if [ -n "$HITS" ]; then
     echo "RETIRED canon term '$TERM' found — see scripts/check-canon-terms.sh header for its replacement:"
     echo "$HITS"

@@ -1,4 +1,44 @@
 {
+    "tierDefinitions": {
+        "source": "nikeverse-mmo-rpg/docs/story/UNIVERSE_DEPTH_SPEC.md \u00a7T1 \u2014 THE THREE-TIER MYSTERY ARCHITECTURE. Transcribed, not invented.",
+        "test": "Would answering this make the cosmos smaller? If yes \u2014 never answer. If the answer makes the world larger or more tragic \u2014 deepen it.",
+        "enforcedBy": "scripts/check-mystery-tiers.py. Every entry in this file declares a tier; every tier-3 entry declares neverAnswerTerms; every question CANON.md \u00a74.1 freezes is claimed by exactly one tier-3 entry here.",
+        "tiers": [
+            {
+                "tier": 1,
+                "name": "PILLARS",
+                "rule": "Answered, locked.",
+                "examples": [
+                    "The Sixth Seat is the player",
+                    "The Weaver, and sacrifice-as-surrendered-ending",
+                    "Nolem bound, not killed",
+                    "The 5,555-simultaneous mechanism",
+                    "The First Bond / Eth'kara / the Charles Constant",
+                    "The Harbinger = fallen-Collector taxonomy"
+                ]
+            },
+            {
+                "tier": 2,
+                "name": "EARNED SECRETS",
+                "rule": "Answered, FromSoft-fragmentary, Resonance-gated for the luminous ones.",
+                "examples": [
+                    "The 8 Broken Shrines",
+                    "The Aeth'kai \u2014 their fall, their glyphs, the Memory Crystals",
+                    "First-Tongue morphology (discoverable by construction)",
+                    "The Five Mysteries / Weaver-Waking questlines"
+                ],
+                "note": "UNIVERSE_DEPTH_SPEC \u00a7T1 originally migrated the Weaver-consumption (how the Singular of Connection was lost) up into this tier. The owner DEFERRED that ratification on 2026-07-26 and it moved back to tier 3 \u2014 see 'lost-singular' below, singulars/index.json, and GAME_SPEC.md \u00a73.16. Tier 2 means it eventually gets answered, which is exactly what the ruling forbids."
+            },
+            {
+                "tier": 3,
+                "name": "PERMANENTLY UNKNOWABLE",
+                "rule": "Never answered, never quest-marked, atmospheric-only. Theories may be spoken and must all remain unproven; no voice, record, artifact or vision resolves them, and none is ever a thread that can be followed to its end.",
+                "members": "The six questions CANON.md \u00a74.1 (FROZEN) keeps dark, plus 'lost-singular' by owner deferral 2026-07-26.",
+                "mechanism": "A static do-not-resolve list keyed to these mystery ids. The lint fails any content that hangs a quest-marker or codex-completion key on a tier-3 subject, and trips on an unhedged declarative resolution of one. A static rule beats governance thrash."
+            }
+        ],
+        "notTheContributingTiers": "CONTRIBUTING.md carries an unrelated Tier 1/2/3 table about SOURCE AUTHORITY (comics, then raid lore, then community contributions). Nothing reads it. Do not conflate the two \u2014 CANON.md \u00a74.1 says so explicitly."
+    },
     "prophecies": [
         {
             "id": "aethkai-warning",
@@ -6,6 +46,9 @@
             "source": "Aeth'kai civilization (pre-extinction)",
             "language": "First Tongue (translated)",
             "status": "Active \u2014 currently unfolding",
+            "tier": 1,
+            "tierSource": "UNIVERSE_DEPTH_SPEC.md \u00a7T1 tier 1 (PILLARS, answered and locked) \u2014 'the First Bond / Eth'kara / the Charles Constant' and 'the Weaver + sacrifice-as-surrendered-ending'. CANON.md \u00a71.4 (RATIFIED) locks the price.",
+            "tierNote": "The prophecy's TEXT and its meaning are tier 1. Its TRUE AUTHOR is a guarded tier-2 reveal (GAME_SPEC.md \u00a73.16) \u2014 a tier-1 rating here is not licence to name who wrote it.",
             "text": {
                 "original": "Nol'meth shat'ael keth'nor, mir'eth char'veth nik'ael thael'vos. Vel prim'nik, eth'kara vor'thael. Keth mir'eth \u2014 shat'ael vel'nos eth'kara.",
                 "translated": "When the Unraveling wakes and the echoes dim, the Shepherd and the Pig shall meet again. Not as one, but as thousands-made-one, the heart-chain restored, the darkness undone. But beware the cost\u2014to bind what was torn, a sacrifice made as it was when first born."
@@ -80,6 +123,8 @@
             "name": "The 5,555 Prophecy",
             "source": "Scholar Recording (Nolem's Maw) + OG Nike (Void Terminus) + Aeth'kai texts (Scholar Bunker)",
             "status": "Revealed \u2014 in progress",
+            "tier": 1,
+            "tierSource": "UNIVERSE_DEPTH_SPEC.md \u00a7T1 tier 1 (PILLARS, answered and locked) \u2014 'the 5,555-simultaneous mechanism'. CANON.md \u00a71.2 (RATIFIED) states it outright, and GAME_SPEC.md \u00a73.16 does not list it as guarded.",
             "text": {
                 "core": "Nike Prime isn't one soul carrying 5,555. Nike Prime IS 5,555 souls carrying each other.",
                 "aethkai_fragment": "When 5,555 souls carry each other, the trap may open.",
@@ -118,6 +163,25 @@
             "id": "shiro-origin",
             "question": "Where did Shiro come from?",
             "description": "An interdimensional cat with powers exceeding any known technology",
+            "tier": 3,
+            "canonQuestion": "Where Shiro came from.",
+            "tierSource": "CANON.md \u00a74.1 (FROZEN) question 6; GAME_SPEC.md \u00a73.16 item 6 \u2014 'never named, never interactive, never explained; silent visual cameos are the ceiling'.",
+            "neverAnswerTerms": [
+                "shiro",
+                "re:\\bportal[- ]cat\\b"
+            ],
+            "mayAnswer": [
+                "That Shiro opens the way is plain \u2014 his FUNCTION is tier-1 canon (CANON.md \u00a74.1).",
+                "That he is seen and never spoken to. Silent visual cameos are the ceiling.",
+                "That his patterns were absorbed by Charles AI, surviving as its unexplained cat-nature (GAME_SPEC.md \u00a73.4 Act 5).",
+                "Only his ORIGIN is dark: where he came from, what he is, who sent him. Explain him and you kill him."
+            ],
+            "mayAnswerTerms": [
+                "re:\\bshiro\\b[^.!?]{0,20}\\b(opens?|opened|opening)\\b",
+                "re:\\bshiro\\b[^.!?]{0,20}\\b(was|is|had)\\s+(there|here|gone|silent|watching|gone again)\\b",
+                "re:\\bshiro\\b[^.!?]{0,20}\\b(visible|glimpsed|seen|silhouette)\\b",
+                "re:\\bshiro\\b[^.!?]{0,45}\\b(charles ai|cat[- ]nature|cameo)\\b"
+            ],
             "theories": [
                 {
                     "name": "Aeth'kai Survivor",
@@ -151,6 +215,23 @@
             "id": "lost-singular",
             "question": "What happened to the Singular of Connection?",
             "description": "Evidence suggests a Singular opposite to Nolem once existed",
+            "tier": 3,
+            "tierSource": "Owner deferral 2026-07-26 \u2014 NOT a CANON.md \u00a74.1 question. GAME_SPEC.md \u00a73.16 ('DEFERRED BY THE OWNER 2026-07-26 and moved to TIER-3'), UNIVERSE_DEPTH_SPEC.md \u00a7C8, and singulars/index.json theoretical.the-weaver.canonNote.",
+            "neverAnswerTerms": [
+                "re:\\bnolem\\b[^.!?]{0,40}\\b(ate|eats|consumed|devoured|absorbed|unmade|destroyed)\\b[^.!?]{0,25}\\b(the\\s+)?(weaver|singular of connection)\\b",
+                "re:\\b(the\\s+)?(weaver|singular of connection)\\b[^.!?]{0,40}\\bwas\\s+(consumed|devoured|eaten|absorbed|unmade|destroyed|killed|lost)\\b",
+                "how the weaver was lost",
+                "what happened to the weaver",
+                "what happened to the singular of connection"
+            ],
+            "mayAnswer": [
+                "That the Weaver EXISTS, that it is scattered, and that the Pattern is its distributed body \u2014 the RATIFIED pillar (singulars/index.json; GAME_SPEC.md \u00a73.16).",
+                "That the Weaver is the empathy core's true nature: the lost Singular re-coalescing. The forward direction is canon.",
+                "Never HOW it was lost, and never Nolem as the cause. The backward direction is deferred, and any future ratification must never steal the thunder of Nike and the Nikeverse."
+            ],
+            "mayAnswerTerms": [
+                "re:\\b(the\\s+)?weaver\\b[^.!?]{0,60}\\b(exists?|scattered|the pattern is its|distributed body|empathy core|theoretical)"
+            ],
             "theories": [
                 {
                     "name": "Destroyed by Nolem",
@@ -173,6 +254,21 @@
             "id": "why-nikes",
             "question": "Why did Nolem target pigs/Nikes specifically?",
             "description": "Of all species across infinite dimensions, why pigs?",
+            "tier": 3,
+            "canonQuestion": "Why pigs",
+            "tierSource": "CANON.md \u00a74.1 (FROZEN) question 1 \u2014 'why Nolem came for that shape, of all the shapes a soul could take'; GAME_SPEC.md \u00a73.16 item 1. UNIVERSE_DEPTH_SPEC.md \u00a7T1 calls it the IP's koan and keeps it decoupled from every other ratification.",
+            "neverAnswerTerms": [
+                "why pigs",
+                "why nikes",
+                "re:\\bwhy\\b[^.!?]{0,45}\\b(target|targets|targeted|choose|chose|chosen|hunt|hunts|hunted|came for|come for|pick|picked|want|wanted|need|needed)\\b[^.!?]{0,30}\\b(the\\s+)?(pigs?|nikes?)\\b",
+                "re:\\b(targeted|targets|chose|chooses|came for|picked|selected)\\b[^.!?]{0,25}\\b(the\\s+)?(pigs?|nikes?)\\b",
+                "re:\\bof all\\b[^.!?]{0,45}\\bwhy\\b[^.!?]{0,20}\\b(pigs?|nikes?)\\b"
+            ],
+            "mayAnswer": [
+                "THAT Nolem hunts Nikes \u2014 settled canon. Known victim species: the Aeth'kai (extinct), Squilya's people (near-extinct), Nikes (ongoing).",
+                "That Cthulhu granted the Nikes their traits so his prey would not shatter so feebly.",
+                "In-world theories, voiced and left unproven. Never the answer."
+            ],
             "theories": [
                 {
                     "name": "Random Selection",
@@ -200,6 +296,21 @@
             "id": "og-charles-origin",
             "question": "How did OG Charles stumble through the first rift?",
             "description": "Was it truly random, or was he guided?",
+            "tier": 3,
+            "canonQuestion": "How OG Charles first came through.",
+            "tierSource": "CANON.md \u00a74.1 (FROZEN) question 3; GAME_SPEC.md \u00a73.16 item 3. UNIVERSE_DEPTH_SPEC.md \u00a7T1: 'the First Bond stays a little miraculous'.",
+            "neverAnswerTerms": [
+                "re:\\bog charles\\b[^.!?]{0,60}\\b(came through|come through|stumbl(e|es|ed|ing)|crossed over|crossed into|first rift)\\b",
+                "re:\\bfirst (dimensional )?rift\\b[^.!?]{0,60}\\b(og charles|the first shepherd)\\b",
+                "re:\\b(came through|come through|stumbl(e|es|ed|ing) (in|into|through)|crossed into)\\b[^.!?]{0,40}\\bfirst (dimensional )?rift\\b",
+                "how og charles came through",
+                "how the first shepherd came through"
+            ],
+            "mayAnswer": [
+                "THAT OG Charles came through the first rift, met OG Nike, and made the First Bond \u2014 the founding event, tier 1.",
+                "That he was 'just a man, nobody special' \u2014 his canon self-description.",
+                "Only the HOW is dark: chance, guidance, or something else. Never resolve it, and never make it a thread that can be followed to its end."
+            ],
             "theories": [
                 {
                     "name": "Pure Coincidence",
@@ -227,6 +338,21 @@
             "id": "void-between",
             "question": "What exists between dimensions?",
             "description": "The BETTY Project accessed a 'strange reality' where physics breaks down",
+            "tier": 3,
+            "canonQuestion": "What lies in the Void Between.",
+            "tierSource": "CANON.md \u00a74.1 (FROZEN) question 2; GAME_SPEC.md \u00a73.16 item 2. UNIVERSE_DEPTH_SPEC.md \u00a7T1: 'its existence canon, its nature dark'.",
+            "neverAnswerTerms": [
+                "void between",
+                "re:\\bwhat\\s+(lies|exists?|is|waits?|lives?)\\s+(in|between)\\b[^.!?]{0,30}\\bdimensions?\\b"
+            ],
+            "mayAnswer": [
+                "That the Void Between EXISTS \u2014 its existence is canon.",
+                "That the BETTY Project touched 'a strange reality where physics breaks'. Leave it at that (GAME_SPEC.md \u00a73.16 item 2).",
+                "Only its NATURE is dark: what it is, what is in it, where it leads, whose domain it is."
+            ],
+            "mayAnswerTerms": [
+                "re:\\bvoid between\\b[^.!?]{0,60}\\b(exists?|is real|physics break|strange reality|betty)"
+            ],
             "theories": [
                 {
                     "name": "Nolem's True Domain",
@@ -248,6 +374,109 @@
                     "evidence": "Could be gateway to something beyond our reality",
                     "likelihood": "Unknown"
                 }
+            ]
+        },
+        {
+            "id": "the-others",
+            "question": "Who were the unnamed others of the Formless Era?",
+            "description": "Before dimensions there were only the Singulars. Two of them have names. The rest do not, and nothing in any reality supplies one.",
+            "tier": 3,
+            "canonQuestion": "The names of the unnamed others of the Formless Era.",
+            "tierSource": "CANON.md \u00a74.1 (FROZEN) question 4; GAME_SPEC.md \u00a73.16 item 4 \u2014 'Never name, count, or show them'. UNIVERSE_DEPTH_SPEC.md \u00a7T1 lists 'the unnamed others beyond the multiverse'.",
+            "neverAnswerTerms": [
+                "unnamed others",
+                "other singulars",
+                "re:\\bothers?\\b[^.!?]{0,50}\\bformless era\\b",
+                "re:\\bformless era\\b[^.!?]{0,50}\\bothers?\\b",
+                "re:\\bhow many\\b[^.!?]{0,30}\\bsingulars?\\b"
+            ],
+            "mayAnswer": [
+                "THAT other Singulars existed in the Formless Era \u2014 stated canon (timeline/ages.json; GAME_SPEC.md \u00a73.5).",
+                "That Nolem and Cthulhu are the two who are named, and that the Weaver is theorised and stays theoretical.",
+                "The general properties of Singulars: they exist once across all realities, predate time, and cannot be permanently destroyed.",
+                "Never a name, never a number, never a depiction. All three are forbidden, not just the names."
+            ],
+            "theories": [
+                {
+                    "name": "They Became the Dimensions",
+                    "evidence": "The Formless Era ended when reality crystallised into dimensions, and nothing records where the rest went",
+                    "likelihood": "Unknown"
+                },
+                {
+                    "name": "Nolem Reached Them First",
+                    "evidence": "Absorption is his oldest habit, and he predates every record of them",
+                    "likelihood": "Unknown"
+                },
+                {
+                    "name": "They Are Still There",
+                    "evidence": "A Singular cannot be permanently destroyed",
+                    "likelihood": "Unknown"
+                },
+                {
+                    "name": "There Was Never Anyone Else",
+                    "evidence": "'Only the Singulars existed' may be two beings and a rumour",
+                    "likelihood": "Unknown"
+                }
+            ],
+            "clues": [
+                "Singulars exist ONCE across all realities \u2014 no variants, no echoes",
+                "They predate the concept of time itself and cannot be permanently destroyed",
+                "In the Formless Era, Nolem was simply entropy \u2014 a natural force, not yet malevolent",
+                "The Dimension Eater, which has swallowed whole realities, sheds no light on them and has never met one"
+            ]
+        },
+        {
+            "id": "cthulhu-motive",
+            "question": "Why does Cthulhu help?",
+            "description": "He watches, he gives, and he empowers Nolem's prey instead of fighting Nolem himself. All of that is settled. The reason underneath it is not.",
+            "tier": 3,
+            "canonQuestion": "Why Cthulhu helps.",
+            "tierSource": "CANON.md \u00a74.1 (FROZEN) question 5 \u2014 'that Cthulhu watches and gives is settled; only his deeper reason is dark'; GAME_SPEC.md \u00a73.16 item 5; singulars/cthulhu.json.",
+            "neverAnswerTerms": [
+                "re:\\bwhy\\b[^.!?]{0,30}\\bcthulhu\\b",
+                "re:\\bcthulhu\\b[^.!?]{0,40}\\b(motive|motives|reason|purpose|agenda|endgame|bargain|price)\\b",
+                "re:\\bcthulhu\\b[^.!?]{0,25}\\bhelps?\\b",
+                "cthulhu's motive",
+                "cthulhu's reason",
+                "cthulhu's purpose"
+            ],
+            "mayAnswer": [
+                "THAT Cthulhu watches and gives is settled canon (CANON.md \u00a74.1) \u2014 say it freely.",
+                "That he is Neutral \u2014 observing: a Protector who empowers Nolem's potential victims rather than fighting Nolem directly.",
+                "That the traits Nikes carry may originate from his intervention, and that his 'madness' is knowledge too vast for mortal minds, not an insanity effect.",
+                "The Warning and the Cthylla exchange, verbatim.",
+                "Only his DEEPER motive is dark. The dread is fascination with an edge on it, not malice."
+            ],
+            "mayAnswerTerms": [
+                "re:\\bcthulhu\\b[^.!?]{0,60}\\b(watches?|watching|observes?|observing|gifts?|granted|grants|whisper|protector|neutral)"
+            ],
+            "theories": [
+                {
+                    "name": "Balance",
+                    "evidence": "He arms the prey and never strikes the predator, as though the contest matters more than its outcome",
+                    "likelihood": "Unknown"
+                },
+                {
+                    "name": "Knowledge Needs Witnesses",
+                    "evidence": "His domains are Madness, Knowledge and Observation. A reality with nothing left alive in it cannot be read.",
+                    "likelihood": "Unknown"
+                },
+                {
+                    "name": "Entertainment",
+                    "evidence": "Cthylla views mortals as entertainment; he mocks her for it, which is not the same as disagreeing",
+                    "likelihood": "Unknown"
+                },
+                {
+                    "name": "A Debt No Mortal Was Alive For",
+                    "evidence": "He predates dimensions. Whatever he owes, he owes it to the Formless Era.",
+                    "likelihood": "Unknown"
+                }
+            ],
+            "clues": [
+                "The Warning, verbatim: 'Nolem has been using his shadow entities to meddle with creatures in other universes. I shall ordain that his current prey not shatter so feebly.'",
+                "He gives gifts and does not intervene directly \u2014 he has never fought Nolem",
+                "Cthylla: 'You squander your mind whispering wisdom to worms now?' / Cthulhu: 'Says the creature that plays with their food.'",
+                "His alignment is Neutral \u2014 observing. Not Benevolent."
             ]
         }
     ]
