@@ -272,10 +272,10 @@ place several settled rulings existed.
 |---|---|---|
 | §1.4 The Weaver / Sixth Seat / the sacrifice | RATIFIED 2026-06-16 | `nikeverse-mmo-rpg` · `docs/ROAD_TO_100.md:612` |
 | §2.1 Souls, husks and constructs | RATIFIED 2026-06-16 | `nikeverse-mmo-rpg` · `docs/ROAD_TO_100.md:617` |
-| §2.2 No roles | RATIFIED 2026-06-15 | `nikeverse-mmo-rpg` · `docs/STORY_BIBLE.md:109, :187, :399` |
+| §2.2 No roles | RATIFIED 2026-06-15 | `Nikeverse-mmo-rpg-from-scratch` · `docs/STORY_BIBLE.md:109, :187, :399` |
 | §2.3 The two art laws | RATIFIED 2026-07-25 | `nikeverse-mmo-rpg` · `docs/ART_DIRECTION.md:14, :26` |
 | §3.1 Fallen-side taxonomy | RATIFIED 2026-06-17 | already here — `characters/harbingers/index.json`, and originating in the Discord game's Hub |
-| §4.1 The six dark questions | FROZEN, no owner stamp | `nikeverse-mmo-rpg` · `docs/story/UNIVERSE_DEPTH_SPEC.md` |
+| §4.1 The six dark questions | FROZEN, no owner stamp | `Nikeverse-mmo-rpg-from-scratch` · `docs/story/UNIVERSE_DEPTH_SPEC.md` |
 | §4.2 The Collector's silence | FROZEN, no owner stamp | `Nikeverse-mmo-rpg-from-scratch` · `docs/GAME_SPEC.md:113, :395, :429` |
 | §5.1 The three ends | FROZEN, partial record | `docs/STORY_BIBLE.md` §C/§F, called "locked written canon" |
 | §5.2 Both endings are real | FROZEN, no owner stamp | Originates as a **shipped bug fix** in the Discord game, then elevated to a campaign-wide law |
