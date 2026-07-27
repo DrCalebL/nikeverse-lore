@@ -7,7 +7,7 @@
         "max": 70
     },
     "playOrder": 5,
-    "description": "A corrupted empire built on the ruins of heroism. This is where Nike Prime was born \u2014 beneath the Colosseum in a secret laboratory. The most lore-critical dimension in the game. Freeing Gladiator Nike unlocks the Scholar Bunker containing the truth of Nike Prime's missing empathy core.",
+    "description": "A corrupted empire built on the ruins of heroism. This is where Nike Prime was born \u2014 beneath the Colosseum in a secret laboratory. The most lore-critical dimension in the game. DEFEATING Gladiator Nike unlocks the Scholar Bunker (never _freed — the KO path must reach the midpoint reveal) containing the truth of Nike Prime's missing empathy core.",
     "atmosphere": {
         "visual": "Roman architecture, gladiatorial arenas, senate halls, underground bunker",
         "mood": "Grand but hollow. Glory built on corruption.",
@@ -113,9 +113,10 @@
         "The Scholar's Legacy"
     ],
     "dimensionalAnchor": {
-        "name": "General's Sigil",
-        "description": "Gladiator Nike's command seal. Still carries the authority of the Five Champions.",
-        "obtainedFrom": "Gladiator Nike after freeing him"
+        "id": "champions_laurel",
+        "name": "Champion's Laurel",
+        "description": "A crown of victory worn by one who finally chose freedom over glory.",
+        "obtainedFrom": "Gladiator Nike \u2014 granted on his defeat \u2014 both resolutions count, whether he is freed from corruption or put down"
     },
     "primeEraConnection": {
         "existed": true,

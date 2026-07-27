@@ -94,9 +94,10 @@
         "Slate's Redemption"
     ],
     "dimensionalAnchor": {
-        "name": "Champion's Wraps",
-        "description": "Hand wraps that glow with the fire of every honest fight ever fought in the Arena",
-        "obtainedFrom": "Nike Tyson Nike after freeing him"
+        "id": "champions_belt",
+        "name": "Champion's Belt",
+        "description": "A title that once represented glory, now freed from the corruption of endless victory.",
+        "obtainedFrom": "Nike Tyson \u2014 granted on his defeat \u2014 both resolutions count, whether he is freed from corruption or put down"
     },
     "primeEraConnection": {
         "existed": true,

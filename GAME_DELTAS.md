@@ -36,30 +36,68 @@ These are transcription drifts, not design disagreements. Recommended direction:
 
 | # | What | This repository says | The game says | Note |
 |---|---|---|---|---|
-| E1 | **Hydra Nike's heads** | "Five arguing heads… Head 4 is paranoid, Head 5 is calm" | **Three**, everywhere | Decisive: this repo's own `quote_game` is the three shipped head lines stitched with " / ". Also **live code** — `RaidBossConfig.js` defines a trait named `Three Heads` and the raid survive-chokepoint keys off that name. |
-| E2 | **Cardano Whale's gender** | *"**Her** form blocks out the void"* | he/him throughout | Self-refuting: the same record's `whyNotRecruited` reads *"No way to communicate with **him**."* |
-| E3 | **What Cardano Whale lost** | a lost calf | a **pod — his family**, whose names the void ate | A third version exists in the raid layer: *"Nolem devoured his ocean."* Three accounts, one soul. |
-| E4 | **Bertus Maximus's story** | froze himself from guilt over a dimension he destroyed | intercepted alive at the village edge; three centuries of hunting, *"no hall to come home to"* | **A copy-paste.** Bertus and Colossal Nike carry a **byte-identical** `quote_game`, and the shipped game gives that line to Colossal. This record is also self-refuting — its own `corruptionReason` is "Fulfillment — found endless war." ⚠ **See §3.5 before fixing.** |
+| E1 ✅ **FIXED** | **Hydra Nike's heads** | "Five arguing heads… Head 4 is paranoid, Head 5 is calm" | **Three**, everywhere | Decisive: this repo's own `quote_game` is the three shipped head lines stitched with " / ". Also **live code** — `RaidBossConfig.js` defines a trait named `Three Heads` and the raid survive-chokepoint keys off that name. |
+| E2 ✅ **FIXED** | **Cardano Whale's gender** | *"**Her** form blocks out the void"* | he/him throughout | Self-refuting: the same record's `whyNotRecruited` reads *"No way to communicate with **him**."* |
+| E3 ✅ **FIXED** | **What Cardano Whale lost** | a lost calf | a **pod — his family**, whose names the void ate | A third version exists in the raid layer: *"Nolem devoured his ocean."* Three accounts, one soul. |
+| E4 ✅ **FIXED** | **Bertus Maximus's story** | froze himself from guilt over a dimension he destroyed | intercepted alive at the village edge; three centuries of hunting, *"no hall to come home to"* | **A copy-paste.** Bertus and Colossal Nike carry a **byte-identical** `quote_game`, and the shipped game gives that line to Colossal. This record is also self-refuting — its own `corruptionReason` is "Fulfillment — found endless war." *(The old pointer here read "see §3.5" — no such section exists; it meant row O5, now resolved.)* |
 | E5 | **Harbinger Erik** | "The Eternal Raider" · glory that became emptiness | "The Prisoner in His Own Body" · *"I offered my service for my people's safety. He laughed. Said he'd take my service AND my people."* | A split **inside this repository** — `dimensions/frostfall.json` disagrees with `characters/harbingers/index.json`. The game adjudicates. |
 | E6 | **Harbinger Yuki's title** | "The Ice Shadow" (`dimensions/shinden.json`) | "The Devoted Shadow" | Same internal split — `characters/harbingers/index.json` already says "The Devoted Shadow" and matches the game. |
 | E7 | **Yuki's premise** | the Nike she loved **died**; grief became rage | the master is **alive** and corrupted; Yuki stays to be near him | Changes the whole character: grief-for-the-dead versus devotion-that-cages. |
 | E8 | **Other Harbinger titles** | Slate, Echo and the Abyssal Horror carry titles the shipped game does not use | — | Same class as E5/E6. |
-| E9 | **When Ninja Nike fell** | "The Forgetting", 300–500 years after the Prime Era | **fifteen years ago** | The shipped arc depends on it: his clan still remembers him. |
-| E10 | **Melon's boss classification** | `raidBoss: true, campaignBoss: false` | a campaign **anchor** boss *and* a raid boss | Self-refuted here too — the same record's `gameEncounter` describes a campaign encounter in Nolem's Maw. |
-| E11 | **Melon under pressure** | "Not evil. Not broken. Just… a realist" | breaks: *"I was SCARED, okay?!"* | This repo has the surface; the game has what is underneath it. |
+| E9 ✅ **FIXED** | **When Ninja Nike fell** | "The Forgetting", 300–500 years after the Prime Era | **fifteen years ago** | The shipped arc depends on it: his clan still remembers him. |
+| E10 ✅ **FIXED** | **Melon's boss classification** | `raidBoss: true, campaignBoss: false` | a campaign **anchor** boss *and* a raid boss | Self-refuted here too — the same record's `gameEncounter` describes a campaign encounter in Nolem's Maw. |
+| E11 ✅ **FIXED** | **Melon under pressure** | "Not evil. Not broken. Just… a realist" | breaks: *"I was SCARED, okay?!"* | This repo has the surface; the game has what is underneath it. |
+
+> #### ✅ E1, E2, E3, E9, E10, E11 executed — with one correction to this register itself
+> **E10's word "anchor" was wrong.** Melon is a campaign boss, but he is **not** a region anchor:
+> `act2_002_melon_boss.json` carries **no `isAnchorBoss` and no `grantAnchor`**, and the Discord repo's own
+> `CLAUDE.md` names the five anchors, none of them Melon. He is one of the 21 Act-2 sub-bosses (with a
+> `catchOpportunity`) *and* a raid boss (`RaidBossConfig` `MELON`). Lore now reads `campaignBoss: true` with a
+> note recording exactly that, rather than promoting him to an anchor he never was.
+>
+> **E9 was self-refuting inside one record.** Ninja Nike's `corruptionEra` said *"The Forgetting (300–500
+> years after Prime Era)"* while his own `gameNarrative`, four lines below, said the mist had covered the realm
+> *"for fifteen years."* Only his date moved — **"The Forgetting" is a shared era** used by three other
+> Legendaries and by `timeline/long-silence.json` and `timeline/ages.json`, and sweeping the phrase would have
+> moved four falls to fix one.
+>
+> **E3 had a second site the register did not list:** `dimensions/void-terminus.json` carried the same
+> "lost calf" line as the Legendary record. Both are now the pod.
+>
+> **E1's fix is larger than a numeral.** The five-head reading carried per-head personalities for heads 4 and 5
+> that had to be deleted, not renumbered, and the shipped backstory tells a different story than lore did:
+> they were one Nike until a dimensional collision, Charles balanced them, and Nolem corrupted only the
+> *weakest* head, which corrupted the others. Lore said Nolem "offered silence to all five."
 
 ### 1.2 The world
 
 | # | What | This repository says | The game says | Note |
 |---|---|---|---|---|
-| W1 | **The Dimensional Anchors — all six** | Shadow Kunai · Frostfire Axe · Champion's Wraps · General's Sigil · Chrome Interface | `blade_of_shadows` **Blade of Shadows** · `crown_of_berserker` **Crown of the Berserker** · `champions_belt` **Champion's Belt** · `champions_laurel` **Champion's Laurel** · `source_code` **Source Code** | **Live engine state** — these ids are granted on boss defeat and gate region unlocks. Frostfall differs in *form*, not just name (an axe here, a helm there). Shinden's game name also appears in the MMO's generated relic table, so three of four repositories carry it. |
-| W2 | **The sixth anchor** | absent — only five are recorded | Void Terminus grants `final_fragment` **Final Fragment** | An enumeration gap, not a conflict. Six anchor flags are hardcoded in the engine. |
+| W1 ✅ **FIXED** | **The Dimensional Anchors — all six** | Shadow Kunai · Frostfire Axe · Champion's Wraps · General's Sigil · Chrome Interface | `blade_of_shadows` **Blade of Shadows** · `crown_of_berserker` **Crown of the Berserker** · `champions_belt` **Champion's Belt** · `champions_laurel` **Champion's Laurel** · `source_code` **Source Code** | **Live engine state** — these ids are granted on boss defeat and gate region unlocks. Frostfall differs in *form*, not just name (an axe here, a helm there). Shinden's game name also appears in the MMO's generated relic table, so three of four repositories carry it. |
+| W2 ✅ **FIXED** | **The sixth anchor** | absent — only five are recorded | Void Terminus grants `final_fragment` **Final Fragment** | An enumeration gap, not a conflict. Six anchor flags are hardcoded in the engine. |
 | W3 | **Void Terminus's boss** | "Abyssal Horror (Harbinger)" as Act-1 boss | the **Dimension Eater**, "THE DEVOURER OF WORLDS"; the Abyssal Horror is an *elite mini-boss* that gates it | *"Dimension Eater"* returns **zero hits** in this repository. A whole region boss is missing from canon. |
 | W4 | **The Abyssal Horror's title** | differs from the shipped title | — | Same class as the Harbinger titles. |
-| W5 | **The Act-2 gate** | "Freeing the Act 1 Legendary unlocks deeper content in each dimension" | every one of the seven Act-2 entries additionally requires **`campaign_complete`** | Act 2 is post-campaign endgame, not mid-region content. A structural difference, not a wording one. |
+| W5 | **The Act-2 gate** | "Freeing the Act 1 Legendary unlocks deeper content in each dimension" | every one of the seven Act-2 entries additionally requires **`campaign_complete`** | ⚑ **REVERSED 2026-07-27 — the LORE was right and the shipped gate is an engine artifact.** Deep tier ("Act 2") opens **PER-REGION**, on that region's own anchor falling. The `campaign_complete` gate is not canon: it lives in **engine code** (`StoryNodeLoader.js:149,158,258` — `n.act === 2 && !flags.campaign_complete`), not in the 63 nodes, and the shipped DATA contradicts it — the seven Deep-tier entries carry a monotone **minimumLevel staircase 22·38·50·62·78·90·98**, interleaved with the region bands. Shinden's Deep tier gates at **level 22**, inside Shinden's own 11–30 band; a genuinely post-campaign tier would flatten all seven to campaign-exit level. The MMO port must **DELETE that predicate**, not inherit it. **The shipped Discord game KEEPS its global gate — owner decision 2026-07-27, leave that story alone.** This is a CLOSED, accepted, permanent divergence between the two products, not an open defect: the Discord game has players mid-campaign and flipping the gate would change what 20+ nodes do for every existing save. Do not re-open it, and do not "fix" `StoryNodeLoader.js`. |
 | W6 | **Side-quest rosters** | Grand Arena, Neon City and Void Terminus rosters do not match what shipped | — | Frostfall and Shinden **do** match. |
 | W7 | **"The Usurper's Throne"** | Frostfall's boss arena, where Erik holds court | a shipped **side quest** about a kinslayer king; Erik is elsewhere | — |
-| W8 | **`quote_game` is unreliable** | asserts a line is spoken in-game | **9 of 27** are present verbatim; 18 are not | Four of the 18 are paraphrases of real lines; one gives Bertus a line the game gives to Colossal. Treat `quote_game` as *authored flavour*, never as a citation. |
+| W8 | **`quote_game` is unreliable** | asserts a line is spoken in-game | **10 of 27** are present verbatim; 17 are not | Four are paraphrases of real lines. *(The Bertus/Colossal duplicate that used to sit here is fixed — E4.)* Treat `quote_game` as *authored flavour*, never as a citation. |
+
+> #### ✅ W1 + W2 executed — and they carried a third defect the register had not recorded
+> All six lore anchors now match live engine state 6-for-6, by `id` **and** display name, and each lore entry
+> now carries the engine `id` so the pairing is checkable rather than inferred.
+>
+> **The third defect:** every lore anchor read `"obtainedFrom": "<Boss> after freeing him"`. The engine grants
+> them on **defeat** — `grantedOnBossDefeat: true`, and `grantAnchor` sits in the `completion` block as a
+> *sibling* of `setFlagsOnCatch`/`setFlagsOnKO`, so it fires on either outcome. "After freeing him" is exactly
+> the `_freed` gating that `CANON.md` §5.2 and both game repos' `CLAUDE.md` forbid, because it softlocks the
+> supported KO path. All five now say the anchor is granted on defeat, both resolutions counting.
+>
+> **Void Terminus is legitimately different and this is not a contradiction.** `final_fragment` is
+> `grantedOnBossDefeat: false, grantedByNPC: "OG Nike"` — a gift, not a drop. That is what lets
+> `dimensions/index.json`'s *"No region anchor Legendary — deliberate. The bottom of the world is not a boss."*
+> and `nikeverse-mmo-rpg/docs/story/SPINE_LOCK.md` §8's *"Void Terminus 'no region anchor' is correct"* both
+> stand while the region still completes the set of six. The new lore entry says so explicitly, so nobody
+> "fixes" it into a boss drop later.
 
 ---
 
@@ -69,9 +107,85 @@ These are transcription drifts, not design disagreements. Recommended direction:
 |---|---|---|---|---|
 | L1 | **Who is in the trap** | *"He's felt this signature before — for 3,000 years, pressed against it in the space-time trap"* — of **OG Nike** | **Nike Prime** is in the trap; OG Nike keeps vigil at the edge of reality | A one-line authoring slip, not a rival cosmology: three other lines in the same file place OG Nike at the edge, and another shipped node says of Nike Prime *"before he sealed himself away for three thousand years."* Low blast radius — the line only renders on the worst Resonance band. Fixable with a preposition. |
 | L2 | **The name of the cataclysm** | "the Fracturing" (3 uses, one raid victory template) | **The Shattering / The Great Echo** | An inconsistency *inside* the Discord game — it uses the sanctioned name elsewhere (*"He existed before the Shattering"*). Prose only, no engine dependency. |
-| L3 | **What a Retnuhxed is made of** | *"Charles was corrupted. I was **CREATED**. There is no other way for me."* | **partially absorbed beings** — and the First Tongue agrees: `Ret'nux`, *"beings absorbed by Nolem"* | ⚠ **The most consequential entry in this document.** A Retnuhxed that was created from nothing has no soul to release — which breaks the ratified `is_nike` ruling that a slain husk releases a warm soul-mote (`CANON.md` §2.1). The Discord game **contradicts itself**: its own database row for the same creature reads *"Once a legendary Nike, now…"* and agrees with this repository. Fix the story node. |
+| L3 ✅ **FIXED** | **What a Retnuhxed is made of** | *"Charles was corrupted. I was **CREATED**. There is no other way for me."* | **partially absorbed beings** — and the First Tongue agrees: `Ret'nux`, *"beings absorbed by Nolem"* | ⚠ **The most consequential entry in this document.** A Retnuhxed that was created from nothing has no soul to release — which breaks the ratified `is_nike` ruling that a slain husk releases a warm soul-mote (`CANON.md` §2.1). The Discord game **contradicts itself**: its own database row for the same creature reads *"Once a legendary Nike, now…"* and agrees with this repository. Fix the story node. |
 | L4 | **Level bands, internally** | — | `collectors-journey.json` and `dimensions/*.json` give different bands | This repository disagreeing with itself. Reconcile here. |
 | L5 | **`dimensions/index.json` vs its own detail files** | — | Void Terminus and Nolem's Maw rows disagreed with their per-dimension files | ✅ **FIXED** — reconciled, with a CI check so it cannot recur. |
+
+> #### ✅ L3 executed — in the game, as ruled, and it was four sites not one
+> `campaign-data/story_nodes/nolem_maw/miniboss_apex.json`. The created-from-nothing premise ran through the
+> node description, the chamber narration (*"Nolem refined his creations… his masterwork"*), the line itself,
+> and the parting warning (*"I was created by him"*). All four now rest on hollowing. The Apex keeps his
+> despair and his refusal — he **was** someone and declines to go looking — so nothing was redeemed to fix a
+> cosmology. One detail this register had slightly off: the `Ret'nux` support is in the dictionary entry's
+> **`notes`** field (*"Describes beings absorbed by Nolem"*), not its `meaning` (*"Shadow servant; entropy's
+> hand"*). The claim stands; the citation is now precise.
+
+> #### ⚑ Found while fixing L3 — a scope question, NOT a defect. Do not "fix" this.
+> `CANON.md` §4.2 (**FROZEN**) says the Collector never speaks, with *"Carry me."* the single reserved line.
+> The Discord game uses **`"speaker": "COLLECTOR"` 663 times** across its story nodes, including in this very
+> node. That is the shipped product's established convention, and §4.2's provenance (`CANON.md` §6) is the
+> **MMO** spec — `Nikeverse-mmo-rpg-from-scratch/docs/GAME_SPEC.md:113, :395, :429` — not the Discord game.
+> **Open question for the owner: does §4.2 bind the Discord game at all, or is it an MMO-only design law?**
+> Recorded here so a future session that reads `CANON.md` and then greps the Discord repo does not open 663
+> "violations" and start rewriting shipped dialogue.
+
+> #### ✅ E4 + O5 executed — and the copy-paste had a twin
+> Bertus's `gameEncounter` was rebuilt from the shipped Frostfall nodes and his `quote_game` is now his own wound
+> line; the duplicate string is gone (1 occurrence left, Colossal's, correct). **A second, independent
+> Bertus↔Colossal swap turned up next door:** `CANON.md`'s illustrator note attributed *"majestic lion, greatest
+> beast king"* — Bertus's description — to **Colossal**, whose own is *"Mountains tremble at its approach."* Two
+> swaps between the same pair is a pattern, not an accident. Fixed.
+> **Also caught in passing, and it is the softlock law again:** Viking's record read *"**Freeing** Viking Nike
+> begins the thaw."* The engine gates `act2_001_the_thaw` on `viking_nike_**defeated**`. Same defect class as W1.
+> Corrected to name defeat, with "either resolution counts" made explicit.
+> **⚑ `campaignBoss` — RE-ANALYSED 2026-07-26.** *(The Act-2-is-post-campaign premise below is itself SUPERSEDED 2026-07-27 — see W5. The `campaignBoss` conclusion still stands, because that field means "an Act-1 boss fight", which is unaffected by when the Deep tier opens.)*
+> It was recorded here as "a 21-record inconsistency" implying 20 records should flip to `true`. The shipped data
+> says the opposite. **Act 2 is post-campaign endgame** — every Act-2 chain entry is gated on `campaign_complete`
+> (8 entry nodes carry it; the 55 downstream nodes chain off them). So an Act-2 boss is *not* a campaign boss, and
+> the 20 `false` records are CORRECT.
+> **Exactly one record is doubtful: Melon.** He is `campaignBoss:true` but his chain entry
+> (`nolem_maw/act2_001_betrayer_path`) requires `campaign_complete` — post-campaign by the same test. E10 promoted
+> him on the criterion "an Act-2 sub-boss with a `catchOpportunity`", which **20 other records also satisfy while
+> reading `false`.**
+> **Also corrected:** this register and Melon's own `campaignBossNote` both claimed his node has "no
+> `isAnchorBoss`". **False** — it sets `isAnchorBoss:true`, which is the engine's CATCHABILITY gate, not a
+> region-anchor marker. What he lacks is `grantAnchor`.
+> **The six `grantAnchor` holders (the real anchors):** Viking · Nike Tyson · Gladiator · Cyberpunk · Ninja ·
+> **OG Nike** (`void_terminus/main_005_og_nike.json` → `final_fragment`). Note OG Nike grants an anchor without
+> being a boss fight, and correctly reads `campaignBoss:false` — which is itself evidence the field means
+> *boss fight in Act 1*, not *anchor*.
+> **Recommended ruling:** `campaignBoss` = "a boss fight in the main campaign (Act 1)". Revert Melon to `false`.
+> One record changes, not twenty. Owner call — do not sweep before it.
+
+> #### ⛔ HARBINGER ENTRIES DISSOLVED — owner ruling 2026-07-26. Do not work E7, E8 or W4.
+> **Harbingers are a POPULATION, not a cast.** Hundreds of them; Collectors fall every day; in the MMO a Hollow
+> player *becomes* one. Six are named and authored; the rest need no lore. **Therefore Harbinger lore does NOT
+> need to align across games** — different products may give them different names, titles and premises, and that
+> is not a defect. See `CANON.md` §3.1.
+> - **E7 (Yuki's premise — dead-love vs living-caged-master) — DISSOLVED.** Each game picks its own. The MMO's
+>   Shinden spec simply states the MMO's version; it need not match the Discord game.
+> - **E8 (Slate / Echo / Abyssal Horror titles the game doesn't use) — DISSOLVED.** Cross-game title drift is now
+>   explicitly permitted.
+> - **W4 (the Abyssal Horror's title differs) — DISSOLVED.** Same class.
+> - **E5 and E6 SURVIVE, rescoped to internal coherence only.** Both are splits *inside this repository*
+>   (`dimensions/*.json` vs `characters/harbingers/index.json`). One repo giving one character two titles is an
+>   ordinary error and still gets fixed — the ruling permits divergence *between games*, not *within a file set*.
+> - **O1 (Yuki's pronouns) is UNAFFECTED** and still open. It is a respect question, not a lore-alignment one.
+>
+> **NET-NEW and canon-bearing: THE FIRST HARBINGER.** The first Collector ever to fall and worship Nolem —
+> likely strongest, and the leader. This one DOES need to align everywhere. He does not exist yet.
+> ⚠ **Naming collision to resolve first:** "First Harbinger" already means *"first Harbinger **redeemed**
+> in-game"* (Slate) in `characters/harbingers/index.json` and `dimensions/grand-arena.json`.
+
+> #### ✅ E1 CLOSED HARDER — the Hydra has THREE heads, in the ART too (owner, 2026-07-26)
+> The prior reconciliation everywhere was *"trait named `Three Heads`, visual is 5 heads."* **The owner has ruled
+> the image is three as well.** So there is no split to maintain: three heads, destruction · caution · sleep, in
+> the art and in the trait name alike. The two extra heads (*"paranoia, calm"*) were never canon.
+> **Corroborated by the shipped voice**, which has exactly three speakers: *"FINALLY FREE! I say we DESTROY
+> everything!" / "Wait. We should assess—" / "I just want to go back to sleep."* The design doc reads them the
+> same way — a **parliament**, a council that argued its way to a decision, silenced into one agreeing voice.
+> Swept from both spec twins (6 sites). The trait name `Three Heads` stays — it is live code the raid
+> survive-chokepoint keys off by string.
 
 ---
 
@@ -79,11 +193,11 @@ These are transcription drifts, not design disagreements. Recommended direction:
 
 | # | What | Why it is open |
 |---|---|---|
-| O1 | **Harbinger Yuki's gender** | Female here, male throughout the shipped Shinden arc, with **no rationale recorded anywhere** — unlike Melon, whose he/him has a written reason. Reviewed and deliberately held open (2026-07-26). **Do not sweep in either direction.** |
+| O1 ✅ **RULED — Yuki is FEMALE, she/her (owner, 2026-07-26)** | **Harbinger Yuki's gender** | Female here, male throughout the shipped Shinden arc, with **no rationale recorded anywhere** — unlike Melon, whose he/him has a written reason. Reviewed and deliberately held open (2026-07-26). **Do not sweep in either direction.** |
 | O2 | **Is Melon corrupted at all?** | This repository and the Maw node say entirely uncorrupted. The raid layer says *"neither fully corrupted nor truly free — the shadow clings to him."* A game-internal split as much as a lore one. |
 | O3 | **Per-region level bands** | This repository's bands are a clean non-overlapping partition; the game's overlap by design ("you can start here"). Both defensible. The enforced gates are per-node minimums, so the region bands are display text. |
 | O4 | **Neon City's Charles** | "Analog Charles" here; the shipped node uses "Neon Charles" throughout while titling him "The Analog Rebel". Possibly two names for one character on purpose. |
-| O5 | **Fixing Bertus (E4)** | Correcting it **invalidates a landed design document**: the prior MMO's `LEGENDARY_MOTIVATIONS.md` records "OLD motivation: guilt over a dimension he broke" and builds a whole new wound on that premise. The premise was a copy-paste error. Raise before fixing. |
+| O5 ✅ **RULED — fix both (owner, 2026-07-26)** | **Fixing Bertus (E4)** | Correcting it **invalidates a landed design document**: the prior MMO's `LEGENDARY_MOTIVATIONS.md` records "OLD motivation: guilt over a dimension he broke" and builds a whole new wound on that premise. The premise was a copy-paste error. **Owner ruled Option B: correct the lore AND rewrite the design row.** Both landed; the `ABSOLVE` freeing-key was re-keyed to `OFFER-THE-HALL` because a fulfillment premise leaves nothing to absolve. |
 | O6 | **The anchor count shown to players** | Two shipped surfaces disagree: one progress bar renders **/7**, the map footer renders **/6**. Engine truth is six; the /7 comes from a flag list containing a phantom entry no node ever sets. A game bug, recorded here because it is player-visible. |
 
 ---

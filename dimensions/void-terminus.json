@@ -54,7 +54,7 @@
         {
             "name": "Cardano Whale Nike",
             "location": "Deep Currents",
-            "description": "Massive beyond comprehension. Searches endlessly for a lost calf. Grief that became an ocean."
+            "description": "Massive beyond comprehension. Searches endlessly for his pod \u2014 his family \u2014 whose names he can no longer remember. Grief that became an ocean."
         },
         {
             "name": "Elbonzys Nike",
@@ -105,6 +105,13 @@
         "The Previous Failed Walker",
         "Consumed Dimension Survivor"
     ],
+    "dimensionalAnchor": {
+        "id": "final_fragment",
+        "name": "Final Fragment",
+        "description": "A piece of OG Nike's original power \u2014 the last anchor needed to challenge Nolem.",
+        "obtainedFrom": "OG Nike, given freely \u2014 NOT a boss drop. Void Terminus has no anchor Legendary and no region boss to defeat for it; see legendaryNikeNote in dimensions/index.json. The region's boss, the Dimension Eater, does not grant it.",
+        "note": "The sixth and final anchor. The other five are granted on their region boss's defeat; this one is a gift, which is why the bottom of the world can be bossless and still complete the set."
+    },
     "primeEraConnection": {
         "existed": false,
         "note": "Void Terminus formed where Nike Prime and Nolem vanished. Near the original trap location."

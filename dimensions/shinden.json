@@ -101,9 +101,10 @@
   ],
   
   "dimensionalAnchor": {
-    "name": "Shadow Kunai",
-    "description": "A blade that exists in shadow and light simultaneously",
-    "obtainedFrom": "Ninja Nike after freeing him"
+    "id": "blade_of_shadows",
+    "name": "Blade of Shadows",
+    "description": "A weapon forged from crystallized darkness. It cuts through lies as easily as flesh.",
+    "obtainedFrom": "Ninja Nike — granted on his defeat — both resolutions count, whether he is freed from corruption or put down"
   },
   
   "ogForeshadowing": {

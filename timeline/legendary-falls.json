@@ -1,7 +1,6 @@
 {
   "description": "When and why 24 of the 27 Legendary Nikes fell to corruption. Three never fell, and they are three DISTINCT statuses, not one category: Elbonzys Nike (un-fallen gatekeeper), Melon Nike (willing defector, entirely uncorrupted), OG Nike (the Template, uncorrupted but exhausted).",
   "note": "Do not collapse the three into a single 'uncorrupted' bucket. Elbonzys never fell — his bond is to the door itself, and he is a test to be passed rather than a corruption to be broken. Melon is not corrupted at all; he CHOSE Nolem, which the game teaches as a distinct category ('He is not corrupted. He chose. Remember the difference.'). OG Nike is uncorrupted but exhausted, and The Coming Storm may change this.",
-  
   "corruptionReasons": {
     "exhaustion": "Fought too long, forgot what they were fighting for",
     "contract": "Made a deal with Nolem for something they wanted",
@@ -19,7 +18,6 @@
     "regret": "Past decisions haunted them",
     "curse": "Something inside was always waiting to emerge"
   },
-  
   "fallsByEra": [
     {
       "era": "The First Falls",
@@ -200,7 +198,6 @@
       ]
     }
   ],
-  
   "totalCount": {
     "corrupted": 24,
     "uncorrupted": 3,
@@ -211,5 +208,6 @@
       "templateUnFallenButExhausted": 1
     },
     "note": "24 of 27 fell to corruption. The other three are three DISTINCT statuses and must not be merged: Melon Nike is entirely uncorrupted and CHOSE Nolem; Elbonzys Nike never fell and is a trial rather than a corruption; OG Nike is the Template, uncorrupted but exhausted, and The Coming Storm may change this."
-  }
+  },
+  "reachOrderNote": "FALL ERA DOES NOT IMPLY REACH ORDER (2026-07-27). This file is a chronology of CORRUPTION, not of player progression — all 27 are corrupted before the Echo Era begins, so the fall order constrains nothing about the order a Collector meets them. Note especially that the Deep tier is NOT a later cohort: the two earliest falls of all, Berjador (Grand Arena) and Bertus Maximus (Frostfall) in The First Falls, are Deep-tier and fell centuries BEFORE their own region anchors. Dr Caleb and Phoenix likewise precede theirs. Shinden's Nel and Wolf Mode fell in The Forgetting alongside Ninja, the same cohort as their anchor. 'Deep' means deeper in the REGION, not later in history — the anchor is the recent lid; the Deep tier is the older strata beneath it, surfacing locally when the lid is lifted."
 }

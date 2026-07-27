@@ -1,9 +1,9 @@
 {
   "description": "Harbingers are corrupted Collectors (the player-kind: fallen people, never Nikes) who serve as Nolem's regional lieutenants, each blocking the path to a corrupted Legendary Nike. A fallen Legendary Nike is a separate category, a 'Corrupted Legendary' (a 'Fallen Champion'): the region bosses the Collector purifies, NOT a Harbinger. Each Harbinger has a deeply personal, tragic relationship with their fall.",
   "nature": {
-    "origin": "Collectors who gave in to Nolem's whispers \u2014 each for deeply personal reasons",
+    "origin": "Collectors who gave in to Nolem's whispers — each for deeply personal reasons",
     "corruption": "Voluntary in most cases, though the 'choice' was often made from unbearable pain",
-    "redemption": "Possible \u2014 proven by Slate's redemption in the Grand Arena",
+    "redemption": "Possible — proven by Slate's redemption in the Grand Arena",
     "role": "Serve as Nolem's lieutenants, blocking paths to Legendary Nikes"
   },
   "harbingers": [
@@ -12,10 +12,10 @@
       "name": "Yuki",
       "dimension": "Shinden",
       "title": "The Devoted Shadow",
-      "emotionalTheme": "Devotion twisted into possession \u2014 born from genuine love",
+      "emotionalTheme": "Devotion twisted into possession — born from genuine love",
       "corruptionReason": "Three years fighting corruption while watching Ninja Nike suffer. Nolem offered a way to stay by her master's side.",
-      "backstory": "Ninja Nike's best student. Stood against corruption for three years \u2014 longer than anyone else in Shinden. Watched her master twist into something unrecognizable, held them while they screamed at shadows. When Nolem offered his gift, it wasn't weakness \u2014 it was exhausted devotion choosing the only remaining path.",
-      "gameCharacterization": "Fierce and articulate. Doesn't see herself as corrupted \u2014 she's the only one who truly cared enough to sacrifice everything. Her corruption lets her feel what Ninja Nike feels. Genuinely believes freeing him would cause more pain.",
+      "backstory": "Ninja Nike's best student. Stood against corruption for three years — longer than anyone else in Shinden. Watched her master twist into something unrecognizable, held them while they screamed at shadows. When Nolem offered his gift, it wasn't weakness — it was exhausted devotion choosing the only remaining path.",
+      "gameCharacterization": "Fierce and articulate. Doesn't see herself as corrupted — she's the only one who truly cared enough to sacrifice everything. Her corruption lets her feel what Ninja Nike feels. Genuinely believes freeing him would cause more pain.",
       "abilities": [
         "Ice Manipulation",
         "Shadow Binding",
@@ -29,10 +29,10 @@
       "name": "Erik",
       "dimension": "Frostfall",
       "title": "The Prisoner In His Own Body",
-      "emotionalTheme": "A man still conscious under corruption \u2014 trapped, not willing",
+      "emotionalTheme": "A man still conscious under corruption — trapped, not willing",
       "corruptionReason": "Tried to negotiate with Nolem to save his people. Nolem took him and left his consciousness intact as cruelty.",
       "backstory": "Frostfall's war-leader. Offered himself in exchange for his people's safety. Nolem twisted the deal: Erik's body serves, but his true self watches helplessly. His wife and daughter wait in the resistance camp.",
-      "gameCharacterization": "Not a willing servant \u2014 a prisoner. Bjorn the Wise says 'he was like a son to me.' Post-redemption: 'I lived on rage for years. Told myself it was strength. But it was just... fear wearing armor.' His daughter asks: 'Papa, are you going to stay this time?'",
+      "gameCharacterization": "Not a willing servant — a prisoner. Bjorn the Wise says 'he was like a son to me.' Post-redemption: 'I lived on rage for years. Told myself it was strength. But it was just... fear wearing armor.' His daughter asks: 'Papa, are you going to stay this time?'",
       "abilities": [
         "Berserker Command",
         "Raid Tactics",
@@ -46,18 +46,20 @@
       "name": "Slate",
       "dimension": "Grand Arena",
       "title": "The Burned-Out Collector",
-      "emotionalTheme": "Trauma disguised as apathy \u2014 lost six partners",
-      "corruptionReason": "After losing six partners to corruption, severed his bonds rather than risk more pain. Didn't join Nolem \u2014 just stopped caring.",
+      "emotionalTheme": "Trauma disguised as apathy — lost six partners",
+      "corruptionReason": "After losing six partners to corruption, severed his bonds rather than risk more pain. Didn't join Nolem — just stopped caring.",
       "backstory": "Was once a good Collector. Lost six partners to corruption. Something inside broke. Stopped caring, bonding, trying. 'Caring less means surviving more.' But survival without connection is exactly what Nolem preaches.",
       "gameCharacterization": "Most sympathetic Harbinger. Not evil, just exhausted. Fights out of habit. Post-redemption: 'When I saw you in that ring, protecting each other, trusting each other... I remembered why I started fighting.' Receives full redemption arc.",
-      "redemptionArc": "First Harbinger redeemed in-game. Watches the Walker's bonds in action and chooses to reconnect.",
+      "redemptionArc": "The first Harbinger REDEEMED in-game — restored to being a Collector. Watches the Walker's bonds in action and chooses to reconnect.",
       "abilities": [
         "Immovable Stance",
         "Apathy Aura",
         "Weight of Indifference"
       ],
       "quote": "When I saw you in that ring, protecting each other... I remembered why I started fighting.",
-      "vulnerability": "Never truly stopped caring \u2014 buried under self-protection."
+      "vulnerability": "Never truly stopped caring — buried under self-protection.",
+      "disambiguation": "NOT 'the First Harbinger'. Slate is the first Harbinger the player REDEEMS (back into a Collector); THE FIRST HARBINGER is a separate, un-authored figure — the first Collector ever to fall and worship Nolem, likely strongest and the leader of them. Owner clarification 2026-07-26. Never shorten Slate's milestone in a way that collides with the original.",
+      "canonNote": "CANON-BEARING — one of only TWO Harbingers that must align across the lore bible and every build (owner, 2026-07-27); the other is VANE, the first Harbinger. Every other Harbinger's lore is free to differ between products under the population ruling. Slate must align because he is the PROOF THAT THE FALL IS REVERSIBLE — the first Harbinger redeemed back into a Collector. A Hollow player becomes a Harbinger; Slate is the standing evidence they can come back, and the Fallen Path depends on that proof existing. What must hold is that HE is the first redeemed and that redemption restores Collector status; his exact wounds, dialogue and title stay free."
     },
     {
       "id": "cassius",
@@ -66,8 +68,8 @@
       "title": "The Fallen Student",
       "emotionalTheme": "Ambition that consumed loyalty",
       "corruptionReason": "Colosseum Charles's best student. Ambition outgrew bonds. Sacrificed every relationship for power.",
-      "backstory": "Trained under Colosseum Charles with extraordinary promise. Brilliant, charismatic, driven \u2014 but hollow. Wanted to be the best not to help, but to prove superiority. Betrayed everyone who believed in him. Nolem said: 'You deserve more.' Cassius agreed.",
-      "gameCharacterization": "Guards the path to Champion's Cells. Colosseum Charles: 'Once one of my best students \u2014 before corruption took everything good and twisted it into ambition.' The tragedy: Cassius was talented enough to be great without Nolem.",
+      "backstory": "Trained under Colosseum Charles with extraordinary promise. Brilliant, charismatic, driven — but hollow. Wanted to be the best not to help, but to prove superiority. Betrayed everyone who believed in him. Nolem said: 'You deserve more.' Cassius agreed.",
+      "gameCharacterization": "Guards the path to Champion's Cells. Colosseum Charles: 'Once one of my best students — before corruption took everything good and twisted it into ambition.' The tragedy: Cassius was talented enough to be great without Nolem.",
       "abilities": [
         "Political Manipulation",
         "Betrayer's Strike",
@@ -81,7 +83,7 @@
       "name": "Echo",
       "dimension": "Neon City",
       "title": "The Signal",
-      "emotionalTheme": "Digital isolation \u2014 losing yourself to escape pain",
+      "emotionalTheme": "Digital isolation — losing yourself to escape pain",
       "corruptionReason": "Uploaded consciousness to escape physical pain. Lost warmth, touch, feeling. Became everyone and no one.",
       "backstory": "Suffered unbearable physical pain. Digital upload removed pain but also warmth, touch, genuine feeling. Identity dissolved into signal. When Nolem found Echo, barely a self remained.",
       "gameCharacterization": "Operates as the Algorithm's enforcer. Can become anyone, which means they are no one. Traded pain for a worse fate: feeling nothing at all.",
@@ -91,28 +93,28 @@
         "Signal Corruption"
       ],
       "quote": "I am everyone. I am no one. I am the static between souls.",
-      "vulnerability": "A reminder of physical sensation \u2014 not pain, but warmth."
+      "vulnerability": "A reminder of physical sensation — not pain, but warmth."
     },
     {
       "id": "abyssal-horror",
       "name": "Abyssal Horror",
       "dimension": "Void Terminus",
       "title": "The Consumed",
-      "emotionalTheme": "Complete despair \u2014 survived what destroyed everyone else",
+      "emotionalTheme": "Complete despair — survived what destroyed everyone else",
       "corruptionReason": "Watched entire dimension consumed by Nolem. Sole survivor. Grief became monstrous.",
-      "backstory": "Watched every friend, family member, every living soul consumed by Nolem. Sole survivor. Grief deepened, solidified, became something monstrous. Didn't choose Nolem \u2014 became an extension of the destruction.",
-      "gameCharacterization": "Most alien Harbinger. Barely recognizable as the Collector he once was. Emanates despair rather than speaking. Fighting means confronting absolute hopelessness \u2014 the conviction that everything ends, everything is consumed.",
+      "backstory": "Watched every friend, family member, every living soul consumed by Nolem. Sole survivor. Grief deepened, solidified, became something monstrous. Didn't choose Nolem — became an extension of the destruction.",
+      "gameCharacterization": "Most alien Harbinger. Barely recognizable as the Collector he once was. Emanates despair rather than speaking. Fighting means confronting absolute hopelessness — the conviction that everything ends, everything is consumed.",
       "abilities": [
         "Void Gaze",
         "Despair Aura",
         "Reality Erosion"
       ],
       "quote": "I've seen the end. It's peaceful. Let me show you.",
-      "vulnerability": "The memory of what they lost. Not the destruction \u2014 the love that existed before it."
+      "vulnerability": "The memory of what they lost. Not the destruction — the love that existed before it."
     }
   ],
   "commonTraits": {
-    "corruption": "Each fall is personal and tragic \u2014 not simple villainy",
+    "corruption": "Each fall is personal and tragic — not simple villainy",
     "power": "Stronger than regular corrupted beings, weaker than Legendary Nikes",
     "vulnerability": "Their corruption reason is always their weakness",
     "redemption": "Proven possible (Slate). Likely for Erik and Yuki. Uncertain for others.",
@@ -120,7 +122,7 @@
   },
   "relationship_to_nolem": {
     "role": "Regional lieutenants blocking paths to Legendary Nikes",
-    "loyalty": "Varies enormously \u2014 Erik is a prisoner, Slate was apathetic, Yuki serves from love, Cassius serves for power",
+    "loyalty": "Varies enormously — Erik is a prisoner, Slate was apathetic, Yuki serves from love, Cassius serves for power",
     "method": "Nolem finds the crack in your soul and pours poison into it."
   }
 }
