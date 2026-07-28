@@ -122,3 +122,21 @@ produced canon claims this repo must carry. Applied here in the same session, pe
 - **`scripts/check-canon-terms.sh`: two more exclusions.** `CLAUDE.md` and `docs/progress-log.md` name retired
   terms *in order to govern them*, which is NEVER #4's carve-out. Both files are new this session and both
   tripped the lint on their first run — the fix is the exclusion, never deleting the governing text.
+
+## Wave 13 — the bonding phase
+
+Third design wave in the build repo (`CIRCLE_DESIGN.md` Part III) collapsed the two-phase catch into one
+"bonding phase" under five owner rulings. **Nothing in it changes a lore claim** — the assertion sweep found
+no divergence to close on this side.
+
+Checked and clear:
+- **The Bond Struggle is dissolved** into the bonding phase, and `GAME_DELTAS.md:258` already rules the
+  Struggle, Composure and Resonance to be net-new game systems with **zero occurrences in this repo** and
+  free to tune. Only the *simultaneity* of the 5,555 (`CANON.md` §1.2) is canon, and it is untouched.
+- **Souls-held vs threads-held** (Wave 12) is unaffected by the merge.
+- **`Eth'kara`'s usage note** (Wave 12) still governs: the thread is player-facing, "chain" stays banned in
+  the living language, the term keeps its First Tongue register.
+- **No retired term entered the new canon text.** Verified by the lint.
+
+Durable rule reaffirmed rather than added: **a game-mechanic change that touches no lore claim still gets the
+assertion sweep** — the sweep's output being "nothing to do" is a result, not a skipped step.
