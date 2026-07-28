@@ -92,6 +92,12 @@ realms have no soul to free; they die in cold, clean sparks. The **yokai** and t
 manifestations that stalk the dimensions are shapes corruption wears, not bondable souls: they can be faced and
 put down, but never bonded.
 
+**The bound on *"the only mercy left"* (added 2026-07-28, removing nothing above).** That phrase names
+**exhausted options**, and it governs a **husk** — a body where no one remains to be reached. A Corrupted Nike
+who could still have been reached is a different case entirely and is governed by **§5.3**. Read without this
+bound, the soul-mote ruling generalises into a licence for Sever that canon never gave it: a last resort
+quietly becoming a first option.
+
 The line between a Nike and a not-Nike is fixed, and it is **never redrawn to make something bondable that is
 not**. A proposal to reclassify the borderline yokai was put and **declined**.
 
@@ -279,6 +285,57 @@ afterward and stands in the light of the ending. A soul that was only defeated s
 and roams its region still lost, waiting to be met again by whoever comes next.
 
 Neither ending is a failure, and neither closes the way forward.
+
+### 5.3 What corruption is, and what damage can and cannot do · **RATIFIED (owner, 2026-07-28)**
+
+**Corruption is a numbing that was accepted.** It is never a chain, and it is never the Nike. Nolem does not
+break a soul and then move in — he arrives *after* something else has already broken it, and offers to make it
+stop hurting. The language has said so since it was written: **`Keth'nor`** is `keth` (stain/taint) + `nor` (of
+Nolem) — a stain **on** a thing, never the thing. And `singulars/nolem.json` gives his single weakness as
+*"Cannot corrupt genuine connection"*, explained as *"The bond must be broken first. This is why he works
+through isolation rather than direct assault."* **A wound has to come first, and it is not his.** That is not a
+limitation on his method; it **is** his method — which is exactly why genuine connection is immune to him.
+
+The shipped game has always played it this way. Gladiator Nike, mid-fight: *"The corruption came AFTER! I killed
+him with my own hands, my own heart! The corruption just... gave me a way to forget. To turn the pain into
+nothing."* And before it: *"The corruption didn't take my hope, Walker. It just... agreed with what I already
+knew."* He sits *"wrapped in chains they could break but never do"* — a chain nobody is holding is not a chain.
+
+**Because the numbing is not the person, it is separable — and what a Collector strikes is the numbing.** This
+is what both games already do, and they say so in as many words: *"Reduce its HP below 15% **to break the
+corruption** and enable catching!"*, and at the threshold, *"💜✨ **The corruption shatters!**"*
+
+**But striking it off does not free anyone. It WAKES them.** What the waking hands back is precisely the thing
+the Nike had a reason for putting down. Gladiator Nike, waking: *"I want to feel again. Even if it hurts."*
+Whether that was for their own good is decided **entirely by what happens next**.
+
+> ### ⭐ The verb is *woken*, never *freed*
+> The sanctioned words are **"woken"** and **"the waking."** §5.1's ⚠ box already records that "free" carries
+> two nearly opposite senses across these repositories; this would be a third, and the worst of them — it would
+> assert as done the very thing that has only just become possible.
+>
+> **The shipped game supplies the right word itself.** Its button reads **bond and awaken**, and its success
+> embed is **"Echo Bonded & Awakened!"** Use those.
+
+**The bound, and it is explicit: *"damage is always for their own good"* is FALSE.** It is true of the numbing
+and false of everything after it. From the instant the numbing is off, **§5.1 binds with no exception** —
+*"Reaching cannot be forced. A soul opens only to calm and closes against injury"* (`:265`) — and it binds
+hardest there, **because there is finally someone present to hear you.** Canon has already priced the
+overshoot: §5.2 (**FROZEN**, `:284`) — *"a soul that was only defeated slips back into the corruption and roams
+its region still lost."* The shipped game renders that line as grief, spoken by the player's own lead Nike after
+a knockout: *"The chains went back ON. We won the fight and the arena just... claimed him again."* Striking a
+woken soul does not un-wake it gently; it puts it back under.
+
+**THE SEVER GUARD — a named law. Killing does not free the soul. It frees the corruption.** `Keth'nor` is *of
+Nolem*, and a body that stops holding it simply lets it go home. What was in the body is **the soul**, and the
+soul is what you lose. This is §5.1's third end (`:261`) stated from the other side: forced down without ever
+being reached, the thread is left frayed and nothing is added to the Pattern. It stays a road a Collector may
+walk and it is **not a failure** — but no voice may ever describe it as a release.
+
+**THE PROHIBITION.** No Collector, NPC, narrator, HUD string, tooltip or item description may ever tell a Nike
+that hurting it was for its own good. **Only a woken Nike may say it — about itself, unprompted, and
+afterwards.** This is §4.2's instinct pointed at the roster instead of the player: the conscience of this story
+is never the voice that did the striking.
 
 ---
 
