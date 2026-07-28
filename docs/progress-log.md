@@ -100,3 +100,25 @@ the **same session**.
 
 This file and `docs/KNOWN_ISSUES.md` created, matching the sibling repos' pattern: `CLAUDE.md` holds
 durable rules only and is auto-loaded; per-wave history and open defects live here and are **not**.
+
+## Wave 12 — the Circle, and the reach phase
+
+Two owner-directed design waves in the build repo (`Nikeverse-mmo-rpg-from-scratch/docs/CIRCLE_DESIGN.md`)
+produced canon claims this repo must carry. Applied here in the same session, per the three-way rule.
+
+**What landed on this side:**
+
+- **`CANON.md` §1.2 precisified:** the 5,555 counts **souls held**, never **threads held**. The section said
+  "5,555 bonds exist at the same moment", which stopped being the same count the moment one soul could be
+  reached by many Collectors at once. A soul reached by ten is **one** re-anchored, not ten — forced, because
+  otherwise a realm could read "the Pattern is whole" while five thousand souls were still dark, and a meter
+  that lies about wholeness is the False Box.
+- **`CANON.md` §1.2.1 added:** one soul, many threads. The Pattern counts connections, not creatures. A Nike
+  is never copied. Never explain the topology.
+- **`dictionary.json`: `Eth'kara` gains a usage note.** `kara` is chain-as-*linkage* — a chain of hands, a
+  chain of custody — never chain-as-restraint. The term and its "heart-chain" gloss stay in the First Tongue
+  register; the bare English "chain" is banned player-facing, where it collides with the never-a-leash art
+  law. **The owner's phrase "bond chain" was already canon; only the English was wrong.**
+- **`scripts/check-canon-terms.sh`: two more exclusions.** `CLAUDE.md` and `docs/progress-log.md` name retired
+  terms *in order to govern them*, which is NEVER #4's carve-out. Both files are new this session and both
+  tripped the lint on their first run — the fix is the exclusion, never deleting the governing text.

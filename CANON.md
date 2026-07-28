@@ -28,11 +28,31 @@ a tool, and never a legend. Nothing reorders this.
 
 ### 1.2 The five thousand five hundred and fifty-five are held at once · **RATIFIED**
 
-The Pattern was born from OG Nike's shattering, and it is whole only when all 5,555 bonds exist **at the same
-moment**. This is not a tally of every soul a Collector has ever touched — a lifetime count would let the
+The Pattern was born from OG Nike's shattering, and it is whole only when all 5,555 **souls are held at the
+same moment**. This is not a tally of every soul a Collector has ever touched — a lifetime count would let the
 Pattern be completed by someone who had already let every thread go slack. The simultaneity **is** the victory
 condition. Every Nike bonded repairs a thread; every Legendary freed reconnects a major node; and when the
 whole weave holds at once, Nike Prime can be completed and Nolem sealed.
+
+**It counts SOULS held, never THREADS held** — a precisification, not a change. A soul reached by ten
+Collectors is **one** of the 5,555 re-anchored, not ten. There are exactly 5,555 fragments; if ten bonds to one
+soul credited ten, a realm could read *"the Pattern is whole"* while five thousand souls were still in the
+dark, and **a meter that lies about wholeness is the False Box**. A Collector's personal count of bonds *given*
+is a separate object and is not the war meter. Consequence: many Collectors reaching one soul multiplies
+relationships, never credit.
+
+### 1.2.1 One soul, many threads · **RATIFIED**
+
+The Pattern counts *connections*, not creatures — it is the living web of connections between all 5,555
+fragments, so the countable unit has always been the connection. A soul may be reached by many Collectors at
+once and is **not divided by it**; distance and number are nothing to the Pattern, because that is what the
+Pattern *is*. What each Collector holds is their **own thread**, made of what they themselves gave, and no two
+threads are alike.
+
+**A Nike is never copied and never duplicated.** Multiplicity was never the problem — this cosmology is founded
+on it: one soul is already in 5,555 bodies, and the Shattering's whole miracle is that the First Bond *echoed
+rather than broke*. The problem is duplication rendered as **inventory**, which is silence, which is the False
+Box. **Never explain how one soul can be reached by many.** State it in verbs, never in mechanics.
 
 ### 1.3 The canon constants · **RATIFIED**
 

@@ -44,15 +44,18 @@ unraveler
 reacher
 sasuke"
 
-# Search all canon content. Four files are excluded because they NAME the retired terms on purpose, in order
+# Search all canon content. Six files are excluded because they NAME the retired terms on purpose, in order
 # to document the retirement: this script's own header, CHANGELOG.md, CANON.md §3.2 (the retired-names
-# section — the canonical statement of what each term was replaced by), and CANON_MAP.md (the cross-repo
+# section — the canonical statement of what each term was replaced by), CLAUDE.md (NEVER #3 states the
+# retirement rule and must quote the terms to state it), docs/progress-log.md (the wave that retired them),
+# and CANON_MAP.md (the cross-repo
 # reconciliation table, which has to quote the retired spelling to say what it became). Everything else is
 # canon content and must stay clean. If you add another doc that must name a retired term, add it here and
 # say why.
 for TERM in $RETIRED_TERMS; do
   HITS="$(grep -rnwi --exclude-dir=.git --exclude-dir=scripts \
-            --exclude=CHANGELOG.md --exclude=CANON.md --exclude=CANON_MAP.md -- "$TERM" "$ROOT" || true)"
+            --exclude=CHANGELOG.md --exclude=CANON.md --exclude=CANON_MAP.md \
+            --exclude=CLAUDE.md --exclude=progress-log.md -- "$TERM" "$ROOT" || true)"
   if [ -n "$HITS" ]; then
     echo "RETIRED canon term '$TERM' found — see scripts/check-canon-terms.sh header for its replacement:"
     echo "$HITS"
