@@ -1,5 +1,35 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 28, 2026 — the Triforce keeps its shipped name; the faction pact is deleted
+
+**Owner ruling.** The Hub's three-part explanation of why Collectors battle each other is **the Triforce**
+— **Corruption Discharge · Genetic Memory Exchange · the Convergence Web** — and it needs no faction pact
+to make sense. **Factions are not attached to it, and there is no player faction choice.**
+
+**What was wrong.** `Nikeverse-mmo-rpg-from-scratch/docs/GAME_SPEC.md` had renamed the container to
+*"the Convergence Accord"* and glossed it as *"the Hub's three-faction pact — Remnant, Lost Builders, and
+the free Charles Variants — that sanctions new Collectors."* That phrase appears **nowhere in this
+repository and nowhere in the shipped Discord game.** It was a build-spec coinage, and it had additionally
+fused two unlike things: a political pact between groups, and a metaphysical account of why battling cleans
+a Collector's bonds. The build repo also contradicted itself — `STORYLINE.md` had always said *"the
+Triforce."*
+
+**Direction of truth applied.** The shipped game is ground truth for anything a player can see, and a player
+sees a story node **titled `THE TRIFORCE`** (`hub_015`), with Alice teaching all three systems across
+`hub_015`–`hub_019`. The shipped name therefore wins. `GAME_SPEC.md` is corrected and the Tesana twin
+regenerated in the same session; the coinage survives in `GAME_SPEC.md` **only** in the sentence that
+retires it, which is NEVER #4's carve-out.
+
+**This side already carried the claim** — `characters/collectors-journey.json` (`triforceSystem`) and
+`dimensions/convergence-hub.json` both name the Triforce and all three of its systems, so no lore edit was
+required to close the three-way match.
+
+**Left open, deliberately, and recorded here so it is not mistaken for settled:** the Triforce is **not in
+`CANON.md`**. It lives in this repository's JSON and in `MASTER_LORE_PROPOSAL_FINAL.md`, which is provenance
+rather than a live spec. Elevating it to the settled centre is a separate ruling and was not taken here —
+the owner scoped this change to the pact alone.
+
+
 ## Date: July 26, 2026 — CANON.md and GAME_DELTAS.md: the core lore comes home
 
 **The problem.** This repository called itself "the single source of truth for all Nikeverse lore" while

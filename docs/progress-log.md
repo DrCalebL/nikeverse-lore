@@ -140,3 +140,19 @@ Checked and clear:
 
 Durable rule reaffirmed rather than added: **a game-mechanic change that touches no lore claim still gets the
 assertion sweep** — the sweep's output being "nothing to do" is a result, not a skipped step.
+
+## Wave 14 — the Triforce ruling; nothing to change on this side
+
+Owner ruling in the build repo restored **the Triforce** as the name of the Hub's three-part explanation of
+why Collectors battle each other, deleting a build-spec coinage (*"the Convergence Accord"*, a
+"three-faction pact") that existed in neither this repository nor the shipped game. **Factions are not
+attached to the Triforce and there is no player faction choice.**
+
+**The assertion sweep found nothing to fix here** — `characters/collectors-journey.json` (`triforceSystem`)
+and `dimensions/convergence-hub.json` already name the Triforce and all three systems, matching the shipped
+`hub_015`–`hub_019` nodes. Recorded in `CHANGELOG.md` as a resolution; the sweep returning "nothing to do"
+is a result, not a skipped step (Wave 13's rule).
+
+**Left open on purpose, and written down so it is not mistaken for settled:** the Triforce is **not in
+`CANON.md`**. It lives in this repo's JSON and in `MASTER_LORE_PROPOSAL_FINAL.md` — provenance, not a live
+spec. Elevating it to the settled centre is a separate ruling; the owner scoped this change to the pact.
