@@ -1,8 +1,12 @@
 # Nikeverse Lore Bible — CLAUDE.md
 
 Notes for AI assistants working in this repo. **Auto-loaded every session — keep it lean.**
-**DURABLE FACTS ONLY.** No commit SHAs, no dates, no status narration. Resolutions go in `CHANGELOG.md`;
-open cross-repo divergences go in `GAME_DELTAS.md`. Edit this file only when a *rule* changes.
+**DURABLE FACTS ONLY.** No commit SHAs, no dates, no status narration, no findings lists. Four
+destinations, and putting a thing in the wrong one is how this file bloats: a **rule** goes here · a
+**resolution** to a canon question goes in `CHANGELOG.md` · a **cross-repo divergence** goes in
+`GAME_DELTAS.md` · **per-wave history** goes in `docs/progress-log.md` and **open defects** in
+`docs/KNOWN_ISSUES.md` — both append-only and **NOT auto-loaded**, grep them.
+Edit this file only when a *rule* changes.
 
 ## What this is
 
@@ -98,5 +102,8 @@ python3 -c "import json,glob;[json.load(open(f)) for f in glob.glob('**/*.json',
 ## Doc map
 
 `CANON.md` — the settled centre (§4.1 = the FROZEN dark questions) · `GAME_DELTAS.md` — the divergence
-register · `CHANGELOG.md` — resolutions · `CONTRIBUTING.md` — the source-authority tiers ·
-`MASTER_LORE_PROPOSAL_FINAL.md` — the founding synthesis
+register (this repo vs a shipped game, with a ruling each) · `CHANGELOG.md` — resolutions ·
+`CONTRIBUTING.md` — the source-authority tiers · `MASTER_LORE_PROPOSAL_FINAL.md` — the founding
+synthesis (**provenance, not a live spec** — superseded wherever `CANON.md` speaks)
+**Not auto-loaded — grep these, don't load them:** `docs/progress-log.md` (append-per-wave; grep by wave
+number for "why is this like this") · `docs/KNOWN_ISSUES.md` (open defects and accepted deferrals)
