@@ -133,7 +133,8 @@
     },
     "endgame": {
         "description": "After clearing Nolem's Maw, the Collector understands the true mission: gathering 5,555 bonds to complete Nike Prime's missing empathy core. The war continues.",
-        "truthRevealed": "Nike Prime is still inside the trap with Nolem, fighting endlessly for three thousand years. Without the empathy core, he cannot bond the trap shut. The trap is slowly weakening.",
+        "truthRevealed": "Nike Prime's whereabouts have been unknown since the Prime Era. Without the empathy core, he cannot bond the trap shut. The trap is slowly weakening.",
+        "truthRevealedNote": "CORRECTED 2026-07-29. Formerly asserted he 'is still inside the trap with Nolem, fighting endlessly for three thousand years' — contradicted by the Tier-1 source (Nolem went alone; Prime and Shiro detached and landed alive, comic-books/book-01/script.md:1033) AND foreclosed by the owner's ruling that the Long Silence is open expansion space. OPEN CONSEQUENCE: the weakening trap now needs a cause that does not depend on Nike Prime being inside it, since he demonstrably left. A later re-entry remains available as a future-comic option and would restore the original wording — but it is not canon until ruled.",
         "prophecy": "Nike Prime isn't one soul carrying 5,555. Nike Prime IS 5,555 souls carrying each other.",
         "path_forward": "Every Nike caught, every Legendary freed, every bond formed between Collectors—it all counts toward the 5,555 needed to complete Nike Prime and seal Nolem forever."
     }

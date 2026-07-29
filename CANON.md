@@ -214,6 +214,30 @@ name is **`Tōga`**, and his name in the world stays *Ninja Nike*.
 > **Never retire an English term whose First-Tongue root is authored.** `Har'ben` is glossed *"Origin of
 > 'Harbinger'"* and `Ret'nux` *"Origin of 'Retnuhxed'"*. Retiring either English word would force re-deriving
 > every phrase and inscription built on its root.
+
+> ### 🔒 OUT-OF-WORLD PROVENANCE — owner, 2026-07-29. **NEVER IN-WORLD. NEVER SPOKEN BY A CHARACTER.**
+>
+> Two of the villain's names are **reversals with a real-world origin, and no in-world meaning at all**:
+>
+> | Name | Reversed | Real-world origin |
+> |---|---|---|
+> | **Nolem** | **Melon** | a crypto trader who dumped on the owner |
+> | **Retnuhxed** | **DexHunter** | that trader's product — the thing that inspired the villain |
+>
+> Owner, verbatim: *"Retnuxed doesn't mean anything in the lore. But in 4th wall, it's the name of the
+> product (dexhunter) created by melon a crypto trader than dumped on us and inspired the villian. Hence
+> Nolem is backwards for melon."*
+>
+> **This is recorded so nobody re-derives it as cosmology.** It is provenance, not lore: no NPC knows it, no
+> item describes it, no inscription encodes it, and it is never a puzzle, an Easter egg or a reveal. The
+> Legendary named **Melon** is the in-world descendant of the joke and carries it entirely on its own.
+>
+> ⚠ **`Ret'nux` (`languages/first-tongue/dictionary.json:55-61`) is a post-hoc in-world gloss layered over
+> this.** It reads *"ret (shadow) + nux (servant/slave) — Origin of 'Retnuhxed'"*, which is now known to be
+> back-derived. **Not struck — awaiting an owner call.** Recommend keeping it as an **in-world folk
+> etymology**: the First Tongue word is what people *in the world* made of a name whose true origin they
+> could never reach, which is both free and quietly on-theme. Striking it instead would force re-deriving
+> every phrase built on the root, per the rule directly above.
 >
 > `scripts/check-canon-terms.sh` enforces all four retirements, case-insensitively and on word boundaries, and
 > runs in CI.

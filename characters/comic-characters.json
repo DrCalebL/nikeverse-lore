@@ -105,8 +105,9 @@
         "id": "nike-prime",
         "name": "Nike Prime",
         "type": "Artificial Legendary Nike",
-        "status": "Trapped with Nolem",
-        "description": "Created from DNA of 5,548 Nike variants. Born at 99% completion\u2014missing the empathy core.",
+        "status": "Location unknown since the Prime Era",
+        "statusNote": "CORRECTED 2026-07-29. Formerly 'Trapped with Nolem', which the Tier-1 source contradicts: Nolem alone went to the pocket dimension while Nike Prime and Shiro detached in transit and landed alive elsewhere (comic-books/book-01/script.md:1033, :1037-1040). What happened across the following 3,000 years is DELIBERATELY UNWRITTEN \u2014 owner ruling, 2026-07-29: the Long Silence is expansion space for future comics and 'could literally go wherever I want it to go'. A later re-entry into the trap is therefore permitted but NOT canon; nothing may assert his whereabouts either way.",
+        "description": "Created from the DNA of the other Nikes \u2014 5,548 vials ordered. Born at 99% completion. The missing 1% is never named in Book 1; 'the empathy core' is the corpus's own later reconstruction of it.",
         "abilities": [
             "Combined strength of thousands of Nikes",
             "All knowledge downloaded directly",
