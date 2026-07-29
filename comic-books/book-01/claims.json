@@ -119,8 +119,8 @@
       "ruling": "Sacrifice clause deleted from dimensions/grand-arena.json:36 on 2026-07-29 — a defect fix inside existing canon, no owner ruling required. He speaks after the battle (:1008), and the clause already contradicted its own file's corruptionReason ('Boredom') and timeline/legendary-falls.json:90-93 (he falls 500–1500 years later). Correction of record: Nolem SHRUGS OFF the punches ('I barely feel your punches', :980) — not damage-soaking reconnaissance."
     },
     {
-      "id": "cb1-retnuhxed-reversible",
-      "claim": "A living, uncorrupted Nike was turned into a Retnuhxed and turned back, and remembers it.",
+      "id": "cb1-retnuhxed-etymology",
+      "claim": "The name 'Retnuhxed' has no in-world meaning; it is DEXHUNTER reversed.",
       "quote": "I NEVER WANT TO EXPERIENCE THAT AGAIN!!",
       "scriptLine": 1004,
       "evidenceKind": "dialogue",
@@ -129,7 +129,20 @@
         "taxonomy"
       ],
       "status": "ruled-new",
-      "ruling": "PARTLY RULED, owner 2026-07-29: 'Retnuxed doesn't mean anything in the lore.' The word carries NO in-world meaning — it is DEXHUNTER reversed, a real-world product by a crypto trader ('Melon') who inspired the villain, hence NOLEM = MELON reversed. Recorded as fenced out-of-world provenance in CANON.md §3.2; never in-world, never an NPC line, never a puzzle. STILL OPEN (register Q2): whether the word also names a REVERSIBLE imposed state, given a living uncorrupted Nike was turned and turned back (script.md:1004). That is a taxonomy question about CANON.md:183 and is untouched by the etymology ruling."
+      "ruling": "OWNER, 2026-07-29: 'Retnuxed doesn't mean anything in the lore.' RETNUHXED reverses to DEXHUNTER, a real-world product by a crypto trader ('Melon') who inspired the villain — hence NOLEM = MELON reversed. Recorded as fenced out-of-world provenance in CANON.md; never in-world, never an NPC line, never a puzzle. The TAXONOMY question is tracked separately as cb1-retnuhxed-as-state."
+    },
+    {
+      "id": "cb1-retnuhxed-as-state",
+      "claim": "A living, uncorrupted Nike was turned into a Retnuhxed and turned back, and remembers it.",
+      "quote": "I NEVER WANT TO EXPERIENCE THAT AGAIN!!",
+      "scriptLine": 1004,
+      "evidenceKind": "dialogue",
+      "topic": [
+        "corruption",
+        "taxonomy"
+      ],
+      "status": "open",
+      "ruling": "PENDING (register Q2). SPLIT OUT 2026-07-29 from cb1-retnuhxed-reversible, which was marked 'ruled-new' for the ETYMOLOGY half and therefore hid this half from every open-item query — a bookkeeping defect, not a decision. The question: CANON.md:183 says a Retnuhxed is 'past saving — a separate kind of being altogether', but the comic shows Stoner Nike turned and turned BACK. Recommend (a): the word names two things — Nolem's spawned army AND a reversible imposed state — which preserves the RATIFIED soul-mote ruling and the shipped 292/144 is_nike split. (b) amending CANON.md so 'past saving' is a late STAGE reopens a ratified pillar. Note timeline/prime-era.json:126-127 already carries the comic's version without knowing it."
     },
     {
       "id": "cb1-nolem-manufactures-wound",
