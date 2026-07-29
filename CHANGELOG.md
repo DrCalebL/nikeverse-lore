@@ -1,5 +1,56 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 29, 2026 — THE THREE SCALE LAWS, and the held-vs-cumulative question closed
+
+**Owner ruling, from the design conversation that produced them.** *"5555 different species goal should be a
+permanent goal for all new players forever. If Nike prime is completed, we would lose the main motivation"* —
+and then, decisively: *"once we hit 9000 players, 5555 will have a high chance of being sustained permanently
+perhaps. Removing new player purpose."*
+
+Both objections were correct, and the second one generalises past the specific number: **any fixed
+server-wide threshold saturates at scale.** 9,000 players × 6 live slots = 54,000 held slots chasing 5,555
+forms — a 10× oversupply that clears any fixed bar permanently and turns the meter into wallpaper. That is
+arithmetic, not tuning, and no amount of lore can guarantee it away.
+
+**The three laws, now in `PATTERN_INTEGRITY.md` §0.5, `GAME_SPEC.md`, the Tesana twin and the build repo's
+auto-loaded `CLAUDE.md`:**
+
+1. **New-player purpose NEVER depends on realm state.** A player joining in year six needs exactly the same
+   reason to play as one who joined at launch. The permanent goal is therefore the **personal Bond Log** —
+   5,555 forms, per player, cumulative — and nothing about it may be gated on, accelerated by, or devalued
+   by anything the realm has already achieved. The realm meter is the reason to *coordinate*, never the
+   reason to *log in*.
+2. **The realm meter is a CONTEST, not a bar.** Its opponent scales with the population. Since the
+   2026-07-29 amendment Nolem **makes the wound** and responds; Surge pressure indexes to player count.
+   *"Popularity grows the Devourer, never the ease"* is this law.
+3. **Any FIXED server-wide bar saturates at scale — never gate anything permanent behind one.**
+
+**The corollary that makes the meter safe to ship:** because Law 1 holds, **it does not matter if the meter
+saturates.** A large stable population may well park it high; that is a live-ops knob, not a canon problem.
+If nothing permanent was resting on it, saturation costs nothing.
+
+**Held vs cumulative is CLOSED — it is both, on two different objects.** The personal Log is **cumulative**
+(your *reach*: which forms you are able to hold; permanent, never decrements). The realm Pattern is **held**
+(which forms are live right now; decays, contested). One number, two verbs. **You collect all 5,555 so that
+you can hold any of the 5,555** — a Collector with a complete Log can fill an arbitrary gap in the weave;
+ten thousand Collectors holding the same form still add exactly **one**. Landed in `CANON.md` §1.2, which
+had carried this as an explicit open flag since this morning.
+
+**And the in-world reason the Prime Era's method was insufficient.** Stoner Nike put 5,548 samples *in
+vials* — storage. He got the ninety-nine hundredths of a person that **can** be stored and missed the part
+that can only be **sustained**. A relationship does not go in a vial. Not a retcon: it is why Book 1's Nike
+Prime can think, fight and strategise and cannot connect.
+
+**⛔ Nike Prime is NEVER permanently completed by a realm event, and neither is the Weaver.** A being made of
+connection cannot be achieved and banked. This also re-affirms the 2026-07-26 3/3 ruling, whose stated reason
+was the owner's exact objection three days early: *"a realm meter may never gate a personal cosmology beat —
+that locks out everyone who arrives after the hold."*
+
+**Defect fixed in passing.** `PATTERN_INTEGRITY.md` said the chapter-turn *"immortalizes the top-RCS
+contributors"* while `GAME_SPEC.md` said *"**never** a top-RCS list… the people who won it are everyone who
+was holding one."* GAME_SPEC is the corrected side. A leaderboard there would also break Law 1 — it makes
+the turn a thing that happened to other people.
+
 ## Date: July 29, 2026 — NOLEM MAKES THE WOUND; the Discord game is demoted as a lore authority
 
 **Owner ruling.** *"Nolem can do anything he's evil. He can definitely cause wounds. Don't follow discord

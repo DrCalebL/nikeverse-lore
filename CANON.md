@@ -45,12 +45,31 @@ form remain **legal to bond** — they simply do not both advance the 5,555. Thi
 (`comic-books/book-01/script.md:339`), which is 5,555 less Stoner Nike himself and the six already accounted
 for in the order (the four Scholars, Gladiator, Boxer). Cite the comic for 5,548; cite the owner for 5,555.
 
-**⚠ STILL OPEN — the mechanism, deliberately not ruled here.** Book 1's win is a **cumulative collection**
-(gather the DNA, grow Nike Prime); this section's win is a **simultaneous hold**. The owner's ruling fixes
-*what the number counts*, not *how the Pattern is made whole* three thousand years later, and the two are
-separable: the Prime Era gathered what did not yet exist as a weave, and the Echo Era holds what does. Until
-that is ruled, **the held-threshold reading above stands** and no document may quote Book 1 as authority for
-a cumulative game-side win condition.
+**✅ THE MECHANISM — ruled 2026-07-29. It is BOTH, on two different objects.** Book 1's win is a *cumulative
+collection*; this section's is a *simultaneous hold*. They were never rivals — they were being asked of the
+wrong thing:
+
+| | counts | scope | shape |
+|---|---|---|---|
+| **The Bond Log** | forms you have bonded — your **reach** | **per Collector** | **cumulative**, permanent, never decrements |
+| **The Pattern** | forms held **live right now** | **per realm** | **held**, decays, contested |
+
+One number, two verbs. You **collect** all 5,555 so that you can **hold** any of the 5,555 — a Collector with
+a complete Log can fill an arbitrary gap in the weave; one with two hundred forms can only ever fill those
+two hundred. That is what a personal collection contributes to a shared Pattern, and why ten thousand
+Collectors holding the same form still add exactly **one** to the count.
+
+**Why the Prime Era's method was insufficient, in-world.** Stoner Nike put 5,548 samples *in vials* — storage.
+He got the ninety-nine hundredths of a person that **can** be stored, and missed the part that can only be
+**sustained**. A relationship does not go in a vial. That is not a retcon of Book 1; it is why Nike Prime
+came out able to think, fight and strategise and unable to connect.
+
+**⛔ Therefore Nike Prime is NEVER permanently completed by a realm event, and neither is the Weaver.** A being
+made of connection cannot be achieved and then banked; it is whole exactly as long as the connections are.
+A one-time server-wide completion would also strand every player who arrived afterwards — expressly forbidden
+by the 2026-07-26 3/3 ruling, and by the Three Scale Laws
+(`Nikeverse-mmo-rpg-from-scratch/docs/PATTERN_INTEGRITY.md` §0.5). **The permanent goal is the personal Log,
+and it is the only thing allowed to carry a new player's purpose.**
 
 **It counts SOULS held, never THREADS held** — a precisification, not a change. A soul reached by ten
 Collectors is **one** of the 5,555 re-anchored, not ten. There are exactly 5,555 fragments; if ten bonds to one
