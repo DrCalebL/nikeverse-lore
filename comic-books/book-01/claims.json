@@ -103,8 +103,8 @@
         "nolem",
         "timeline"
       ],
-      "status": "open",
-      "ruling": "PENDING (register F1) — largest blast radius in the audit. Canon asserts the opposite in ~25 sites including shipped Discord dialogue (Elbonzys: 'Before he walked into the trap. Before he sealed himself away'). The fall is also FORCED, not chosen (:995), so the 'deliberately unclear' hedge at GAME_SPEC.md:223 fails either way. Note timeline/prime-era.json:173-174 is ALREADY comic-compatible and must not be edited."
+      "status": "ruled-new",
+      "ruling": "RESOLVED 2026-07-29 by the Long Silence ruling. Nolem alone is in the trap; Nike Prime and Shiro detached and landed alive. Landed in prime-era.json, comic-characters.json, collectors-journey.json, GAME_SPEC.md Act 4 + twin; GAME_DELTAS L1 re-opened. The shipped Discord game is deliberately NOT edited. OPEN CONSEQUENCE spun out separately: the weakening trap needs a cause that does not depend on Prime being inside it."
     },
     {
       "id": "cb1-boxer-survives",
@@ -141,8 +141,8 @@
         "nolem",
         "corruption"
       ],
-      "status": "open",
-      "ruling": "PENDING (register Q3). CANON.md §5.3 (RATIFIED 2026-07-28) says 'A wound has to come first, and it is not his.' Recommend (a): the comic operates one level up — Nolem manufactures the CIVILISATIONAL wound but still cannot touch an intact individual connection. One clarifying sentence preserves the locked thesis, the absorption-immunity chokepoint, and every Legendary motivation built on it."
+      "status": "ruled-new",
+      "ruling": "RESOLVED 2026-07-29. Owner: 'Nolem can do anything he's evil. He can definitely cause wounds.' CANON.md 5.3's 'a wound has to come first, and it is not his' is STRUCK, along with 'genuine connection is immune to him'. The ACCEPTED-numbing half stands, so separability, the waking verb and the soul-mote ruling are untouched. Connection is RESISTANCE, not immunity."
     },
     {
       "id": "cb1-corruption-is-mind-not-body",
@@ -252,8 +252,8 @@
         "nolem",
         "cosmology"
       ],
-      "status": "open",
-      "ruling": "PENDING (register M10). Additive — dimensions/nolem-maw.json:71-74 records the pocket and its shifting coordinates but no anchor. Ties the trap back to Hennifer's discipline and BETTY: the science that opened the doors is the science that shuts one. Consequence for future writing: a trap of this kind cannot be sprung just anywhere."
+      "status": "ruled-new",
+      "ruling": "ADOPTED 2026-07-29 into GAME_SPEC.md Act 4 + twin: the trap is sprung on 'the nearest naturally occurring magnetic anomaly', which is why Nike Prime is forced to drag the fight outside the stadium. Ties the trap to Hennifer's discipline and BETTY. Consequence for future writing: a trap of this kind cannot be sprung just anywhere."
     },
     {
       "id": "cb1-unpaid-obligations",
