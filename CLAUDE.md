@@ -52,6 +52,12 @@ enforceable instead of aspirational.**
 > register, and it cost five and a half weeks once already.
 
 **Direction of truth when they disagree** (do not guess — this order is load-bearing):
+0. **THE OWNER'S RULING IS THE FINAL TRUTH — Tier 0, above everything, including the comics.**
+   *"My say is the final truth. And it will be my vision."* The comics (`comic-books/`) are the highest
+   **source** in the project and outrank every doc, every JSON file and both games — but they are
+   **evidence, not the verdict.** A comic/canon collision is a **question put to the owner**: quote both
+   sides, state the blast radius, recommend, then wait. Never rewrite ratified canon on a comic's
+   authority alone — and never treat an unruled comic detail as canon either.
 1. **`nikeverse-discord-game` is the SHIPPED GROUND TRUTH for anything a player can see.** It has beaten
    the design documents on essentially every contested point. Go to the data before you trust a document.
 2. **`Nikeverse-mmo-rpg-from-scratch/docs/CANON_MAP.md`** for anything already locked.
@@ -101,6 +107,9 @@ python3 -c "import json,glob;[json.load(open(f)) for f in glob.glob('**/*.json',
 
 ## Doc map
 
+**`comic-books/`** — **Tier-1 source material** (`book-01/` = *Nike the Pig: Book 1*, PDF + verbatim
+`script.md`). Its README carries the Tier-0 authority rule and the dialogue/art-direction/author-note
+evidence split — **read it before citing a comic line** ·
 `CANON.md` — the settled centre (§4.1 = the FROZEN dark questions) · **`THE_5555.md`** — the canon
 *history* of the number (six readings in ten months, what is still open; **HISTORY, not canon —
 `CANON.md` §1.2 rules**) · `GAME_DELTAS.md` — the divergence

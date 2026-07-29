@@ -18,9 +18,17 @@ Thank you for your interest in expanding the Nikeverse!
 
 | Tier | Source | Authority |
 |------|--------|-----------|
-| 1 | Comic books, main campaign | Primary canon |
+| **0** | **The owner's ruling** | **Final. Supersedes every tier below, including the comics.** |
+| 1 | Comic books, main campaign | Primary source material — the strongest evidence, **not the verdict** |
 | 2 | Raid lore, side quests | Secondary canon |
 | 3 | Community contributions | Requires approval |
+
+**Tier 1 is evidence, not a verdict.** The comics are the highest-authority *source* in the project and
+they outrank every design doc, every JSON file, and the shipped games — but the owner outranks them.
+Where a comic and current canon disagree, that is a **question put to the owner**, never a resolved
+ruling: quote both sides, state the blast radius, recommend, and wait. Do not rewrite ratified canon on
+a comic's authority alone. Equally, a comic detail the owner has not ruled on is **not thereby canon** —
+it is evidence awaiting a ruling. See `comic-books/README.md`.
 
 ### Style Guide
 
