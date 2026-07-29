@@ -258,7 +258,7 @@ These are the load-bearing beams that **survive the primary source untouched**. 
 **Things that were feared and are NOT true — record these so nobody re-raises them:**
 - The **Sixth Seat** provenance panic is dead. The claim that *"Five Champions was never a designed number"* was **refuted**: canon already says five, the comic shows five, and they are the same five including Boxer. No 28-file rewrite.
 - The **Shinden mist** collision is dead. *"Purple smog"* at :612 is **art direction** and does not reach ratified canon; it is a GAP, not a contradiction. `SHINDEN_SPEC.md`, the `world_shinden_mist_level` mechanic and the freeing cinematic are untouched.
-- **`NOLEM` reversed is `MELON`** was fabricated and refuted on five independent grounds. Do not log it.
+- **`NOLEM` reversed is `MELON`** was fabricated and refuted on five independent grounds. Do not log it. ⚠ **THIS REFUTATION WAS ITSELF WRONG — corrected 2026-07-29.** `NOLEM` reversed *is* `MELON`, and `RETNUHXED` reversed *is* `DEXHUNTER`; both verify mechanically, and the owner has confirmed the real-world origin. The audit refuted a trivially checkable string reversal. Kept as the record of the error: **a refutation is not self-verifying.** The reversals are out-of-world provenance only — never in-world, never a puzzle (`CANON.md` §3.2).
 - The **`Ret'nux` / `Dex'tur` "false etymology"** charge is refuted — the comic makes no etymological claim, so it cannot contradict one.
 - **`pigment shard`**, **Squilya-as-individual**, **"bipedals"**, **Shiro's Shinden origin**, and **the First Tongue's post-comic status** were all refuted as collisions.
 

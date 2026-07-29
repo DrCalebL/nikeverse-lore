@@ -251,7 +251,7 @@ ratified by the source's own refusal to answer them.
 
 **Refuted, so nobody re-raises them:** the comic does **not** invert the Shattering (it never mentions OG
 Nike and never denies it — a gap, not a contradiction, and its *"SAME GENETICS"* line at `:214` is evidence
-*for* one-soul-many-bodies); `NOLEM` reversed is **not** `MELON`; the Sixth Seat provenance panic is dead;
+*for* one-soul-many-bodies); `NOLEM` reversed is **not** `MELON` ⚠ **THIS REFUTATION WAS ITSELF WRONG — corrected 2026-07-29.** `NOLEM` reversed *is* `MELON`, and `RETNUHXED` reversed *is* `DEXHUNTER`; both verify mechanically, and the owner has confirmed the real-world origin. The audit refuted a trivially checkable string reversal. Kept as the record of the error: **a refutation is not self-verifying.** The reversals are out-of-world provenance only — never in-world, never a puzzle (`CANON.md` §3.2).; the Sixth Seat provenance panic is dead;
 the Shinden mist collision is dead. 74 of 137 findings died under adversarial verification.
 
 **STILL OPEN — put to the owner, not edited.** Nike Prime may not be in the trap at all (`script.md:1033` —
