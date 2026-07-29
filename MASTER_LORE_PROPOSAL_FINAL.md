@@ -791,6 +791,12 @@ traps Nolem                                          now corrupted
 **Official Story**: Nike Prime was released at 99% completion. Fully functional.
 
 **The Conspiracy**:
+> **⚠ THIS IS THE INVENTION SITE.** The "empathy core" line below is a *speculative bullet in a conspiracy
+> section of a draft* — it is **not** in Comic Book 1 and never was. It was later promoted to verbatim canon
+> in `GAME_SPEC.md`'s "preserve verbatim" list and stored as Engineer Nike's `lastWords` in the lore JSON.
+> Struck at both 2026-07-29. **Retained here deliberately** — deleting it would erase the record of how a
+> speculation became a quotation. Never cite it as comic dialogue.
+
 - What was the missing 1%?
 - Engineer Nike's last words: "Wait, the empathy core isn't—"
 - Nike Prime couldn't form bonds
@@ -925,6 +931,13 @@ The Collector must eventually return to Nolem's Maw. Not to replace Nike Prime�
 **TRUE Nike Prime** = The Collector + their bonded Nikes + the freed Legendaries + the original Nike Prime
 
 ### The Math (Comic Book 1 Origin)
+> **⛔ SUPERSEDED — the arithmetic below is WRONG. Retained as provenance; never cite it.**
+> 5,548 + 4 + 5 + 1 + 1 = **5,559**, not 5,555. This was the corpus's only published justification for the
+> number and it never closed. The number resolves by *subtraction* — see `THE_5555.md` (owner ruling,
+> 2026-07-29): 5,555 − 1 (Stoner Nike) − 6 already accounted for = 5,548 vials.
+> Note also that **"5,548 Nike variants" is this document's coinage, not the comic's**; Book 1 says
+> *"all of the Other Nike's"* (`comic-books/book-01/script.md:339`).
+
 Stoner Nike asked for 5,548 vials to collect DNA from other Nikes across the multiverse. Add the 4 Scientist Nikes, the 5 Champions, Stoner Nike himself, and Nike Prime—the number was always approaching 5,555. The prophecy's number has its literal origin in those DNA collection trips across realities.
 
 ---

@@ -1,5 +1,72 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 29, 2026 — Comic Book 1 lands; the 5,555 is a SPECIES count and the arithmetic closes
+
+**The primary source finally exists in a repository.** `comic-books/book-01/` now carries *Nike the Pig:
+Book 1* — the owner's own comic, Tier 1 — as the delivered PDF plus a verbatim, uncorrected extraction.
+For ten months every reading of the 5,555 was derived from a secondhand paraphrase of a document nobody
+working on it could open. The full 122-agent audit against all four repos is `RECONCILIATION.md`; the
+per-claim register is `claims.json`.
+
+**Owner ruling — Tier 0 is established above Tier 1.** *"I know comic contradicts canon in many ways. And
+it's also not the final tier 1 truth. My say is the final truth. And it will be my vision."* The comic is
+the highest-authority **source** in the project — above every design doc, every JSON file and both games —
+and the owner is above the comic. A comic/canon collision is a **question put to the owner**, never an
+automatic rewrite; and an unruled comic detail is **not thereby canon** either. Landed in
+`CONTRIBUTING.md`, `comic-books/README.md` and `CLAUDE.md`'s direction-of-truth list.
+
+**Owner ruling — the 5,555 counts distinct Nike FORMS.** One form per universe, so each of the 5,555 is at
+once a unique individual *and* a unique kind; the species and individuals readings were never actually
+rivals. Bonding a duplicate form stays **legal** but does not advance the 5,555. This **restores** the
+original vision — `LORE_BIBLE.md` §9, *"all 5,555 Nike types"*, deleted 2026-02-11 in a bare commit with no
+rationale, no CHANGELOG entry and no register row — and it **supersedes** `THE_5555.md`'s former assertion
+that *"the 5,555 cannot be a species count."* Landed in `CANON.md` §1.2 and `GAME_SPEC.md` §4.1 + the twin.
+
+**Owner ruling — the arithmetic closes by subtraction.** `5,555 − 1 (Stoner Nike himself, who collects from
+"all of the Other Nike's") − 6 already accounted for in the order = 5,548 vials`, the comic's one stated
+figure (`script.md:339`). **The six are Engineer, Computer Coder, Botanist, Nutritionist, Gladiator and
+Boxer.** The wording is *"already accounted for in the order"*, not *"already swabbed"*: the order is placed
+before any recruitment, and the spit vials handed to champions on-page are fungible stock from the same box.
+
+**The old derivation was wrong and is struck.** `MASTER_LORE_PROPOSAL_FINAL.md:928` — *"5,548 + the 4
+Scientist Nikes, the 5 Champions, Stoner Nike himself, and Nike Prime"* — sums to **5,559**. It was the
+corpus's only published justification for the number and it never closed. Annotated in place as provenance;
+never cite it. **Book 1 never states 5,555** (`grep` = 0): cite the comic for 5,548 and the owner for 5,555.
+
+**A fabricated quotation was found load-bearing in four repositories and is STRUCK.** Engineer Nike's
+*"Wait, the empathy core isn't—"* does **not** appear in Book 1 (`grep -c -i "empathy"` = 0), and Engineer
+Nike is **alive** at the end of the book, so he has no last words. It originated as a speculative bullet
+under *"The Conspiracy"* at `MASTER_LORE_PROPOSAL_FINAL.md:795` and was later promoted into `GAME_SPEC.md`'s
+*"Canon dialogue — preserve verbatim"* list and stored as `lastWords` in the lore JSON. Replaced everywhere
+with the real line at `script.md:885`: *"Nike, you were released a bit before you were 100% complete."*
+Correcting a false statement **about** the primary source needed no owner ruling. **The empathy-core CONCEPT
+is not struck** — that is a separate open question (`claims.json` → `cb1-empathy-core-concept`).
+
+**Boxer Nike does not die in Book 1.** The sacrifice clause is deleted from `dimensions/grand-arena.json:36`.
+His fight with Nolem is a staged demonstration for the newly-released Nike Prime (*"WE DIDN'T TEACH YOU HOW
+TO FIGHT YET! WATCH AND LEARN!"*, `:976`), he hands off at `:986`, and he speaks after the battle (`:1008`).
+A defect fix inside existing canon: the clause already contradicted its own file's `corruptionReason`
+(*"Boredom"*) and `timeline/legendary-falls.json:90-93`, where he falls 500–1500 years later.
+
+**What the comic RATIFIED, and this is most of it.** The five Champions are the five shipped anchor bosses,
+5-for-5. Nolem bound and never killed — with the *reasoning* the docs had only asserted. Nike Prime at 99%
+with the chamber left empty. The four Scholars, 4-for-4. Dexter Hun as Nolem's worn avatar, matching the
+First Tongue's `Dex'tur` (*dex* to wear + *tur* body) exactly. And three Tier-3 mysteries stay frozen,
+ratified by the source's own refusal to answer them.
+
+**Refuted, so nobody re-raises them:** the comic does **not** invert the Shattering (it never mentions OG
+Nike and never denies it — a gap, not a contradiction, and its *"SAME GENETICS"* line at `:214` is evidence
+*for* one-soul-many-bodies); `NOLEM` reversed is **not** `MELON`; the Sixth Seat provenance panic is dead;
+the Shinden mist collision is dead. 74 of 137 findings died under adversarial verification.
+
+**STILL OPEN — put to the owner, not edited.** Nike Prime may not be in the trap at all (`script.md:1033` —
+Nolem goes alone; Prime and Shiro detach and land alive), which contradicts ~25 sites including shipped
+Discord dialogue. Whether *"Retnuhxed"* names a reversible state as well as a kind. Whether Nolem
+manufactures the wound (`CANON.md` §5.3). The Shiro/Charles-AI merge. The Scattering's era. And the
+**mechanism** question the species ruling deliberately does *not* settle: Book 1's win is a cumulative
+collection, `CANON.md` §1.2's is a simultaneous hold. Until ruled, the held-threshold reading stands and no
+document may cite Book 1 for a cumulative game-side win condition.
+
 ## Date: July 28, 2026 — corruption is a numbing that was ACCEPTED, and striking it WAKES rather than frees
 
 **Owner ruling.** Corruption is a **numbing that was accepted** — never a chain, and never the Nike. Nolem

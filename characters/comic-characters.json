@@ -74,8 +74,11 @@
                 "id": "engineer-nike",
                 "name": "Engineer Nike",
                 "contribution": "The growth tank (fetal chamber technology)",
-                "lastWords": "Wait, the empathy core isn't\u2014",
-                "fate": "Unknown. Possibly joined the Lost Builders."
+                "canonLine": "Nike, you were released a bit before you were 100% complete.",
+                "canonLineSource": "comic-books/book-01/script.md:885 (dialogue)",
+                "strickenAttribution": "Wait, the empathy core isn't\u2014",
+                "strickenAttributionNote": "STRUCK 2026-07-29. This line does NOT appear in Book 1 (grep -c -i 'empathy' on script.md = 0) and was carried here as 'lastWords'. It originates as a speculative bullet under 'The Conspiracy' at MASTER_LORE_PROPOSAL_FINAL.md:795 and was later promoted to verbatim canon in GAME_SPEC.md's 'preserve verbatim' list. Engineer Nike is also ALIVE at the end of Book 1 (script.md:874, :885, :1010), so he has no last words. Retained here as the record of the error; never quote it. The 'empathy core' CONCEPT is a separate question and is not struck by this.",
+                "fate": "Alive at the end of Book 1, stranded on Colosseum World. Long-term fate unknown \u2014 possibly joined the Lost Builders."
             },
             {
                 "id": "nutritionist-nike",

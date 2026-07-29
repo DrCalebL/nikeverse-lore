@@ -1,0 +1,241 @@
+{
+  "source": "Nike the Pig: Book 1",
+  "tier": 1,
+  "note": "Tier 1 is EVIDENCE, not a verdict. Tier 0 is the owner's ruling. Nothing leaves status 'open' without a ruling logged in CHANGELOG.md. See ../README.md. Full audit: ./RECONCILIATION.md",
+  "auditedOn": "2026-07-29",
+  "claims": [
+    {
+      "id": "cb1-vial-count",
+      "claim": "Stoner Nike orders 5,548 vials to collect the DNA of all the other Nikes.",
+      "quote": "I'm going to need 5548 vials though so I can collect the DNA of all of the Other Nike's.",
+      "scriptLine": 339,
+      "scriptPage": "PDF p.10 / PAGE 7",
+      "evidenceKind": "dialogue",
+      "topic": ["the-5555", "nike-prime"],
+      "status": "agrees",
+      "ruling": "5,548 is CONFIRMED and correctly carried across the corpus. It is the comic's only collection figure and stays a locked constant."
+    },
+    {
+      "id": "cb1-no-5555",
+      "claim": "Book 1 never states the number 5,555.",
+      "quote": "(grep -c \"5555\\|5,555\" script.md = 0)",
+      "scriptLine": 0,
+      "evidenceKind": "dialogue",
+      "topic": ["the-5555"],
+      "status": "ruled-new",
+      "ruling": "OWNER, 2026-07-29. The 5,555 is the owner's number, not the comic's. Cite Book 1 for 5,548; cite the owner for 5,555. The former published derivation (MASTER_LORE_PROPOSAL_FINAL.md:928) summed to 5,559 and is struck."
+    },
+    {
+      "id": "cb1-arithmetic-bridge",
+      "claim": "The gap between the 5,555 total and the 5,548 vials is Stoner Nike himself plus six Nikes already accounted for in the order.",
+      "quote": "all of the Other Nike's",
+      "scriptLine": 339,
+      "evidenceKind": "dialogue",
+      "topic": ["the-5555"],
+      "status": "ruled-new",
+      "ruling": "OWNER, 2026-07-29. 5,555 − 1 (Stoner Nike, who collects from the OTHERS) − 6 already accounted for = 5,548. The six are Engineer Nike, Computer Coder Nike, Botanist Nike, Nutritionist Nike, Gladiator Nike and Boxer Nike. Wording is 'already accounted for in the order', NOT 'already swabbed': the order is placed at :339 before any recruitment, and the spit vials handed to champions on-page (:378, :508, :645, :675, :709) are fungible stock from the same box. Supersedes the 'six killed by Nolem' reading."
+    },
+    {
+      "id": "cb1-5555-referent-species",
+      "claim": "The 5,555 counts distinct Nike forms, not distinct bodies.",
+      "quote": "EVERYONE IN DIFFERENT UNIVERSES STARTS OFF WITH THE SAME GENETICS AND HAS THE SAME BRAIN.",
+      "scriptLine": 214,
+      "evidenceKind": "dialogue",
+      "topic": ["the-5555", "cosmology"],
+      "status": "ruled-new",
+      "ruling": "OWNER, 2026-07-29. One form per universe, so each of the 5,555 is at once a unique individual and a unique kind — the species and individuals readings were never rivals. Bonding a duplicate form stays legal but does not advance the 5,555. Restores LORE_BIBLE.md §9 ('all 5,555 Nike types', deleted 2026-02-11 without rationale). Supersedes THE_5555.md's former 'the 5,555 cannot be a species count'. Landed in CANON.md §1.2, GAME_SPEC.md §4.1 + twin."
+    },
+    {
+      "id": "cb1-prime-grown-not-summoned",
+      "claim": "Nike Prime is grown in a rebuilt fetal chamber over months, not summoned.",
+      "quote": "grow a full grown Nike with all of the knowledge we have in just a few months",
+      "scriptLine": 577,
+      "evidenceKind": "dialogue",
+      "topic": ["nike-prime"],
+      "status": "ruled-comic",
+      "ruling": "GROWN. First seen as 'A SMALL PIGLET INSIDE' (:765), released by a button (:870). 'Summon' is the vocabulary of the explicitly non-canon campaign_scripts/ 'Convergence Protocol' draft and must not be imported. Every live artifact already said grown."
+    },
+    {
+      "id": "cb1-empathy-core-quote-fabricated",
+      "claim": "Engineer Nike's 'Wait, the empathy core isn't—' does not appear in Book 1, and Engineer Nike survives the book.",
+      "quote": "(grep -c -i \"empathy\" script.md = 0; Engineer Nike speaks at :874, :885 and is present at :1010)",
+      "scriptLine": 885,
+      "evidenceKind": "dialogue",
+      "topic": ["nike-prime", "fabrication"],
+      "status": "ruled-canon",
+      "ruling": "STRUCK 2026-07-29 as a false statement ABOUT the primary source — no owner ruling required. Origin: a speculative bullet under 'The Conspiracy' at MASTER_LORE_PROPOSAL_FINAL.md:795, later promoted to GAME_SPEC.md's 'preserve verbatim' list. Replaced with the real line at :885. The empathy-core CONCEPT is NOT struck — see cb1-empathy-core-concept."
+    },
+    {
+      "id": "cb1-empathy-core-concept",
+      "claim": "The comic never names the missing 1% and never denies an empathy core.",
+      "quote": "Nike, you were released a bit before you were 100% complete.",
+      "scriptLine": 885,
+      "evidenceKind": "dialogue",
+      "topic": ["nike-prime"],
+      "status": "open",
+      "ruling": "PENDING (register Q4). Recommend keeping the concept, re-founded as a post-comic Scholar-Bunker reconstruction — which is already how the shipped Discord game stages it (anonymous SCHOLAR RECORDING; zero 'Engineer Nike' in campaign-data/). Retiring it costs 119 references across 41 files including shipped runtime and all five Resonance-band endings, paid for an absence."
+    },
+    {
+      "id": "cb1-prime-not-in-trap",
+      "claim": "Nolem alone goes to the pocket dimension; Nike Prime and Shiro detach in transit and land alive elsewhere.",
+      "quote": "Shiro and Nike Prime were able to detach from Nolem. It looked like Nolem was headed where he was supposed to go in the pocket dimension. I'm not sure where the other two landed.",
+      "scriptLine": 1033,
+      "evidenceKind": "dialogue",
+      "topic": ["nike-prime", "nolem", "timeline"],
+      "status": "open",
+      "ruling": "PENDING (register F1) — largest blast radius in the audit. Canon asserts the opposite in ~25 sites including shipped Discord dialogue (Elbonzys: 'Before he walked into the trap. Before he sealed himself away'). The fall is also FORCED, not chosen (:995), so the 'deliberately unclear' hedge at GAME_SPEC.md:223 fails either way. Note timeline/prime-era.json:173-174 is ALREADY comic-compatible and must not be edited."
+    },
+    {
+      "id": "cb1-boxer-survives",
+      "claim": "Boxer Nike survives Book 1; his fight with Nolem is a staged demonstration for Nike Prime.",
+      "quote": "WE DIDN'T TEACH YOU HOW TO FIGHT YET! WATCH AND LEARN!",
+      "scriptLine": 976,
+      "evidenceKind": "dialogue",
+      "topic": ["champions"],
+      "status": "ruled-canon",
+      "ruling": "Sacrifice clause deleted from dimensions/grand-arena.json:36 on 2026-07-29 — a defect fix inside existing canon, no owner ruling required. He speaks after the battle (:1008), and the clause already contradicted its own file's corruptionReason ('Boredom') and timeline/legendary-falls.json:90-93 (he falls 500–1500 years later). Correction of record: Nolem SHRUGS OFF the punches ('I barely feel your punches', :980) — not damage-soaking reconnaissance."
+    },
+    {
+      "id": "cb1-retnuhxed-reversible",
+      "claim": "A living, uncorrupted Nike was turned into a Retnuhxed and turned back, and remembers it.",
+      "quote": "I NEVER WANT TO EXPERIENCE THAT AGAIN!!",
+      "scriptLine": 1004,
+      "evidenceKind": "dialogue",
+      "topic": ["corruption", "taxonomy"],
+      "status": "open",
+      "ruling": "PENDING (register Q2). Collides with CANON.md:183 ('a Retnuhxed ... past saving — a separate kind of being altogether'). Recommend (a): the word names two things — Nolem's Abyss-spawned army AND a reversible imposed state — which preserves the RATIFIED soul-mote ruling and the shipped 292/144 is_nike split. Note timeline/prime-era.json:126-127 already carries the comic's version without knowing it."
+    },
+    {
+      "id": "cb1-nolem-manufactures-wound",
+      "claim": "Nolem's avatar engineers infertility, famine by policy, and poisoned food across the Scholars' worlds.",
+      "quote": "Sometimes he showed up as Dexter Hun. Sometimes as something else.",
+      "scriptLine": 554,
+      "evidenceKind": "dialogue",
+      "topic": ["nolem", "corruption"],
+      "status": "open",
+      "ruling": "PENDING (register Q3). CANON.md §5.3 (RATIFIED 2026-07-28) says 'A wound has to come first, and it is not his.' Recommend (a): the comic operates one level up — Nolem manufactures the CIVILISATIONAL wound but still cannot touch an intact individual connection. One clarifying sentence preserves the locked thesis, the absorption-immunity chokepoint, and every Legendary motivation built on it."
+    },
+    {
+      "id": "cb1-corruption-is-mind-not-body",
+      "claim": "Corruption is a resolve attack about being unloved, and is separable from the person.",
+      "quote": "Nolem: Feeling unloved? / Nike Prime: I sense that you make everyone feel that way",
+      "scriptLine": 966,
+      "evidenceKind": "dialogue",
+      "topic": ["corruption"],
+      "status": "agrees",
+      "ruling": "CONFIRMED against CANON.md:291-294 (separability half only). Scope limit: this is COMPATIBLE WITH, not proof of, the Keth'nor etymology — the comic uses no First-Tongue word and calls the mechanism 'MIND TRICKS' (:981). The Sever Guard reinforcement was tested and STRUCK: the reverted characters were never severed."
+    },
+    {
+      "id": "cb1-nolem-bound-not-killed",
+      "claim": "Nolem is essentially immortal; killing him returns him, so he must be trapped in his weak form.",
+      "quote": "KILL HIM AND HE JUST COMES BACK LIKE HE DID THIS TIME! BUTT!!! IF YOU CAN KEEP HIM FROM DOING WHAT HE'S DOING LONG ENOUGH, WE CAN FIGURE OUT A WAY TO TRAP HIM",
+      "scriptLine": 190,
+      "evidenceKind": "dialogue",
+      "topic": ["nolem"],
+      "status": "agrees",
+      "ruling": "CONFIRMED — and the comic supplies the REASONING that SPINE_LOCK.md:215, GAME_SPEC.md:1782 and CANON.md:35 assert flatly. Do NOT 'fix' the '(entropy can't die)' parenthetical to match 'HE COULD': the comic's own gloss two words later is 'ESSENTIALLY IMMORTAL'."
+    },
+    {
+      "id": "cb1-five-champions-are-the-anchors",
+      "claim": "The five Champions are Gladiator, Ninja, Cyberpunk, Viking and Boxer.",
+      "quote": "THE LAST OF THE CHAMPIONS WILL BE VIKING NIKE! THEY'LL BE THE MAIN PROTECTORS OF OUR PROJECT!!",
+      "scriptLine": 314,
+      "evidenceKind": "dialogue",
+      "topic": ["champions"],
+      "status": "agrees",
+      "ruling": "CONFIRMED 5-for-5 against the shipped anchor bosses: Gladiator→Imperial Colosseum, Ninja→Shinden, Viking→Frostfall, Boxer/Tyson→Grand Arena, Cyberpunk→Neon City. The most comic-faithful structure in the project. Two bridges recorded so they are not re-derived: the explicit enumeration is FOUR at :314, reopened by 'along with more champions to fight' (:579) and closed by the five-panel battle montage; and 'Tyson' occurs ZERO times, so legendary-nikes/index.json:632 is the only tether — never delete it in a tidy-up."
+    },
+    {
+      "id": "cb1-prime-99-percent",
+      "claim": "Nike Prime is released at 99% completion when Shiro presses the button early.",
+      "quote": "We're at 99% so based on rate of growth, speed of processing of informa- SHIRO NO",
+      "scriptLine": 874,
+      "evidenceKind": "dialogue",
+      "topic": ["nike-prime"],
+      "status": "agrees",
+      "ruling": "CONFIRMED against CANON.md:59-60, GAME_SPEC.md:152. Two proposed refinements were tested and STRUCK: prime-era.json:108's 'due to the Retnuhxed attack' is causally correct and complementary to mysteries.json:152's 'when Shiro pressed the button early' — both stay; and CAMPAIGN_AND_COMPANIONS.md:324 is scoped to the Bunker 3,000 years later and is not contradicted. No edits."
+    },
+    {
+      "id": "cb1-why-nolem-hunts-nikes-stays-dark",
+      "claim": "The comic asks why Nolem hunts the Nikes and refuses to answer.",
+      "quote": "Pico: Why? / Stoner Nike: NO IDEA, BUT HE'S ALREADY DONE THIS TO AT LEAST ONE OTHER CREATURE",
+      "scriptLine": 198,
+      "evidenceKind": "dialogue",
+      "topic": ["mysteries"],
+      "status": "agrees",
+      "ruling": "CONFIRMED — Tier-3 mystery #1 is ratified by the primary source's own refusal, from the character with the most information in the book. Same for #5 (why Cthulhu helps — the act is shown at :26-28, the reason never) and #6 (where Shiro came from — asked and unanswered three times: :278, :635, :699). All three stay frozen; check-mystery-tiers.py stays armed."
+    },
+    {
+      "id": "cb1-scattering-is-post-book",
+      "claim": "Book 1 ends with the Champions STRANDED on Colosseum World, not scattering.",
+      "quote": "There is more to this world than what we've accomplished here today. Jobs and housing for each of you.",
+      "scriptLine": 1016,
+      "evidenceKind": "dialogue",
+      "topic": ["timeline", "champions"],
+      "status": "open",
+      "ruling": "PENDING (register F4). A SCOPE error, not a false event — the Scattering is confirmed as intent and refuted as a Prime-Era event. timeline/long-silence.json:11-22 ALREADY has it right (The Vigil, 0-50 years) and must not be touched. The three quoted 'Scattering' lines in GAME_SPEC.md:225 appear nowhere in script.md and trace to MASTER_LORE_PROPOSAL_FINAL.md:370,375,378."
+    },
+    {
+      "id": "cb1-shiro-not-merged",
+      "claim": "Shiro is never wounded, never sacrifices himself, and never merges with Charles AI; Charles AI ends Book 1 with no portal ability.",
+      "quote": "They have to have the Charles Chip implanted in them. But Nike Prime should know how to make one.",
+      "scriptLine": 1027,
+      "evidenceKind": "dialogue",
+      "topic": ["shiro", "charles"],
+      "status": "open",
+      "ruling": "PENDING (register Q1). The Shiro phase-out is a RIGHTS decision, not a story invention — but it currently launders itself through an in-world death the comic contradicts, and that death is the stated origin of the game's entire transit system. Recommend (a): keep the name-suppression rule, delete the fabricated death/merge, leave Charles AI's portal ability unexplained — consistent with CANON.md §4.1 keeping Shiro's origin dark, and mechanically free."
+    },
+    {
+      "id": "cb1-intelligence-drain",
+      "claim": "Each time a version of a person dies across universes, a fraction of that person's intelligence dies with them.",
+      "quote": "EACH TIME ONE OF THAT PERSON DIES, A FRACTION OF THEIR INTELLIGENCE DIES WITH THEM!",
+      "scriptLine": 214,
+      "evidenceKind": "dialogue",
+      "topic": ["cosmology"],
+      "status": "open",
+      "ruling": "PENDING (register Q8/M8). Recommend adopting as a cosmology entry. Three filing corrections: it is NOT a Nolem ability (it is a general law of death across variants, any cause), so it does not belong in singulars/nolem.json; and it must stay strictly about INTELLIGENCE, never souls or the Pattern — CANON.md §1.2.1 is RATIFIED and expressly forbids explaining one-soul-many-bodies in mechanics."
+    },
+    {
+      "id": "cb1-trap-needs-magnetic-anomaly",
+      "claim": "The space-time trap is anchored to a naturally occurring magnetic anomaly.",
+      "quote": "Computer, figure out the location of the nearest naturally occurring magnetic anomaly. Shiro, you know what to do.",
+      "scriptLine": 959,
+      "evidenceKind": "dialogue",
+      "topic": ["nolem", "cosmology"],
+      "status": "open",
+      "ruling": "PENDING (register M10). Additive — dimensions/nolem-maw.json:71-74 records the pocket and its shifting coordinates but no anchor. Ties the trap back to Hennifer's discipline and BETTY: the science that opened the doors is the science that shuts one. Consequence for future writing: a trap of this kind cannot be sprung just anywhere."
+    },
+    {
+      "id": "cb1-unpaid-obligations",
+      "claim": "Book 1 ends with five explicit promises unpaid.",
+      "quote": "as long as I receive help from you all afterwards to fix my world, I will do it happily",
+      "scriptLine": 502,
+      "evidenceKind": "dialogue",
+      "topic": ["timeline", "champions"],
+      "status": "open",
+      "ruling": "PENDING (register M7). Nutritionist Nike's conditional world-repair (:502, accepted at :504), Cyberpunk's promised fight with Nike Prime (:669 — now structurally unpayable), Ninja promised Shiro (:644 — broken on the page by the ending), Viking promised more cats (:700), Computer Coder asking for more entities like his Charles AI (:413). Recommend recording all five as the Long Silence's authored starting conditions — better emotional content than 'they waited'."
+    },
+    {
+      "id": "cb1-pigment-shard",
+      "claim": "Each Nike carries a 'pigment shard' — described in the comic as basically their DNA.",
+      "quote": "Within each of you is what's called a \"pigment shard\". Basically your DNA.",
+      "scriptLine": 555,
+      "evidenceKind": "dialogue",
+      "topic": ["terminology", "cosmology"],
+      "status": "open",
+      "ruling": "PENDING. Recorded in no repository. REFUTED as a collision with the Shattering cosmology — the comic never mentions OG Nike (grep = 0) and never denies the shattering, so this is a GAP, not a contradiction. Note the comic's 'EVERYONE IN DIFFERENT UNIVERSES STARTS OFF WITH THE SAME GENETICS' (:214) is evidence FOR one-soul-many-bodies, not against it."
+    }
+  ],
+  "refutedClaims": {
+    "note": "Tested and REJECTED under adversarial verification. Recorded so they are not re-raised.",
+    "items": [
+      "NOLEM reversed is MELON — fabricated, refuted on five independent grounds.",
+      "The comic inverts the Shattering (many→one vs one→many) — the comic never mentions OG Nike and never denies the shattering. GAP, not contradiction.",
+      "The Sixth Seat provenance panic — canon already says five Champions, the comic shows five, same five. No rewrite.",
+      "The Shinden mist collision — 'purple smog' (:612) is art direction and does not reach ratified canon.",
+      "The Ret'nux / Dex'tur 'false etymology' charge — the comic makes no etymological claim, so it cannot contradict one.",
+      "Squilya-as-individual, 'bipedals', Shiro's Shinden origin, and the First Tongue's post-comic status — all refuted as collisions.",
+      "The vial 'double-count' charge (Champions and Scholars drawing from the same 5,548 stock) — tested and rejected; do not rely on it."
+    ]
+  }
+}

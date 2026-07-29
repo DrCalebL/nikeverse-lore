@@ -34,6 +34,24 @@ Pattern be completed by someone who had already let every thread go slack. The s
 condition. Every Nike bonded repairs a thread; every Legendary freed reconnects a major node; and when the
 whole weave holds at once, Nike Prime can be completed and Nolem sealed.
 
+**THE REFERENT — owner ruling, 2026-07-29.** The 5,555 counts **distinct Nike forms**, not distinct bodies.
+One form per universe: each of the 5,555 is simultaneously a unique individual *and* a unique kind, which is
+why the species reading and the individuals reading were never actually rivals. Two wild Nikes of the same
+form remain **legal to bond** — they simply do not both advance the 5,555. This restores the original vision
+(`LORE_BIBLE.md` §9, *"all 5,555 Nike types"*, deleted 2026-02-11 without rationale) and supersedes
+`THE_5555.md`'s former assertion that the number *"cannot be a species count."*
+
+**The number is the owner's, not the comic's.** Book 1 never says 5,555 — its one figure is **5,548 vials**
+(`comic-books/book-01/script.md:339`), which is 5,555 less Stoner Nike himself and the six already accounted
+for in the order (the four Scholars, Gladiator, Boxer). Cite the comic for 5,548; cite the owner for 5,555.
+
+**⚠ STILL OPEN — the mechanism, deliberately not ruled here.** Book 1's win is a **cumulative collection**
+(gather the DNA, grow Nike Prime); this section's win is a **simultaneous hold**. The owner's ruling fixes
+*what the number counts*, not *how the Pattern is made whole* three thousand years later, and the two are
+separable: the Prime Era gathered what did not yet exist as a weave, and the Echo Era holds what does. Until
+that is ruled, **the held-threshold reading above stands** and no document may quote Book 1 as authority for
+a cumulative game-side win condition.
+
 **It counts SOULS held, never THREADS held** — a precisification, not a change. A soul reached by ten
 Collectors is **one** of the 5,555 re-anchored, not ten. There are exactly 5,555 fragments; if ten bonds to one
 soul credited ten, a realm could read *"the Pattern is whole"* while five thousand souls were still in the
