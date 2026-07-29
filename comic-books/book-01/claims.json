@@ -136,13 +136,13 @@
       "claim": "A living, uncorrupted Nike was turned into a Retnuhxed and turned back, and remembers it.",
       "quote": "I NEVER WANT TO EXPERIENCE THAT AGAIN!!",
       "scriptLine": 1004,
-      "evidenceKind": "dialogue",
+      "evidenceKind": "art-direction",
       "topic": [
         "corruption",
         "taxonomy"
       ],
-      "status": "open",
-      "ruling": "PENDING (register Q2). SPLIT OUT 2026-07-29 from cb1-retnuhxed-reversible, which was marked 'ruled-new' for the ETYMOLOGY half and therefore hid this half from every open-item query — a bookkeeping defect, not a decision. The question: CANON.md:183 says a Retnuhxed is 'past saving — a separate kind of being altogether', but the comic shows Stoner Nike turned and turned BACK. Recommend (a): the word names two things — Nolem's spawned army AND a reversible imposed state — which preserves the RATIFIED soul-mote ruling and the shipped 292/144 is_nike split. (b) amending CANON.md so 'past saving' is a late STAGE reopens a ratified pillar. Note timeline/prime-era.json:126-127 already carries the comic's version without knowing it."
+      "status": "ruled-canon",
+      "ruling": "RESOLVED 2026-07-29 (owner): 'follow my current game's definitions — corrupted nikes are reversible, retnuhxed is too far gone.' The ratified taxonomy STANDS UNCHANGED; the line between the terms is reversibility itself. The apparent collision was an OVER-READ of art direction: the transformation appears only in art direction, its first instance hedges in the source ('AS IT LOOKS LIKE THEY'RE TURNING INTO RETNUHXED', :973), and all ~14 dialogue mentions of 'Retnuhxed' are the invading army. Stoner Nike and the guards were CORRUPTED, not Retnuhxed — which is why they came back, and which timeline/prime-era.json:126 already recorded as 'temporary corruption'. Nothing in CANON.md 2.1/3.1, the soul-mote ruling or the 292/144 is_nike split changes. Kept as the record of the over-read: art direction describes a picture, not a claim about kinds."
     },
     {
       "id": "cb1-nolem-manufactures-wound",

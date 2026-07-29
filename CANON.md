@@ -252,6 +252,30 @@ Redemption is possible; Slate proved it in the Grand Arena.
 A fallen **Nike** is a **Corrupted Nike**, and a Corrupted Nike who has gone past saving is a **Retnuhxed** — a
 separate kind of being altogether. Never call a Nike a Harbinger.
 
+> **✅ RE-CONFIRMED — owner ruling, 2026-07-29: *"follow my current game's definitions — corrupted nikes are
+> reversible, retnuhxed is too far gone."*** This taxonomy **stands unchanged**, and the line between the two terms
+> is **reversibility itself**: *Corrupted* is a state a Nike can be brought back from; *Retnuhxed* is the point past
+> which they cannot.
+>
+> **The Book 1 beat that appeared to contradict this does not.** Stoner Nike and several Colosseum guards are
+> turned mid-battle and turn **back** (*"I NEVER WANT TO EXPERIENCE THAT AGAIN!!"*, `comic-books/book-01/script.md:1004`).
+> That was raised as evidence that a Retnuhxed can be reversed. It is not, on the source's own terms:
+> - The transformation appears **only in art direction**, never in dialogue — and art direction is the weaker
+>   evidence tier (`comic-books/README.md`): it describes a *picture*, not a claim about kinds.
+> - Its first instance **hedges in the source itself** — *"AS IT **LOOKS LIKE** THEY'RE TURNING INTO RETNUHXED"*
+>   (`script.md:973`).
+> - **Every one of the comic's ~14 dialogue mentions of "Retnuhxed" is the invading army**, never the turned guards.
+>
+> **Ruling: they were CORRUPTED, not Retnuhxed** — which is precisely why they came back, and which the lore already
+> recorded without noticing the significance (`timeline/prime-era.json:126`, *"**Temporary corruption** — some soldiers
+> and even Stoner Nike are temporarily corrupted during the battle"*). The art direction uses the word loosely, as
+> shorthand for *draw them looking like the enemy*. **Nothing in §2.1, §3.1, the soul-mote ruling or the 292/144
+> `is_nike` split changes.**
+>
+> **Consequence worth keeping:** this is Nolem's on-sight battlefield corruption (the 2026-07-29 "he makes the wound"
+> amendment) landing on living, uncorrupted Nikes — fast, forced, and **reversible because it is fresh**. It is the
+> same numbing, at the beginning of its arc rather than the end.
+
 The word **"Unraveler" is retired** and names nothing. (*`Nol'meth` glossed as "The Unraveling" is a different
 word and stands.*)
 

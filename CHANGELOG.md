@@ -1,5 +1,45 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 29, 2026 — the fallen-side taxonomy is RE-CONFIRMED, not amended
+
+**Owner ruling:** *"follow my current game's definitions — corrupted nikes are reversible, retnuhxed is too
+far gone."*
+
+**The taxonomy stands exactly as written.** `CANON.md` §3.1 and `GAME_SPEC.md` §3.9 already said this, and
+**the line between the two terms is reversibility itself**: *Corrupted* is a state a Nike can be brought back
+from; *Retnuhxed* is the point past which they cannot. No text changed — both sites gained a re-confirmation
+so the question is not raised a third time.
+
+**The apparent collision was an over-read of art direction, and I raised it.** Book 1 shows Stoner Nike and
+several Colosseum guards turned mid-battle and turning **back** (*"I NEVER WANT TO EXPERIENCE THAT AGAIN!!"*,
+`script.md:1004`). That was carried into the audit register, and then to the owner, as evidence a Retnuhxed
+can be reversed — i.e. as a live contradiction with a RATIFIED pillar. It is not, on the source's own terms:
+
+- The transformation appears **only in art direction**, never in dialogue — the weaker evidence tier by this
+  repo's own rule (`comic-books/README.md`): art direction describes a **picture**, not a claim about kinds.
+- Its first instance **hedges in the source itself**: *"AS IT **LOOKS LIKE** THEY'RE TURNING INTO RETNUHXED"*
+  (`script.md:973`).
+- **All ~14 dialogue mentions of "Retnuhxed" in Book 1 are the invading army**, never the turned guards.
+
+**They were CORRUPTED, not Retnuhxed** — which is exactly why they came back, and which this repo had already
+recorded without noticing the significance: `timeline/prime-era.json:126`, *"**Temporary corruption** — some
+soldiers and even Stoner Nike are temporarily corrupted during the battle."* The art direction uses the word
+loosely, as shorthand for *draw them looking like the enemy*.
+
+**Nothing changes** in §2.1's soul-mote ruling, §3.1's taxonomy, the 292/144 `is_nike` split, the shipped
+26-creature Retnuhxed roster, or the identical taxonomy sentence in all four `CLAUDE.md` files. The reading
+that would have amended *"past saving"* into a late **stage** — and thereby loosened the one rule that keeps
+Sever from becoming a licence — is **not adopted**.
+
+**What the beat is instead, and it is worth keeping:** Nolem's **on-sight battlefield corruption** (the
+2026-07-29 "he makes the wound" amendment) landing on living, uncorrupted Nikes — fast, forced, and
+**reversible because it is fresh**. The same numbing, at the beginning of its arc rather than the end.
+
+**Process note.** This is the second time today an agent finding was passed upward with more confidence than
+its evidence tier warranted — the first being a refutation of a five-letter string reversal. The evidence
+tiers in `comic-books/README.md` exist precisely for this, and they only work if they are applied before the
+finding is escalated, not after.
+
 ## Date: July 29, 2026 — audit sweep: the residuals two Opus passes found
 
 **Two independent Opus audits of the day's ten rulings.** Both named the same failure without conferring:
