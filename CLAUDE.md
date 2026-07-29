@@ -101,7 +101,9 @@ python3 -c "import json,glob;[json.load(open(f)) for f in glob.glob('**/*.json',
 
 ## Doc map
 
-`CANON.md` — the settled centre (§4.1 = the FROZEN dark questions) · `GAME_DELTAS.md` — the divergence
+`CANON.md` — the settled centre (§4.1 = the FROZEN dark questions) · **`THE_5555.md`** — the canon
+*history* of the number (six readings in ten months, what is still open; **HISTORY, not canon —
+`CANON.md` §1.2 rules**) · `GAME_DELTAS.md` — the divergence
 register (this repo vs a shipped game, with a ruling each) · `CHANGELOG.md` — resolutions ·
 `CONTRIBUTING.md` — the source-authority tiers · `MASTER_LORE_PROPOSAL_FINAL.md` — the founding
 synthesis (**provenance, not a live spec** — superseded wherever `CANON.md` speaks)
