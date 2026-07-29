@@ -64,6 +64,16 @@ He got the ninety-nine hundredths of a person that **can** be stored, and missed
 **sustained**. A relationship does not go in a vial. That is not a retcon of Book 1; it is why Nike Prime
 came out able to think, fight and strategise and unable to connect.
 
+**⛔ THE BOND LOG IS COMPLETABLE — owner ruling, 2026-07-29.** All 5,555 forms are obtainable; expansions deliver
+them, and finishing the Log is a real, permanent accomplishment. The corpus formerly ruled it *un-completable by
+design* — the 5,555th slot being the player, the Nike Who Refuses a permanently exempt box — and that is **STRUCK**:
+a dex that cannot be finished kills the drive to collect, retroactively, the moment a completionist works out the
+last slot is a trick. **What can never be completed is the WAR** — the holding decays, Nolem is bound and never
+killed, and every expansion grows the body that must be held. *You finish the collecting; you never finish the
+keeping.* Two beats survive rather than being spent: the **5,555th-slot moment** becomes the campaign climax (already
+gated on campaign completion, not on any count), and the **Nike Who Refuses** becomes an **arc** — refusing everyone
+until you.
+
 **⛔ NOTHING IS CONSUMED — ruled 2026-07-29 after a four-lens brainstorm returned 4/4 against the mechanism and
 4/4 for the instinct behind it.** Nike Prime is **not fuelled; he is HELD.** Whole, he is a **posture the realm
 stands in** — a chord, not a battery. It sounds while the notes are played and stops when they stop, and every
@@ -84,8 +94,7 @@ Order, which "nothing reorders". It also inverts §1.2's best line: *a relations
 become *a relationship does not **stay** in a vial*, and a furnace is not a better container than a vial. It is
 a worse one.
 
-**The sanctioned language:** *held · attend · stand · carry · sound · keep the shape · let go.* Never *spend,
-burn, consume, fuel, power, drain, recharge*, and never the nouns *energy, charge, battery, reserve*.
+**The sanctioned language:** *held · attend · stand · carry · sound · keep the shape · let go.* Never *spend, burn, consume, fuel, power, drain, expend, deplete, recharge, top up*, or *sustain* (transitive — "the players sustain him"), and never the nouns *energy, charge, battery, reserve*. **This list is normative and identical in `CANON.md` §1.2, `PATTERN_INTEGRITY.md` §0.6 and `GAME_SPEC.md` §7.5 — a lint stated three ways is not one lint.** SCOPE: binds all NEW player-facing strings in the MMO. The shipped Discord game predates the ruling and is **grandfathered** — its existing violations (e.g. `nolem_maw/main_006_campaign_complete.json:49`, *"the flickering core needs fuel"*) are registered as a known divergence, not swept.
 
 **⛔ Therefore Nike Prime is NEVER permanently completed by a realm event, and neither is the Weaver.** A being
 made of connection cannot be achieved and then banked; it is whole exactly as long as the connections are.

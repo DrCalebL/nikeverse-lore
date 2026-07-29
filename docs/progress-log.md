@@ -156,3 +156,34 @@ is a result, not a skipped step (Wave 13's rule).
 **Left open on purpose, and written down so it is not mistaken for settled:** the Triforce is **not in
 `CANON.md`**. It lives in this repo's JSON and in `MASTER_LORE_PROPOSAL_FINAL.md` — provenance, not a live
 spec. Elevating it to the settled centre is a separate ruling; the owner scoped this change to the pact.
+
+---
+
+## Wave 15 — 2026-07-29 · Comic Book 1 lands; ten owner rulings; two audits
+
+**What arrived.** The owner uploaded *Nike the Pig: Book 1* — the Tier-1 primary source, which for ten months
+had existed in no repository. Every prior reading of the 5,555 was therefore derived from a secondhand
+paraphrase of a document nobody working on it could open. Landed at `comic-books/book-01/` as PDF + verbatim
+uncorrected `script.md`, with a 122-agent cross-repo audit (`RECONCILIATION.md`) and a per-claim register
+(`claims.json`).
+
+**Ten owner rulings**, all logged in `CHANGELOG.md`: Tier 0 (owner above comic) · 5,555 = distinct **forms** ·
+the arithmetic closing by subtraction at 5,548 · Nolem **makes the wound** · the Discord game demoted as a
+*lore* authority (scoped) · the Long Silence stays open · the Three Scale Laws · the Bond Log is
+**completable** · **nothing is consumed** · Nolem's limit is **knowledge, not permission**.
+
+**Defects found and fixed along the way:** a **fabricated quotation** ("Wait, the empathy core isn't—") that
+was load-bearing in four repos and originated as a speculative bullet in a draft; the published 5,555
+derivation that summed to **5,559**; Boxer Nike's non-existent sacrifice; two Pattern Integrity bugs (a
+chapter-win gate that eliminated realms mid-season *silently*, and a meter specced as two incompatible
+objects); and an incomplete Yuki pronoun sweep that misgendered her mid-sentence.
+
+**⚠ THE LESSON, and it cost a whole second pass.** Two independent Opus audits named the same failure:
+**an amendment appended to one clause while the sibling clause carrying the same claim was left standing** —
+same file, sometimes the same sentence. Six of the eight highest findings were that one pattern.
+
+> **THE GUARD: after any strike, grep the STRUCK PHRASE ITSELF across all four repos before committing —
+> not just the file you opened.** Every one of those findings would have surfaced on the first grep.
+
+Second lesson: **a refutation is not self-verifying.** The first brainstorm wave "refuted on five independent
+grounds" that `NOLEM` reverses to `MELON`. It does. Check anything mechanically checkable yourself.

@@ -1,5 +1,53 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 29, 2026 — audit sweep: the residuals two Opus passes found
+
+**Two independent Opus audits of the day's ten rulings.** Both named the same failure without conferring:
+**an amendment was appended to one clause, and the sibling clause carrying the same claim was left standing**
+— often in the same file, sometimes in the same sentence. The guard is one command (grep the *struck phrase*
+across all four repos before committing) and it was not run. Recorded here because the pattern will recur.
+
+**Rulings that were materially undone and are now swept:**
+- **The Long Silence / Nike Prime's location** — six machine-readable sites still asserted he is in the trap,
+  two of them **sibling fields in files the original commit edited**. Data fields, not prose: any generator
+  reading them re-emits the struck claim.
+- **Knowledge-not-permission** — missed twice *inside its own primary target*, `dimension-eater.json`, where
+  `:191` elevated the struck clause to *"the oldest limit on him"*.
+- **The Bond Log is completable** — never landed in this repo at all (a three-way violation), and left two
+  live **build-ordering directives** in the build repo telling engineers to wire an achievement-exemption
+  that the ruling deletes. Now landed in `CANON.md` §1.2 and struck in `THE_5555.md`.
+- **Nolem makes the wound** — the struck immunity rule survived in `CIRCLE_DESIGN.md` (where an entire
+  mechanic's rationale quoted it), `STORY_BIBLE.md`, and two `GAME_SPEC.md` sites, one of which pointed the
+  reader at the very section that now says the opposite.
+- **Name reversals are out-of-world only** — the build spec scheduled the reversal as a **guarded in-world
+  endgame reveal**, and the corrected bad refutation survived in two places, one ending *"Do not log it."*
+- **Nothing is consumed** — `PATTERN_INTEGRITY.md` §0, §2, §7 and §9 still described the deleted integrator;
+  §9 is the section addressed to *"whoever builds this"* and would have silently reverted both bug fixes.
+  §2's *"dex growth is orthogonal to the threshold"* was not stale but **wrong**: the census denominator *is*
+  the known count.
+
+**Also closed in this sweep:** Tier 0 was missing from two of three direction-of-truth lists; the Discord
+game's own `CLAUDE.md` still auto-loaded the framing the owner demoted; `CANON_MAP.md` — the doc every
+`CLAUDE.md` names as the one to open first — had **zero rows for ten rulings** and still carried the reversed
+trap claim; the vocabulary lint was stated **three different ways** in three artifacts and had no product
+scope, so it was silently violated by shipped Discord content on day one (now unified, and the shipped game
+explicitly grandfathered).
+
+**One law was contradicted by its own document.** LAW 3 forbids gating *any* permanent state behind a fixed
+server-wide bar, while the chapter turn and the Pattern-sky inscription sit behind the sustained `I ≥ 0.95`
+title condition. Resolved with an explicit carve-out: those two are **commemorative, not enabling** — they
+unlock no content, no power and no story beat a later player is locked out of. **If anything ever hangs a
+capability on the turn, LAW 3 is broken and the turn gets re-scoped, not the law.**
+
+**One item needs design work, not a strike.** The Nike Who Refuses was specified as a *category* of
+permanently-unearnable Nikes. Under the completable ruling every Refuser must be earnable eventually, so
+refusal becomes a **long arc with a condition**. The signposting, the grief-tie and the in-fiction dignity all
+survive; only the permanence goes. Flagged in place at `OPENWORLD_AND_ENDLESS.md` §3.
+
+**Retroactive log for `07871ad`** (name-reversal provenance · the Long Silence ruled open · the bad refutation
+reversed), which landed without a CHANGELOG entry despite this repo's own rule and `claims.json`'s note that
+nothing leaves `open` without one.
+
 ## Date: July 29, 2026 — Nolem's limit is KNOWLEDGE, not permission
 
 **Owner ruling.** The 2026-07-29 *"Nolem can do anything he's evil"* amendment left a piece of ratified content
