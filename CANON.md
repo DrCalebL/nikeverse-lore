@@ -330,18 +330,53 @@ Neither ending is a failure, and neither closes the way forward.
 
 ### 5.3 What corruption is, and what damage can and cannot do · **RATIFIED (owner, 2026-07-28)**
 
-**Corruption is a numbing that was accepted.** It is never a chain, and it is never the Nike. Nolem does not
-break a soul and then move in — he arrives *after* something else has already broken it, and offers to make it
-stop hurting. The language has said so since it was written: **`Keth'nor`** is `keth` (stain/taint) + `nor` (of
-Nolem) — a stain **on** a thing, never the thing. And `singulars/nolem.json` gives his single weakness as
-*"Cannot corrupt genuine connection"*, explained as *"The bond must be broken first. This is why he works
-through isolation rather than direct assault."* **A wound has to come first, and it is not his.** That is not a
-limitation on his method; it **is** his method — which is exactly why genuine connection is immune to him.
+**Corruption is a numbing that was accepted.** It is never a chain, and it is never the Nike. The language has
+said so since it was written: **`Keth'nor`** is `keth` (stain/taint) + `nor` (of Nolem) — a stain **on** a
+thing, never the thing.
 
-The shipped game has always played it this way. Gladiator Nike, mid-fight: *"The corruption came AFTER! I killed
-him with my own hands, my own heart! The corruption just... gave me a way to forget. To turn the pain into
-nothing."* And before it: *"The corruption didn't take my hope, Walker. It just... agreed with what I already
-knew."* He sits *"wrapped in chains they could break but never do"* — a chain nobody is holding is not a chain.
+> ### ⛔ AMENDED — owner ruling, 2026-07-29. **NOLEM MAKES THE WOUND.**
+> Owner, verbatim: *"Nolem can do anything he's evil. He can definitely cause wounds… He needs to be big,
+> scary and powerful so it's epic to beat him."*
+>
+> This section used to read *"a wound has to come first, **and it is not his**"*, and concluded that
+> **genuine connection is immune to him.** Both clauses are **STRUCK.** He is not a scavenger waiting on
+> somebody else's bad luck. He engineers the wound himself, at whatever scale he likes — Book 1 has his
+> avatar sterilise a species, starve a world by farm policy, and poison a continent's food supply
+> (`comic-books/book-01/script.md:369, :492, :533`), and then corrupt Nikes **mid-battle, on sight**,
+> as a combat action (`:972`).
+>
+> **Two claims were bundled here and only one is struck. Keep them apart — the game rides on the survivor.**
+>
+> | | Status |
+> |---|---|
+> | **The numbing is ACCEPTED, never installed.** He *offers*; the soul takes it. | ✅ **STANDS — and everything downstream depends on it** |
+> | **The wound is not his.** | ⛔ **STRUCK. It is absolutely his, whenever he wants it to be.** |
+>
+> Because the numbing is still *taken* rather than *fitted*, it is still **not the person** — so it can still
+> be struck off, striking it still **wakes** rather than frees, and `Keth'nor` is still a stain **on** a thing.
+> Separability, the waking verb, the soul-mote ruling and the whole moral architecture are untouched.
+>
+> **Connection is no longer immunity. It is RESISTANCE — and that is the scarier reading.** Immunity made
+> safety a rule and made him small: a monster who literally cannot open a door is a puzzle, not a threat.
+> Under the amendment he can break anything, given enough force and enough time. Connection does not make
+> you unreachable; it makes you **expensive**, and it is the only thing that has ever made him work for it.
+> That is why bonding is holding a line rather than applying a ward, and it is why beating him is *epic*
+> rather than procedural.
+>
+> **What this now costs him, and it should be visible:** he has to *build* your despair before he can sell
+> you the cure. Every corrupted Legendary is a thing he did on purpose, to them, in advance. He is not
+> weather. He is an arsonist with a plan.
+
+Gladiator Nike, mid-fight: *"The corruption came AFTER! I killed him with my own hands, my own heart! The
+corruption just... gave me a way to forget. To turn the pain into nothing."* And before it: *"The corruption
+didn't take my hope, Walker. It just... agreed with what I already knew."* He sits *"wrapped in chains they
+could break but never do"* — a chain nobody is holding is not a chain.
+
+**Read that under the amendment and it gets worse, which is the point.** Every one of those lines is about the
+numbing being *accepted* — none of them says who caused the wound. *"The corruption came AFTER"* is still
+exactly true. What changes is that the thing which came **before** need not have been anybody's accident:
+Nolem could have built the situation that put those hands on that friend. Gladiator's grief is no longer bad
+luck he was preyed upon for. It is a thing done **to** him, on purpose, so the offer would land.
 
 **Because the numbing is not the person, it is separable — and what a Collector strikes is the numbing.** This
 is what both games already do, and they say so in as many words: *"Reduce its HP below 15% **to break the

@@ -4,19 +4,20 @@
   "trueName": "Nol'meth",
   "trueNameLanguage": "First Tongue",
   "type": "Singular",
-  "domain": ["Entropy", "Isolation", "Despair"],
+  "domain": [
+    "Entropy",
+    "Isolation",
+    "Despair"
+  ],
   "alignment": "Malevolent",
   "origin": "The Formless Era",
   "status": "Active — Primary antagonist",
-  
   "description": "Nolem is entropy given consciousness. The force of decay, the end of all things, the cold silence between stars. In the Formless Era, this was simply his nature. Something changed — he discovered that absorbing mortal consciousness made him stronger, and he became HUNGRY.",
-  
   "nature": {
     "original": "A natural force of entropy — neither good nor evil",
     "current": "Actively malevolent, seeks to absorb all consciousness",
     "transformation": "Unknown event made him purely destructive"
   },
-  
   "abilities": [
     {
       "name": "Absorption",
@@ -39,25 +40,24 @@
       "description": "Can cut a specialised appetite out of himself and give it a body, so that it may enter dimensions he cannot. He has done this once. He has never made one complete, and that is precisely why the one he made kept everything it ate."
     }
   ],
-  
   "methods": {
     "isolation": "Separate beings from their connections",
     "exhaustion": "Wait until they're too tired to resist",
     "despair": "Convince them that connection is pointless",
     "rest": "Offer to 'take the weight' — absorption disguised as relief"
   },
-  
   "weakness": {
-    "primary": "Cannot corrupt genuine connection",
-    "explanation": "The bond must be broken first. This is why he works through isolation rather than direct assault.",
-    "example": "The First Bond was incorruptible"
+    "amended": "OWNER RULING 2026-07-29 — 'Nolem can do anything he's evil. He can definitely cause wounds... He needs to be big, scary and powerful so it's epic to beat him.' The former weakness ('Cannot corrupt genuine connection' / 'The bond must be broken first') is STRUCK. Connection is NOT immunity.",
+    "primary": "Connection does not stop him — it COSTS him. It is the only thing that has ever made him work for a soul, and the only thing that has ever held.",
+    "explanation": "He can break anything given enough force and enough time. A bonded soul is not unreachable; it is EXPENSIVE, and expense is what buys the Pattern its chances. Immunity made him small — a monster who literally cannot open a door is a puzzle, not a threat. Resistance makes beating him epic.",
+    "whatStillBindsHim": "Not a rule about souls — a TRAP. He is essentially immortal (kill him and he returns), so the only thing that has ever worked is confinement in a pocket of warped space whose coordinates shift multiple times per second, denying him the one thing his travel needs: known coordinates. It took a Singular's warning, a purpose-built being grown from thousands of Nikes, an interdimensional cat, and a naturally occurring magnetic anomaly to spring it once.",
+    "theRealCost": "He must BUILD the despair before he can sell the cure. Every corrupted Legendary is something he did on purpose, to them, in advance. That is a cost and a signature, not a limitation."
   },
-
   "corruptionNature": {
     "summary": "Corruption is a NUMBING THAT WAS ACCEPTED — never a chain, and never the Nike.",
     "isAccepted": true,
     "isInstalled": false,
-    "sequence": "The wound comes first, and it is not his. Nolem never breaks a soul and then moves in; he arrives after something else has already broken it and offers to make it stop hurting, and the soul takes the offer. This is the weakness above read forwards: a bond must ALREADY be broken before he can reach it, which is exactly why genuine connection is immune to him.",
+    "sequence": "AMENDED 2026-07-29 (owner). Formerly: 'The wound comes first, and it is not his.' STRUCK — the wound is absolutely his whenever he wants it to be. What SURVIVES, and what everything downstream depends on, is that the numbing is ACCEPTED rather than installed: he manufactures the despair, then OFFERS to make it stop hurting, and the soul takes the offer. Because it is taken and not fitted, it is still not the person, so it can still be struck off and striking it still WAKES. Connection is no longer immunity — it is resistance: it makes a soul expensive, not unreachable.",
     "etymologySupport": "Keth'nor = keth (stain/taint) + nor (of Nolem) — a stain ON a thing, never the thing. See languages/first-tongue/dictionary.json.",
     "separable": "Because the numbing is not the person, it can be struck off the person — and what a Collector strikes is the numbing, not the soul behind it.",
     "wakesNotFrees": "Striking it off does not free anyone. It WAKES them, handing back the pain they had a reason for putting down. Whether that was for their own good is decided entirely by what happens next.",
@@ -67,7 +67,6 @@
     "prohibition": "No Collector, NPC, narrator, HUD string or tooltip may ever tell a Nike that hurting it was for its own good. Only a woken Nike may say it, about itself, unprompted, afterwards.",
     "canonRef": "CANON.md §5.3 — RATIFIED (owner, 2026-07-28)"
   },
-
   "agents": [
     {
       "type": "Retnuhxed",
@@ -83,11 +82,10 @@
     },
     {
       "type": "The Dimension Eater (Nol'tur)",
-      "description": "NOT a servant \u2014 a severed organ. Nolem cut out the part of himself that hungered for PLACES rather than for people and gave it a body, because a Singular cannot freely enter most dimensions and a bond happens in a room, not in a mind. It ate ten thousand dimensions during the Age of Silence while he slept. He gave it the mouth and kept the throat, so it never digested any of them: confronted by a Collector who refused to be alone, it discovered it had preserved rather than destroyed, and became an ark. Nolem lost a limb rather than a soldier. See entities/dimension-eater.json.",
-      "status": "Lost to him \u2014 turned, and holds what it took"
+      "description": "NOT a servant — a severed organ. Nolem cut out the part of himself that hungered for PLACES rather than for people and gave it a body, because a Singular cannot freely enter most dimensions and a bond happens in a room, not in a mind. It ate ten thousand dimensions during the Age of Silence while he slept. He gave it the mouth and kept the throat, so it never digested any of them: confronted by a Collector who refused to be alone, it discovered it had preserved rather than destroyed, and became an ark. Nolem lost a limb rather than a soldier. See entities/dimension-eater.json.",
+      "status": "Lost to him — turned, and holds what it took"
     }
   ],
-  
   "history": {
     "formlessEra": "Existed as natural entropy",
     "ageOfSeparation": "Discovered absorption, consumed the Aeth'kai. Near the end of it he cut the Dimension Eater out of himself, to take the places he could not enter.",
@@ -96,7 +94,6 @@
     "shattering": "Failed to break the First Bond",
     "ageOfEchoes": "Adapted strategy — using Harbingers and Dexter Hun"
   },
-  
   "quotes": [
     {
       "text": "Let go. Sleep. I'll take the weight.",
@@ -104,7 +101,6 @@
       "source": "Raid Lore"
     }
   ],
-  
   "targetSpecies": [
     {
       "species": "Aeth'kai",
@@ -121,5 +117,26 @@
       "status": "Active target",
       "result": "Ongoing war"
     }
-  ]
+  ],
+  "power": {
+    "note": "Assembled 2026-07-29 from Comic Book 1, which is the Tier-1 source and the canonical portrait. Prior to this the record had NO corporeal profile at all. Write him from here.",
+    "scale": "A Singular: exactly one of him across all realities, eons old — the same order of being as Cthulhu, who is the only reason anyone knew he was coming.",
+    "atFullStrength": "Can absorb and destroy ENTIRE REALITIES. He is not there yet — the whole of Book 1 happens during his weakened, rebuilding phase. That is the frightening part: everything he does in the comic, he does while under-powered.",
+    "currentMethod": "Enters realities at will and kills and absorbs whoever he likes. He has already massacred one being across THOUSANDS of separate realities before ever turning to the Nikes.",
+    "immortality": "Killing him does not work. He comes back — he already has. Confinement is the only known answer.",
+    "avatars": "Wears mortal forms (Dexter Hun, and 'sometimes something else'). Through them he engineers civilisational wounds: mass infertility, famine by farm policy, a poisoned food supply — each one a pillar of life broken by a person in authority.",
+    "battlefieldCorruption": "Turns living, uncorrupted allies into Retnuhxed ON SIGHT, mid-combat, as an action — including Stoner Nike himself and a squad of Colosseum guards (script.md:972). He does it while fighting someone else.",
+    "combatProfile": [
+      "Carries a cosmic sniper gun and picks off defenders at range from across the battlefield.",
+      "IMMUNE to Ninja Nike's poison — the same poison that drops Retnuhxed reliably.",
+      "Barely feels Boxer Nike's strikes: 'I barely feel your punches. I hope this isn't you at 100%'.",
+      "CAN be slowed by Cyberpunk Nike's weapon — one of only two things that visibly work on him.",
+      "Gladiator's and Viking's weapons LODGE IN HIM and he clears them by releasing energy from within his own body.",
+      "Ordinary troops cannot subdue him at any number.",
+      "Nike Prime — a being purpose-grown from the DNA of thousands of Nikes — can physically push him back, and still cannot beat him.",
+      "A stadium-wide electrical discharge damages his weapon, not him."
+    ],
+    "psychologicalMethod": "He does not taunt with threats; he taunts with loneliness. 'Feeling unloved?' — and the reply that names him: 'I sense that you make everyone feel that way.' The corruption is delivered as MIND TRICKS aimed at resolve, which is why the ones who come back remember being inside it.",
+    "writingRule": "Never write him as weather, luck, or an ambient force. He is deliberate, patient, personally present, and he plans. When in doubt, make him bigger — and make the cost of beating him the thing that is expensive, never his reach."
+  }
 }

@@ -1,5 +1,59 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 29, 2026 — NOLEM MAKES THE WOUND; the Discord game is demoted as a lore authority
+
+**Owner ruling.** *"Nolem can do anything he's evil. He can definitely cause wounds. Don't follow discord
+game lore. It's the weakest lore of the bunch and I didn't like Nolem in it. He needs to be big, scary and
+powerful so it's epic to beat him."*
+
+**§5.3's "the wound is not his" is STRUCK, and so is the immunity it implied.** The section said a wound had
+to come first and that it was never Nolem's, concluding that *"genuine connection is immune to him."* Both
+clauses are gone. He engineers the despair himself, at whatever scale he likes.
+
+**Two claims were bundled in that section and only ONE is struck.** This is the important part:
+
+| | Status |
+|---|---|
+| The numbing is **ACCEPTED, never installed** — he offers, the soul takes it | ✅ **STANDS** |
+| The wound **is not his** | ⛔ **STRUCK** |
+
+Because the numbing is still *taken* rather than *fitted*, it is still not the person — so separability, the
+**waking** verb, `Keth'nor` as a stain *on* a thing, the soul-mote ruling and the entire moral architecture
+are **untouched**. Nothing downstream of the accepted-numbing claim moved.
+
+**Connection is now RESISTANCE, not immunity — and it is the scarier reading.** Immunity made safety a rule
+and made him small: a monster who literally cannot open a door is a puzzle, not a threat. He can now break
+anything given enough force and time; connection makes a soul **expensive**, not unreachable. Bonding becomes
+holding a line rather than applying a ward, which is what makes beating him *epic* instead of procedural.
+
+**It also makes him worse on purpose, which is the point.** He must BUILD the despair before he can sell the
+cure. Every corrupted Legendary is something he did to them, deliberately, in advance. He is not weather. And
+Gladiator Nike's shipped lines get *stronger*: *"The corruption came AFTER"* is still exactly true — what
+changes is that the thing which came before need not have been anybody's accident.
+
+**Nolem now has a power profile, assembled from Comic Book 1** (`singulars/nolem.json` → `power`). The record
+previously had no corporeal portrait at all, so any future encounter would have been invented from nothing.
+On the page: a Singular, one across all realities, eons old; at full strength he devours entire realities;
+killing him fails outright; he has massacred one being across thousands of realities; he wears avatars to
+break a world's birth, soil and food; he corrupts living allies mid-battle on sight; he is immune to the
+poison that drops Retnuhxed, shrugs off the champion boxer, clears embedded weapons by releasing energy from
+inside himself, and is pushed back — but not beaten — by a being grown from the DNA of thousands of Nikes.
+**And all of that is him WEAKENED.** Writing rule recorded: never write him as weather, luck or an ambient
+force; when in doubt make him bigger, and let the *cost of beating him* be what is expensive, never his reach.
+
+**The Discord game is demoted — SCOPED, deliberately.** The direction-of-truth rule in all three `CLAUDE.md`
+files called it *"the SHIPPED GROUND TRUTH for anything a player can see… it has beaten the design documents
+on essentially every contested point."* It is now split:
+
+- **Still authoritative for WHAT EXISTS** — rosters, creature/move/trait data, flags, gates, region contents,
+  level bands, mechanics. It is a running product. **Every `GAME_DELTAS` ruling made on that basis stands**,
+  including the anchor roster, the 292/144 split and the co-banded levels.
+- **NOT authoritative for cosmology, characterisation or tone** — above all Nolem. For those, `comic-books/`
+  and ratified `CANON.md` outrank it, and a weak shipped line is a thing to **outgrow**, not to propagate.
+
+The scoping is a judgement call and is flagged as one: demoting the factual record too would invalidate a
+large amount of correctly-settled work that has nothing to do with the quality of the writing.
+
 ## Date: July 29, 2026 — Comic Book 1 lands; the 5,555 is a SPECIES count and the arithmetic closes
 
 **The primary source finally exists in a repository.** `comic-books/book-01/` now carries *Nike the Pig:

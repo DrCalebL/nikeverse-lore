@@ -58,8 +58,14 @@ enforceable instead of aspirational.**
    **evidence, not the verdict.** A comic/canon collision is a **question put to the owner**: quote both
    sides, state the blast radius, recommend, then wait. Never rewrite ratified canon on a comic's
    authority alone — and never treat an unruled comic detail as canon either.
-1. **`nikeverse-discord-game` is the SHIPPED GROUND TRUTH for anything a player can see.** It has beaten
-   the design documents on essentially every contested point. Go to the data before you trust a document.
+1. **`nikeverse-discord-game` is the FACTUAL RECORD of what shipped — NOT a lore authority.**
+   **⛔ SCOPED, owner 2026-07-29:** *"Don't follow discord game lore. It's the weakest lore of the bunch."*
+   - **Still authoritative for WHAT EXISTS:** rosters, creature/move/trait data, flags, gates, region
+     contents, level bands, mechanics. It is a running product; go to the data before you trust a document
+     about what is in the game. Every `GAME_DELTAS` ruling made on that basis stands.
+   - **NOT authoritative for COSMOLOGY, CHARACTERISATION, or tone** — above all **Nolem**, whom the owner
+     explicitly dislikes as written there. For those, `comic-books/` (Tier 1) and ratified `CANON.md`
+     outrank it, and a weak shipped line is a thing to *outgrow*, not to propagate.
 2. **`Nikeverse-mmo-rpg-from-scratch/docs/CANON_MAP.md`** for anything already locked.
 3. For cosmology, entities, numbers, language and timeline → the **lore** is upstream.
 4. For regions and their contents → much of the lore was transcribed *from* the Discord game and then
