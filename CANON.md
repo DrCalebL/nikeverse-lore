@@ -253,28 +253,56 @@ A fallen **Nike** is a **Corrupted Nike**, and a Corrupted Nike who has gone pas
 separate kind of being altogether. Never call a Nike a Harbinger.
 
 > **✅ RE-CONFIRMED — owner ruling, 2026-07-29: *"follow my current game's definitions — corrupted nikes are
-> reversible, retnuhxed is too far gone."*** This taxonomy **stands unchanged**, and the line between the two terms
-> is **reversibility itself**: *Corrupted* is a state a Nike can be brought back from; *Retnuhxed* is the point past
-> which they cannot.
+> reversible, retnuhxed is too far gone."*** This taxonomy **stands unchanged**, and the threshold between the
+> two terms is **reversibility**: *Corrupted* is a state a Nike can be brought back from; *Retnuhxed* is the
+> threshold past which a Corrupted Nike is a different kind of being.
 >
-> **The Book 1 beat that appeared to contradict this does not.** Stoner Nike and several Colosseum guards are
-> turned mid-battle and turn **back** (*"I NEVER WANT TO EXPERIENCE THAT AGAIN!!"*, `comic-books/book-01/script.md:1004`).
-> That was raised as evidence that a Retnuhxed can be reversed. It is not, on the source's own terms:
-> - The transformation appears **only in art direction**, never in dialogue — and art direction is the weaker
->   evidence tier (`comic-books/README.md`): it describes a *picture*, not a claim about kinds.
-> - Its first instance **hedges in the source itself** — *"AS IT **LOOKS LIKE** THEY'RE TURNING INTO RETNUHXED"*
->   (`script.md:973`).
-> - **Every one of the comic's ~14 dialogue mentions of "Retnuhxed" is the invading army**, never the turned guards.
+> **THE EVIDENCE IS THE SHIPPED GAME — the source the ruling actually names.** `nikeverse-discord-game`'s
+> `data-seed/nikeverse.db` encodes the distinction exactly, and it is decisive on its own:
 >
-> **Ruling: they were CORRUPTED, not Retnuhxed** — which is precisely why they came back, and which the lore already
-> recorded without noticing the significance (`timeline/prime-era.json:126`, *"**Temporary corruption** — some soldiers
-> and even Stoner Nike are temporarily corrupted during the battle"*). The art direction uses the word loosely, as
-> shorthand for *draw them looking like the enemy*. **Nothing in §2.1, §3.1, the soul-mote ruling or the 292/144
-> `is_nike` split changes.**
+> | | count | `is_nike` | in-game |
+> |---|---|---|---|
+> | **Retnuhxed** creatures | **26** | **all `0`** | fightable, **never** catchable or bondable |
+> | Anchor **Corrupted Nikes** (Viking · Gladiator · Cyberpunk · Ninja) | 4 | **`1`** | purifiable **and** bondable |
 >
-> **Consequence worth keeping:** this is Nolem's on-sight battlefield corruption (the 2026-07-29 "he makes the wound"
-> amendment) landing on living, uncorrupted Nikes — fast, forced, and **reversible because it is fresh**. It is the
-> same numbing, at the beginning of its arc rather than the end.
+> `Retnuhxed Apex` states the transition outright: *"Nolem's general. **Once a legendary Nike**, now commands
+> Retnuhxed armies."* Was a Nike; is now past reach. (Totals check out: 436 creatures, 292 `is_nike=1`, 144
+> hostiles — the ratified split.)
+>
+> **What "too far gone" means, stated rather than assumed** — because §2.1 rules that a slain Retnuhxed husk
+> releases a **warm soul-mote**, and a soul that is still there needs reconciling with "past saving." It means
+> **past REACHING, not soul-destroyed.** The husk is a body where no one remains to be reached; the soul
+> persists inside and is released warm when the husk falls. **Reversibility is about restoring the *Nike*, never
+> about whether the soul still exists.** Bond and purify act on someone who can still answer. Nothing in §2.1
+> changes.
+>
+> **The Book 1 beat, honestly stated.** Stoner Nike and a number of **non-Nike Colosseum troops** are turned
+> mid-battle and turn **back** (`script.md:1004`, Stoner Nike, **dialogue**: *"I NEVER WANT TO EXPERIENCE THAT
+> AGAIN!!"*). The comic's **art direction does label them Retnuhxed, and it does so inconsistently**: hedged at
+> `:973` (*"AS IT **LOOKS LIKE** THEY'RE TURNING INTO RETNUHXED"*), then **flatly** at `:985` (*"…AS THEY **ARE
+> RETNUHXED NOW**"*), then reversed at `:1001` (*"BACK TO NORMAL"*). Because the label contradicts itself
+> within one battle, it is **not load-bearing** — and all **11** of the comic's *dialogue* uses of "Retnuhxed"
+> are the invading army, never the turned cohort.
+>
+> **Ruling: the taxonomy governs and the comic is SUPERSEDED on this point.** They were **Corrupted** — which
+> is why they came back, and which the lore already recorded (`timeline/prime-era.json:126-127`, *"**Temporary
+> corruption** — some soldiers and even Stoner Nike are temporarily corrupted during the battle"*). Note the
+> cohort is **one Nike plus non-Nike troops**; corrupted humans sit on the Harbinger axis and outside this
+> taxonomy entirely.
+>
+> **Nothing changes** in §2.1's soul-mote ruling, §3.1's taxonomy, the 292/144 `is_nike` split, or the shipped
+> 26-creature Retnuhxed roster. The reading that would make *"past saving"* a late **stage** — loosening the one
+> rule that keeps Sever from becoming a licence — is **not adopted**.
+>
+> **Consequence worth keeping:** the transformation itself is in **dialogue** (`:970`, Nolem: *"most don't have
+> your resolve. Take a look."*) and stands as canon — it is his **on-sight battlefield corruption** (§5.3)
+> landing fresh, and **reversible because it is fresh**. Only the *label* the art direction reached for is
+> superseded.
+>
+> ⚠ **OPEN, flagged not resolved:** `Nikeverse-mmo-rpg-from-scratch/docs/story/OPENWORLD_AND_ENDLESS.md:567`
+> has Dexter Hun — *the original Retnuhxed* — *"still aware inside the husk-pattern"* and **sootheable** via a
+> Window, i.e. the bond-meter verbs applied to an `is_nike=0` husk. That collides with "no one remains to be
+> reached." Registered rather than silently absorbed.
 
 The word **"Unraveler" is retired** and names nothing. (*`Nol'meth` glossed as "The Unraveling" is a different
 word and stands.*)

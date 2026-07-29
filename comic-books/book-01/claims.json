@@ -136,13 +136,13 @@
       "claim": "A living, uncorrupted Nike was turned into a Retnuhxed and turned back, and remembers it.",
       "quote": "I NEVER WANT TO EXPERIENCE THAT AGAIN!!",
       "scriptLine": 1004,
-      "evidenceKind": "art-direction",
+      "evidenceKind": "dialogue",
       "topic": [
         "corruption",
         "taxonomy"
       ],
       "status": "ruled-canon",
-      "ruling": "RESOLVED 2026-07-29 (owner): 'follow my current game's definitions — corrupted nikes are reversible, retnuhxed is too far gone.' The ratified taxonomy STANDS UNCHANGED; the line between the terms is reversibility itself. The apparent collision was an OVER-READ of art direction: the transformation appears only in art direction, its first instance hedges in the source ('AS IT LOOKS LIKE THEY'RE TURNING INTO RETNUHXED', :973), and all ~14 dialogue mentions of 'Retnuhxed' are the invading army. Stoner Nike and the guards were CORRUPTED, not Retnuhxed — which is why they came back, and which timeline/prime-era.json:126 already recorded as 'temporary corruption'. Nothing in CANON.md 2.1/3.1, the soul-mote ruling or the 292/144 is_nike split changes. Kept as the record of the over-read: art direction describes a picture, not a claim about kinds."
+      "ruling": "RESOLVED 2026-07-29 (owner): 'follow my current game's definitions — corrupted nikes are reversible, retnuhxed is too far gone.' The taxonomy STANDS UNCHANGED; the threshold between the terms is reversibility. THE DECISIVE EVIDENCE IS THE SHIPPED GAME — the source the ruling names: data-seed/nikeverse.db has 26 Retnuhxed creatures, ALL is_nike=0 (fightable, never catchable), while the anchor Corrupted Nikes are is_nike=1 (purifiable and bondable); 'Retnuhxed Apex' is described as 'Once a legendary Nike, now commands Retnuhxed armies'. The comic is SUPERSEDED on this point: its art direction does label the turned cohort Retnuhxed, and does so INCONSISTENTLY — hedged at :973, flatly at :985 ('AS THEY ARE RETNUHXED NOW'), reversed at :1001 — so the label is not load-bearing, while all 11 DIALOGUE uses are the invading army. The transformation itself IS dialogue (:970, :1004) and stands as Nolem's on-sight battlefield corruption. CORRECTION OF RECORD: an earlier version of this ruling claimed the transformation appeared 'only in art direction' (false — :970 and :1004 are dialogue), cited '~14' dialogue mentions (the true count is 11), did not disclose the unhedged :985, and briefly mislabelled this entry's evidenceKind as 'art-direction' on a line that is verbatim dialogue. All corrected. Nothing in CANON.md 2.1/3.1, the soul-mote ruling or the 292/144 split changes."
     },
     {
       "id": "cb1-nolem-manufactures-wound",

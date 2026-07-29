@@ -1,5 +1,57 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 29, 2026 — the taxonomy ruling's JUSTIFICATION is corrected (the ruling itself stands)
+
+**An audit found the right conclusion reached by wrong reasoning, and the wrong reasoning was three canon
+files deep.** The ruling — *Corrupted is reversible, Retnuhxed is too far gone* — is correct and unchanged.
+Everything below is a correction to how it was argued.
+
+**The decisive evidence was never cited, and it is the source the owner actually named.** The ruling says
+*"follow my current game's definitions."* `nikeverse-discord-game/data-seed/nikeverse.db` settles it outright:
+**26 Retnuhxed creatures, every one `is_nike=0`** — fightable, never catchable or bondable — while the anchor
+**Corrupted** Nikes (Viking, Gladiator, Cyberpunk, Ninja) are `is_nike=1`, purifiable *and* bondable. And
+`Retnuhxed Apex` states the transition on the tin: *"**Once a legendary Nike**, now commands Retnuhxed armies."*
+An argument was built from the comic when the answer was in the game. The shipped data now leads.
+
+**Four corrections to the record:**
+1. **A data field was falsified.** `claims.json`'s `cb1-retnuhxed-as-state` had its `evidenceKind` set to
+   `art-direction` on an entry whose quote is `script.md:1004` — verbatim *"Stoner Nike: I NEVER WANT TO
+   EXPERIENCE THAT AGAIN!!"*, i.e. **dialogue** by this repo's own definition. Its sibling entry carries the
+   same quote at the same line and correctly says `dialogue`. **Reverted.** This was the single edit that made
+   the argument internally consistent, and it should never have been made.
+2. **The inconvenient line was not disclosed.** The justification said *"its **first** instance hedges"* —
+   true, and the word *first* was doing concealment work. The **second** instance, `script.md:985`, is flat:
+   *"…AS THEY **ARE RETNUHXED NOW**."* It appeared in no file and no commit message. **Now disclosed** — and
+   the honest argument is stronger: the art direction contradicts *itself* within one battle (hedged `:973` →
+   flat `:985` → reversed `:1001`), which is why the label is not load-bearing.
+3. **The count was wrong.** *"~14 dialogue mentions"* — the true figure is **11**. (14 is what you get by
+   mis-classifying two page-break-split speeches and counting art direction.)
+4. **"Only in art direction, never in dialogue" was false as written.** The *transformation* is in dialogue —
+   Nolem at `:970` (*"most don't have your resolve. **Take a look.**"*) and Stoner Nike at `:1004`. Only the
+   **noun** "Retnuhxed", applied to the turned cohort, is art-direction-only. The looser claim also contradicted
+   §5.3, which cites the *same* art direction (`:972`) as authoritative for Nolem's on-sight corruption.
+
+**Two substantive improvements the audit forced:**
+- **The §2.1 reconciliation is now stated instead of asserted.** *"Too far gone" means past **reaching**, not
+  soul-destroyed.* The husk is a body where no one remains to be reached; the soul persists and is released
+  warm when it falls. Reversibility is about restoring the **Nike**, never about whether the soul exists.
+- **The cohort is described correctly.** It is *one Nike plus non-Nike Colosseum troops* (`:972`, `:984`), not
+  "living, uncorrupted Nikes". Corrupted humans sit on the **Harbinger** axis, outside this taxonomy.
+
+**Status vocabulary honoured.** The claim stays `ruled-canon`, which `comic-books/README.md` defines as *"the
+comic is superseded on this point"* — so the record now says the comic **did** disagree and was overruled,
+rather than that it never disagreed. That version cannot be re-litigated.
+
+**⚠ NEW OPEN ITEM, registered rather than absorbed.**
+`Nikeverse-mmo-rpg-from-scratch/docs/story/OPENWORLD_AND_ENDLESS.md:567` has Dexter Hun — *the original
+Retnuhxed* — *"still aware inside the husk-pattern"* and **sootheable** through a Window, i.e. the bond-meter
+verbs applied to an `is_nike=0` husk. That collides with *"no one remains to be reached."* It was inside the
+blast radius of a ruling that claimed *"nothing changes"*, and is now flagged.
+
+**Process note, third of the day.** Two findings were escalated with more confidence than their evidence tier
+warranted; this one was **de**-escalated the same way. The evidence tiers in `comic-books/README.md` only work
+if they are applied before a conclusion is reached, not marshalled after it.
+
 ## Date: July 29, 2026 — the fallen-side taxonomy is RE-CONFIRMED, not amended
 
 **Owner ruling:** *"follow my current game's definitions — corrupted nikes are reversible, retnuhxed is too
