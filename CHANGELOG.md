@@ -1,5 +1,60 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 29, 2026 — NOTHING IS CONSUMED: Nike Prime is held, not fuelled
+
+**The question.** Why must Nike Prime's manifestation be re-earned each season rather than banked? The owner
+proposed: *"Maybe because Nike prime uses up the bond energies and then needs more again to sustain him whole
+each time,"* and asked for a multi-agent brainstorm. Four lenses ran — cosmology, narrative, MMO systems, and
+an adversarial skeptic briefed to attack rather than build.
+
+**The result was 4/4 against the mechanism and 4/4 FOR the instinct.** Both halves are load-bearing.
+
+**The instinct was right, and it caught a real hole.** "Bonds are structure, not fuel" is a *statement, not a
+mechanism* — it says he decoheres and supplies **no cost term at all**, and a posture with no cost is the
+high-water mark that LAW 3 already calls a wallpaper generator. There must be a cost and it must recur. The
+instinct also has genuine ancestry: `MASTER_LORE_PROPOSAL_FINAL.md:907` says the empathy core was *"to be
+**powered by** collective bonds"* — superseded, not imagined.
+
+**But "consume" is the villain's own verb, on the page.** `comic-books/book-01/script.md:915`, Nike Prime
+explaining the trap: *"This means he won't be able to **absorb** anyone else, which means he **won't get
+stronger**."* Absorb → get stronger → stay whole. A Prime who burns bonds is that sentence with the name
+changed. It would also file every bonded Nike as an instrument — beneath even Charles AI in an Absolute Order
+that "nothing reorders" — make E10 Singularity rhetorically unwinnable, and invert §1.2's best line: *a
+relationship does not go in a vial* would become *does not **stay** in a vial*, and a furnace is not a better
+container than a vial.
+
+**THE RULING.** He is not fuelled, he is **HELD** — a posture the realm stands in, a chord rather than a
+battery. It sounds while the notes are played, stops when they stop, and every string is undamaged afterward.
+**The cost is real and it is the Collector's own hands:** six live slots, and those six are what you fight
+with, so carrying a form nobody else will carry is a genuine sacrifice. *Your arms ache. Nothing is consumed.*
+**It lapses because NOLEM UNMAKES THE SHAPE** — the 2026-07-29 "he makes the wound" amendment cashed out as a
+system. Re-forming, never refuelling.
+
+**Re-earning is REUNION, not repetition.** What Nolem tears off is specific and named, so a Collector goes back
+for souls they know. Corollary, absolute: every decline event is written as *"he pulled"*, never *"we slipped"*
+— a war meter that generates in-fighting is worse than no war meter.
+
+**Sanctioned language:** held · attend · stand · carry · sound · keep the shape · let go. Banned in all
+player-facing text: spend · burn · consume · fuel · power · drain · recharge, and the nouns energy · charge ·
+battery · reserve. *(This retires the owner's own phrase "bond energies" — an "energy" implies a gauge, and
+whoever writes the tooltip will write 4,120 / 5,555, which the odometer ban already forbids.)*
+
+**TWO BUGS FOUND AND FIXED, both verified independently before acting.**
+
+1. **The chapter-win gate eliminated realms mid-season, silently.** `∫1[I≥0.95]dt ≥ 0.8·season` requires 80% of
+   the season above 0.95 — on an 8-week season a realm first crossing in week 2 has 6 weeks against a 6.4-week
+   requirement and is already mathematically eliminated without being told. Any single dip does the same.
+   **Fixed:** manifestation is a continuous read of `I`, never a threshold unlock, so there is nothing to be
+   eliminated from; the integral is demoted to a title condition. No season can be over before it ends.
+2. **The meter was specced as two incompatible objects.** `GAME_SPEC.md:1984` rules a **census** ("counts souls
+   held, not threads held"); `PATTERN_INTEGRITY.md` §3 modelled an **integrator** (a float accumulating
+   contributions against decay). A census has no `R_in` and no decay term. **Fixed:** the census is the ruled
+   object, and "decay" is Nolem un-holding specific named souls — an event you watch, not a number ticking
+   down. Hoarding becomes structurally impossible, since a census cannot be banked.
+
+Landed in `CANON.md` §1.2, `PATTERN_INTEGRITY.md` §0.6 and §3, `GAME_SPEC.md` §7.5, and the regenerated Tesana
+twin — all three artifacts, same session.
+
 ## Date: July 29, 2026 — THE THREE SCALE LAWS, and the held-vs-cumulative question closed
 
 **Owner ruling, from the design conversation that produced them.** *"5555 different species goal should be a
