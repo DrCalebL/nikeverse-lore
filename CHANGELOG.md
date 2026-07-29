@@ -1,5 +1,40 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 29, 2026 — Nolem's limit is KNOWLEDGE, not permission
+
+**Owner ruling.** The 2026-07-29 *"Nolem can do anything he's evil"* amendment left a piece of ratified content
+without a reason to exist. The Dimension Eater — adopted by owner ruling on 2026-07-27 — was justified entirely
+by a limit that ruling appeared to remove. `entities/dimension-eater.json` stated it outright: *"Singulars
+cannot freely enter most dimensions. The Eater's entire purpose is that it CAN — **that limit is the reason
+Nolem needed it at all.**"* Same clause in `singulars/index.json` and in the Eater's severance rationale in
+`singulars/nolem.json`.
+
+**The Tier-1 source settles it.** `comic-books/book-01/script.md:910`, Nike Prime explaining how Nolem travels:
+*"He can do that because he knows where he is and where his next target is. He then folds space-time, bridging
+the two places **because he knows the coordinates of both.**"* And `:911` — the trap works because *"the spatial
+coordinates shift multiple times per second."*
+
+**THE RULING: the limit was never permission. It is KNOWLEDGE.** Nolem is not fenced out of anything — he
+cannot reach what he cannot **locate**. No door is closed to him; he is hunting. This keeps *"he can do
+anything"* fully intact while preserving the constraint the whole endgame rests on, and it explains why the
+only thing that has ever held him is a **coordinate scrambler** rather than a wall. The trap stops being a
+lucky counter and becomes a direct exploit of his nature.
+
+**The Dimension Eater survives, and its purpose gets stronger.** It needs no coordinates because it does not
+*target* a place — it **eats its way** to one. So it reaches what Nolem cannot locate, which is a better reason
+for a hunter to have made it than the old one: a scout that finds the unfindable is worth more to him than a
+key is to a prisoner. Everything else about the Eater is untouched — still a severed appetite, still
+structurally smaller than him by construction, still never steals his thunder.
+
+**Rejected alternative, recorded so it is not re-proposed:** *delegation by appetite* — that he could always go
+anywhere and severed the Eater merely to be in ten thousand places at once while he slept. Maximally powerful,
+but it requires rewriting the Eater's entire `why` block and discards the comic's tie between how Nolem travels
+and how he was imprisoned.
+
+Landed in `singulars/index.json`, `singulars/nolem.json`, `entities/dimension-eater.json`, `GAME_SPEC.md` §3.16
+and the regenerated Tesana twin — all three artifacts, same session. Every struck phrasing is retained inside
+its amendment note.
+
 ## Date: July 29, 2026 — NOTHING IS CONSUMED: Nike Prime is held, not fuelled
 
 **The question.** Why must Nike Prime's manifestation be re-earned each season rather than banked? The owner
