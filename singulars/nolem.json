@@ -33,6 +33,10 @@
     {
       "name": "Retnuhxed Creation",
       "description": "Can create shadow entities from partially absorbed beings."
+    },
+    {
+      "name": "Severance",
+      "description": "Can cut a specialised appetite out of himself and give it a body, so that it may enter dimensions he cannot. He has done this once. He has never made one complete, and that is precisely why the one he made kept everything it ate."
     }
   ],
   
@@ -48,7 +52,22 @@
     "explanation": "The bond must be broken first. This is why he works through isolation rather than direct assault.",
     "example": "The First Bond was incorruptible"
   },
-  
+
+  "corruptionNature": {
+    "summary": "Corruption is a NUMBING THAT WAS ACCEPTED — never a chain, and never the Nike.",
+    "isAccepted": true,
+    "isInstalled": false,
+    "sequence": "The wound comes first, and it is not his. Nolem never breaks a soul and then moves in; he arrives after something else has already broken it and offers to make it stop hurting, and the soul takes the offer. This is the weakness above read forwards: a bond must ALREADY be broken before he can reach it, which is exactly why genuine connection is immune to him.",
+    "etymologySupport": "Keth'nor = keth (stain/taint) + nor (of Nolem) — a stain ON a thing, never the thing. See languages/first-tongue/dictionary.json.",
+    "separable": "Because the numbing is not the person, it can be struck off the person — and what a Collector strikes is the numbing, not the soul behind it.",
+    "wakesNotFrees": "Striking it off does not free anyone. It WAKES them, handing back the pain they had a reason for putting down. Whether that was for their own good is decided entirely by what happens next.",
+    "vocabulary": "The sanctioned verb is 'woken' / 'the waking'. NEVER 'freed' — CANON.md §5.1's warning box already records two senses of that word, and this would be a third. The shipped game's own verb is 'bond and awaken'.",
+    "bound": "'Damage is always for their own good' is FALSE. It is true of the numbing and false of everything after it: from the instant the numbing is off, CANON.md §5.1 binds with no exception, because there is finally someone there to hear you.",
+    "severGuard": "Killing a corrupted Nike does not free the soul — it frees the corruption. Keth'nor is 'of Nolem' and goes home. What was in the body is the soul, and the soul is what is lost.",
+    "prohibition": "No Collector, NPC, narrator, HUD string or tooltip may ever tell a Nike that hurting it was for its own good. Only a woken Nike may say it, about itself, unprompted, afterwards.",
+    "canonRef": "CANON.md §5.3 — RATIFIED (owner, 2026-07-28)"
+  },
+
   "agents": [
     {
       "type": "Retnuhxed",
@@ -61,12 +80,17 @@
     {
       "type": "Harbingers",
       "description": "Corrupted Collectors (the player-kind) who chose to serve Nolem. Distinct from corrupted Legendary Nikes, who are fallen fragments, not Harbingers."
+    },
+    {
+      "type": "The Dimension Eater (Nol'tur)",
+      "description": "NOT a servant \u2014 a severed organ. Nolem cut out the part of himself that hungered for PLACES rather than for people and gave it a body, because a Singular cannot freely enter most dimensions and a bond happens in a room, not in a mind. It ate ten thousand dimensions during the Age of Silence while he slept. He gave it the mouth and kept the throat, so it never digested any of them: confronted by a Collector who refused to be alone, it discovered it had preserved rather than destroyed, and became an ark. Nolem lost a limb rather than a soldier. See entities/dimension-eater.json.",
+      "status": "Lost to him \u2014 turned, and holds what it took"
     }
   ],
   
   "history": {
     "formlessEra": "Existed as natural entropy",
-    "ageOfSeparation": "Discovered absorption, consumed the Aeth'kai",
+    "ageOfSeparation": "Discovered absorption, consumed the Aeth'kai. Near the end of it he cut the Dimension Eater out of himself, to take the places he could not enter.",
     "ageOfSilence": "Dormant, digesting power",
     "firstBondEra": "Awakened, began targeting Nikes",
     "shattering": "Failed to break the First Bond",

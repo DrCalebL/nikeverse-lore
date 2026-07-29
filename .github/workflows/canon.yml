@@ -1,9 +1,19 @@
 name: canon
 
-# The lore repo has no build and no test runner. These two checks are the whole gate:
-# retired terms must stay dead, and every JSON file must parse. Both were previously
-# manual — they only ran when a human remembered to type them, which is how a retired
-# term survived for weeks and how index.json drifted from its own per-dimension files.
+# The lore repo has no build and no test runner. These jobs ARE the gate. They started as
+# two manual checks — retired terms must stay dead, every JSON file must parse — which only
+# ran when a human remembered to type them, which is how a retired term survived for weeks
+# and how index.json drifted from its own per-dimension files.
+#
+# Every job below was added the day a hand-fixed defect proved the gate had a hole. Add a job
+# the same way: when a class of drift got through, not speculatively. In particular —
+#   * dimensions-agree compared only legendaryNike / harbinger / charles NAMES. levelRange was
+#     never compared, so the free-order bands drifted apart unseen (fixed by hand as L4), and a
+#     Harbinger's TITLE was never compared, so two title splits lived entirely inside this repo
+#     where CI could not see them (E5 Erik, E6 Yuki). Both are now checked.
+#   * A tier check written against dimensions/index.json rows is DEAD CODE — index rows carry
+#     levelRange but never a `tiers` block. Tiers live in the detail files only. The
+#     level-bands job below reads them from there; keep it that way.
 
 on:
   push:
@@ -45,17 +55,28 @@ jobs:
           PY
 
   dimensions-agree:
-    name: dimensions/index.json agrees with its own detail files
+    name: dimensions/index.json agrees with its detail files and the harbinger book
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: index vs per-dimension files
+      - name: index vs per-dimension files vs characters/harbingers/index.json
         run: |
           python3 - <<'PY'
           import json, glob, os, sys
           idx = json.load(open('dimensions/index.json', encoding='utf-8'))
           rows = {d['id']: d for d in idx['dimensions']}
           errs = []
+
+          # The index row carries a Harbinger's NAME only; the character sheet lives in
+          # characters/harbingers/index.json and a SECOND copy of it lives in the dimension
+          # detail file. Two copies of the same sheet in one repo is exactly how E5 (Erik:
+          # "The Eternal Raider" vs "The Prisoner in His Own Body") and E6 (Yuki: "The Ice
+          # Shadow" vs "The Devoted Shadow") both drifted — a split entirely INSIDE this repo,
+          # invisible to a check that only compared names. Titles are compared exactly, so a
+          # casing-only split ("In" vs "in") fails too; that one also shipped.
+          hidx = json.load(open('characters/harbingers/index.json', encoding='utf-8'))
+          hbook = {h['name']: h for h in hidx['harbingers']}
+          declared_harbingers = set()
 
           detail_files = [f for f in sorted(glob.glob('dimensions/*.json')) if not f.endswith('index.json')]
           if len(detail_files) != len(rows):
@@ -76,6 +97,29 @@ jobs:
                   if a != b:
                       errs.append(f"{did}.{field}: index={a!r} but {os.path.basename(f)}={b!r}")
 
+              h = d.get('harbinger')
+              if isinstance(h, dict):
+                  base, name = os.path.basename(f), h.get('name')
+                  declared_harbingers.add(name)
+                  if name not in hbook:
+                      errs.append(f"{base}: harbinger {name!r} has no entry in "
+                                  f"characters/harbingers/index.json")
+                  else:
+                      book = hbook[name]
+                      if h.get('title') != book.get('title'):
+                          errs.append(f"{name}: TITLE SPLIT — {base}={h.get('title')!r} but "
+                                      f"characters/harbingers/index.json={book.get('title')!r}")
+                      # The mapping must hold from both ends, or a Harbinger can be silently
+                      # reassigned in one file and stay put in the other.
+                      if book.get('dimension') != row.get('name'):
+                          errs.append(f"{name}: the harbinger book assigns them to "
+                                      f"{book.get('dimension')!r} but they are authored in "
+                                      f"{base} (dimension {row.get('name')!r})")
+
+          orphans = sorted(set(hbook) - declared_harbingers)
+          if orphans:
+              errs.append(f"harbingers in the book with no dimension file: {orphans}")
+
           order = idx.get('playOrder', [])
           if sorted(order) != sorted(rows):
               errs.append(f"playOrder does not match the dimension set: {sorted(set(order) ^ set(rows))}")
@@ -85,7 +129,158 @@ jobs:
               for e in errs:
                   print("  " + e)
               sys.exit(1)
-          print(f"ok: {len(detail_files)} dimensions agree with the index")
+          print(f"ok: {len(detail_files)} dimensions agree with the index; "
+                f"{len(declared_harbingers)} harbinger titles agree with the harbinger book")
+          PY
+
+  level-bands:
+    name: the level bands tile 1-100 and the free-order pairs stay co-banded
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: band + tier invariants
+        run: |
+          python3 - <<'PY'
+          import json, glob, os, re, sys
+
+          # Free-order siblings must be CO-BANDED (SPINE_LOCK.md "FREE-ORDER LEVEL BANDS",
+          # owner-ratified 2026-07-26). Non-overlapping bands (Frostfall 31-45 vs Grand Arena
+          # 46-55) made whichever zone of a pair was played SECOND a wall in either scaling
+          # direction — free-order in name only. Under scale-up-only band-scaling the shared
+          # band is what makes the choice real. Editing this list is a canon change, not a
+          # lint tweak: re-ratify first.
+          PAIRS = [('frostfall', 'grand-arena'), ('neon-city', 'void-terminus')]
+          LEVEL_CAP = 100
+
+          errs = []
+          idx = json.load(open('dimensions/index.json', encoding='utf-8'))
+          rows = {d['id']: d for d in idx['dimensions']}
+          details = {}
+          for f in sorted(glob.glob('dimensions/*.json')):
+              if f.endswith('index.json'):
+                  continue
+              d = json.load(open(f, encoding='utf-8'))
+              details[d['id']] = (os.path.basename(f), d)
+
+          def band(v, where):
+              """levelRange is a STRING "31-55" in index.json but an OBJECT {min,max} in the
+              detail files. Both shapes are canonical — normalise before comparing. The two
+              shapes are precisely why nobody noticed the two files disagreeing."""
+              if isinstance(v, dict):
+                  try:
+                      return (int(v['min']), int(v['max']))
+                  except (KeyError, TypeError, ValueError):
+                      errs.append(f"{where}: levelRange object is not {{min,max}}: {v!r}")
+                      return None
+              if isinstance(v, str):
+                  m = re.fullmatch(r'\s*(\d+)\s*-\s*(\d+)\s*', v)
+                  if m:
+                      return (int(m.group(1)), int(m.group(2)))
+              errs.append(f"{where}: unparseable levelRange {v!r}")
+              return None
+
+          # (a) index and detail file agree on the band — the field dimensions-agree never read.
+          bands = {}
+          for did, row in rows.items():
+              a = band(row.get('levelRange'), f"index[{did}]")
+              if did not in details:
+                  errs.append(f"{did}: index row has no dimensions/<file>.json")
+                  continue
+              fname, d = details[did]
+              b = band(d.get('levelRange'), fname)
+              if a is None or b is None:
+                  continue
+              if a != b:
+                  errs.append(f"{did}.levelRange: index={a[0]}-{a[1]} but {fname}={b[0]}-{b[1]}")
+              bands[did] = a
+          for did in details:
+              if did not in rows:
+                  errs.append(f"{details[did][0]}: id '{did}' has no index row")
+
+          # (b) each free-order pair shares ONE band, exactly.
+          for x, y in PAIRS:
+              if x not in bands or y not in bands:
+                  errs.append(f"free-order pair {x} / {y}: a member has no readable band")
+                  continue
+              if bands[x] != bands[y]:
+                  errs.append(f"free-order pair {x} <-> {y} is NOT co-banded: "
+                              f"{bands[x][0]}-{bands[x][1]} vs {bands[y][0]}-{bands[y][1]} "
+                              f"— whichever is played second becomes a wall")
+
+          # (c) the DISTINCT bands tile 1..LEVEL_CAP with no gap and no overlap, and the only
+          #     regions permitted to share a band are a declared free-order pair.
+          shared = {}
+          for did, bd in bands.items():
+              shared.setdefault(bd, []).append(did)
+          pairset = {frozenset(p) for p in PAIRS}
+          for bd, members in sorted(shared.items()):
+              if len(members) > 1 and frozenset(members) not in pairset:
+                  errs.append(f"band {bd[0]}-{bd[1]} is shared by {sorted(members)}, which is not "
+                              f"a declared free-order pair — co-banding is a ratified exception, "
+                              f"not a default")
+          tiles = sorted(shared)
+          if not tiles:
+              errs.append("no level bands found at all")
+          else:
+              if tiles[0][0] != 1:
+                  errs.append(f"bands start at {tiles[0][0]}, expected 1")
+              if tiles[-1][1] != LEVEL_CAP:
+                  errs.append(f"bands end at {tiles[-1][1]}, expected the level cap {LEVEL_CAP}")
+              for (lo1, hi1), (lo2, hi2) in zip(tiles, tiles[1:]):
+                  if lo2 != hi1 + 1:
+                      kind = 'GAP' if lo2 > hi1 + 1 else 'OVERLAP'
+                      errs.append(f"band seam {hi1} -> {lo2} is a {kind} "
+                                  f"(only free-order siblings may share a band)")
+
+          # (d) where a detail file carries a "tiers" block, anchor + deep PARTITION that
+          #     dimension's band exactly, and co-banded siblings split it identically.
+          #     READ TIERS FROM THE DETAIL FILES — index.json rows carry levelRange but never a
+          #     tiers block, so a tier check written against `rows` is dead code that always
+          #     passes. (That draft shipped; it was caught by feeding it a deliberately broken
+          #     tier block and watching it print ok.)
+          tiers = {}
+          for did, (fname, d) in sorted(details.items()):
+              t = d.get('tiers')
+              if not t or did not in bands:
+                  continue
+              lo, hi = bands[did]
+              a = band(t.get('anchor'), f"{fname}.tiers.anchor")
+              if a is None:
+                  continue
+              dp = t.get('deep')
+              if dp is None:
+                  # A region with no Act-2 Deep tier (the tutorial Hub): the anchor tier IS the band.
+                  if a != (lo, hi):
+                      errs.append(f"{did}: tiers.deep is null, so tiers.anchor {a[0]}-{a[1]} must "
+                                  f"cover the whole band {lo}-{hi}")
+                  tiers[did] = (a, None)
+                  continue
+              dd = band(dp, f"{fname}.tiers.deep")
+              if dd is None:
+                  continue
+              if not (a[0] == lo and a[1] + 1 == dd[0] and dd[1] == hi):
+                  errs.append(f"{did}: tiers anchor {a[0]}-{a[1]} + deep {dd[0]}-{dd[1]} do not "
+                              f"partition its band {lo}-{hi} (no gap, no overlap, no spill)")
+              gate = t.get('deepFloorIsTheAct2Gate')
+              if gate is not None and gate != dd[0]:
+                  errs.append(f"{did}: deepFloorIsTheAct2Gate={gate} but the Deep tier starts "
+                              f"at {dd[0]} — the Act-2 gate is the Deep-tier floor")
+              tiers[did] = (a, dd)
+
+          for x, y in PAIRS:
+              tx, ty = tiers.get(x), tiers.get(y)
+              if tx and ty and tx != ty:
+                  errs.append(f"free-order pair {x} <-> {y} split their shared band differently "
+                              f"({tx} vs {ty}) — the Deep-tier floor must be identical or play "
+                              f"order decides who is walled")
+
+          if errs:
+              print("LEVEL BAND INVARIANTS BROKEN:")
+              for e in errs:
+                  print("  " + e)
+              sys.exit(1)
+          print(f"ok: {len(tiles)} bands tile 1-{LEVEL_CAP}; {len(PAIRS)} free-order pairs "
+                f"co-banded; {len(tiers)} tier blocks partition their own band")
           PY
 
   legendary-arithmetic:
@@ -129,3 +324,20 @@ jobs:
               sys.exit(1)
           print(f"ok: 27 Legendaries, {corrupted} fallen, {declared['uncorrupted']} not, roster matches")
           PY
+
+  mystery-tiers:
+    name: the Tier-3 mysteries stay dark
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: check-mystery-tiers
+        run: |
+          # Deliberately NOT guarded with `if [ -f ... ]`. A guard would make this job go green
+          # the day the script is deleted, renamed or moved — a gate that silently stops gating
+          # is worse than no gate, because the badge keeps saying the canon is checked.
+          if [ ! -f scripts/check-mystery-tiers.py ]; then
+            echo "MISSING: scripts/check-mystery-tiers.py — the mystery-tier gate cannot run."
+            echo "Restore the script, or delete this job on purpose. Do not make it skip."
+            exit 1
+          fi
+          python3 scripts/check-mystery-tiers.py

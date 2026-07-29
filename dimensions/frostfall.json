@@ -4,7 +4,16 @@
   "theme": "Viking Tundra",
   "levelRange": {
     "min": 31,
-    "max": 45
+    "max": 55
+  },
+  "tiers": {
+    "anchor": "31-45",
+    "deep": "46-55",
+    "deepFloor": 46,
+      "mmoAct2Gate": 46,
+      "shippedDiscordAct2Gate": 38,
+      "gateDivergenceNote": "The MMO gate is the Deep floor; the shipped Discord value differs and that is CORRECT for that product. Co-banded pairs need SYMMETRIC floors or the second sibling walls; Discord is hard-ordered and keeps its asymmetric value. Do not \"fix\" either to match the other.",
+    "source": "SPINE_LOCK.md, owner-ratified 2026-07-26"
   },
   "playOrder": 3,
   
@@ -35,10 +44,10 @@
   
   "harbinger": {
     "name": "Erik",
-    "title": "The Eternal Raider",
-    "emotionalTheme": "Strength without purpose",
-    "corruptionReason": "Glory that became emptiness",
-    "description": "Raided a thousand shores, won a thousand battles. Found nothing worth keeping. Nolem offered him endless war."
+    "title": "The Prisoner in His Own Body",
+    "emotionalTheme": "A man still conscious under corruption \u2014 trapped, not willing",
+    "corruptionReason": "Bargained with Nolem for his people's safety. Nolem laughed, took his service AND his people, and left his mind intact as cruelty.",
+    "description": "Frostfall's war-leader. His body serves while his true self watches from inside it. His wife and daughter wait in the resistance camp \u2014 the bonds he never stopped feeling are both his vulnerability and his way back."
   },
   
   "locations": [
@@ -58,14 +67,24 @@
       "description": "Viking warriors who fight against the corruption"
     },
     {
-      "name": "The Ghost Fleet",
+      "name": "Frozen Harbor",
       "type": "Dungeon",
-      "description": "Ships frozen in ice, crewed by the corrupted dead"
+      "description": "Ships locked in eternal ice, crewed by the corrupted dead. Ghost lights still flicker on vessels that sailed four hundred years ago"
     },
     {
-      "name": "The Usurper's Throne",
+      "name": "Mountain Pass",
+      "type": "Contested",
+      "description": "Ice-carved heights patrolled by Erik's corrupted army \u2014 where the Harbinger is confronted"
+    },
+    {
+      "name": "Warlord's Hall",
+      "type": "Hidden",
+      "description": "A throne built on kinslaughter. The Jarl who murdered his brother rules a kingdom of ghosts"
+    },
+    {
+      "name": "Eternal Battlefield",
       "type": "Boss Arena",
-      "description": "Where Erik holds court over endless raiders"
+      "description": "Where Viking Nike has fought without rest for three hundred years, ringed by the frozen dead"
     }
   ],
   

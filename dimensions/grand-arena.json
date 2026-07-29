@@ -3,8 +3,17 @@
     "name": "Grand Arena",
     "theme": "Boxing / Fighting",
     "levelRange": {
-        "min": 46,
+        "min": 31,
         "max": 55
+    },
+    "tiers": {
+      "anchor": "31-45",
+      "deep": "46-55",
+      "deepFloor": 46,
+      "mmoAct2Gate": 46,
+      "shippedDiscordAct2Gate": 50,
+      "gateDivergenceNote": "The MMO gate is the Deep floor; the shipped Discord value differs and that is CORRECT for that product. Co-banded pairs need SYMMETRIC floors or the second sibling walls; Discord is hard-ordered and keeps its asymmetric value. Do not \"fix\" either to match the other.",
+      "source": "SPINE_LOCK.md, owner-ratified 2026-07-26"
     },
     "playOrder": 4,
     "description": "A dimension where combat is everything \u2014 honor, currency, identity. Once a world of noble competition where Boxer Nike was undefeated champion. Now fights are brutal and meaningless, the arena's glory hollowed out by corruption.",
@@ -91,7 +100,7 @@
         "Fight-Fixing Conspiracy",
         "The Immovable Sumo",
         "The Nameless Ghost",
-        "Slate's Redemption"
+        "The Corner Doctor"
     ],
     "dimensionalAnchor": {
         "id": "champions_belt",

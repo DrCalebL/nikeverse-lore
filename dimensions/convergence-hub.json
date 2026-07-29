@@ -6,6 +6,11 @@
         "min": 1,
         "max": 10
     },
+    "tiers": {
+      "anchor": "1-10",
+      "deep": null,
+      "note": "Tutorial region — no Act-2 Deep tier"
+    },
     "playOrder": 1,
     "description": "The last safe nexus between dimensions. Built during The Long Silence on the ruins of an Aeth'kai outpost, the Hub exists at a convergence of dimensional threads \u2014 the strongest concentration of The Pattern in any reality. New Walkers are drawn here instinctively.",
     "atmosphere": {

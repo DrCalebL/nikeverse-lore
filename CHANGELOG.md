@@ -1,5 +1,113 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 28, 2026 — corruption is a numbing that was ACCEPTED, and striking it WAKES rather than frees
+
+**Owner ruling.** Corruption is a **numbing that was accepted** — never a chain, and never the Nike. Nolem
+never breaks a soul first: he arrives *after* something else already did, and offers to make it stop hurting.
+It is therefore genuinely separable, and everything struck *before* the crack is the numbing rather than the
+person. **But striking it off does not free anyone — it WAKES them,** and hands them back what they had a
+reason for putting down. **Whether that was for their own good is decided entirely by what happens next.**
+
+**The shipped game was already right and this repository was merely SILENT. This is the lore catching up, not
+a game correction.** Nothing in either game changed, and nothing in either game needs to. Gladiator Nike has
+been saying it since he shipped — *"The corruption came AFTER! I killed him with my own hands, my own heart!
+The corruption just... gave me a way to forget. To turn the pain into nothing"* and *"The corruption didn't
+take my hope, Walker. It just... agreed with what I already knew"* — and he sits *"wrapped in chains they
+could break but never do."* This repository already held the mechanism twice over and had never drawn the
+conclusion: `Keth'nor` is glossed `keth` (stain/taint) + `nor` (of Nolem), a stain **on** a thing rather than
+the thing; and `singulars/nolem.json` gives his one weakness as *"Cannot corrupt genuine connection"*,
+explained *"The bond must be broken first."* A wound has to come first, and it is not his — which is precisely
+why genuine connection is immune to him.
+
+**Added — `CANON.md` §5.3, *"What corruption is, and what damage can and cannot do"*, RATIFIED (owner,
+2026-07-28).** Placed after §5.2; **§5.1's and §5.2's frozen bodies were not touched.** It states, in order:
+what corruption is · that it is therefore separable, and that what a Collector strikes is the numbing (which
+is what both games already do) · that this **wakes** rather than frees · the bound · the Sever guard · the
+prohibition.
+
+**⭐ The vocabulary rule, because this is where it would go wrong.** The sanctioned verb is **"woken"** and
+**"the waking."** Never *"freed"* — §5.1's ⚠ box already records that "free" carries two nearly opposite
+senses across these repositories, and this would be a third and worse one: it would assert as *done* the thing
+that has only just become *possible*. **The shipped game supplies the right word itself** — its button reads
+**bond and awaken** and its success embed is **"Echo Bonded & Awakened!"**
+
+**⚑ The bound, stated explicitly because the ruling is dangerous without it: *"damage is always for their own
+good"* is FALSE.** It is true of the numbing and false of everything after it. From the instant the numbing is
+off, §5.1 binds with **no exception** — and binds *hardest* there, because there is finally someone present to
+hear you. Canon had already priced the overshoot: §5.2 (FROZEN) says a soul that was only defeated *"slips
+back into the corruption and roams its region still lost"*, and the shipped game renders that as grief in the
+player's own lead Nike's voice — *"The chains went back ON. We won the fight and the arena just... claimed him
+again."*
+
+**⚑ THE SEVER GUARD is now a named law: killing does not free the soul — it frees the corruption.**
+`Keth'nor` is *of Nolem*; a body that stops holding it lets it go home. What was in the body is the **soul**,
+and the soul is what is lost. That is §5.1's third end read from the other side. It remains a road a Collector
+may walk and is **not** a failure — but no voice may ever describe it as a release.
+
+**⚑ THE PROHIBITION.** No Collector, NPC, narrator, HUD string, tooltip or item description may ever tell a
+Nike that hurting it was for its own good. **Only a woken Nike may say it — about itself, unprompted, and
+afterwards.** Same instinct as §4.2's rule that the Collector never moralizes at the player, turned toward the
+roster: the conscience of this story is never the voice that did the striking.
+
+**Also changed.**
+- **`CANON.md` §2.1 (RATIFIED) — one bounding sentence appended, nothing removed.** *"The only mercy **left**"*
+  names **exhausted options** and governs a **husk**, where no one remains to be reached; a Corrupted Nike who
+  could still have been reached is a different case, governed by §5.3. Without that bound the soul-mote ruling
+  generalises into a licence for Sever that canon never gave it — a last resort quietly becoming a first option.
+- **`singulars/nolem.json` — one additive `corruptionNature` field**, recording that corruption numbs an
+  existing wound and is **accepted, never installed**. This is what makes the ruling assertion-checkable under
+  mechanism ② of the three-way canon match, rather than living only in prose.
+- **`GAME_DELTAS.md` §4 (Extensions) — a new entry** registering the `purificationThreshold: 0.15` ↔
+  `CANON.md:265` apparent conflict and ruling it **NOT A DIVERGENCE**: the two sentences govern different acts.
+  Recorded there rather than in §1/§2/§3 because **neither side is wrong** — the game elaborates where this
+  repository was silent. Both games in fact enforce §5.1 *more* strictly than the lore states it: Discord
+  forfeits the catch outright on a post-purify KO and returns the soul to the void
+  (`handlers/exploreButtons.js:1112`), and the MMO makes post-crack damage strictly counterproductive
+  (`nikeverse-mmo-rpg/src/sim/sim.ts:4015, :4069`) before it becomes Sever.
+
+**⛔ DELIBERATELY NOT TOUCHED — do not "apply" this ruling to them later.**
+`characters/legendary-nikes/index.json`'s **27** `corruptionReason` → `corruptionTheme` pairs were checked and
+**already carry the ruling**: every one is a wound paired with the answer that wound is waiting for (*"Contract
+— fighting is all he knows"* → *"Identity beyond purpose"*; *"Addiction — needed battle to feel alive"* →
+*"Finding something to protect"*). The reason field has always named the wound Nolem answered, not an
+installation he performed. **No edit was needed and none was made.**
+
+**⛔ No Tier-3 mystery was resolved or narrowed.** Verified before writing: *"what corruption is"* is **not**
+among `CANON.md` §4.1's six dark questions (why pigs · the Void Between · how OG Charles came through · the
+unnamed others of the Formless Era · why Cthulhu helps · where Shiro came from), nor is it the deferred
+`lost-singular`. `scripts/check-mystery-tiers.py` passes unchanged at 7 tier-3 mysteries.
+
+
+## Date: July 28, 2026 — the Triforce keeps its shipped name; the faction pact is deleted
+
+**Owner ruling.** The Hub's three-part explanation of why Collectors battle each other is **the Triforce**
+— **Corruption Discharge · Genetic Memory Exchange · the Convergence Web** — and it needs no faction pact
+to make sense. **Factions are not attached to it, and there is no player faction choice.**
+
+**What was wrong.** `Nikeverse-mmo-rpg-from-scratch/docs/GAME_SPEC.md` had renamed the container to
+*"the Convergence Accord"* and glossed it as *"the Hub's three-faction pact — Remnant, Lost Builders, and
+the free Charles Variants — that sanctions new Collectors."* That phrase appears **nowhere in this
+repository and nowhere in the shipped Discord game.** It was a build-spec coinage, and it had additionally
+fused two unlike things: a political pact between groups, and a metaphysical account of why battling cleans
+a Collector's bonds. The build repo also contradicted itself — `STORYLINE.md` had always said *"the
+Triforce."*
+
+**Direction of truth applied.** The shipped game is ground truth for anything a player can see, and a player
+sees a story node **titled `THE TRIFORCE`** (`hub_015`), with Alice teaching all three systems across
+`hub_015`–`hub_019`. The shipped name therefore wins. `GAME_SPEC.md` is corrected and the Tesana twin
+regenerated in the same session; the coinage survives in `GAME_SPEC.md` **only** in the sentence that
+retires it, which is NEVER #4's carve-out.
+
+**This side already carried the claim** — `characters/collectors-journey.json` (`triforceSystem`) and
+`dimensions/convergence-hub.json` both name the Triforce and all three of its systems, so no lore edit was
+required to close the three-way match.
+
+**Left open, deliberately, and recorded here so it is not mistaken for settled:** the Triforce is **not in
+`CANON.md`**. It lives in this repository's JSON and in `MASTER_LORE_PROPOSAL_FINAL.md`, which is provenance
+rather than a live spec. Elevating it to the settled centre is a separate ruling and was not taken here —
+the owner scoped this change to the pact alone.
+
+
 ## Date: July 26, 2026 — CANON.md and GAME_DELTAS.md: the core lore comes home
 
 **The problem.** This repository called itself "the single source of truth for all Nikeverse lore" while
