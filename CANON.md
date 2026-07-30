@@ -36,7 +36,17 @@ whole weave holds at once, Nike Prime can be completed and Nolem sealed.
 
 **THE REFERENT — owner ruling, 2026-07-29.** The 5,555 counts **distinct Nike forms**, not distinct bodies.
 One form per universe: each of the 5,555 is simultaneously a unique individual *and* a unique kind, which is
-why the species reading and the individuals reading were never actually rivals. Two wild Nikes of the same
+why the species reading and the individuals reading were never actually rivals.
+
+> **⚠ PRECISIFIED 2026-07-30 — "one form per universe" is about PROVENANCE, not OCCUPANCY.** Each of the
+> 5,555 **originates** in one world, and that is what makes a form at once an individual and a kind. **Where
+> that soul has since come to rest is not bounded by it.** Read as *occupancy* — one body of a form per world
+> — the phrase silently caps repeat bonding at **eight bodies per form** (one per dimension, `CANON.md` §1.3),
+> which makes two Piglet Nikes in one region impossible and §1.2.2's unlimited-repeats ruling arithmetically
+> unshippable. The Tier-1 source settles it: Book 1 establishes *"many realities"* (`script.md:169`),
+> *"across **thousands** of other realities"* (`:207`) and *"this is the **3rd universe** I've been to"*
+> (`:405`). **The eight dimensions are the reachable, named worlds; realities are not eight.** Nothing in
+> §1.3 moves — eight is still the count of dimensions — and the cap disappears. Two wild Nikes of the same
 form remain **legal to bond** — they simply do not both advance the 5,555. This restores the original vision
 (`LORE_BIBLE.md` §9, *"all 5,555 Nike types"*, deleted 2026-02-11 without rationale) and supersedes
 `THE_5555.md`'s former assertion that the number *"cannot be a species count."*
@@ -148,6 +158,36 @@ Two objects, and **only the first is ever counted**:
 | **the fragment** (a *form*) | one of the 5,555 — at once a unique individual **and** a unique kind | exactly 5,555, forever | the Bond Log · the Pattern |
 | **the life** | that fragment living somewhere, as someone: its own name, nature, wound, and memory of you | **unbounded** | *nothing* |
 
+**THE GROUND IS THE ECHO — and it is not a new metaphor, it is the founding event still running.** The
+First Tongue already named it: **`Shat'ael`** = *shat* (to shatter) + *ael* (soul), glossed *"The Echoing;
+the great fragmentation… **also called the Great Echo**"* — and §1.2.1's ratified sentence is that the First
+Bond ***echoed* rather than broke**. So **the Great Echo never stopped going out.** The fortieth Piglet Nike
+is the fortieth place that one voice arrived, found a world, and became someone in it.
+
+Three reasons this is the right ground and not decoration:
+1. **It kills the copy-reading with no prose at all.** Nobody has ever called the fifth echo of a shout a
+   photocopy of the first — an echo is not a copy of the voice, it *is* the voice, later, elsewhere. That is
+   the one thing this section must accomplish, and the word does it without a sentence, which is exactly
+   what §1.2.1's ban demands.
+2. **Echoes overlap; lives do not.** *Life* is a **serial** noun — you have one at a time, and "living
+   twelve lives" reads as reincarnation, which is sequential. The requirement is *simultaneous*. Forty
+   echoes of one shout all sound at once and nobody imagines the shout was divided into forty. Simultaneity
+   stops being the strange part and becomes the definition.
+3. **It is already the ratified register.** §1.2's NOTHING IS CONSUMED ruling is acoustic — *a **chord**, not
+   a battery… it **sounds** while the notes are played* — and its sanctioned verbs include *sound*. Under an
+   acoustic cosmology **silence is the only possible failure mode of the world**, which makes the False Box
+   literal instead of figurative, and `Nol'meth`'s action on a sound is to **damp** it: corruption as *a
+   numbing that was accepted* and silence-as-damping are one physics.
+
+**⚠ REGISTER DISCIPLINE, and it is load-bearing: the echo is the GROUND, never the player-facing noun.**
+"Echo" is already overloaded three ways — the **Echo Era**, the Harbinger named **Echo**, and worst,
+**Bond-Echoes**, a currency. A soul called "an echo" would share a noun with money, which is the NOTHING IS
+CONSUMED failure in one word. So: **design docs may say echo; the game says "a life."** In First Tongue the
+life is **`Ael'tur`** (*ael* + *tur*) — deliberately the moral mirror of **`Dex'tur`** (*dex*, "to wear" —
+Nolem's avatar, a body worn as an instrument): a `Dex'tur` is a body **worn**, an `Ael'tur` is a body that
+**is somebody**. And the inscription that plants all of this while explaining none of it: **`Shat'ael meth`
+— "The Echoing is endless."**
+
 **A second one is never a copy. It is someone you have met before, living a different life.** The one you
 reached on the Frostfall ice and the one you reached in a Shinden kitchen are the same soul and are not the
 same person *to you* — each remembers a different day, and what you hold is your thread to each: *"no two
@@ -191,6 +231,48 @@ that you have *met* all 5,555. It cannot record that everyone is out of the dark
 will not be: **Nolem keeps making the wound** (§5.3). A soul you logged a year ago is still a soul crying in
 the ice tonight, and the tick beside its name does not reach it. *You finish the collecting; you never
 finish the keeping;* **you never finish the reaching.**
+
+**AND A POSITIVE MOTIVE, because the census line alone is guilt-shaped — RECOGNITION.** §1.2's completability
+ruling exists *because* a dex that cannot be finished *"kills the drive to collect, retroactively."* Greeting
+the finisher with *"the tick does not reach anyone"* re-runs that defect in a different coat: a real
+accomplishment, devalued at the instant it is earned. So the census line is the **war's** motive; this is the
+**player's**.
+
+Before the Log is complete, every encounter asks *"who is this?"* After it is complete, every encounter
+answers ***"oh — it's you."*** **Recognition is the better feeling, and it is unavailable until you have met
+all 5,555** — only a Collector who has heard every voice can meet a stranger in the snow and know them on
+sight. That makes completion **the unlock, not the end**: you finish learning the names, and only then do you
+start meeting the people. It devalues nothing, needs no counter, and is a reason to *want to* rather than a
+reason you are not finished.
+
+> **OG Nike:** *"You know all the names now. That's the easy half. Names don't come when you call. People do."*
+>
+> **The Collector, on reaching a soul whose form is already logged — two words, and never an explanation:**
+> *"I know you."* It is the exact inversion of Vane, The Unanswered: recognition **offered unasked**.
+> *(It is not THE ASK and must never be staged as one.)*
+
+**AND IT MUST BE SHOWABLE, because this section is forbidden from ever explaining itself.** Its neighbours
+have *"a relationship does not go in a vial"* and *"your arms ache; nothing is consumed"*; the image here is
+not decoration, it is **the entire delivery mechanism** — every other channel is closed by the §1.2.1 ban.
+Three moments carry it, and the first is already drawn and ratified and currently spent only once:
+
+- **ARRIVAL** — the **falling soul** of the Reach-Back (the sole sanctioned exception to the bipedal law, a
+  soul with no settled form yet). It is precisely the image of a soul coming to rest and becoming someone.
+  Reuse it wherever a life begins.
+- **RECOGNITION** — *"I know you."* / from the soul's side: *"You looked at me like you already knew me.
+  Nobody's ever done that."*
+- **ROOM** — a new resident arrives; **nobody is told where to stand, and someone already inside moves over.**
+  The Sanctuary's unboundedness, shown, never said.
+
+And the copy-reading is best refuted by **putting it in Nolem's mouth and never answering him** — he is the
+one whose verb is *absorb*:
+
+> **Nolem:** *"Forty of the same little pig. You didn't save forty souls, Collector. You saved one, forty
+> times, and called it forty."*
+
+Nobody rebuts him. The Sanctuary rebuts him by being alive — forty names, forty natures, one of them
+answering to hers. **⚠ Use once, late, and leave it unanswered:** it raises the topology question in order to
+dismiss it, so it must never be seeded early.
 
 **AND IT MUST HAVE A VISIBLE CHANNEL, or it is a slogan.** This is the part that is easy to get wrong: the
 ruling switches off every numeric channel at once — the Log does not tick, the Pattern does not move, no

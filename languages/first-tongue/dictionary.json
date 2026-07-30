@@ -132,6 +132,15 @@
       "notes": "Nolem's mortal form"
     },
     {
+      "word": "Ael'tur",
+      "pronunciation": "AY-el-tur",
+      "partOfSpeech": "noun",
+      "meaning": "A life; a soul being somebody",
+      "etymology": "ael (soul/spirit) + tur (body/form, as in Dex'tur)",
+      "usage": "One of the lives a fragment of OG Nike is living \u2014 its own name, nature, wound and memory of you. The First Tongue name for the second object of CANON.md \u00a71.2.2: the form is counted, the Ael'tur is not.",
+      "notes": "Deliberately the moral opposite of Dex'tur, on the same root: dex is 'to wear', so a Dex'tur is a body WORN as an instrument (Nolem's avatar), while an Ael'tur is a body that IS somebody. The language therefore carries the NOTHING IS CONSUMED law by itself. Register discipline: this is the scholar-and-inscription word, safe to name precisely because First Tongue is foreign \u2014 the same protection Eth'kara's archaic sense relies on. Player-facing English stays 'a life', and \u00a71.2.1's ban on explaining the topology in-world binds regardless of which language it is said in."
+    },
+    {
       "word": "Har'ben",
       "pronunciation": "HAR-ben",
       "partOfSpeech": "noun",
@@ -175,6 +184,12 @@
       "pronunciation": "CHAR-veth NIK-ah-el VOR",
       "meaning": "The shepherd protects the bonded one",
       "usage": "The Charles Constant expressed"
+    },
+    {
+      "phrase": "Shat'ael meth",
+      "pronunciation": "SHAT-ah-el METH",
+      "meaning": "The Echoing is endless",
+      "usage": "An Aeth'kai inscription. The Shattering was an ECHO, not a break \u2014 Shat'ael is glossed 'also called the Great Echo' \u2014 and it never stopped going out: souls are still arriving and becoming someone. Plants the whole of CANON.md \u00a71.2.2 while explaining none of it, which is what \u00a71.2.1 requires."
     }
   ],
   
