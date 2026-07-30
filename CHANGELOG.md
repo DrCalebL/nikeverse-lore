@@ -1,5 +1,51 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 30, 2026 (later) — THE SETTLING: evolution keeps the transformation (`CANON.md` §1.2.3)
+
+**Two owner rulings, one session.** *"I want to keep the transformation"* — the creature the player raised
+changes into another creature, on screen. And *"Sonic gets his own slot"* — each shape is its own dex entry.
+
+**The bill turned out to be one sentence, and three of the four costs I priced were wrong.** They died in
+this order:
+
+1. *"Repeats become mandatory."* **False.** All 96 evolution targets are `spawn_method='wild'` and the Log's
+   unit is the **form**, so a wild Oinkachu is a *different form* — a first meeting, not a repeat. The census
+   is completable with **zero repeats and zero evolutions.**
+2. *"The win condition becomes unreachable."* **False, and §1.2.2 is what saves it.** ~3,730 fragments cannot
+   cover 5,555 forms if a fragment wears one shape at a time — **unless a fragment can be in several places
+   at once, which ONE SOUL MANY LIVES already ratifies.** The two rulings interlock: unlimited repeat bonding
+   is what makes a form-census completable under transformation.
+3. *"The census precisification must be rewritten."* **Unnecessary.** *"Counts SOULS held, never THREADS
+   held"* exists to stop co-op inflating the meter, and *forms held* serves that identically.
+4. **What actually remained:** the reading of *"each of the 5,555 is a unique individual"* as a **bijection**.
+
+**The resolution — and it is §1.2.1's own discipline, not a new device.** *A form is a SOMEONE, always.
+Whether two forms are the same someone is a question the game never asks and never answers.* §1.2.1 already
+forbids explaining how one soul can be reached by many; the same ban covers how one soul can settle into more
+than one shape. Add the one operative clause — **no document, UI or line of dialogue ever states a count of
+fragments** — and the frightening arithmetic has nothing to bite: **nothing in the game was ever denominated
+in fragments.**
+
+**⭐ THE KEYSTONE, and it was forced by the shipped data rather than chosen: THE BOND IS THE WITNESS, NEVER
+THE CAUSE.** The shipped evolution chains are **biographies, and several are dark** — *"CORRUPTION ARC —
+Glowing Nike → Angel Nike → Devil Nike"*, *"VILLAIN ESCALATION — Hooligan → Terminator → Thanos"*. The gate
+is bond depth and the banner read *"Sonic Nike's bond deepened — it evolved into…"*, so **a causal reading
+tells the player their love turned an angel into a devil.** Nobody had noticed. The witness reading is §5.3
+exactly — *connection is resistance, never immunity*: it does not decide what happens, it decides whether
+anyone is there when it does. **A settling is NEUTRAL**, as the wound phase is neutral, and no one is blamed
+for a dark one. The banner becomes ***"still here."***
+
+**Also landed:** `Thael'tur` (*thael*, to join + *tur*, body/form) completes the `-tur` triad — a **`Dex'tur`**
+is a body **worn** as an instrument, an **`Ael'tur`** is a body that **is somebody**, a **`Thael'tur`** is a
+body somebody arrived at **because they were not alone** — plus the inscription `Thael'tur meth`, *"the
+settling is endless."* The word is deliberately a noun and deliberately not causal, so **the language carries
+the keystone by itself.**
+
+**A correction to this changelog's own habit, worth recording:** the vial argument I relayed as *decisive*
+(*a caterpillar and a butterfly yield one DNA profile, so 5,555 must count people*) is **suggestive only** —
+Stoner Nike ordered 5,548 vials before meeting anyone, so it is a planning figure, not proof of 5,548 distinct
+genomes. Stated as *required* it would have pre-empted the owner's actual ruling.
+
 ## Date: July 30, 2026 — ONE SOUL, MANY LIVES (owner ruling; `CANON.md` §1.2.2)
 
 **The ruling.** *"Bonding in my game works the same way as catching a pokemon. I want players to bond/catch and

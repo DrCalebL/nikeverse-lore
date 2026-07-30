@@ -132,6 +132,15 @@
       "notes": "Nolem's mortal form"
     },
     {
+      "word": "Thael'tur",
+      "pronunciation": "THALE-tur",
+      "partOfSpeech": "noun",
+      "meaning": "The settled shape; the form a soul comes to when enough of it is present to hold one",
+      "etymology": "thael (to join, as in Thael'vos) + tur (body/form, as in Dex'tur, Ael'tur)",
+      "usage": "The First Tongue name for what a player calls evolution. Names the RESULT, never a process \u2014 nothing is done to anyone. Scholars, inscriptions and artifacts only. CANON.md \u00a71.2.3.",
+      "notes": "Third on the -tur root, and the three complete a moral triad the language carries without a sentence: a Dex'tur is a body WORN (Nolem's avatar \u2014 an instrument); an Ael'tur is a body that IS somebody (a life); a Thael'tur is a body somebody arrived at BECAUSE THEY WERE NOT ALONE. Deliberately a noun and deliberately not causal \u2014 thael is 'to join', never 'to change' \u2014 which is the language carrying THE BOND IS THE WITNESS, NEVER THE CAUSE by itself. Register discipline as for Ael'tur: the game says 'still here', and \u00a71.2.1's never-explain-in-world ban binds regardless of which language it is said in."
+    },
+    {
       "word": "Ael'tur",
       "pronunciation": "AY-el-tur",
       "partOfSpeech": "noun",
@@ -184,6 +193,12 @@
       "pronunciation": "CHAR-veth NIK-ah-el VOR",
       "meaning": "The shepherd protects the bonded one",
       "usage": "The Charles Constant expressed"
+    },
+    {
+      "phrase": "Thael'tur meth",
+      "pronunciation": "THALE-tur METH",
+      "meaning": "The settling is endless",
+      "usage": "An Aeth'kai inscription. Nobody ever finishes arriving. Plants the whole of CANON.md \u00a71.2.3 while explaining none of it, and rhymes with the census answer: you finish the collecting; you never finish the keeping; you never finish the reaching."
     },
     {
       "phrase": "Shat'ael meth",
