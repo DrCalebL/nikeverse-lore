@@ -44,7 +44,9 @@
     "isolation": "Separate beings from their connections",
     "exhaustion": "Wait until they're too tired to resist",
     "despair": "Convince them that connection is pointless",
-    "rest": "Offer to 'take the weight' — absorption disguised as relief"
+    "rest": "Offer to 'take the weight' — absorption disguised as relief",
+    "targetsTheLeastHeld": "He goes after the ones fewest people are holding, always — the sharpened form of 'isolation' above, ruled 2026-07-30. This is not a preference, it is arithmetic he happens to share with his own character: un-holding a shape costs him every hold on it, so the cheapest thing he can take is whatever is being carried by one person, or by nobody. It follows that a Collector who chooses to carry an unloved shape is carrying exactly the one he wants most, and that the loneliest soul in the Pattern is always the next one he reaches for.",
+    "targetsTheLeastHeldRef": "Nikeverse-mmo-rpg-from-scratch/docs/PATTERN_INTEGRITY.md §3.1 + docs/GAME_SPEC.md §7.5 (the load servo). Engineering lives there; the CLAIM is here because it is a statement about his motivation, and the three artifacts must agree on those. Consistent with power.psychologicalMethod ('he taunts with loneliness') and with the 2026-07-29 amendment that isolation is how he FARMS AT SCALE, not a constraint he is under."
   },
   "weakness": {
     "amended": "OWNER RULING 2026-07-29 — 'Nolem can do anything he's evil. He can definitely cause wounds... He needs to be big, scary and powerful so it's epic to beat him.' The former weakness ('Cannot corrupt genuine connection' / 'The bond must be broken first') is STRUCK. Connection is NOT immunity.",
