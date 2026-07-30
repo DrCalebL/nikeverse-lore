@@ -518,6 +518,23 @@ name is **`Tōga`**, and his name in the world stays *Ninja Nike*.
 > item describes it, no inscription encodes it, and it is never a puzzle, an Easter egg or a reveal. The
 > Legendary named **Melon** is the in-world descendant of the joke and carries it entirely on its own.
 >
+> **⭐ SHIRO IS THE THIRD, AND IT RUNS THE OTHER WAY — owner ruling, 2026-07-30.** Verbatim: *"Shiro isn't a
+> Nike that evolved. The lore made it become a Charles AI because **Shiro is a crypto token that I didn't want
+> to promote in my lore**."* Where Nolem and Retnuhxed are real-world things the owner **took in**, Shiro is a
+> real-world thing he **wrote out** — a separate memecoin IP, phased out deliberately. **Charles AI carries his
+> function** (the portals, the cat-quirk), and that is the whole of it.
+>
+> **Three consequences, and the first is the one that keeps getting broken:**
+> 1. **⛔ SHIRO IS NEVER A PRECEDENT FOR ANYTHING.** He is not a Nike, he did not evolve, and he is not an
+>    example of transformation, becoming, or growth. Any design that reaches for *"the one on-page
+>    transformation in Book 1"* has reached for the one character who is out-of-world baggage. The reading is
+>    seductive because Book 1 stages him beautifully — do not build on him.
+> 2. **His comic appearances are Tier-1 EVIDENCE about the comic, never canon about the world.** Book 1's
+>    *"AN UNEVOLVED CAT!"* (`script.md:758`) is about a **quadruped pet from a world of quadruped cats**, not
+>    about a Nike, and it must never be used to reason about Nike shapes or the bipedal law.
+> 3. **The phase-out is a RIGHTS decision and needs no in-world justification.** It never needed a death, and
+>    the death it acquired is struck — see §3.2's Shiro entry.
+>
 > ⚠ **`Ret'nux` (`languages/first-tongue/dictionary.json:55-61`) is a post-hoc in-world gloss layered over
 > this.** It reads *"ret (shadow) + nux (servant/slave) — Origin of 'Retnuhxed'"*, which is now known to be
 > back-derived. **Not struck — awaiting an owner call.** Recommend keeping it as an **in-world folk

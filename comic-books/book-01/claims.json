@@ -240,8 +240,8 @@
         "shiro",
         "charles"
       ],
-      "status": "open",
-      "ruling": "PENDING (register Q1). The Shiro phase-out is a RIGHTS decision, not a story invention — but it currently launders itself through an in-world death the comic contradicts, and that death is the stated origin of the game's entire transit system. Recommend (a): keep the name-suppression rule, delete the fabricated death/merge, leave Charles AI's portal ability unexplained — consistent with CANON.md §4.1 keeping Shiro's origin dark, and mechanically free."
+      "status": "ruled-owner",
+      "ruling": "✅ RESOLVED — OWNER, 2026-07-30, and recommendation (a) is taken. Verbatim: \"Shiro isn't a Nike that evolved. The lore made it become a Charles AI because Shiro is a crypto token that I didn't want to promote in my lore.\" So the phase-out is confirmed as a RIGHTS decision and needs no in-world justification. The fabricated death and merge are STRUCK from timeline/prime-era.json and timeline/ages.json — three defects, any one disqualifying: the timeline self-contradicted two entries apart (Nike Prime and Shiro LAND ALIVE, script.md:1037-1040, and Shiro JUMPS INTO THE PORTAL AFTER THEM, :998); \"Charles AI ABSORBS him\" is the villain's own verb (:915) against NOTHING IS CONSUMED; and the death was never needed. Charles AI keeps the portals and the cat-quirk, UNEXPLAINED. ⛔ AND THE PART THAT KEEPS BEING BROKEN: Shiro is NEVER a precedent — not a Nike, did not evolve, not an example of transformation or growth. Book 1's \"AN UNEVOLVED CAT!\" (:758) is about a quadruped pet from a world of quadruped cats and must never be used to reason about Nike shapes or the bipedal law. Full ruling: CANON.md §3.1 out-of-world provenance."
     },
     {
       "id": "cb1-intelligence-drain",
