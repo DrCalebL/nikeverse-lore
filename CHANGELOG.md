@@ -7,7 +7,9 @@ store all extras in the sanctuary… even if 5555 is complete, we can continue t
 as we want."* Unlimited repeat bonding is now **canon and permanent** — the 2026-07-29 referent ruling's
 "legal (tunable — ship it on)" is upgraded to law.
 
-**It is derived, not invented, and that is the whole reason it is safe.** §1.2.1 already ratifies that a soul
+**It EXTENDS ratified canon rather than adding to it, and that is the whole reason it is safe.** *(Extension,
+not derivation — §1.2.1's axiom is about relations, which are non-partitive; this applies it to loci of
+experience. The smallest possible step, contradicting nothing, but a step.)* §1.2.1 already ratifies that a soul
 reached by many Collectors is *not divided by it, because distance and number are nothing to the Pattern.* The
 same sentence covers a soul living in more than one place at once. **This is not an exception to the cosmology,
 it IS the cosmology** — one soul is already in 5,555 bodies, and the Shattering's miracle is that the First Bond
@@ -26,10 +28,13 @@ Two objects, and only the first is ever counted:
    binds this too: **never explain it in-world.** It is only ever *shown* — two residents, two names, two sets of
    memories, neither aware of being a second anything. The build rule that actually kills the copy-reading is not
    a lore paragraph, it is **per-life names and natures, never a stack or a "×3" badge**.
-2. **Repeats tick nothing** — no Log, no Pattern, no gate, no achievement, no reward. So the anti-grind guarantee
-   is **arithmetic, not tuning**: a thing that advances no counter cannot become a required grind. In
-   `PATTERN_INTEGRITY.md` the immunity is *structural* — the census is a **set of form-ids**, so a repeat is
-   already a no-op (set insertion, not addition), and nobody has to remember a rule.
+2. **Repeats tick nothing** — no Log, no Pattern, no gate, no achievement, no reward, and **required by
+   nothing**. ⚠ The stronger form first written here — *"a thing that advances no counter can never become a
+   required grind — arithmetic, not tuning"* — was **struck the same day as unsound**: counters are not what
+   drives grind in this genre, **quality re-rolls** are, and three already exist (per-life IVs/natures,
+   evolution-line coverage, the Resonant's catch-streak odds). What IS structural is the **realm-meter**
+   immunity: the census is a **set of form-ids**, so a repeat of a *currently held* form is a no-op by data
+   shape. Qualify it — evolve your only Sonic and you no longer hold Sonic, so a repeat then moves the meter.
 3. **Free finally costs nothing.** On a form you already hold there is no completionist pressure at all, which
    makes repeats the one place in the game where Free is a plain preference rather than a sacrifice.
 4. **A census is not a rescue.** The Log records that you have *met* all 5,555 — never that everyone is out of

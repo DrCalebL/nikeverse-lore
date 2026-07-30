@@ -234,3 +234,36 @@ form. Fixed at `GAME_SPEC.md` §4.5.8, `CIRCLE_DESIGN.md` §5.3, `KNOWN_ISSUES.m
 
 **Vocabulary:** *spare* and *extra* (as nouns for a soul) join the banned list. **A life is never a commodity** —
 NOTHING IS CONSUMED binds here unchanged, and bulk trade of repeats must never be enabled.
+
+### QC pass — the register entry I wrote was the worst thing in the wave
+
+**`GAME_DELTAS` L11 first read: *"The MECHANIC AGREES — this is a wording divergence only… the shipped game
+is the existence-proof that this works at product scale, which is why the ruling is low-risk."* That is
+FALSE, and it was the ruling's own risk argument.** The store *shape* agrees, but the shipped game's actual
+product answer to repeat accumulation is a **disposal flow that converts souls into currency**:
+
+- `deployCommands.js:88` — *"Browse & **release duplicates** (send to Truffle Pastures)"*
+- `handlers/exploreButtons.js:116` — *"💡 **Too many Nikes?** Release **extras** to Truffle Pastures"*
+- `commands/species.js:293,450` — *"🌾 **Truffle Harvest:** +N Nexus Coins"*
+
+*"Too many Nikes?"* is the exact sentence §1.2.2 exists to forbid, and Nexus-Coins-per-soul is the going
+rate it bans. **It is a design divergence, not a wording one**, and the shipped precedent de-risks nothing.
+
+**The signal worth keeping is better than the claim I replaced.** The MMO independently grew the same shape
+— `GAME_SPEC.md` §7.5's Return-home faucet pays Resonance + Bond-Echoes, and unlimited repeats just removed
+its only structural bound. **Two builds arrived at soul-for-currency on their own.** That is faucet
+pressure, not coincidence: an unbounded collection generates a disposal verb, and a disposal verb wants a
+payout. It needs a stated rule, which is now `KNOWN_ISSUES.md` Q9 ②.
+
+**The lesson, and it is a new one.** The wave's guard is *"after any strike, grep the struck phrase across
+all four repos."* I ran it and it worked. But L11 was not a struck phrase — it was **a new claim I made
+about another repo without checking that repo's code**, in the middle of a session whose whole discipline is
+*go to the data before you trust a document*. I applied that rule to the docs and exempted my own summary of
+them. **A claim about a shipped product is a grep, not an inference — including when you are the one making
+it, and especially when it is the sentence that makes your own ruling look safe.**
+
+**Two overclaims of mine were also struck in the same pass** (see the build repo's log for the full set):
+the "anti-grind by arithmetic" inference, which is simply unsound — quality re-rolls drive grind, not
+counters — and "Free costs nothing on a repeat", which is backwards: on a repeat **Free out-pays Bond**,
+on the moral band. Both had already been copied into more than one ratified document by the time they were
+caught, which is the same propagation speed that made the sibling-clause pattern expensive in the first place.

@@ -131,8 +131,11 @@ bond with as many repeat species as we want."* Unlimited repeat bonding is **can
 completing the 5,555 changes nothing about it.
 
 **A fragment is not divided by living more than one life.** §1.2.1 rules that a soul reached by many
-Collectors is not divided by it, *because distance and number are nothing to the Pattern*. That same
-sentence already covers this: a soul living in more than one place at once is not divided by that either.
+Collectors is not divided by it, *because distance and number are nothing to the Pattern*. This **extends**
+that axiom to a second axis: a soul living in more than one place at once is not divided by that either.
+*(Called an **extension**, not a derivation, on purpose — §1.2.1's axiom is about **relations**, which are
+non-partitive by nature, and this applies it to **loci of experience**. It is the smallest possible step
+from ratified canon and it contradicts nothing, but it is a step.)*
 **This is not an exception to the cosmology — it IS the cosmology.** One soul is already in 5,555 bodies,
 and the Shattering's miracle is that the First Bond *echoed rather than broke*. A Piglet Nike living twelve
 lives is that same miracle at a smaller scale. *(§1.2's "one form per universe" is untouched: there is one
@@ -154,16 +157,50 @@ two sets of memories, neither aware of being a second anything.
 
 **Nothing about a second life is counted.** It does not advance the Bond Log (which counts forms), does not
 add to the Pattern (which counts forms *held*), and is never required by any gate, achievement or reward.
-**Repeats are the part of the game that is purely for the souls and for your home.** Two consequences worth
-stating: a thing that advances no counter **can never become a required grind** — that is arithmetic, not
-tuning — and for a form you already hold, **Free costs you nothing**, which is the first place in the game
-where Free is simply a preference rather than a sacrifice.
+**Repeats are the part of the game that is purely for the souls and for your home** — **required by no gate,
+no counter and no reward.**
+
+> ⚠ **TWO OVERCLAIMS STRUCK THE SAME DAY THEY WERE WRITTEN — read these before quoting this section.**
+> **(a) "A thing that advances no counter can never become a required grind, and that is arithmetic" is
+> FALSE and is struck.** Counters are not what drives grind in this genre; **quality re-rolls** are, and the
+> spec already contains three: per-life IVs and natures, un-normalised outside ranked
+> (`GAME_SPEC.md` §4.3.5); **evolution-line coverage**, since evolution swaps species in place, so holding
+> both stages of a line requires two lives; and the **Resonant variant's "catch-streak odds"**, which is by
+> definition a mechanic that pays you for catching repeatedly. Unlimited supply plus any of those is a
+> hunt. **The honest claim, which is still strong: no gate, counter or reward requires a repeat — the
+> genetics and variant chases remain, deliberately optional, and are each a live tuning question.**
+> **(b) "Free costs you nothing on a form you already hold" is WRONG IN THE OTHER DIRECTION and is struck.**
+> The ratified payout sheet is **Bond → the life itself; Free → Bond-Echoes + Resonance**
+> (`CIRCLE_DESIGN.md` §5.2). Remove the Log tick, as a repeat does, and **Free out-pays Bond** — so on
+> repeats Free is not a preference, it is the *dominant* play, and Resonance is the **moral** band. A player
+> could farm moral standing by releasing souls they did not want, which is the False Box laundered through
+> the one verb built to refute it. **This needs an owner ruling before the proof slice** — see the open item
+> in `Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md`. The likely fix is the design's own keystone,
+> *"reward the act, not the outcome"* (`CIRCLE_DESIGN.md` §5.2): Bond and Free pay **identically** on a
+> repeat.
+
+**THE COMPOSITION RULE — three tiers, so nobody has to guess which multiplies.** **A form is a fragment. A
+life is a spawn. A thread is one Collector's relation to one life.** Two Collectors reaching one wild spawn
+is *one life, two threads* (§1.2.1); four Circle soothers each receiving their own individual is *four
+lives* (`CIRCLE_DESIGN.md` §5.3). Same encounter class, two different answers, and only this rule
+distinguishes them — a builder wiring co-op Windows against Circle Draws would otherwise have to guess, and
+the never-explain-in-world ban means content would never correct the guess.
 
 **Why a Collector keeps reaching after the Log is complete — A CENSUS IS NOT A RESCUE.** The Log records
 that you have *met* all 5,555. It cannot record that everyone is out of the dark, because they are not and
 will not be: **Nolem keeps making the wound** (§5.3). A soul you logged a year ago is still a soul crying in
 the ice tonight, and the tick beside its name does not reach it. *You finish the collecting; you never
 finish the keeping;* **you never finish the reaching.**
+
+**AND IT MUST HAVE A VISIBLE CHANNEL, or it is a slogan.** This is the part that is easy to get wrong: the
+ruling switches off every numeric channel at once — the Log does not tick, the Pattern does not move, no
+achievement fires, and population is declared neutral — so a player who reaches a soul after completing the
+Log sees *nothing*, and nobody reads zero feedback as sacred; they read it as unimplemented. **The feedback
+is the Sanctuary itself, and it already exists in spec:** each life enters at *its own* wound-position and
+**migrates inward on its own bond** (`OPENWORLD_AND_ENDLESS.md` §3.2). That is real, visible, per-soul, and
+non-numeric — exactly the register the ruling demands. **Warmth is the declared axis, so warmth must be the
+readout.** Any build that leaves a post-completion reach with no observable consequence has not shipped this
+section; it has only quoted it.
 
 **Why the Sanctuary has no capacity.** Not an inventory decision — a **refusal**. Nolem's whole offer is
 *there is no room for you*. A home that can answer *"we're full"* has already made his argument for him.
