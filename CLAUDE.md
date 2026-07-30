@@ -89,11 +89,17 @@ enforceable instead of aspirational.**
    by owner deferral). `scripts/check-mystery-tiers.py` enforces it. **A Tier-3 entry with no
    `neverAnswerTerms` is an UNENFORCEABLE entry** — never add one without them.
 6. **Never introduce a new word of power without adding it to** `languages/first-tongue/dictionary.json`.
+7. **Never blur the fallen-side taxonomy.** **Corrupted Nike = REVERSIBLE · Retnuhxed = past REACHING (never
+   soul-destroyed — §2.1's warm soul-mote still releases) · Harbinger = a fallen COLLECTOR HUMAN, never a Nike and
+   never "corrupted" (`factions/index.json`: *"Not corrupted—converted"*).** `scripts/check-fallen-taxonomy.py`
+   enforces it by proximity, and governing documents are excluded for the same reason as the retired-terms lint.
+   Reserve *"too far gone"* / *"so far gone"* for **Retnuhxed only** — it is now the definitional phrase.
 
-## ✅ Verify — all four before calling a change done
+## ✅ Verify — all five before calling a change done
 
 ```sh
 sh scripts/check-canon-terms.sh                 # retired terms
+python3 scripts/check-fallen-taxonomy.py        # Corrupted vs Retnuhxed vs Harbinger
 python3 scripts/check-mystery-tiers.py          # Tier-3 stays dark
 python3 -c "import json,glob;[json.load(open(f)) for f in glob.glob('**/*.json',recursive=True)];print('ok')"
 # and the CI jobs in .github/workflows/canon.yml: dimensions-agree, level-bands, legendary-arithmetic

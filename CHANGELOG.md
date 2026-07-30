@@ -1,5 +1,43 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 29, 2026 — the fallen-side taxonomy gets a LINT
+
+**Both audits named the same structural gap: this axis had no mechanical guard.** `check-canon-terms.sh`
+covers only the four retired terms; nothing anywhere checked Corrupted vs Retnuhxed vs Harbinger. That is
+why 286 live occurrences went unswept for months, and why **all six** of the day's editable violations were
+the same failure — an amendment applied to one clause while its siblings stood.
+
+**`scripts/check-fallen-taxonomy.py`** now enforces it, wired into the verify gate, `CLAUDE.md` NEVER #7,
+and a new CI job. Six proximity rules, not substring matches — a term only trips when a contradicting
+phrase sits within 160 characters of it, which is what keeps it precise enough to stay armed:
+
+| | catches |
+|---|---|
+| **R1** | a Retnuhxed described as recoverable (*purified · redeemed · brought back · woken · soothed*) |
+| **R2** | a Retnuhxed described as **soul-destroyed** — breaks §2.1's warm soul-mote (*souls consumed · nothing left inside · already a tombstone*) |
+| **R3** | a **Corrupted** Nike described as beyond saving — the collapse from the other side |
+| **R4** | a **human** called corrupted (`factions/index.json`: *"Not corrupted—converted"*) |
+| **R5** ⚠ | a Nike called a Harbinger — wrong axis (warn) |
+| **R6** ⚠ | "Retnuhxed" used as a **process** rather than a kind of being (warn) |
+
+**It immediately caught two violations the manual sweep had missed** — `languages/first-tongue/dictionary.json`
+(*"corrupted messenger"* in the `Har'ben` gloss) and `singulars/nolem.json`'s agents block (*"Corrupted
+Collectors"*). Both were in the four-file set the sweep *targeted* and both survived it, because a hand sweep
+matches the string you thought of and a lint matches the rule. That is the whole argument for having one.
+
+**Governing documents are excluded on the same principle as the retired-terms lint** — a file that names a
+forbidden pairing in order to *forbid* it must be free to say it. Plus a narrow carve-out for **definitional
+boundary passages**: `entities/dimension-eater.json`'s `notARetnuhxed` block states precisely what a Retnuhxed
+*is* so the Eater cannot be mis-filed as one, and tripped R1 and R2 on the first run. That is correct content,
+and the exemption is scoped to that shape rather than to the file.
+
+**Two warnings remain and are correct behaviour** — Melon's entry (*"not a Harbinger (those are fallen
+Collector humans)"*) and `factions/index.json` itself. Both are text stating the rule accurately; they are
+advisory, not failures, which is the distinction that stops a lint from being disabled.
+
+**Also recorded as a durable rule:** *"too far gone"* / *"so far gone"* is now the **definitional phrase for
+Retnuhxed** and may not be used of a Corrupted Nike.
+
 ## Date: July 29, 2026 — the Corrupted/Retnuhxed term sweep: 286 occurrences, first ever audited
 
 **An exhaustive Opus sweep of both terms across all four repos** — 286 live occurrences (lore 94 · from-scratch
