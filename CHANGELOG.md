@@ -1,5 +1,55 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 29, 2026 — the Corrupted/Retnuhxed term sweep: 286 occurrences, first ever audited
+
+**An exhaustive Opus sweep of both terms across all four repos** — 286 live occurrences (lore 94 · from-scratch
+53 · mmo-rpg 31 · discord 108), all 336 shipped story nodes, and `data-seed/nikeverse.db`. **This axis had never
+been swept**: `check-canon-terms.sh` covers only the four retired terms, and nothing anywhere checks
+Corrupted-vs-Retnuhxed. **~252 of 286 were already correct**, including every mechanical gate in all three code
+layers.
+
+**Six editable violations, all fixed — and all the same sibling-clause failure:**
+
+- **`singulars/nolem.json`'s `battlefieldCorruption`** said Nolem *"turns living, uncorrupted allies into
+  **Retnuhxed**"* — asserting a Retnuhxed was made **and then recovered**, i.e. the exact proposition the owner
+  rejected. It was written the **same day** as the ruling that contradicts it, from the same comic, and cited
+  `script.md:972` — the art-direction hedge the ruling itself identifies as the source of the over-read. Its
+  own sibling `timeline/prime-era.json:126-127` had it right all along (*"Temporary corruption"*).
+- **`RECONCILIATION.md` M5** still carried `status: open` on a question ruled hours earlier, and **Q2 still
+  *recommended* the struck reading** — that Retnuhxed names a reversible state. A live recommendation to adopt
+  the rejected answer.
+- **`CANON_MAP.md`** — the doc every `CLAUDE.md` says to open first — listed it under *"Still open"*, and its
+  Lock #4 taxonomy row lacked the re-confirmation the other three repos carry.
+- **`OPENWORLD_AND_ENDLESS.md` ch. 3** still shipped the **letter-reversal as a playable quest chapter**
+  (*"decode RETNUHXED = DEXHUNTER"*), struck by the same owner the same day.
+
+**One genuine owner call, flagged not decided.** The same questline's ch. 5 climax is **soothe + a Window** —
+the purify/bond verbs — applied to *"the original **Retnuhxed**"*, described as *"still aware inside the
+husk-pattern"*. Under the ruling a Retnuhxed is past reaching. Two ways out: re-found the target as the last
+**Corrupted Nike** Nolem never finished (keeps the verbs, changes the kind), or keep him a Retnuhxed and make
+the climax a **release** rather than a Window. **Recommended the latter** — it preserves §2.1 untouched.
+
+**The soul-mote tension is resolved, not papered over.** *"Too far gone" means past **reaching**, not
+soul-destroyed.* The soul is still in there and cannot be called back, so death is the only door left. Every
+text that strains says *consumed / nothing left inside / already a tombstone* — and `STORY_BIBLE.md`'s
+*"the soul is already a tombstone in the Graveyard"* contradicted its own next clause (*"a slain Retnuhxed
+releases a soul-mote"*). Fixed. **The model to write against already exists** and predates the ruling:
+`OPENING_ARC.md:208` — CHARLES: *"They were Nikes. Long enough ago that there's **nothing left to call back**.
+Don't let anyone tell you it's a monster. **It's a late stage.**"*
+
+**Two vocabulary collisions closed.** *"So far gone"* is now the definitional phrase for Retnuhxed, so Wolf
+Mode — a **Corrupted** Nike with a live `catchOpportunity` — could not keep it; he is *reachable at ruinous
+cost*, not too far gone. And four lore files called Harbingers *"corrupted Collectors"*, against
+`factions/index.json:38`'s *"**Not corrupted—converted**"*; humans are **fallen**, never corrupted.
+
+**Four shipped divergences registered, none edited** (`GAME_DELTAS` L9, L3-b, L3-c, L10). **L3-c is the
+important one:** L3's own fix note says it was *"four sites not one"* — all four in `miniboss_apex.json`. The
+**fifth** sits in the **tutorial**, in the player's first Retnuhxed encounter, and says *"souls **consumed**"* —
+which negates the soul-mote ruling outright. It was missed, not deferred.
+
+**Structural gap recorded:** this axis has **no lint**. 286 occurrences went unchecked until now, and a
+`check-canon-terms.sh`-style guard would have caught the six editable violations mechanically.
+
 ## Date: July 29, 2026 — the taxonomy ruling's JUSTIFICATION is corrected (the ruling itself stands)
 
 **An audit found the right conclusion reached by wrong reasoning, and the wrong reasoning was three canon
