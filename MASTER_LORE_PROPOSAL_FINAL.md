@@ -1,4 +1,12 @@
 # 🌌 NIKEVERSE MASTER LORE PROPOSAL (FINAL)
+
+> ⛔ **PROVENANCE, NOT A LIVE SPEC — and it carries STRUCK material verbatim.** `CANON.md` supersedes this
+> file wherever it speaks. Two known carriers, left intact deliberately because a strike whose record is
+> deleted leaves the rule unexplained: **(1) Shiro's death and merge** (*"critically wounded, merges with
+> Charles AI"*, the Part-5 heading *"CHARLES AI (Post-Shiro Merge)"*) — **STRUCK 2026-07-30**, the phase-out
+> is a rights decision needing no in-world death, and *absorb* is the villain's own verb; **(2) counts of
+> FRAGMENTS** (*"the Shattering created 5,555 fragments"*) — under `CANON.md` §1.2.3 the 5,555 counts
+> **forms**, and a fragment may wear more than one, so no document may state a fragment total.
 ## Complete Canon: Comic Book 1 → Discord Game
 ### 27 Legendary Nikes | Shiro Phased Out | Charles AI Upgraded
 

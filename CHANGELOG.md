@@ -15,8 +15,14 @@ this order:
    cover 5,555 forms if a fragment wears one shape at a time — **unless a fragment can be in several places
    at once, which ONE SOUL MANY LIVES already ratifies.** The two rulings interlock: unlimited repeat bonding
    is what makes a form-census completable under transformation.
-3. *"The census precisification must be rewritten."* **Unnecessary.** *"Counts SOULS held, never THREADS
-   held"* exists to stop co-op inflating the meter, and *forms held* serves that identically.
+3. *"The census precisification must be rewritten."* ⚠ **I GOT THIS WRONG, and the error is instructive.** I
+   reasoned that *"counts SOULS held, never THREADS held"* exists to stop co-op inflating the meter and that
+   *forms held* serves that identically — **which is true, and is exactly why the word had to change and I
+   then did not change it.** Under §1.2.3 souls are strictly fewer than 5,555, so *"all 5,555 souls held at
+   once"* is unsatisfiable by construction and the victory condition was arithmetically unreachable for as
+   long as the word stood. **Declaring a rewrite unnecessary is not the same as checking whether a word is
+   still true** — the one-word fix is now made in `CANON.md` §1.2, `GAME_SPEC.md` §7.5, `PATTERN_INTEGRITY.md`
+   and the twin.
 4. **What actually remained:** the reading of *"each of the 5,555 is a unique individual"* as a **bijection**.
 
 **The resolution — and it is §1.2.1's own discipline, not a new device.** *A form is a SOMEONE, always.

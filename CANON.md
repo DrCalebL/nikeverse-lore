@@ -28,8 +28,8 @@ a tool, and never a legend. Nothing reorders this.
 
 ### 1.2 The five thousand five hundred and fifty-five are held at once · **RATIFIED**
 
-The Pattern was born from OG Nike's shattering, and it is whole only when all 5,555 **souls are held at the
-same moment**. This is not a tally of every soul a Collector has ever touched — a lifetime count would let the
+The Pattern was born from OG Nike's shattering, and it is whole only when all 5,555 **forms are held at the
+same moment** *("souls" until 2026-07-30 — see the precisification below and §1.2.3)*. This is not a tally of every soul a Collector has ever touched — a lifetime count would let the
 Pattern be completed by someone who had already let every thread go slack. The simultaneity **is** the victory
 condition. Every Nike bonded repairs a thread; every Legendary freed reconnects a major node; and when the
 whole weave holds at once, Nike Prime can be completed and Nolem sealed.
@@ -51,74 +51,6 @@ why the species reading and the individuals reading were never actually rivals.
 Two wild Nikes of the same form remain **legal to bond** — they simply do not both advance the 5,555. This
 restores the original vision (`LORE_BIBLE.md` §9, *"all 5,555 Nike types"*, deleted 2026-02-11 without
 rationale) and supersedes `THE_5555.md`'s former assertion that the number *"cannot be a species count."*
-
-### 1.2.3 The settling — what a shape is, and what evolution is · **RATIFIED**
-
-**THE RULING — owner, 2026-07-30.** Evolution **keeps the transformation**: the creature the player raised
-changes into another creature, on screen, as in a creature-collector. And **each shape gets its own slot** —
-*"Sonic gets his own slot."*
-
-> **A FRAGMENT MAY WAKE INTO MORE THAN ONE FORM. Each of those forms is one of the 5,555 and is counted
-> once. NO DOCUMENT, UI OR LINE OF DIALOGUE EVER STATES A COUNT OF FRAGMENTS.**
-
-**That last clause is the whole bill, and it is one sentence.** There is no shortfall to reconcile, because
-**nothing in the game was ever denominated in fragments**: the Bond Log counts forms, the Pattern counts forms
-held, and §1.2's referent ruling already said *"forms, not distinct bodies."* The arithmetic that looked
-frightening — 5,555 shapes worn by fewer souls — only bites a document that states the second number, and
-none does.
-
-**§1.2's *"a unique individual and a unique kind"* is precisified, not overturned.** What it was protecting is
-that **you always meet a someone, never a specimen** — and that is untouched: *every* form you meet is a
-someone, with their own name, nature, wound and memory of you. What it must no longer be read as is a
-**bijection**, a promise that no two of the 5,555 are ever the same soul later.
-
-> **A form is a SOMEONE, always. Whether two forms are the same someone is a question the game never asks and
-> never answers.** This is not evasion — it is §1.2.1's own discipline, applied to a second axis. That section
-> already forbids explaining how one soul can be reached by many; the same ban covers how one soul can settle
-> into more than one shape. **State it in verbs, never in mechanics.**
-
-**THE COSMOLOGY — a soul does not WEAR a shape, it SETTLES into one.** §2.3 already rules that a soul before
-its first bond *"has no settled form yet"*, so in this cosmology **shape is already a function of how much of
-someone is present**. A shape changing is therefore not a substitution and not an arrival — it is **more of
-one person becoming visible in one place.** Nothing is spent, nothing departs, nobody is replaced. Same
-acoustic register as NOTHING IS CONSUMED (*a chord, not a battery… it **sounds** while the notes are played*)
-and as §1.2.2's `Shat'ael`: a settling is the same voice **arriving more fully in the room it already
-reached.**
-
-**⭐ THE KEYSTONE — THE BOND IS THE WITNESS, NEVER THE CAUSE.**
-
-> *The bond does not make anyone change. It makes it survivable to be seen changing. They were always going to
-> become this. What your staying bought is that they did not have to do it where nobody was looking.*
-
-**This is not a flourish; it is forced, and by the shipped data.** The evolution chains are **biographies, and
-several are dark** — the shipped table contains *"CORRUPTION ARC — Glowing Nike → Angel Nike → Devil Nike"*
-and *"VILLAIN ESCALATION — Hooligan → Terminator → Thanos"*. Since the gate is bond depth, **any causal
-reading tells the player, in a banner, that their love turned an angel into a devil.** The witness reading is
-§5.3's ratified shape exactly — *connection is RESISTANCE, never immunity*: it does not decide what happens,
-it decides **whether anyone is there when it does.** So **a settling is NEUTRAL — never an upgrade, never a
-fall** — precisely as the wound phase is ruled neutral, and nobody is ever blamed for a dark one.
-
-**Two guards, both mandatory.** ① **A dark settling is never corruption and must never borrow its grammar** —
-no numbing, no desaturation, no un-blooming. **Devil Nike BLOOMS**, or the game has silently taught that
-becoming yourself and being corrupted are the same event, and §5.3's whole moral architecture collapses.
-② **An earlier shape still STANDS** (§2.3) — a settling is never quadruped→biped, and the pre-first-bond
-falling soul remains the sole exception to the bipedal law.
-
-**What the player is told, and it is three words doing all the work:** ***"still here."*** Never *"it evolved
-into"* — that sentence makes a **species** the subject of a relationship and calls a person *"it."* The
-nickname carrying through unchanged is the entire not-a-death argument, delivered in **zero** words.
-
-**Reversibility: the shape change is one-way, and that is an argument rather than a convenience.** Asking a
-soul to become *less present again* has a name here — **it is the numbing** (§5.3), which is Nolem's offer
-with a friendly icon on it. Never a player verb, an item, or a service. It costs the player nothing, because
-wild tables never exclude a form you have reached: the answer to *"I miss the small one"* is never *no*, it is
-**there are others out there, and none of them is a copy of yours.** And **declining is "not yet," never
-"no"** — a permanent-refusal item would make the bond **a leash**, which §2.3 forbids absolutely.
-
-**In First Tongue the settled shape is `Thael'tur`** (*thael*, to join + *tur*, body/form) — third on the
-`-tur` root, completing a triad the language then carries without a sentence: a **`Dex'tur`** is a body
-**worn** as an instrument (Nolem's avatar); an **`Ael'tur`** is a body that **is somebody**; a
-**`Thael'tur`** is a body somebody arrived at **because they were not alone.**
 
 **The number is the owner's, not the comic's.** Book 1 never says 5,555 — its one figure is **5,548 vials**
 (`comic-books/book-01/script.md:339`), which is 5,555 less Stoner Nike himself and the six already accounted
@@ -187,8 +119,12 @@ by the 2026-07-26 3/3 ruling, and by the Three Scale Laws
 (`Nikeverse-mmo-rpg-from-scratch/docs/PATTERN_INTEGRITY.md` §0.5). **The permanent goal is the personal Log,
 and it is the only thing allowed to carry a new player's purpose.**
 
-**It counts SOULS held, never THREADS held** — a precisification, not a change. A soul reached by ten
-Collectors is **one** of the 5,555 re-anchored, not ten. There are exactly 5,555 fragments; if ten bonds to one
+**It counts FORMS held, never THREADS held** ⚠ *(read **SOULS** until 2026-07-30; changed to **FORMS** by
+§1.2.3, under which a fragment may wake into more than one form, so souls are strictly fewer than 5,555 and
+"all 5,555 souls held at once" would be unsatisfiable by construction. **The anti-inflation argument below
+survives verbatim**, because ten threads to one form is still one form — which is why the change is one
+word and not a rewrite.)* — a precisification, not a change. A soul reached by ten
+Collectors is **one** of the 5,555 re-anchored, not ten. There are exactly 5,555 forms; if ten bonds to one
 soul credited ten, a realm could read *"the Pattern is whole"* while five thousand souls were still in the
 dark, and **a meter that lies about wholeness is the False Box**. A Collector's personal count of bonds *given*
 is a separate object and is not the war meter. Consequence: many Collectors reaching one soul multiplies
@@ -293,7 +229,7 @@ no counter and no reward.**
 > *"reward the act, not the outcome"* (`CIRCLE_DESIGN.md` §5.2): Bond and Free pay **identically** on a
 > repeat.
 
-**THE COMPOSITION RULE — three tiers, so nobody has to guess which multiplies.** **A form is a fragment. A
+**THE COMPOSITION RULE — three tiers, so nobody has to guess which multiplies.** **A form is one of the 5,555. A fragment may wear more than one form (§1.2.3). A
 life is a spawn. A thread is one Collector's relation to one life.** Two Collectors reaching one wild spawn
 is *one life, two threads* (§1.2.1); four Circle soothers each receiving their own individual is *four
 lives* (`CIRCLE_DESIGN.md` §5.3). Same encounter class, two different answers, and only this rule
@@ -373,6 +309,74 @@ never fodder, material, currency, or a breeding input, and "spare" is not a word
 economy firewall already holds the line — Legendaries and Signatures are account-bound, and a traded common
 arrives bond-reset — but **bulk trade of repeats must never be enabled**, because a soul with a going rate
 is inventory in the only sense that matters.
+
+### 1.2.3 The settling — what a shape is, and what evolution is · **RATIFIED**
+
+**THE RULING — owner, 2026-07-30.** Evolution **keeps the transformation**: the creature the player raised
+changes into another creature, on screen, as in a creature-collector. And **each shape gets its own slot** —
+*"Sonic gets his own slot."*
+
+> **A FRAGMENT MAY WAKE INTO MORE THAN ONE FORM. Each of those forms is one of the 5,555 and is counted
+> once. NO DOCUMENT, UI OR LINE OF DIALOGUE EVER STATES A COUNT OF FRAGMENTS.**
+
+**That last clause is the whole bill, and it is one sentence.** There is no shortfall to reconcile, because
+**nothing in the game was ever denominated in fragments**: the Bond Log counts forms, the Pattern counts forms
+held, and §1.2's referent ruling already said *"forms, not distinct bodies."* The arithmetic that looked
+frightening — 5,555 shapes worn by fewer souls — only bites a document that states the second number, and
+none does.
+
+**§1.2's *"a unique individual and a unique kind"* is precisified, not overturned.** What it was protecting is
+that **you always meet a someone, never a specimen** — and that is untouched: *every* form you meet is a
+someone, with their own name, nature, wound and memory of you. What it must no longer be read as is a
+**bijection**, a promise that no two of the 5,555 are ever the same soul later.
+
+> **A form is a SOMEONE, always. Whether two forms are the same someone is a question the game never asks and
+> never answers.** This is not evasion — it is §1.2.1's own discipline, applied to a second axis. That section
+> already forbids explaining how one soul can be reached by many; the same ban covers how one soul can settle
+> into more than one shape. **State it in verbs, never in mechanics.**
+
+**THE COSMOLOGY — a soul does not WEAR a shape, it SETTLES into one.** §2.3 already rules that a soul before
+its first bond *"has no settled form yet"*, so in this cosmology **shape is already a function of how much of
+someone is present**. A shape changing is therefore not a substitution and not an arrival — it is **more of
+one person becoming visible in one place.** Nothing is spent, nothing departs, nobody is replaced. Same
+acoustic register as NOTHING IS CONSUMED (*a chord, not a battery… it **sounds** while the notes are played*)
+and as §1.2.2's `Shat'ael`: a settling is the same voice **arriving more fully in the room it already
+reached.**
+
+**⭐ THE KEYSTONE — THE BOND IS THE WITNESS, NEVER THE CAUSE.**
+
+> *The bond does not make anyone change. It makes it survivable to be seen changing. They were always going to
+> become this. What your staying bought is that they did not have to do it where nobody was looking.*
+
+**This is not a flourish; it is forced, and by the shipped data.** The evolution chains are **biographies, and
+several are dark** — the shipped table contains *"CORRUPTION ARC — Glowing Nike → Angel Nike → Devil Nike"*
+and *"VILLAIN ESCALATION — Hooligan → Terminator → Thanos"*. Since the gate is bond depth, **any causal
+reading tells the player, in a banner, that their love turned an angel into a devil.** The witness reading is
+§5.3's ratified shape exactly — *connection is RESISTANCE, never immunity*: it does not decide what happens,
+it decides **whether anyone is there when it does.** So **a settling is NEUTRAL — never an upgrade, never a
+fall** — precisely as the wound phase is ruled neutral, and nobody is ever blamed for a dark one.
+
+**Two guards, both mandatory.** ① **A dark settling is never corruption and must never borrow its grammar** —
+no numbing, no desaturation, no un-blooming. **Devil Nike BLOOMS**, or the game has silently taught that
+becoming yourself and being corrupted are the same event, and §5.3's whole moral architecture collapses.
+② **An earlier shape still STANDS** (§2.3) — a settling is never quadruped→biped, and the pre-first-bond
+falling soul remains the sole exception to the bipedal law.
+
+**What the player is told, and it is three words doing all the work:** ***"still here."*** Never *"it evolved
+into"* — that sentence makes a **species** the subject of a relationship and calls a person *"it."* The
+nickname carrying through unchanged is the entire not-a-death argument, delivered in **zero** words.
+
+**Reversibility: the shape change is one-way, and that is an argument rather than a convenience.** Asking a
+soul to become *less present again* has a name here — **it is the numbing** (§5.3), which is Nolem's offer
+with a friendly icon on it. Never a player verb, an item, or a service. It costs the player nothing, because
+wild tables never exclude a form you have reached: the answer to *"I miss the small one"* is never *no*, it is
+**there are others out there, and none of them is a copy of yours.** And **declining is "not yet," never
+"no"** — a permanent-refusal item would make the bond **a leash**, which §2.3 forbids absolutely.
+
+**In First Tongue the settled shape is `Thael'tur`** (*thael*, to join + *tur*, body/form) — third on the
+`-tur` root, completing a triad the language then carries without a sentence: a **`Dex'tur`** is a body
+**worn** as an instrument (Nolem's avatar); an **`Ael'tur`** is a body that **is somebody**; a
+**`Thael'tur`** is a body somebody arrived at **because they were not alone.**
 
 ### 1.3 The canon constants · **RATIFIED**
 
