@@ -1,5 +1,35 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 30, 2026 (latest) — Nolem goes after the ones fewest people are holding
+
+**A sharpening of `methods.isolation`, not a new claim** — landed in `singulars/nolem.json`
+(`methods.targetsTheLeastHeld`). No owner ruling was required and none is implied: every premise was already
+ratified, and the entry only derives one from another.
+
+**The reason, in one line.** Un-holding a form costs him **every hold on it**, so the cheapest thing he can
+take is whatever one person is carrying, or nobody. **Isolation turns out to be arithmetic as well as
+appetite** — and it follows that a Collector who chooses to carry an unloved shape is carrying exactly the one
+he wants most.
+
+**What it derives from, all pre-existing:** `domain: ["Entropy", "Isolation", "Despair"]` · `methods.isolation`
+(*"Separate beings from their connections"*) · `power.psychologicalMethod` (*"He does not taunt with threats;
+he taunts with **loneliness**"*) · `weakness.primary` (*"Connection does not stop him — it **COSTS** him"*) ·
+`weakness.explanation` (*"a bonded soul is not unreachable; it is **EXPENSIVE**"*) · `CANON.md` §5.3's ratified
+*connection is RESISTANCE, never immunity*. It also satisfies `power.writingRule` — *"never weather, luck, or
+an ambient force"* — because the pull is a chosen, named, watchable event rather than a tick.
+
+**⚠ AND THE GUARD THAT SHIPS WITH IT: preference is never immunity.** A strict "always take the thinnest first"
+ordering makes a form held by two people **provably untouchable** across the population band a launch realm
+actually lives in — which is the struck *"connection is immunity"* reading walking back in as a mechanic. So
+the rule is a **weighting, not an ordering**: a well-held form stays *expensive*, never *safe*. **He prefers
+the lonely; he is not confined to them.**
+
+**Scope.** The engineering — the load servo, `ρ`, `λ₀`, the tables — lives only in the build repo
+(`Nikeverse-mmo-rpg-from-scratch:docs/PATTERN_INTEGRITY.md` §3.1 + `docs/GAME_SPEC.md` §7.5), which is correct:
+`GAME_DELTAS.md` already scopes Pattern Integrity as a net-new game system where *"only the simultaneity of the
+5,555 is canon."* What belongs **here** is the claim about his motivation, because the three artifacts must
+agree on those.
+
 ## Date: July 30, 2026 (later) — THE SETTLING: evolution keeps the transformation (`CANON.md` §1.2.3)
 
 **Two owner rulings, one session.** *"I want to keep the transformation"* — the creature the player raised
