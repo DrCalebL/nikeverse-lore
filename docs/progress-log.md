@@ -267,3 +267,40 @@ the "anti-grind by arithmetic" inference, which is simply unsound — quality re
 counters — and "Free costs nothing on a repeat", which is backwards: on a repeat **Free out-pays Bond**,
 on the moral band. Both had already been copied into more than one ratified document by the time they were
 caught, which is the same propagation speed that made the sibling-clause pattern expensive in the first place.
+
+### The three-mind brainstorm (part 2) — what the lore side gained
+
+Full wave record is in `Nikeverse-mmo-rpg-from-scratch/docs/progress-log.md`. The lore-specific gains:
+
+**`CANON.md` §1.2 — the eight-cap.** *"One form per universe"* read as **occupancy** caps repeat bonding at
+eight bodies per form across the eight dimensions, which makes the owner's requirement unshippable. Ruled
+**provenance**: each of the 5,555 *originates* in one world; where it has since come to rest is unbounded.
+Settled on Tier-1 evidence the ruling had never cited — *"thousands of other realities"* (`script.md:207`).
+**The phrase was written in the same session that ratified the thing above it, which is exactly why it read
+as settled.**
+
+**`CANON.md` §1.2.2 — the ground was already in our own dictionary, and nobody had looked.** `Shat'ael` is
+glossed *"The Echoing; the great fragmentation… **also called the Great Echo**"*, and §1.2.1 already ratifies
+that the First Bond ***echoed* rather than broke**. So the Great Echo never stopped going out — and that
+fixes a register defect in the landed text: ***life* is a SERIAL noun.** You have one at a time, so "living
+twelve lives" reads as sequential reincarnation while the requirement is *simultaneous*; forty echoes of one
+shout all sound at once and nobody imagines the shout was divided. **The lesson: when a ruling's wording feels
+slightly wrong, grep the First Tongue before writing new prose.** The corpus had the word for ten months.
+
+**`languages/first-tongue/dictionary.json` — `Ael'tur`** (*ael* soul + *tur* body), the moral mirror of
+**`Dex'tur`** (*dex* "to wear" — Nolem's avatar): a `Dex'tur` is a body **worn as an instrument**, an
+`Ael'tur` is a body that **is somebody**, so the language now carries NOTHING IS CONSUMED by itself. Plus the
+inscription **`Shat'ael meth`** — *"The Echoing is endless."* ⚠ **The echo is the GROUND, never the
+player-facing noun:** *Bond-Echoes* is a currency, and a soul sharing a noun with money is the NOTHING IS
+CONSUMED failure in one word. Design docs may say echo; the game says *"a life."*
+
+**A JSON formatting near-miss worth recording.** The first attempt added `Ael'tur` by `json.load` →
+`json.dumps`, which produced **47 insertions and 9 deletions** — the round-trip exploded every compact array
+in the file and stripped its blank lines. Reverted and done as a surgical text insert instead: **15
+insertions, 0 deletions.** *Never round-trip a hand-formatted JSON file to add one entry;* the diff is the
+review surface, and a 56-line diff for a 15-line change is a diff nobody reads properly.
+
+**And a formatting break I made in `CANON.md` and caught on read-back:** the provenance blockquote absorbed
+the tail of the paragraph it was inserted into, leaving *"Two wild Nikes of the same"* inside the quote and
+*"form remain legal to bond…"* outside it. **Read the rendered region back after any mid-paragraph insert** —
+an assert on the replaced string proves the edit applied, never that the result parses as intended prose.
