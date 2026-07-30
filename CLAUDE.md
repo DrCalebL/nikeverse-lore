@@ -84,7 +84,10 @@ enforceable instead of aspirational.**
    **The carve-out is deliberate:** `Nol'meth` is glossed "The Unraveling" and is CORRECT.
 4. **Never sweep a retired term out of a file that names it in order to GOVERN it.** `CANON.md`,
    `CHANGELOG.md` and `CANON_MAP.md` are excluded for exactly this reason. A term's retirement record is
-   the thing that explains the rule; deleting it leaves the rule unexplained.
+   the thing that explains the rule; deleting it leaves the rule unexplained. **The same carve-out now
+   covers *spare* / *extra*** (banned as nouns for a soul, §1.2.2): the governing docs quote the owner's
+   own *"store all extras in the Sanctuary"* verbatim, so a future lint on those words must exclude them
+   exactly as it excludes the retired terms.
 5. **Never resolve a Tier-3 mystery.** `CANON.md` §4.1 is FROZEN at six dark questions (+ `lost-singular`
    by owner deferral). `scripts/check-mystery-tiers.py` enforces it. **A Tier-3 entry with no
    `neverAnswerTerms` is an UNENFORCEABLE entry** — never add one without them.
