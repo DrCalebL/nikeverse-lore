@@ -187,3 +187,50 @@ same file, sometimes the same sentence. Six of the eight highest findings were t
 
 Second lesson: **a refutation is not self-verifying.** The first brainstorm wave "refuted on five independent
 grounds" that `NOLEM` reverses to `MELON`. It does. Check anything mechanically checkable yourself.
+
+---
+
+## 2026-07-30 · ONE SOUL, MANY LIVES — repeat bonding becomes canon (`CANON.md` §1.2.2)
+
+**The ask.** *"Bonding in my game works the same way as catching a pokemon. I want players to bond/catch and
+store all extras in the sanctuary. Now make a lore that makes this work. Meaning even if 5555 is complete, we
+can continue to bond with as many repeat species as we want."*
+
+**The move that made it safe: this is DERIVED, not invented.** §1.2.1 already ratifies that a soul reached by
+many Collectors *is not divided by it, because distance and number are nothing to the Pattern.* That same
+sentence covers a soul living in more than one place at once. So the answer is the ratified axiom applied to a
+second axis — **a fragment is not divided by living more than one life** — rather than a new axiom bolted on.
+Nothing had to be struck to make room for it. When a request looks like it needs new cosmology, check whether
+the existing cosmology already covers it on a different axis; here it did, and the version that had to be
+invented from scratch (many individuals per kind) would have contradicted §1.2's ratified referent outright.
+
+**What landed.** `CANON.md` §1.2.2 (two objects — the **fragment**, counted; the **life**, counted by nothing);
+`CHANGELOG.md`; `GAME_DELTAS.md` **L11**; `THE_5555.md` phases 7–8 + header; `claims.json` `cb1-5555-referent-species`
+extended; `CLAUDE.md` NEVER #7 (fallen-taxonomy renumbered #7→#8, and its stale cross-reference in `CHANGELOG.md:64`
+fixed in the same pass). Sibling artifacts in the other two repos landed the same session, per the three-way rule.
+
+**Three things the ruling bought that were not asked for:**
+1. **The Circle Draws are re-founded.** Open since 2026-07-29, when the form referent struck the sentence they
+   stood on. They needed a drawn soul to be *a distinct person*; *a distinct **life*** supplies it exactly.
+2. **`THE_5555.md`'s own prediction closed.** Its species-question section said adopting the species reading
+   *"would cost one ratified sentence… which is load-bearing for Circle Draws and would need a successor."*
+   The cost was paid on 07-29 and the successor landed on 07-30 — a one-day gap, now recorded rather than
+   forgotten. Both readings survive: *one soul in 5,555 bodies* AND *all 5,555 Nike types*.
+3. **A found divergence that is really a confirmation** (L11). The shipped Discord game already runs the exact
+   sanctioned shape — unbounded `player_creatures` + a 6-slot `party` — and calls the overflow **"storage"**
+   (`commands/party.js:260,1050,1492`). The mechanic agrees; only the noun diverges. Going to the data turned
+   "is this risky?" into "this already ships."
+
+**The guard was applied and it caught two.** After striking *"legal (tunable — ship it on)"* I grepped the
+struck phrase itself across all four repos, per the standing rule. Two live siblings surfaced that a
+file-by-file pass would have missed: two Emo Nike notes in `GAME_SPEC.md` (~1651, ~2418), and — the one that
+mattered — `claims.json`'s ruling record, which is *not prose* and would never have turned up in a prose sweep.
+
+**One derived precision, unasked-for and load-bearing.** The freed-soul respawn rule said the spawn point
+*"re-populates with a NEW soul."* Under §1.2.2 "new" means a new **life**, never "a form you have not seen" —
+so a spawn point must never exclude an already-reached form. Left ambiguous, a builder implements per-form
+exclusion and the game quietly tells the player a soul is used up, which is the copy-reading in mechanical
+form. Fixed at `GAME_SPEC.md` §4.5.8, `CIRCLE_DESIGN.md` §5.3, `KNOWN_ISSUES.md` Q7 and the build `CLAUDE.md`.
+
+**Vocabulary:** *spare* and *extra* (as nouns for a soul) join the banned list. **A life is never a commodity** —
+NOTHING IS CONSUMED binds here unchanged, and bulk trade of repeats must never be enabled.

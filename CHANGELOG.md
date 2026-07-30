@@ -1,5 +1,59 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: July 30, 2026 — ONE SOUL, MANY LIVES (owner ruling; `CANON.md` §1.2.2)
+
+**The ruling.** *"Bonding in my game works the same way as catching a pokemon. I want players to bond/catch and
+store all extras in the sanctuary… even if 5555 is complete, we can continue to bond with as many repeat species
+as we want."* Unlimited repeat bonding is now **canon and permanent** — the 2026-07-29 referent ruling's
+"legal (tunable — ship it on)" is upgraded to law.
+
+**It is derived, not invented, and that is the whole reason it is safe.** §1.2.1 already ratifies that a soul
+reached by many Collectors is *not divided by it, because distance and number are nothing to the Pattern.* The
+same sentence covers a soul living in more than one place at once. **This is not an exception to the cosmology,
+it IS the cosmology** — one soul is already in 5,555 bodies, and the Shattering's miracle is that the First Bond
+*echoed rather than broke*. A Piglet Nike living twelve lives is that miracle at a smaller scale.
+
+Two objects, and only the first is ever counted:
+
+| | what it is | how many | counted by |
+|---|---|---|---|
+| **the fragment** (a *form*) | one of the 5,555 — a unique individual **and** a unique kind | exactly 5,555, forever | the Bond Log · the Pattern |
+| **the life** | that fragment living somewhere as someone: own name, nature, wound, memory of you | **unbounded** | *nothing* |
+
+**Four consequences, each load-bearing:**
+
+1. **A second one is never a copy — it is someone you have met before, living a different life.** §1.2.1's ban
+   binds this too: **never explain it in-world.** It is only ever *shown* — two residents, two names, two sets of
+   memories, neither aware of being a second anything. The build rule that actually kills the copy-reading is not
+   a lore paragraph, it is **per-life names and natures, never a stack or a "×3" badge**.
+2. **Repeats tick nothing** — no Log, no Pattern, no gate, no achievement, no reward. So the anti-grind guarantee
+   is **arithmetic, not tuning**: a thing that advances no counter cannot become a required grind. In
+   `PATTERN_INTEGRITY.md` the immunity is *structural* — the census is a **set of form-ids**, so a repeat is
+   already a no-op (set insertion, not addition), and nobody has to remember a rule.
+3. **Free finally costs nothing.** On a form you already hold there is no completionist pressure at all, which
+   makes repeats the one place in the game where Free is a plain preference rather than a sacrifice.
+4. **A census is not a rescue.** The Log records that you have *met* all 5,555 — never that everyone is out of
+   the dark, because Nolem keeps making the wound (§5.3). *You finish the collecting; you never finish the
+   keeping; you never finish the reaching.*
+
+**Why the Sanctuary has no capacity — a refusal, not an inventory decision.** Nolem's whole offer is *there is no
+room for you*; a home that can answer *"we're full"* has already made his argument for him. This retro-justifies
+the 2026-07-28 roster-never-blocks-the-catch ruling in-world.
+
+**It sharpens the False Box rather than weakening it.** The axis was already settled in `GAME_SPEC.md` §3.4:
+*the horror of the False Box was never quantity; it was **silence***. Nine hundred named residents migrating
+inward is the warmest room in the game; nine hundred frozen at the edges is the Cold Coronation. **Quantity is
+neutral, warmth is the axis** — so any E2 detection that reads *population* is a bug.
+
+**Also closed:** the **Circle Draws** open item (`Nikeverse-mmo-rpg-from-scratch/docs/CIRCLE_DESIGN.md` §5.3,
+open since 2026-07-29). It needed a drawn soul to be *a distinct person*; "a distinct **life**" supplies it
+exactly. Four soothers each receive their own named, wounded individual; none is a copy; the four advance the
+5,555 **once**.
+
+**Vocabulary:** *spare* and *extra* (as nouns for a soul) join the banned list alongside *instance · copy ·
+duplicate · owner · withdraw · claim*. **A life is never a commodity** — NOTHING IS CONSUMED binds here without
+amendment, and bulk trade of repeats must never be enabled.
+
 ## Date: July 29, 2026 — the fallen-side taxonomy gets a LINT
 
 **Both audits named the same structural gap: this axis had no mechanical guard.** `check-canon-terms.sh`
@@ -7,7 +61,8 @@ covers only the four retired terms; nothing anywhere checked Corrupted vs Retnuh
 why 286 live occurrences went unswept for months, and why **all six** of the day's editable violations were
 the same failure — an amendment applied to one clause while its siblings stood.
 
-**`scripts/check-fallen-taxonomy.py`** now enforces it, wired into the verify gate, `CLAUDE.md` NEVER #7,
+**`scripts/check-fallen-taxonomy.py`** now enforces it, wired into the verify gate, `CLAUDE.md` NEVER #8
+(renumbered from #7 on 2026-07-30 when ONE SOUL MANY LIVES took the #7 slot),
 and a new CI job. Six proximity rules, not substring matches — a term only trips when a contradicting
 phrase sits within 160 characters of it, which is what keeps it precise enough to stay armed:
 

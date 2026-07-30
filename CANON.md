@@ -123,6 +123,64 @@ on it: one soul is already in 5,555 bodies, and the Shattering's whole miracle i
 rather than broke*. The problem is duplication rendered as **inventory**, which is silence, which is the False
 Box. **Never explain how one soul can be reached by many.** State it in verbs, never in mechanics.
 
+### 1.2.2 One soul, many lives · **RATIFIED**
+
+**THE RULING — owner, 2026-07-30.** *"Bonding in my game works the same way as catching a Pokémon. I want
+players to bond/catch and store all extras in the Sanctuary… even if 5,555 is complete, we can continue to
+bond with as many repeat species as we want."* Unlimited repeat bonding is **canon and permanent**, and
+completing the 5,555 changes nothing about it.
+
+**A fragment is not divided by living more than one life.** §1.2.1 rules that a soul reached by many
+Collectors is not divided by it, *because distance and number are nothing to the Pattern*. That same
+sentence already covers this: a soul living in more than one place at once is not divided by that either.
+**This is not an exception to the cosmology — it IS the cosmology.** One soul is already in 5,555 bodies,
+and the Shattering's miracle is that the First Bond *echoed rather than broke*. A Piglet Nike living twelve
+lives is that same miracle at a smaller scale. *(§1.2's "one form per universe" is untouched: there is one
+Piglet Nike, not eight. What is many is the **lives** that one wears.)*
+
+Two objects, and **only the first is ever counted**:
+
+| | what it is | how many | counted by |
+|---|---|---|---|
+| **the fragment** (a *form*) | one of the 5,555 — at once a unique individual **and** a unique kind | exactly 5,555, forever | the Bond Log · the Pattern |
+| **the life** | that fragment living somewhere, as someone: its own name, nature, wound, and memory of you | **unbounded** | *nothing* |
+
+**A second one is never a copy. It is someone you have met before, living a different life.** The one you
+reached on the Frostfall ice and the one you reached in a Shinden kitchen are the same soul and are not the
+same person *to you* — each remembers a different day, and what you hold is your thread to each: *"no two
+threads are alike"* (§1.2.1). **The §1.2.1 ban is unchanged and binds this too: never explain it in-world.**
+It is written here so the design is coherent; in the game it is only ever *shown* — two residents, two names,
+two sets of memories, neither aware of being a second anything.
+
+**Nothing about a second life is counted.** It does not advance the Bond Log (which counts forms), does not
+add to the Pattern (which counts forms *held*), and is never required by any gate, achievement or reward.
+**Repeats are the part of the game that is purely for the souls and for your home.** Two consequences worth
+stating: a thing that advances no counter **can never become a required grind** — that is arithmetic, not
+tuning — and for a form you already hold, **Free costs you nothing**, which is the first place in the game
+where Free is simply a preference rather than a sacrifice.
+
+**Why a Collector keeps reaching after the Log is complete — A CENSUS IS NOT A RESCUE.** The Log records
+that you have *met* all 5,555. It cannot record that everyone is out of the dark, because they are not and
+will not be: **Nolem keeps making the wound** (§5.3). A soul you logged a year ago is still a soul crying in
+the ice tonight, and the tick beside its name does not reach it. *You finish the collecting; you never
+finish the keeping;* **you never finish the reaching.**
+
+**Why the Sanctuary has no capacity.** Not an inventory decision — a **refusal**. Nolem's whole offer is
+*there is no room for you*. A home that can answer *"we're full"* has already made his argument for him.
+That is the in-world ground of the roster-never-blocks-the-catch ruling: the Sanctuary is unbounded because
+**the one thing it must never say to an arriving soul is that it is full.**
+
+**This does not weaken the False Box ending; it sharpens it.** The axis is already settled: *the horror of
+the False Box was never quantity; it was **silence**.* Nine hundred residents with names, who migrate
+inward, are the warmest Sanctuary in the game. Nine hundred standing frozen at the edges is the Cold
+Coronation. **Quantity is neutral. Warmth is the axis.**
+
+**A life is never a commodity.** NOTHING IS CONSUMED (§1.2) binds here without amendment: a second life is
+never fodder, material, currency, or a breeding input, and "spare" is not a word for a person. The existing
+economy firewall already holds the line — Legendaries and Signatures are account-bound, and a traded common
+arrives bond-reset — but **bulk trade of repeats must never be enabled**, because a soul with a going rate
+is inventory in the only sense that matters.
+
 ### 1.3 The canon constants · **RATIFIED**
 
 Twenty-seven Legendary Nikes · eight dimensions · six *named* Harbingers of hundreds · five Champions gathered · a Long Silence of

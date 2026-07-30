@@ -89,7 +89,12 @@ enforceable instead of aspirational.**
    by owner deferral). `scripts/check-mystery-tiers.py` enforces it. **A Tier-3 entry with no
    `neverAnswerTerms` is an UNENFORCEABLE entry** — never add one without them.
 6. **Never introduce a new word of power without adding it to** `languages/first-tongue/dictionary.json`.
-7. **Never blur the fallen-side taxonomy.** **Corrupted Nike = REVERSIBLE · Retnuhxed = past REACHING (never
+7. **Never render a second life as a copy.** **ONE SOUL, MANY LIVES** (owner 2026-07-30, `CANON.md` §1.2.2):
+   repeat bonding is unlimited and permanent, and a fragment is not divided by living more than one life. Only
+   the **form** is counted (Log, Pattern); the **life** is counted by nothing. So: no stacks, no "×3", no
+   *spare*/*extra*, per-life names and natures always — and **never explain the topology in-world** (§1.2.1's
+   ban binds this too). *A census is not a rescue.*
+8. **Never blur the fallen-side taxonomy.** **Corrupted Nike = REVERSIBLE · Retnuhxed = past REACHING (never
    soul-destroyed — §2.1's warm soul-mote still releases) · Harbinger = a fallen COLLECTOR HUMAN, never a Nike and
    never "corrupted" (`factions/index.json`: *"Not corrupted—converted"*).** `scripts/check-fallen-taxonomy.py`
    enforces it by proximity, and governing documents are excluded for the same reason as the retired-terms lint.
