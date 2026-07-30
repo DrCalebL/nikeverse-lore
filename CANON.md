@@ -46,10 +46,11 @@ why the species reading and the individuals reading were never actually rivals.
 > unshippable. The Tier-1 source settles it: Book 1 establishes *"many realities"* (`script.md:169`),
 > *"across **thousands** of other realities"* (`:207`) and *"this is the **3rd universe** I've been to"*
 > (`:405`). **The eight dimensions are the reachable, named worlds; realities are not eight.** Nothing in
-> §1.3 moves — eight is still the count of dimensions — and the cap disappears. Two wild Nikes of the same
-form remain **legal to bond** — they simply do not both advance the 5,555. This restores the original vision
-(`LORE_BIBLE.md` §9, *"all 5,555 Nike types"*, deleted 2026-02-11 without rationale) and supersedes
-`THE_5555.md`'s former assertion that the number *"cannot be a species count."*
+> §1.3 moves — eight is still the count of dimensions — and the cap disappears.
+
+Two wild Nikes of the same form remain **legal to bond** — they simply do not both advance the 5,555. This
+restores the original vision (`LORE_BIBLE.md` §9, *"all 5,555 Nike types"*, deleted 2026-02-11 without
+rationale) and supersedes `THE_5555.md`'s former assertion that the number *"cannot be a species count."*
 
 **The number is the owner's, not the comic's.** Book 1 never says 5,555 — its one figure is **5,548 vials**
 (`comic-books/book-01/script.md:339`), which is 5,555 less Stoner Nike himself and the six already accounted
@@ -81,8 +82,13 @@ a dex that cannot be finished kills the drive to collect, retroactively, the mom
 last slot is a trick. **What can never be completed is the WAR** — the holding decays, Nolem is bound and never
 killed, and every expansion grows the body that must be held. *You finish the collecting; you never finish the
 keeping.* Two beats survive rather than being spent: the **5,555th-slot moment** becomes the campaign climax (already
-gated on campaign completion, not on any count), and the **Nike Who Refuses** becomes an **arc** — refusing everyone
-until you.
+gated on campaign completion, not on any count), and the **Nike Who Refuses** — ⛔ **DELETED as a category, owner ruling
+2026-07-30, arc included.** Its 2026-07-29 re-scope to *"refusing everyone until you"* **is not refusal, it is
+flattery**: the lesson inverts into *you are special enough to overcome a no*. **Every achievement exemption goes
+with it.** The *some connections are not yours to make* lesson now rides *The Corrupted Nike at Peace*
+(`Nikeverse-mmo-rpg-from-scratch/docs/story/OPENWORLD_AND_ENDLESS.md` §1.6-51) — unbondable *because it has chosen
+rest*, standing at the Sanctuary's gate and never inside, **and not one of the 5,555, so it blocks no slot.** The
+Refuses was a dex-slot mechanic; that is a character.
 
 **⛔ NOTHING IS CONSUMED — ruled 2026-07-29 after a four-lens brainstorm returned 4/4 against the mechanism and
 4/4 for the instinct behind it.** Nike Prime is **not fuelled; he is HELD.** Whole, he is a **posture the realm
