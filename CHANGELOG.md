@@ -112,8 +112,8 @@ covers only the four retired terms; nothing anywhere checked Corrupted vs Retnuh
 why 286 live occurrences went unswept for months, and why **all six** of the day's editable violations were
 the same failure — an amendment applied to one clause while its siblings stood.
 
-**`scripts/check-fallen-taxonomy.py`** now enforces it, wired into the verify gate, `CLAUDE.md` NEVER #8
-(renumbered from #7 on 2026-07-30 when ONE SOUL MANY LIVES took the #7 slot),
+**`scripts/check-fallen-taxonomy.py`** now enforces it, wired into the verify gate, `CLAUDE.md` NEVER #9
+(renumbered twice on 2026-07-30 — #7 went to ONE SOUL MANY LIVES, #8 to the Shiro/SETTLING rule),
 and a new CI job. Six proximity rules, not substring matches — a term only trips when a contradicting
 phrase sits within 160 characters of it, which is what keeps it precise enough to stay armed:
 

@@ -97,7 +97,16 @@ enforceable instead of aspirational.**
    the **form** is counted (Log, Pattern); the **life** is counted by nothing. So: no stacks, no "×3", no
    *spare*/*extra*, per-life names and natures always — and **never explain the topology in-world** (§1.2.1's
    ban binds this too). *A census is not a rescue.*
-8. **Never blur the fallen-side taxonomy.** **Corrupted Nike = REVERSIBLE · Retnuhxed = past REACHING (never
+8. **Never treat SHIRO as a precedent, and never state a count of FRAGMENTS.** Two owner rulings, 2026-07-30.
+   **Shiro** is out-of-world provenance — *"a crypto token that I didn't want to promote in my lore"* — phased
+   out, his function carried by Charles AI. He is **not a Nike, did not evolve, and is never an example of
+   transformation or growth**; Book 1's *"unevolved cat"* is a quadruped pet and must never touch the bipedal
+   law (`CANON.md` §3.1). **THE SETTLING** (§1.2.3): evolution keeps the transformation, each shape gets its
+   own slot, **a fragment may wake into more than one form**, and *"a unique individual and a unique kind"* is
+   **not a bijection** — a form is a SOMEONE, always; whether two forms are the same someone is a question the
+   game never asks. **THE BOND IS THE WITNESS, NEVER THE CAUSE** — the shipped chains include a CORRUPTION ARC,
+   so a causal reading blames the player for a devil. A settling is **neutral**, and it **blooms**.
+9. **Never blur the fallen-side taxonomy.** **Corrupted Nike = REVERSIBLE · Retnuhxed = past REACHING (never
    soul-destroyed — §2.1's warm soul-mote still releases) · Harbinger = a fallen COLLECTOR HUMAN, never a Nike and
    never "corrupted" (`factions/index.json`: *"Not corrupted—converted"*).** `scripts/check-fallen-taxonomy.py`
    enforces it by proximity, and governing documents are excluded for the same reason as the retired-terms lint.
