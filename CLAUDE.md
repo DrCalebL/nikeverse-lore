@@ -106,11 +106,22 @@ enforceable instead of aspirational.**
    **not a bijection** — a form is a SOMEONE, always; whether two forms are the same someone is a question the
    game never asks. **THE BOND IS THE WITNESS, NEVER THE CAUSE** — the shipped chains include a CORRUPTION ARC,
    so a causal reading blames the player for a devil. A settling is **neutral**, and it **blooms**.
-9. **Never blur the fallen-side taxonomy.** **Corrupted Nike = REVERSIBLE · Retnuhxed = past REACHING (never
-   soul-destroyed — §2.1's warm soul-mote still releases) · Harbinger = a fallen COLLECTOR HUMAN, never a Nike and
-   never "corrupted" (`factions/index.json`: *"Not corrupted—converted"*).** `scripts/check-fallen-taxonomy.py`
-   enforces it by proximity, and governing documents are excluded for the same reason as the retired-terms lint.
-   Reserve *"too far gone"* / *"so far gone"* for **Retnuhxed only** — it is now the definitional phrase.
+9. **⛔ NO LEGENDARY'S STORY IS RATIFIED — owner ruling 2026-07-31.** *"All legendary's stories aren't
+   ratified — especially those without a clear link to the real world."* `corruptionTheme`, `corruptionReason`,
+   `gameNarrative`, `quote_game` and every encounter shape in `characters/legendary-nikes/index.json` are
+   **drafts the build may reshape to fit mechanics**, and the audit runs **last**, after the mechanics settle.
+   **Freest: the ones with no real person behind the name.** Ask first on real-person names and on the three
+   with a documented origin (**Melon** → the crypto trader, `CANON.md` §6 · **Nolem** = MELON reversed ·
+   **Retnuhxed** = DEXHUNTER reversed). **Structural load is a separate axis** — re-home a load-bearing line
+   before rewriting whoever carries it. ⚠ **`"Unknown"` IS A REAL ANSWER, NOT A GAP TO FILL:** 4 of 27 are
+   marked Unknown (Professor, Corey Hort, Guthix, Jedi) and the build repo authored Jedi a theme, a Lie and a
+   full non-combat encounter over the top of his, then cited it back as canon. Full ruling and the tiering:
+   `Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md` Q19.
+10. **Never blur the fallen-side taxonomy.** **Corrupted Nike = REVERSIBLE · Retnuhxed = past REACHING (never
+    soul-destroyed — §2.1's warm soul-mote still releases) · Harbinger = a fallen COLLECTOR HUMAN, never a Nike and
+    never "corrupted" (`factions/index.json`: *"Not corrupted—converted"*).** `scripts/check-fallen-taxonomy.py`
+    enforces it by proximity, and governing documents are excluded for the same reason as the retired-terms lint.
+    Reserve *"too far gone"* / *"so far gone"* for **Retnuhxed only** — it is now the definitional phrase.
 
 ## ✅ Verify — all five before calling a change done
 
