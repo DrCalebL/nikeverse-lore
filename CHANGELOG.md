@@ -1,5 +1,43 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: August 1, 2026 — §1.2.1 was missed by the July 30 one-word sweep, and it has been contradicting §1.2 ever since
+
+**The bible has been asserting both sides of the same question for two days.** §1.2 (updated 2026-07-30):
+*"It counts **FORMS** held, **never THREADS held**."* §1.2.1 (untouched, RATIFIED): *"the countable unit has
+**always been the connection**"* — and §1.2.1's own next sentence defines that connection as a **thread**
+(*"What each Collector holds is their own thread"*). Never threads, and always threads.
+
+**The entry directly above is where it happened, and it says so in its own words.** Its item 3 lists the
+one-word fix as *"now made in `CANON.md` §1.2, `GAME_SPEC.md` §7.5, `PATTERN_INTEGRITY.md` and the twin."*
+**§1.2.1 is not in that list, and it is the section whose entire subject is what the countable unit is.** The
+sweep corrected every site that said *souls* and missed the one that said *connections* — the same claim in a
+different word. ⚠ **The lesson generalises past this fix:** a term sweep that greps the *old word* cannot find
+a site that states the *same proposition* in a synonym. §1.2's own item-3 self-criticism — *"declaring a
+rewrite unnecessary is not the same as checking whether a word is still true"* — has a twin: **checking every
+site that uses the word is not the same as checking every site that makes the claim.**
+
+**The resolution — a scoping, not a reversal, and it is the distinction §1.2 had already drawn.**
+- **What the Pattern IS: a living web of connections.** Untouched. It is why a soul reached by many Collectors
+  is not divided — *"distance and number are nothing to the Pattern, because that is what the Pattern is."*
+- **What the meter COUNTS: FORMS held.** Ten Collectors reaching one soul re-anchor **one** of the 5,555,
+  never ten — §1.2.1's own anti-inflation argument, preserved verbatim, which is why this costs nothing.
+- ***"Not creatures"* survives in full.** It was always aimed at duplication-rendered-as-inventory; the False
+  Box guard is unaffected. Struck: only *"the countable unit has always been the connection."*
+- **Forced by §1.2.3.** Under THE SETTLING a fragment may wake into more than one form, so a thread-denominated
+  meter cannot even be *stated* against a 5,555 that counts forms.
+
+**Game-side, ruled the same week and consistent with the above:** a co-operative purification mints **N LIVES**
+— one distinct life per participant (own name, nature, IVs, `wound_key`) — not N threads to one shared soul.
+That is §1.2.2 at a larger N. It strikes the game spec's *"One soul; N bonds"* and its *"the Pattern counts
+connections, not creatures"* **on the accounting axis only**
+(`Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md` Q20). **Three-way match: ① the build spec carries it as
+a §7.4 banner · ② the twin is regenerated from it · ③ this entry and the `CANON.md` §1.2.1 note.**
+
+**Checked and clean, so nobody re-runs it:** the lore carries **no** claim about the Vulnerability Window's
+player count and **no** IV-floor claim, so the same week's *"the Window scales to the players present"* and
+*"the IV floor is a property of the content"* rulings are **game-mechanics applications with no lore surface**
+— they need no lore edit, and their absence here is a verified result rather than an omission.
+
 ## Date: July 30, 2026 (later) — THE SETTLING: evolution keeps the transformation (`CANON.md` §1.2.3)
 
 **Two owner rulings, one session.** *"I want to keep the transformation"* — the creature the player raised

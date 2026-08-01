@@ -138,6 +138,29 @@ once and is **not divided by it**; distance and number are nothing to the Patter
 Pattern *is*. What each Collector holds is their **own thread**, made of what they themselves gave, and no two
 threads are alike.
 
+> ⚠ **PRECISIFIED 2026-08-01 — the sentence above collided with §1.2's own, and §1.2 wins.** §1.2 was updated
+> on 2026-07-30 to read *"It counts **FORMS** held, **never THREADS held**"*, and this section was not swept
+> with it — so the bible has been asserting both *"the countable unit has always been the connection"* and
+> *"never threads"* since that day. **The resolution separates what the Pattern IS from what the METER
+> COUNTS**, which is the distinction §1.2 had already drawn and this section had not:
+> - **What the Pattern IS: a living web of connections.** Untouched, and it is why a soul reached by many is
+>   not divided — *"distance and number are nothing to the Pattern, because that is what the Pattern is."*
+> - **What the meter COUNTS: FORMS held.** Not threads, not creatures, not instances. Ten Collectors reaching
+>   one soul re-anchor **one** of the 5,555, never ten — which is this section's own anti-inflation argument,
+>   preserved exactly, and the reason the correction is a scoping and not a reversal.
+>
+> **"Not creatures" survives in full** — it was always aimed at duplication-rendered-as-inventory, and the
+> False-Box guard below is unaffected. What is struck is only *"the countable unit has always been the
+> connection."* ⚠ **Required by §1.2.3:** under THE SETTLING a fragment may wake into more than one form, so a
+> thread-denominated meter cannot even be stated against a 5,555 that counts forms.
+>
+> **Game-side consequence, ruled the same week:** a co-operative purification mints **N LIVES** — one distinct
+> life per participant, each with its own name, nature, IVs and wound — rather than N threads to one shared
+> soul. That is §1.2.2 at a larger N, and it is why the game spec's *"One soul; N bonds"* and *"the Pattern
+> counts connections, not creatures"* are struck **on the accounting axis only**
+> (`Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md` Q20). **Never explain any of this in-world** — the ban
+> in the next paragraph binds this note too.
+
 **A Nike is never copied and never duplicated.** Multiplicity was never the problem — this cosmology is founded
 on it: one soul is already in 5,555 bodies, and the Shattering's whole miracle is that the First Bond *echoed
 rather than broke*. The problem is duplication rendered as **inventory**, which is silence, which is the False
