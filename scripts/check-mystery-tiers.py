@@ -50,11 +50,19 @@ WHAT THIS CANNOT CATCH — say it out loud; do not let anyone believe otherwise:
   review named in GAME_SPEC 3.16; this catches the careless half so that review can
   spend itself on the subtle half.
 
-CONTENT ROOTS ARE AN ALLOWLIST, NEVER THE WHOLE REPO. Design docs, registers,
-changelogs and this file's own source MUST name the mysteries in order to govern
-them. Scanning governance is how a lint earns a reputation for crying wolf and
-gets switched off. Only player-facing content is scanned, and the register that
-declares the terms (prophecies/mysteries.json) is always exempt from B.
+THIS REPO'S DEFAULT ROOTS ARE AN ALLOWLIST, NEVER THE WHOLE REPO. Design docs,
+registers, changelogs and this file's own source MUST name the mysteries in order
+to govern them, and they sit at this repo's root beside the content. Scanning
+governance is how a lint earns a reputation for crying wolf and gets switched off.
+Only player-facing content is scanned, and the register that declares the terms
+(prophecies/mysteries.json) is always exempt from B.
+
+A ROOT PASSED ON THE COMMAND LINE IS A DIFFERENT PROMISE. It is the caller saying
+"scan this tree", and for the two MMO repos that argument is the repo root — every
+top-level directory of both was measured before this was armed, and an explicit
+per-repo directory list would leave any NEW top-level directory silently unscanned.
+Their governance lines are handled the way governance should be: one visible,
+reasoned canon-allow: on the line, not an invisible directory carve-out.
 
 ESCAPE HATCH:  canon-allow: <reason>   on the offending line. The reason is
 mandatory (>= 6 characters) so a genuine false positive costs one comment and can
@@ -91,7 +99,16 @@ DEFAULT_ROOTS = [
 # the register, they just do not scan it as prose.
 GOVERNANCE_FILES = {os.path.realpath(REGISTER)}
 
-SCAN_EXTS = ("json", "md", "txt")
+# Source extensions are scanned because this check now runs against the two MMO repos, where a
+# player-facing line is as likely to be a TypeScript dialogue string as a JSON row: the prior build
+# ships ~575 lines of narrative in src/sim/content/narrative/*.ts, and the from-scratch build's sim
+# content is TypeScript by construction. A lint that only opens .json and .md cannot see either.
+SCAN_EXTS = ("json", "md", "txt", "ts", "tsx", "js", "mjs")
+
+# Never walk vendored or generated trees. Before this, glob("**/*") descended into a 170 MB
+# node_modules; scanning a dependency for canon findings can only produce findings nobody here
+# can fix.
+SKIP_DIRS = ("/.git/", "/node_modules/", "/dist/", "/build/")
 
 # Tier 3 by OWNER DEFERRAL, not by CANON 4.1 — kept separate so the two
 # provenances never blur. GAME_SPEC.md 3.16: "DEFERRED BY THE OWNER 2026-07-26 and
@@ -170,7 +187,12 @@ HEDGE = re.compile(r"""(?ix)
 # A question is legal. Allow the trailing JSON/markdown punctuation a line carries.
 QUESTION = re.compile(r"""\?["'”]?\s*[,\]\}]*\s*$""")
 
-# Mandatory-reason escape hatch.
+# Mandatory-reason escape hatch. PER LINE ONLY, deliberately: the sibling retired-terms lint also
+# offers a whole-FILE waiver, because whole files there (an owner-frozen build record, an append-only
+# wave log) legitimately name a retired term on every page. Nothing needs that here — the two known
+# findings across both MMO repos are a single line each, and one of them is the generated twin of the
+# other. An escape hatch nobody exercises is worse than none: it rots untested and is then reached for
+# under deadline. Add one when a real file needs it, not before.
 ALLOW = re.compile(r"canon-allow:\s*(\S[^\"']*)", re.I)
 
 # "Never quest-marked": the structural half of the Tier-3 rule. Matched against
@@ -352,22 +374,33 @@ def structural(doc, errs):
 # ---------------------------------------------------------------------- content
 
 def gather(roots):
-    files = []
+    files, missing = [], []
     for root in roots:
         if os.path.isfile(root):
             files.append(root)
         elif os.path.isdir(root):
             files += [p for p in glob.glob(os.path.join(root, "**", "*"), recursive=True)
-                      if os.path.isfile(p) and p.rsplit(".", 1)[-1].lower() in SCAN_EXTS]
+                      if os.path.isfile(p)
+                      and p.rsplit(".", 1)[-1].lower() in SCAN_EXTS
+                      and not any(s in p.replace(os.sep, "/") + "/" for s in SKIP_DIRS)]
         else:
-            print("  note: content root %s does not exist — skipped" % root,
-                  file=sys.stderr)
+            missing.append(root)
+    if missing:
+        # A typo'd root used to print a note to stderr and let the run go green. A gate pointed at
+        # nothing is worse than no gate: the badge keeps saying the canon is checked.
+        raise Fail("content root(s) do not exist: %s" % ", ".join(missing))
     return sorted(set(os.path.abspath(p) for p in files))
 
 
 def show(path):
-    rel = os.path.relpath(path, REPO)
-    return path if rel.startswith("..") else rel
+    """Shortest readable label. REPO first (this repo's own content), then the working directory,
+    which is what makes a finding in a SIBLING repo print as docs/STORYLINE.md rather than as an
+    unreadable /home/runner/work/... absolute path."""
+    for base in (REPO, os.getcwd()):
+        rel = os.path.relpath(path, base)
+        if not rel.startswith(".."):
+            return rel
+    return path
 
 
 def scan(roots, tier3, errs):
@@ -443,11 +476,16 @@ def main(argv):
     try:
         doc = read_json(REGISTER)
         tier3 = structural(doc, errs)
+        stats = scan(roots, tier3, errs) if tier3 else {"files": 0, "lines": 0,
+                                                        "allowed": 0, "subject_hits": 0}
     except Fail as exc:
         print("TIER-3 MYSTERY LAW CANNOT BE CHECKED: %s" % exc)
         return 2
-    stats = scan(roots, tier3, errs) if tier3 else {"files": 0, "lines": 0,
-                                                    "allowed": 0, "subject_hits": 0}
+    if tier3 and stats["files"] == 0:
+        print("TIER-3 MYSTERY LAW CANNOT BE CHECKED: 0 files scanned under %s"
+              % ", ".join(roots))
+        print("  A lint that scans nothing reports green. Fix the roots; never let this pass.")
+        return 2
     if errs:
         print("TIER-3 MYSTERY LAW VIOLATED — CANON.md 4.1 (FROZEN) / GAME_SPEC.md 3.16:")
         for e in errs:

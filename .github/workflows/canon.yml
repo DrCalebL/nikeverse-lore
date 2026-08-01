@@ -349,3 +349,40 @@ jobs:
             exit 1
           fi
           python3 scripts/check-mystery-tiers.py
+
+  lint-pin-freshness:
+    name: scripts/ has not moved past the tag its consumers pin
+    runs-on: ubuntu-latest
+    # scripts/check-canon-terms.sh and scripts/check-mystery-tiers.py are no longer run only here.
+    # Nikeverse-mmo-rpg-from-scratch and nikeverse-mmo-rpg each check this repo out at a PINNED tag
+    # and run both against their own tree, because the repo that INTRODUCES a canon defect is the
+    # repo whose build must go red. The pin is deliberate — floating those builds on this repo's main
+    # would let an edit here break a build there — but a pin fails SILENTLY: tighten a rule in
+    # scripts/ and the two consumers quietly keep running the old one, with green badges.
+    #
+    # This job is the prompt at the moment of drift. Order matters when bumping: land the scripts/
+    # change here, tag THAT commit, then bump CANON_LINT_REF in both consumers — same session, per
+    # CLAUDE.md THE THREE-WAY CANON MATCH. Tagging before the change lands makes this job red instead.
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, fetch-tags: true }
+      - name: the two MMO repos pin a tag; make sure it still means something
+        run: |
+          # This CANNOT verify what the consumer repos actually pin — they are private and this
+          # workflow has no credential for them. It is a prompt, not a proof. Say so rather than
+          # claim more: a job that overstates what it checked is how a gate gets trusted wrongly.
+          TAG="$(git tag -l 'canon-lint-v*' --sort=-v:refname | head -1)"
+          [ -n "$TAG" ] || {
+            echo "No canon-lint-v* tag exists, but the two MMO repos pin one to run these lints."
+            echo "Cut it at the commit that carries the CURRENT scripts/:"
+            echo "    git tag canon-lint-v1 && git push origin canon-lint-v1"
+            echo "then set CANON_LINT_REF: canon-lint-v1 in both consumers' .github/workflows/canon.yml."
+            exit 1; }
+          git diff --quiet "$TAG" HEAD -- scripts/ && { echo "ok: scripts/ matches $TAG"; exit 0; }
+          echo "scripts/ has moved since $TAG:"
+          git diff --stat "$TAG" HEAD -- scripts/
+          echo
+          echo "Nikeverse-mmo-rpg-from-scratch and nikeverse-mmo-rpg pin $TAG and are"
+          echo "therefore NOT running this change. Cut canon-lint-v<next>, then bump"
+          echo "CANON_LINT_REF in BOTH — same session (CLAUDE.md, the three-way rule)."
+          exit 1
