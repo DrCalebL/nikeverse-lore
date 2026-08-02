@@ -1,5 +1,22 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: August 1, 2026 (latest) — the realm meter is the simple RiftMeter bar; the load servo is retired
+
+**Owner ruling (the Q25 follow-up):** *"simple discord style bar."* The build's realm meter is now the shipped
+Discord `RiftMeter` model — a cumulative global bar that fills from play, spawns Blitz/Siege raids at
+33/66/100%, and cycles forever; its Epic-Siege tier carries the corrupted-Legendary raids and Nolem's Shadow.
+**The census (`I = |held|/|known|`), the load servo (`λ`, `X_target`, `ρ`, the 5,554 ceiling) and the Surge
+scheduler are RETIRED** — kept as provenance in `Nikeverse-mmo-rpg-from-scratch/docs/PATTERN_INTEGRITY.md`
+under a supersession banner; `GAME_SPEC.md` §7.5 is rewritten and the twin regenerated.
+
+**Lore impact is small and is a re-scoping, not a reversal.** `singulars/nolem.json` `neverReleasesTheLast`
+— *"he never lets the weave close"* — **still stands as cosmology** (`CANON.md` §1.4/:115: a being of
+connection cannot be banked; Nolem is bound, never killed). What changed is only its *implementation*: the
+weave-never-closing is now delivered by the RiftMeter **cycling forever** (it always spawns the next Siege; it
+never completes), not by the retired servo's `X_target ≥ 1` floor. `neverReleasesTheLastRef` re-scoped
+accordingly. **The DEFEND verb survives** — the RiftMeter *is* the DEFEND layer. **`GAME_DELTAS.md` O7 was
+already moot** (sealing was never a meter event); this confirms it.
+
 ## Date: August 1, 2026 (later) — the 5,555 is ONE thing: the personal Log. The realm meter is a separate raid-spawner.
 
 **Owner ruling, verbatim:** *"5555 shall only be one thing → the personal bond species log in order [to]
