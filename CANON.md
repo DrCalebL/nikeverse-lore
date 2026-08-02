@@ -43,8 +43,9 @@ whole weave holds at once, Nike Prime can be completed and Nolem sealed.
 > condition… the whole weave holds at once"* is struck as a realm mechanic — a **momentary** whole-weave
 > touch may remain as mythic imagery, but it is **not** the win condition and it is **not** what completes
 > Nike Prime. The server-wide realm meter is a **separate** object — a cumulative raid-spawner (the shipped
-> `RiftMeter` model), never the 5,555. Full ruling, the open question, and the blast radius on the
-> load-servo/census/DEFEND apparatus: `Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md` **Q25**.
+> `RiftMeter` model), never the 5,555. ✅ **The realm-meter follow-up is RULED (2026-08-01): REPLACE the
+> load-servo/census/DEFEND apparatus with the simple RiftMeter bar** — full ruling and blast radius:
+> `Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md` **Q25** (and its follow-up).
 
 **THE REFERENT — owner ruling, 2026-07-29.** The 5,555 counts **distinct Nike forms**, not distinct bodies.
 One form per universe: each of the 5,555 is simultaneously a unique individual *and* a unique kind, which is
@@ -86,7 +87,8 @@ Collectors holding the same form still add exactly **one** to the count.
 > Log's 5,555 is the ONLY 5,555.** The realm row of the table above — *"The Pattern… forms held live right
 > now… per realm"* — is a **separate object with a separate number**: a cumulative global raid-spawner on the
 > shipped `RiftMeter` model, never a 5,555-denominated census. The *"complete Log → fill an arbitrary gap in
-> the weave"* mechanism is **provenance pending** the realm-meter follow-up (Q25). What survives verbatim:
+> the weave"* mechanism is **superseded** — the realm-meter follow-up is RULED (Q25): the realm layer is the
+> RiftMeter bar, not a 5,555 census a complete Log fills. What survives verbatim:
 > the Log is per-Collector, cumulative, permanent and **completable**; ten thousand Collectors bonding one
 > form still add exactly one to *that* count. `Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md` **Q25**.
 
