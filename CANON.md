@@ -34,6 +34,18 @@ Pattern be completed by someone who had already let every thread go slack. The s
 condition. Every Nike bonded repairs a thread; every Legendary freed reconnects a major node; and when the
 whole weave holds at once, Nike Prime can be completed and Nolem sealed.
 
+> ⛔ **AMENDED — owner ruling 2026-08-01. THE VICTORY IS THE PERSONAL LOG, NOT A REALM HOLD.** *"5555 shall
+> only be one thing → the personal bond species log in order [to] complete Nike Prime WITH the weaver making
+> the empathy core."* This **settles the contradiction between this paragraph and §1.2's own `:115`**, which
+> already ruled *"**Nike Prime is NEVER permanently completed by a realm event**… the permanent goal is the
+> personal Log."* `:115` wins. **5,555 is now ONE object — the personal, cumulative, completable Bond Log**;
+> completing it completes Nike Prime and the Weaver forms the empathy core. *"The simultaneity is the victory
+> condition… the whole weave holds at once"* is struck as a realm mechanic — a **momentary** whole-weave
+> touch may remain as mythic imagery, but it is **not** the win condition and it is **not** what completes
+> Nike Prime. The server-wide realm meter is a **separate** object — a cumulative raid-spawner (the shipped
+> `RiftMeter` model), never the 5,555. Full ruling, the open question, and the blast radius on the
+> load-servo/census/DEFEND apparatus: `Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md` **Q25**.
+
 **THE REFERENT — owner ruling, 2026-07-29.** The 5,555 counts **distinct Nike forms**, not distinct bodies.
 One form per universe: each of the 5,555 is simultaneously a unique individual *and* a unique kind, which is
 why the species reading and the individuals reading were never actually rivals.
@@ -69,6 +81,14 @@ One number, two verbs. You **collect** all 5,555 so that you can **hold** any of
 a complete Log can fill an arbitrary gap in the weave; one with two hundred forms can only ever fill those
 two hundred. That is what a personal collection contributes to a shared Pattern, and why ten thousand
 Collectors holding the same form still add exactly **one** to the count.
+
+> ⛔ **AMENDED — owner ruling 2026-08-01: this is now TWO NUMBERS, not "one number, two verbs."** **The Bond
+> Log's 5,555 is the ONLY 5,555.** The realm row of the table above — *"The Pattern… forms held live right
+> now… per realm"* — is a **separate object with a separate number**: a cumulative global raid-spawner on the
+> shipped `RiftMeter` model, never a 5,555-denominated census. The *"complete Log → fill an arbitrary gap in
+> the weave"* mechanism is **provenance pending** the realm-meter follow-up (Q25). What survives verbatim:
+> the Log is per-Collector, cumulative, permanent and **completable**; ten thousand Collectors bonding one
+> form still add exactly one to *that* count. `Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md` **Q25**.
 
 **Why the Prime Era's method was insufficient, in-world.** Stoner Nike put 5,548 samples *in vials* — storage.
 He got the ninety-nine hundredths of a person that **can** be stored, and missed the part that can only be

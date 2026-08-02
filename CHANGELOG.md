@@ -1,5 +1,41 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: August 1, 2026 (later) — the 5,555 is ONE thing: the personal Log. The realm meter is a separate raid-spawner.
+
+**Owner ruling, verbatim:** *"5555 shall only be one thing → the personal bond species log in order [to]
+complete Nike Prime WITH the weaver making the empathy core for personal end game. And mmo rpg raids are
+essentially cumulative global bar filling efforts (see discord nikeverse mmo raid mechanics) that essentially
+spawn corrupted legendary raids and nolem's shadow. But i still need to figure out how to combine personal end
+game with mmo end game."*
+
+**It settles a self-contradiction this bible already carried.** `CANON.md:35` said *"the simultaneity **is**
+the victory condition… when the whole weave holds at once, Nike Prime can be completed"* — a **realm** event —
+while `CANON.md:115` already said *"**Nike Prime is NEVER permanently completed by a realm event**… the
+permanent goal is the personal Log."* Sibling clauses, opposite claims, the same class of drift this repo keeps
+finding. **The ruling picks `:115`:** completion is **personal, cumulative, completable** — you complete your
+5,555 Log, and that completes Nike Prime and the Weaver forms the empathy core. `:35`'s *"simultaneity is the
+victory"* is struck as a realm mechanic; a **momentary** whole-weave touch may survive as imagery but is not
+the win condition.
+
+**Two numbers now, not "one number, two verbs."** 5,555 is the Bond Log and nothing else. The server-wide
+realm meter is a **different object** — a cumulative global bar on the shipped Discord `RiftMeter` model
+(verified: `nikeverse-discord-game/systems/raids/RiftMeter.js`, a 10,000-max bar that fills from MMO **and**
+campaign actions, spawns Blitz/Siege raids at 33/66/100%, and **cycles forever**), whose `legendary_siege` tier
+carries the corrupted-Legendary raids and `NOLEMS_SHADOW`. It is not the 5,555 and not a win condition.
+
+**Bannered here, mechanics deferred.** The realm-meter apparatus in the build repo (the census `I =
+|held|/|known|`, the load servo, the 5,554 ceiling, DEFEND-as-servo) is **subject to a follow-up owner ruling
+— keep it or replace it with the RiftMeter model** — and is not rewritten in this pass. The **DEFEND verb
+survives** (it is the endless raid layer); only DEFEND-implemented-as-a-5,555-census is in question. **O7 is
+moot** under this ruling (sealing is no longer a meter event) and will be closed in `GAME_DELTAS.md` with a
+pointer.
+
+**Landed same session, three carriers:** this entry + the `CANON.md` §1.2 banners (③); the ruling record,
+the `GAME_SPEC.md` §7.5 + "two objects" banners, and the amended `CLAUDE.md` line, with the twin regenerated
+(① + ②). Full ruling, the shipped-RiftMeter evidence, the blast radius, and the **still-open owner question**
+(how personal completion and the endless raids combine — *"finish the collecting, never finish the keeping"* is
+the corpus's own shape for it): `Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md` **Q25**.
+
 ## Date: August 1, 2026 — §1.2.1 was missed by the July 30 one-word sweep, and it has been contradicting §1.2 ever since
 
 **The bible has been asserting both sides of the same question for two days.** §1.2 (updated 2026-07-30):
