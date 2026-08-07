@@ -878,7 +878,42 @@ is never the voice that did the striking.
 > elsewhere, and the catch is merely lost. Only a Nike **past saving** (a Retnuhxed) *dies* at zero HP — the same
 > act, releasing its warm soul-mote (§2.1). The game decides knockout-vs-release by whether a soul is still there
 > to save; there is no deliberate kill-verb on an innocent. **Sever is retired as a menu choice** — killing only
-> ever befalls what is already beyond reaching.
+> ever befalls what is already beyond reaching. ⭐ **AMENDED BELOW (owner, 2026-08-07): the FALLEN can kill — the
+> invariant is a Vow the redeemed keep, not a wall the world enforces.**
+>
+> ### ⭐ AMENDED — owner ruling, 2026-08-07. **THE FALLEN CAN KILL — a Vow, not a wall.**
+> The clause above holds **for a Collector who has not fallen** — for them it is world-physics: a downed savable
+> soul is only knocked out, and there is no kill-verb to reach for. **The Fallen path surrenders that restraint.**
+> In the few seconds a knocked-out soul lies downed before its threads take it, a Collector **past the Vow** can
+> **FINISH** it — the deliberate killing of a soul that could have been saved. It is not a menu label and is never
+> named "Sever" (that stays retired, above): a diegetic reach-in, in a closing window, that the unfallen simply do
+> not have. **Mercy is the default and costs nothing** — do nothing and the threads rise: the life slips away
+> (dimmer than a bond's warm ascent), waking elsewhere, its form returning to the wild to be met again as someone
+> new, and **nothing is counted** (only a reach adds to the Pattern, §5.1). The Vow is the surrender of that
+> default; taking the FINISH is the fall in a single act.
+>
+> **What the FINISH does is the SEVER GUARD (above): it frays the thread. The soul is LOST — it cannot be called
+> back** (*"the soul is still in there and cannot be called back,"* `CHANGELOG.md`). This is **burial, not
+> resurrection.** The body does not dissolve into threads — it **remains, and it absorbs light:** a cold, drained,
+> un-blooming wound where a soul-glow should be (corruption absorbs light; the *bloom = life* of the merciful
+> release is exactly what the kill refused). It persists (personal/phased — the valley the fallen made) until the
+> **Redemption Road**, whose climax is **laying them to rest**: grief and penance, **no threads rise, no soul
+> returns.** The fray is permanent, and that permanence is the whole weight of the fall. The one consolation —
+> **shown, never explained** (§1.2.1) — is that the **form** was never destroyed: a new life of each still falls
+> somewhere (§1.2.2), and turning back is **rejoining the reaching**, meeting them again as someone new. You never
+> get **these** ones home.
+>
+> **Anchors are finishable too** (owner, 2026-08-07). The knockout already fired `<anchor>_defeated`, so
+> progression never breaks (the softlock law is untouched); but where an un-finished defeat leaves a Corrupted
+> anchor to *"slip back into the corruption and roam its region still lost"* (§5.2), a FINISH **ends it** — a
+> corpse, not a roam. Per the SEVER GUARD the kill frees the **corruption**, not the soul: the wall Nolem built is
+> loosed with no one in it, and may re-form as a soulless **construct** — a body corruption wears, never a bondable
+> soul (§2.1: constructs die in cold sparks; they have no soul to free). The soul is lost exactly as in any FINISH;
+> only the form returns, later, as a new life.
+>
+> **The PROHIBITION binds all of it** (above): no Collector, NPC, narrator, HUD string or memorial stone may ever
+> frame the FINISH — or the merciful knockout — as a mercy, a release, or *"for its own good."* The only mercy is
+> the default the fallen refused.
 
 ---
 
