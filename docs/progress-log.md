@@ -352,3 +352,23 @@ tells the player their love made a devil. **THE BOND IS THE WITNESS, NEVER THE C
 never immunity* applied to a second axis, and it makes a settling **neutral**. And the corpus supplied its own
 answer twice — `Shat'ael` for the echo, and §2.3's *"has no settled form yet"* for the settling. **When a
 ruling's wording feels wrong, grep the First Tongue and the ratified sections before writing new prose.**
+
+## 2026-08-02 · Corruption is a DEPTH — the §5.3 wild-catch extension
+
+**Owner ruling (Tier 0):** every wild carries some corruption; damaging a wild removes it (a low-HP wild soothes
+faster); and a wild fights back during the encounter (the Nolem-hold resisting the cleanse). Owner chose the
+two-phase shape.
+
+**Lore side is an EXTENSION of §5.3, not a reversal.** §5.3 already says *"what a Collector strikes is the
+numbing"* and already blesses the shipped *"Reduce its HP below 15% to break the corruption."* Added `CANON.md`
+§5.3 **EXTENDED**: the numbing is a **continuum** — a thin ambient film on every wild → the thick engineered
+wall on a Legendary — with **HP as its proxy**; damaging a wild to strip its film and beating a Legendary to its
+crack are **one mechanism on a corruption-depth spectrum**. The film **resists its own removal** (*"connection
+is RESISTANCE"* from the corruption's side), so a wild is hostile before it is reached — **what attacks is the
+corruption, never the soul**, and the hostility ends the instant the reach begins. The bound is unchanged (the
+film is the numbing; the soul beneath the line is §5.1; the moral line is the soothe, not the HP bar).
+
+**No divergence created.** `GAME_DELTAS.md:282` already reconciled the shipped `purificationThreshold` as *not* a
+divergence — cited as precedent, unedited. No retired term, no Tier-3 touch, no fallen-taxonomy change; all five
+lints green. `CHANGELOG` entry added. Three-way in sync (build `GAME_SPEC.md` §4.5.1/§4.6 + twin diffed
+identical; `Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md` Q26 carries the mechanics + owner-owed numbers).

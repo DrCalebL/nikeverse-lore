@@ -834,6 +834,32 @@ that hurting it was for its own good. **Only a woken Nike may say it — about i
 afterwards.** This is §4.2's instinct pointed at the roster instead of the player: the conscience of this story
 is never the voice that did the striking.
 
+> ### ⭐ EXTENDED — owner ruling, 2026-08-02. **EVERY WILD CARRIES A LITTLE OF IT — corruption is a DEPTH, not a switch.**
+> Owner, verbatim: *"a low HP wild should soothe faster… all nikes even wild all carry some corruption on them so
+> damaging them removes corruption,"* and *"wild nikes should attack us back during encounter — the Nolem in them
+> awakens and knows we want to cleanse them."*
+>
+> **The numbing is a CONTINUUM.** At one end, the thin ambient film every wandering soul carries — the ordinary
+> weight of a hurt world. At the other, the thick wall Nolem builds on purpose around a Legendary. **A creature's
+> HP is the proxy for how much sits on it:** a wild met at low HP is nearer its own soul-line, with less numbing
+> between you and it, so it is **reached sooner** — *"soothes faster"* — and one met untouched carries its full
+> film and takes longer. This is **not new machinery.** It is exactly what both games already do — *"Reduce its HP
+> below 15% to break the corruption and enable catching!"* (`:801–803`) — pointed at the wild as well as the
+> Legendary. Damaging a wild to strip its film and beating a Legendary to its crack are **one act on a
+> corruption-depth spectrum**, and this repository already reconciled the shipped `purificationThreshold` as *not*
+> a divergence (`GAME_DELTAS.md:282`). The two are the same mechanism at different depths.
+>
+> **The film RESISTS its own removal — and that resistance is why a wild fights back.** The numbing is not inert.
+> Reaching a soul means first outlasting the hold that fights to keep it, which is **"connection is RESISTANCE"
+> (the box above) seen from the corruption's side** — the same law that lets Nolem *"corrupt Nikes mid-battle, on
+> sight, as a combat action."* So a catchable wild is hostile **before** it is reached: it attacks to keep you off
+> the soul. ⚠ **What attacks is the corruption, never the soul.** The Nike is not your enemy; the stain of Nolem on
+> it is, and it is defending its own grip. The instant the reach begins the hostility ends — the soul is
+> incapacitated, never the attacker, and only its corruption still sloughs (§5.1/§5.3 bind from that instant
+> exactly as before). Nothing here touches the bound: **the film is the numbing (strike it — for its own good, or
+> neutral); the soul beneath the line is the person (§5.1 — *opens only to calm, closes against injury*). The
+> moral line is not the HP bar; it is the soothe.**
+
 ---
 
 ## 6 · Where these came from

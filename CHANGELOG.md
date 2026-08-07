@@ -1,5 +1,29 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: August 2, 2026 — corruption is a DEPTH: every wild carries a little, damaging it removes it, and it fights back
+
+**Owner ruling (Tier 0):** *"a low HP wild should soothe faster… all nikes even wild carry some corruption on
+them so damaging them removes corruption,"* and *"wild nikes should attack us back during encounter — the Nolem
+in them awakens and knows we want to cleanse them."* Owner chose the **two-phase** shape (a wild is a
+scaled-down Vulnerability Window).
+
+**This is an EXTENSION of `CANON.md` §5.3, not a reversal.** §5.3 (RATIFIED 2026-07-28) already says *"what a
+Collector strikes is the numbing"* and already blesses the shipped *"Reduce its HP below 15% to break the
+corruption and enable catching!"* The ruling generalises it: the numbing is a **continuum** — a thin ambient
+film on every wild → the thick engineered wall Nolem builds on a Legendary — and **HP is its proxy**, so a
+low-HP wild is nearer its soul-line and is reached sooner. Damaging a wild to strip its film and beating a
+Legendary to its crack are **one mechanism on a corruption-depth spectrum**. The film also **resists its own
+removal** — which is *"connection is RESISTANCE"* (§5.3's amendment) seen from the corruption's side — so a wild
+is hostile before it is reached; **what attacks is the corruption, never the soul**, and the hostility ends the
+instant the reach begins. Landed as `CANON.md` §5.3 **EXTENDED**.
+
+**No divergence created.** The shipped `purificationThreshold` was already reconciled as *not* a divergence
+(`GAME_DELTAS.md:282`) — it is now cited as the precedent, unedited. No retired term, no Tier-3 touch, no
+fallen-taxonomy change; all five lore lints stay green. **Three-way in sync this session:** build
+`GAME_SPEC.md` §4.5.1 (THE WILD WOUND PHASE) + §4.6 (the Window is the deep end), twin regenerated + diffed
+identical, and `Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md` **Q26** carries the mechanical bound and
+the owner-owed numbers.
+
 ## Date: August 1, 2026 (latest) — the realm meter is the simple RiftMeter bar; the load servo is retired
 
 **Owner ruling (the Q25 follow-up):** *"simple discord style bar."* The build's realm meter is now the shipped
