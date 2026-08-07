@@ -372,3 +372,12 @@ film is the numbing; the soul beneath the line is §5.1; the moral line is the s
 divergence — cited as precedent, unedited. No retired term, no Tier-3 touch, no fallen-taxonomy change; all five
 lints green. `CHANGELOG` entry added. Three-way in sync (build `GAME_SPEC.md` §4.5.1/§4.6 + twin diffed
 identical; `Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md` Q26 carries the mechanics + owner-owed numbers).
+
+## 2026-08-02 (follow-up) · The phase axis is the CORRUPTED title, not rarity
+
+Owner final rule (same session): phase count follows the corruption LEVEL / the "Corrupted" title, never rarity —
+a wild (any rarity, wild Legendary included) is 2-phase; a Corrupted Nike (Nolem's deliberate wall) is 3-phase
+(wound → crack → reach). Campaign Legendaries are 3-phase because they are *corrupted* Legendaries (shipped
+purification gate: `nikeverse-discord-game/systems/battle/BattleHandler.js:204/:1406/:1426`). `CANON.md` §5.3
+EXTENDED reframed (the continuum axis is the corruption level; the shipped citation replaces the generic "both
+games" line). No divergence; five lints green; three-way in sync.

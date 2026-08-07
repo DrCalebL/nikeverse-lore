@@ -1,5 +1,18 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: August 2, 2026 (follow-up) — the axis is the CORRUPTED title, not rarity
+
+**Owner final rule (same session):** *"WILD nikes no matter what rarity have 2 phases. 3 phases should apply to
+all CORRUPTED nikes with that title… wild is just the baseline corruption dusting the entire world has because of
+Nolem,"* and *"the only reason those legendaries have 3 phases is because they are CORRUPTED legendaries — see
+discord game single-player campaign."* The catch's **phase count follows the corruption LEVEL / the Corrupted
+title, never rarity**: a wild (any rarity, wild Legendary included) is 2-phase; a Corrupted Nike (Nolem's
+deliberate wall) is 3-phase (wound → crack → reach = the Vulnerability Window). Campaign Legendaries are 3-phase
+because they are *corrupted* Legendaries. Grounded in the shipped purification gate
+(`nikeverse-discord-game/systems/battle/BattleHandler.js:204/:1406/:1426`). Landed in `CANON.md` §5.3 EXTENDED;
+build `GAME_SPEC.md` §4.5.1/§4.6 + twin regenerated identical; `Nikeverse-mmo-rpg-from-scratch/docs/KNOWN_ISSUES.md`
+Q26 AXIS CLARIFIED. No divergence created; all five lore lints green.
+
 ## Date: August 2, 2026 — corruption is a DEPTH: every wild carries a little, damaging it removes it, and it fights back
 
 **Owner ruling (Tier 0):** *"a low HP wild should soothe faster… all nikes even wild carry some corruption on

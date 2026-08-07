@@ -839,15 +839,28 @@ is never the voice that did the striking.
 > damaging them removes corruption,"* and *"wild nikes should attack us back during encounter — the Nolem in them
 > awakens and knows we want to cleanse them."*
 >
-> **The numbing is a CONTINUUM.** At one end, the thin ambient film every wandering soul carries — the ordinary
-> weight of a hurt world. At the other, the thick wall Nolem builds on purpose around a Legendary. **A creature's
-> HP is the proxy for how much sits on it:** a wild met at low HP is nearer its own soul-line, with less numbing
-> between you and it, so it is **reached sooner** — *"soothes faster"* — and one met untouched carries its full
-> film and takes longer. This is **not new machinery.** It is exactly what both games already do — *"Reduce its HP
-> below 15% to break the corruption and enable catching!"* (`:801–803`) — pointed at the wild as well as the
-> Legendary. Damaging a wild to strip its film and beating a Legendary to its crack are **one act on a
-> corruption-depth spectrum**, and this repository already reconciled the shipped `purificationThreshold` as *not*
-> a divergence (`GAME_DELTAS.md:282`). The two are the same mechanism at different depths.
+> **The numbing is a CONTINUUM, and its axis is the CORRUPTION LEVEL — never rarity.** At one end, **wild**: the
+> thin ambient film every wandering soul carries, the ordinary weight of a hurt world Nolem's presence dusts over
+> everything. At the other, **Corrupted** (the fallen-side title, `§3.1`): the thick wall Nolem builds **on
+> purpose** around a chosen soul — *"a thing he did on purpose, to them, in advance"* (the box above). **A
+> creature's HP is the proxy for how much sits on it:** a wild met at low HP is nearer its own soul-line, with
+> less numbing between you and it, so it is **reached sooner** — *"soothes faster"* — and one met untouched
+> carries its full film and takes longer. This is **not new machinery.** It is exactly what the shipped game
+> already does — *"For corrupted Nikes, catch is disabled until purified… Reduce its HP below 15% to break the
+> corruption… 💜✨ the corruption shatters!"* (`nikeverse-discord-game/systems/battle/BattleHandler.js:204,
+> :1406, :1426`) — now understood as **the deep end of a spectrum whose shallow end is the wild.** Stripping a
+> wild's film and breaking a Corrupted Nike's wall are **one act on a corruption-depth spectrum**, and this
+> repository already reconciled the shipped `purificationThreshold` as *not* a divergence (`GAME_DELTAS.md:282`).
+> The two are the same mechanism at different depths.
+>
+> **⭐ SO THE ENCOUNTER SHAPE FOLLOWS THE TITLE, NOT THE RARITY (owner, 2026-08-02).** A **wild** Nike — *any
+> rarity, including a wild Legendary* — carries only the baseline dusting, so it is a **two-phase** catch (fight
+> the film, then reach; the reach is never gated). A **Corrupted** Nike — Nolem's deliberate wall, the state the
+> single-player campaign's corrupted-Legendary bosses are in — is a **three-phase** catch: fight the wall →
+> **the corruption shatters** (catch disabled until then) → reach. The campaign Legendaries are three-phase
+> **because they are CORRUPTED Legendaries**, not because they are Legendary; a Legendary carrying only the
+> dusting would be two-phase like any wild. Game mechanics: `GAME_SPEC.md` §4.5.1 (wild) / §4.6 (the Corrupted
+> catch — the Vulnerability Window).
 >
 > **The film RESISTS its own removal — and that resistance is why a wild fights back.** The numbing is not inert.
 > Reaching a soul means first outlasting the hold that fights to keep it, which is **"connection is RESISTANCE"
