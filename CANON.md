@@ -913,7 +913,10 @@ is never the voice that did the striking.
 >
 > **The PROHIBITION binds all of it** (above): no Collector, NPC, narrator, HUD string or memorial stone may ever
 > frame the FINISH — or the merciful knockout — as a mercy, a release, or *"for its own good."* The only mercy is
-> the default the fallen refused.
+> the default the fallen refused. **And the conscience does not scold — it goes quiet (THE SILENCE, owner, 2026-08-07):**
+> OG Nike and the Resonance band, the conscience of this story (never the voice that did the striking, above), go
+> **unanswered** as a Collector falls — one notch quieter with each FINISH, the warm reply thinning, never a rebuke —
+> and they are the **first warmth to return** on the Redemption Road.
 
 ---
 
