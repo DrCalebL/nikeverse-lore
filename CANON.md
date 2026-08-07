@@ -865,13 +865,18 @@ is never the voice that did the striking.
 > **The film RESISTS its own removal — and that resistance is why a wild fights back.** The numbing is not inert.
 > Reaching a soul means first outlasting the hold that fights to keep it, which is **"connection is RESISTANCE"
 > (the box above) seen from the corruption's side** — the same law that lets Nolem *"corrupt Nikes mid-battle, on
-> sight, as a combat action."* So a catchable wild is hostile **before** it is reached: it attacks to keep you off
-> the soul. ⚠ **What attacks is the corruption, never the soul.** The Nike is not your enemy; the stain of Nolem on
-> it is, and it is defending its own grip. The instant the reach begins the hostility ends — the soul is
-> incapacitated, never the attacker, and only its corruption still sloughs (§5.1/§5.3 bind from that instant
-> exactly as before). Nothing here touches the bound: **the film is the numbing (strike it — for its own good, or
-> neutral); the soul beneath the line is the person (§5.1 — *opens only to calm, closes against injury*). The
-> moral line is not the HP bar; it is the soothe.**
+> sight, as a combat action."* So a catchable Nike **fights with its own moveset the whole time** it is being
+> reached — ⭐ **the corruption keeps fighting at full force; soothing does not pacify it** (owner, 2026-08-02:
+> *"it should fight normally throughout — no more reaching affecting damage/power"*). ⚠ **What attacks is the
+> corruption, never the soul.** The Nike is not your enemy; the stain of Nolem on it is, and it is defending its
+> own grip — and it defends to the end. What stops the fight is **the catch itself**, not the reach beginning:
+> the soul is never the aggressor, and completing the catch is what releases the stain. Nothing here touches the
+> bound: **the film is the numbing (strike it — for its own good, or neutral); the soul beneath the line is the
+> person (§5.1 — *opens only to calm, closes against injury*). The moral line is not the HP bar; it is the
+> soothe.** ⭐ **You may wear the corruption down to make the catch easier — like the games this grew from
+> (`nikeverse-discord-game/systems/battle/BattleHandler.js:1406`, *"reduce its HP to break the corruption"*) —
+> but the person beneath the soul-line is never damaged, only soothed.** Weaken the corruption to open the
+> catch; soothe the soul to seal it.
 
 ---
 
