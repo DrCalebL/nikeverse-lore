@@ -843,7 +843,7 @@ is never the voice that did the striking.
 > thin ambient film every wandering soul carries, the ordinary weight of a hurt world Nolem's presence dusts over
 > everything. At the other, **Corrupted** (the fallen-side title, `§3.1`): the thick wall Nolem builds **on
 > purpose** around a chosen soul — *"a thing he did on purpose, to them, in advance"* (the box above). **A
-> creature's HP is the proxy for how much sits on it:** a wild met at low HP is nearer its own soul-line, with
+> creature's HP is the proxy for how much sits on it:** a wild met at low HP is nearer the soul beneath, with
 > less numbing between you and it, so it is **reached sooner** — *"soothes faster"* — and one met untouched
 > carries its full film and takes longer. This is **not new machinery.** It is exactly what the shipped game
 > already does — *"For corrupted Nikes, catch is disabled until purified… Reduce its HP below 15% to break the
