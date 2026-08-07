@@ -870,13 +870,16 @@ is never the voice that did the striking.
 > *"it should fight normally throughout — no more reaching affecting damage/power"*). ⚠ **What attacks is the
 > corruption, never the soul.** The Nike is not your enemy; the stain of Nolem on it is, and it is defending its
 > own grip — and it defends to the end. What stops the fight is **the catch itself**, not the reach beginning:
-> the soul is never the aggressor, and completing the catch is what releases the stain. Nothing here touches the
-> bound: **the film is the numbing (strike it — for its own good, or neutral); the soul beneath the line is the
-> person (§5.1 — *opens only to calm, closes against injury*). The moral line is not the HP bar; it is the
-> soothe.** ⭐ **You may wear the corruption down to make the catch easier — like the games this grew from
-> (`nikeverse-discord-game/systems/battle/BattleHandler.js:1406`, *"reduce its HP to break the corruption"*) —
-> but the person beneath the soul-line is never damaged, only soothed.** Weaken the corruption to open the
-> catch; soothe the soul to seal it.
+> the soul is never the aggressor, and completing the catch is what releases the stain. ⭐ **The corruption and
+> the creature share ONE HP bar** (owner, 2026-08-02) — you may wear it down to make the catch easier (like the
+> games this grew from, `nikeverse-discord-game/systems/battle/BattleHandler.js:1406`, *"reduce its HP to break
+> the corruption"*), but **the catch is the soothe, never the beating** — the moral line is not the HP bar, it is
+> the soothe (§5.1, *opens only to calm, closes against injury*). ⭐ **And you can never KILL a soul you could
+> have saved:** drive a savable Nike's HP to zero and it is only **knocked out** — non-lethal; it wakes
+> elsewhere, and the catch is merely lost. Only a Nike **past saving** (a Retnuhxed) *dies* at zero HP — the same
+> act, releasing its warm soul-mote (§2.1). The game decides knockout-vs-release by whether a soul is still there
+> to save; there is no deliberate kill-verb on an innocent. **Sever is retired as a menu choice** — killing only
+> ever befalls what is already beyond reaching.
 
 ---
 
