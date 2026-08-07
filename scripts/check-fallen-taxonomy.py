@@ -37,7 +37,12 @@ import os
 import re
 import sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Target root: default = this lore repo (self-check). An optional argv[1] points the SAME
+# taxonomy guard at another repo (a game repo A/B) so it can be armed in that repo's CI,
+# exactly as check-canon-terms.sh and check-mystery-tiers.py already accept a target root.
+_LORE_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else _LORE_ROOT
+LORE_SELF = (ROOT == _LORE_ROOT)
 PROXIMITY = 160  # chars either side of the term
 
 # Files that discuss the rule itself, or record its history, and must be free to name violations.
@@ -45,13 +50,26 @@ EXCLUDED = {
     "CANON.md", "CHANGELOG.md", "GAME_DELTAS.md", "CANON_MAP.md",
     "MASTER_LORE_PROPOSAL_FINAL.md", "THE_5555.md", "CONTRIBUTING.md", "CLAUDE.md",
     "RECONCILIATION.md", "claims.json", "script.md", "README.md",
+    # Append-only meta / history that names violations in order to record them — present in
+    # the game repos too; the same governing carve-out as the retired-terms lint.
+    "KNOWN_ISSUES.md", "progress-log.md", "wave-log.md", "TESANA_BUILD_LOG.md",
 }
-EXCLUDED_DIRS = {".git", "node_modules", "docs", "scripts", "schemas"}
+# In the LORE repo, docs/ is meta (progress-log, KNOWN_ISSUES) and is excluded wholesale.
+# In a GAME repo the canon prose LIVES in docs/, so it must be scanned there; its meta files
+# are excluded by name via EXCLUDED above instead.
+EXCLUDED_DIRS = {".git", "node_modules", "scripts", "schemas"}
+if LORE_SELF:
+    EXCLUDED_DIRS = EXCLUDED_DIRS | {"docs"}
 
 # An occurrence is exempt if the surrounding window says it is being corrected or recorded.
 EXEMPT_MARKERS = re.compile(
     r"STRUCK|AMENDED|CORRECTED|RE-CONFIRMED|SUPERSEDED|GRANDFATHERED|formerly|Formerly|"
     r"never write|NEVER write|do not|Do NOT|reworded|struck|deliberately|"
+    # In-band governing markers. `fallen-allow` is this lint's own marker; `canon-allow` is
+    # the retired-terms lint's marker, honored here too because a line already waived as a
+    # governing use of a retired term is, by construction, a governing line that may name a
+    # forbidden pairing to forbid it. Reason text after the marker is free-form.
+    r"fallen-allow|canon-allow|"
     # Definitional / boundary passages: text that states what a Retnuhxed IS, in order to rule
     # what something ELSE is not, must be free to state it. entities/dimension-eater.json's
     # `notARetnuhxed` block is the model case — it defines the term precisely so the Eater
@@ -125,7 +143,13 @@ def main():
                 lo = max(0, m.start() - PROXIMITY)
                 hi = min(len(text), m.end() + PROXIMITY)
                 window = text[lo:hi]
-                if EXEMPT_MARKERS.search(window):
+                # Exempt if a marker sits in the proximity window OR anywhere on the flagged
+                # LINE — so a per-line governing marker works even when the line is longer
+                # than the proximity window (common for the game repos' dense spec lines).
+                line_start = text.rfind("\n", 0, m.start()) + 1
+                line_end = text.find("\n", m.end())
+                full_line = text[line_start:(line_end if line_end != -1 else len(text))]
+                if EXEMPT_MARKERS.search(window) or EXEMPT_MARKERS.search(full_line):
                     continue
                 hit = re.search(contra_re, window)
                 if not hit:
@@ -149,6 +173,13 @@ def main():
         print("Harbingers are FALLEN humans, never 'corrupted', and never Nikes.")
         print("If a line names a violation in order to FORBID it, add a marker "
               "(STRUCK / AMENDED / CORRECTED / never write) or add the file to EXCLUDED.\n")
+        return 1
+
+    # Zero-scan assertion: a lint that scans nothing reports green and hides everything.
+    # Guards against a wrong root or an over-broad exclusion silently disarming the check.
+    if scanned == 0:
+        print(f"❌ ZERO FILES SCANNED under {ROOT} — refusing to report green. "
+              f"Check the target root and EXCLUDED_DIRS (a lint that scans nothing hides everything).")
         return 1
 
     print(f"ok: fallen-side taxonomy clean — {scanned} files scanned, "
