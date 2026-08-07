@@ -893,7 +893,7 @@ is never the voice that did the striking.
 > default; taking the FINISH is the fall in a single act.
 >
 > **What the FINISH does is the SEVER GUARD (above): it frays the thread. The soul is LOST — it cannot be called
-> back** (*"the soul is still in there and cannot be called back,"* `CHANGELOG.md`). This is **burial, not
+> back** (`CHANGELOG.md`: canon says a soul *"cannot be called back, so death is the only door left"*; a soul killed un-reached is lost the same — its thread frayed, nothing added to the Pattern, §5.1's third end). This is **burial, not
 > resurrection.** The body does not dissolve into threads — it **remains, and it absorbs light:** a cold, drained,
 > un-blooming wound where a soul-glow should be (corruption absorbs light; the *bloom = life* of the merciful
 > release is exactly what the kill refused). It persists (personal/phased — the valley the fallen made) until the
@@ -905,7 +905,7 @@ is never the voice that did the striking.
 >
 > **Anchors are finishable too** (owner, 2026-08-07). The knockout already fired `<anchor>_defeated`, so
 > progression never breaks (the softlock law is untouched); but where an un-finished defeat leaves a Corrupted
-> anchor to *"slip back into the corruption and roam its region still lost"* (§5.2), a FINISH **ends it** — a
+> anchor to slip back into the corruption and roam its region still lost (§5.2), a FINISH **ends it** — a
 > corpse, not a roam. Per the SEVER GUARD the kill frees the **corruption**, not the soul: the wall Nolem built is
 > loosed with no one in it, and may re-form as a soulless **construct** — a body corruption wears, never a bondable
 > soul (§2.1: constructs die in cold sparks; they have no soul to free). The soul is lost exactly as in any FINISH;
