@@ -826,8 +826,7 @@ woken soul does not un-wake it gently; it puts it back under.
 **THE SEVER GUARD — a named law. Killing does not free the soul. It frees the corruption.** `Keth'nor` is *of
 Nolem*, and a body that stops holding it simply lets it go home. What was in the body is **the soul**, and the
 soul is what you lose. This is §5.1's third end (`:261`) stated from the other side: forced down without ever
-being reached, the thread is left frayed and nothing is added to the Pattern. It stays a road a Collector may
-walk and it is **not a failure** — but no voice may ever describe it as a release.
+being reached, the thread is left frayed and nothing is added to the Pattern. It is what befalls a soul **forced down instead of reached** — a road the fallen walk, and it is **not a failure state** — and it governs the death case alone; a savable soul forced to zero HP is knocked out, its thread intact, the catch merely lost (§5.3 EXTENDED) — but no voice may ever describe it as a release.
 
 **THE PROHIBITION.** No Collector, NPC, narrator, HUD string, tooltip or item description may ever tell a Nike
 that hurting it was for its own good. **Only a woken Nike may say it — about itself, unprompted, and
