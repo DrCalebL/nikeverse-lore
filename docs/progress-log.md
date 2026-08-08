@@ -381,3 +381,26 @@ a wild (any rarity, wild Legendary included) is 2-phase; a Corrupted Nike (Nolem
 purification gate: `nikeverse-discord-game/systems/battle/BattleHandler.js:204/:1406/:1426`). `CANON.md` §5.3
 EXTENDED reframed (the continuum axis is the corruption level; the shipped citation replaces the generic "both
 games" line). No divergence; five lints green; three-way in sync.
+
+## 2026-08-07 · The fallen-path model — conversion, the Harbinger's roster, the two records (owner ruling)
+
+Owner-ratified 2026-08-07 (3-mind brainstorm). CANON §3.1/§5.3 now carry the canon-bearing claims of the
+fallen-path model, three-way with GAME_SPEC §5.8 and the Tesana twin (mmo-rpg repo):
+
+- §3.1 — CONVERSION IS THREE LAYERS: a mood (the drift/band, fluid) ≠ a threshold (the Vow / reversed Vow) ≠ a
+  scar (a FINISHED life, permanent). The identity flip needs BOTH deep-Hollow drift AND the deliberate Vow — the
+  band never auto-fires the fall ("voluntary… made out of unbearable pain" read strictly). The friction on return
+  is a scar, not a wall; Slate is the standing proof the door swings both ways.
+- §5.3 — THE FALLEN'S ROSTER: a Harbinger fights with already-corrupted souls that fell on their own, NEVER with
+  corruption it installed on its own warm Nikes ("accepted, never installed" holds). The seized soul stays
+  UNREACHED = savable; release → roams free (§5.2) → woken the warm way; never degrades toward Retnuhxed
+  (past-saving is a nature, not a pushable stage — §3.1).
+- §5.3 — THE TWO RECORDS: forms saved (the Bond Log) and lives taken are orthogonal, both only grow, never
+  netted. A FINISH kills a life not a form, so falling never touches the Bond Log; a Harbinger can still bond;
+  redeeming never un-counts a taken life (burial, not resurrection); re-reaching a finished form is a true new
+  reach, not the one you killed.
+
+Also landed with this batch: THE SILENCE (§5.3, the conscience goes unanswered under the fall — already on
+CANON). A read-only canon-fidelity review found NO contradiction with any FROZEN/RATIFIED rule (SEVER GUARD,
+taxonomy, "accepted never installed", Scale Law 1 all held); its SHOULD-FIX/NIT findings were all on the build
+side (GAME_SPEC/FALLEN_PATH), not CANON. Five lints green; three-way in sync. Merge-to-main held for owner go.
