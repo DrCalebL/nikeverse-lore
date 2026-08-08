@@ -549,6 +549,20 @@ he appears. He does **not exist yet** — the concept is the owner's (2026-07-26
 Their fall was voluntary in most cases though the choice was usually made out of unbearable pain.
 Redemption is possible; Slate proved it in the Grand Arena.
 
+> **⭐ CONVERSION IS THREE LAYERS — owner ruling, 2026-08-07. Keep them apart.** A **mood** (the pain), a **threshold**
+> (the choice), and a **scar** (what was done) are three different things, and collapsing any two of them is the error:
+> - **The drift** — where play has left a Collector on the radiant↔hollow axis — is a *mood*, free and fluid, sliding
+>   both ways every session. **It is not the fall.**
+> - **The identity flip** — Collector ⟷ Harbinger — is crossed only by a **deliberate act**: the **Vow** to fall, or
+>   the reversed Vow (the Redemption Road) to return. **The flip needs BOTH deep-Hollow drift AND the Vow** — deep pain
+>   is *necessary but not sufficient*, and the band **never auto-fires** the fall. This is exactly *"voluntary… made out
+>   of unbearable pain"* read strictly: **the band is the pain, the ritual is the volition** — a soul must *choose* the
+>   numbing, never be slid into it (§5.3: accepted, never installed).
+> - **The scar** — a life **FINISHED** (§5.3) — is the one **permanent** layer: it never un-happens, and it is what
+>   makes the return cost real. A *clean* fall (Vowed, but no life taken) reverses scar-free; a *bloody* one leaves a
+>   permanence the Road can tend but never undo. **The friction on coming back is a scar, not a wall** — never a lock,
+>   never a one-way door.
+
 A fallen **Nike** is a **Corrupted Nike**, and a Corrupted Nike who has gone past saving is a **Retnuhxed** — a
 separate kind of being altogether. Never call a Nike a Harbinger.
 
@@ -917,6 +931,31 @@ is never the voice that did the striking.
 > OG Nike and the Resonance band, the conscience of this story (never the voice that did the striking, above), go
 > **unanswered** as a Collector falls — one notch quieter with each FINISH, the warm reply thinning, never a rebuke —
 > and they are the **first warmth to return** on the Redemption Road.
+
+> ### ⭐ THE FALLEN'S ROSTER, and THE TWO RECORDS — owner ruling, 2026-08-07.
+> **THE FALLEN'S ROSTER — a Harbinger fights with ALREADY-CORRUPTED souls, never with corruption it installed.** A
+> Harbinger does not pilot warm Nikes, because warm Nikes will not fight for a Harbinger. The corrupted team it fields
+> comes **only from souls that fell on their own** — corrupted kin who *accepted* Nolem's numbing, or Nikes the fallen
+> **declined to wake and left under**. It **never** comes from a Collector corrupting its own warm Nikes: doing so
+> would **INSTALL** the numbing, and the numbing is **accepted, never installed** (the surviving clause above) — the one
+> thing absolutely forbidden. The seized soul is held on the **taut Leash** (the inversion of the bond, which is never
+> a leash — §2.3), and it stays **walled, asleep, and UNREACHED** — which is exactly why it stays **savable**: an
+> unreached soul is never past reaching (§3.1). Release is the recovery: the Corrupted Nike **roams free** (§5.2) and
+> can then be **woken the warm way** (soothe → wake → Bond/Free). It **never degrades toward Retnuhxed** — past-saving
+> is a *nature*, not a stage a Collector can push a soul into (§3.1). A Harbinger IS a Collector, drifted and Vowed
+> (§3.1), so falling and returning is repeatable, and Slate is the standing proof the door swings both ways.
+>
+> **THE TWO RECORDS — forms saved and lives taken are orthogonal, and never netted.** A Collector keeps two tallies
+> that count **different objects** and both only ever **grow**: the **forms saved** (the Bond Log — one of the 5,555 per
+> reach; §1.2, §1.2.2) and the **lives taken** (a memorial of every soul FINISHED; the fallen's dark mirror of the Log).
+> There is **no running moral balance** — a FINISH kills a *life*, never a *form* (the SEVER GUARD, above), so it
+> **subtracts nothing** from the 5,555, and **falling never touches the Bond Log.** A Harbinger **can still bond** —
+> reaching is ungated by the fall, and the Redemption Road *is* reaching. Redeeming **never un-counts** a taken life
+> (burial is not resurrection, above): the Road tends the memorial, it does not empty it. And **re-reaching the FORM of
+> a soul you finished is a true reach that ticks the Log** — it is that form living a **new life**, met as someone new
+> (§1.2.2), and it is *not* the one you killed. You never get those ones home. **Never render either record as a score
+> the other cancels; never let a taken life devalue a saved form** (Scale Law: the personal Log is the permanent goal
+> and nothing may devalue it).
 
 ---
 
