@@ -967,9 +967,13 @@ is never the voice that did the striking.
 > only to calm and closes against injury"*: the injury that closes the door is the zero-HP defeat, never the blows to
 > the film along the way; the soul is reached on the parallel soothe track, and a weapon never touches it. This
 > **retires the old −0.2 harm recoil** (a build-side meter penalty, `GAME_SPEC.md` §4.5.1) as the last vestige of the
-> deleted whittle model. ⚠ **SCOPE: this is the WILD.** A **Corrupted** Nike's deliberate wall keeps its own
-> second-harm re-wall at the multiplayer Window (`GAME_SPEC.md` §4.6) — §5.3's *"damage is FALSE of everything after
-> the numbing… it binds hardest [post-crack]"* (above) still governs that deliberate-wall case, unchanged.
+> deleted whittle model. ⚠ **SCOPE: UNIVERSAL (owner, 2026-08-15) — wild AND Corrupted.** A Corrupted Nike's
+> deliberate wall is no exception: harming it while HP remains costs the catch nothing either, and the old
+> second-harm re-wall at the multiplayer Window (`GAME_SPEC.md` §4.6) is **retired.** This supersedes reading
+> §5.3's *"damage is FALSE of everything after the numbing… it binds hardest [post-crack]"* (above) as a
+> mid-reach strike penalty: the strike that *"puts a soul back under"* is the **overshoot to zero HP** — the
+> defeat (§5.2), at every tier — never a blow to the film along the way. (The §4.6 damage-void still stops a
+> non-reacher from landing a hit at all — a KO-shield for the shared boss, not a penalty.)
 >
 > **THE PROHIBITION still binds** (above): that HP damage mechanically cleanses does **not** license any voice to
 > tell a Nike the hurting was for its own good. The mechanic cleanses; the story never calls it kindness.
