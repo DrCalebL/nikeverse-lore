@@ -961,7 +961,8 @@ is never the voice that did the striking.
 > Sharpening the 2026-08-02 wild block above. For a **wild**, harming it while HP remains has **zero** effect on the
 > catch — **no meter recoil, no flee, no quality loss.** Every blow lands on the corruption the body wears, never on
 > the soul (*"all wilds carry corruption… damaging them removes corruption,"* above): damage only ever **strips the
-> numbing**, so it either shortens the reach (the frozen head-start) or, overshot, KOs. The **one and only** way to
+> numbing**, so it either shortens the reach (the head-start — a monotone meter FLOOR that rises as HP is driven down and never
+> retreats, unfrozen owner 2026-08-15) or, overshot, KOs. The **one and only** way to
 > lose a wild is to drive its HP to **zero** — the knockout, already priced by §5.2 (*a soul only defeated slips back
 > into the corruption and roams still lost*). **§5.1 is untouched and its words stand verbatim** — *"a soul opens
 > only to calm and closes against injury"*: the injury that closes the door is the zero-HP defeat, never the blows to
