@@ -404,3 +404,11 @@ Also landed with this batch: THE SILENCE (§5.3, the conscience goes unanswered 
 CANON). A read-only canon-fidelity review found NO contradiction with any FROZEN/RATIFIED rule (SEVER GUARD,
 taxonomy, "accepted never installed", Scale Law 1 all held); its SHOULD-FIX/NIT findings were all on the build
 side (GAME_SPEC/FALLEN_PATH), not CANON. Five lints green; three-way in sync. Merge-to-main held for owner go.
+
+## 2026-08-15 · The head-start unfreeze — CANON assertion updated (three-way match)
+Owner unfroze the wild-tier catch head-start (a build-side mechanic): it was snapshotted at first soothe,
+it is now a MONOTONE meter FLOOR that rises as HP is driven down and never retreats (heal- and
+abandonment-proof, linear to zero HP, capped < 0.6, wild-tier only). CANON.md:964 (the §5.3 wild-harm
+amendment) updated from "the frozen head-start" → "a monotone meter FLOOR … unfrozen owner 2026-08-15."
+Assertion-checked against the build's GAME_SPEC §4.5.1; all five lints green. Landed same-session with the
+build (GAME_SPEC + CATCH_PHASE_SPEC + CIRCLE_DESIGN) and the regenerated TESANA twin.
