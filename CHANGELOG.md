@@ -1,5 +1,28 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: August 16, 2026 — the Stoner×Earth crossover door: the miss is a CLASS, and the robot is out
+
+**Owner rulings (Tier 0), on the two blocking questions in the crossover bible
+(`comic-maker/docs/STONER-NIKE-CROSSOVER.md`, §6 Q1 & Q2):**
+
+- **Q1 — "The miss is a CLASS, not a place."** A misaligned BETTY send (Book 1 `script.md:261–265`) is a
+  **failure MODE with more than one destination**, not a single fixed address. Earth is **one** of the
+  places a miss can land. This is a fact about the *mechanism* only; it says **nothing** about what lies
+  between dimensions. **Mystery #2 — "What lies in the Void Between" — stays FROZEN and untouched**
+  (`CANON.md` §4.1 #2; `prophecies/mysteries.json` `void-between`; `GAME_SPEC.md` §3.16). A body reaching
+  Earth via a miss does **not** identify, answer, or equate to the Void Between, and the crossover
+  document may never write that phrase near the crossing. **No edit to `GAME_SPEC.md`/the tesana twin is
+  required or made** — the mystery text there is unchanged, which is what this ruling protects.
+- **Q2 — the BETTY robot is OUT.** Book 1's robot was **aimed** (`:249–250`, `:257`) and then lost, so
+  "robot stranded on Earth" was never text-supported. The recurring Earth-side threat is **the mice**
+  (`:263–265`), whom Book 1 unambiguously places in the misalignment realm. A future mechanical antagonist
+  must be a **different, unseen** misaligned send, never the aimed one Hennifer describes.
+
+**Scope:** a comic/crossover ruling (Book 2+), not an MMO mechanic — so it lands in the crossover bible
+(resolved: §6 Q1/Q2 marked RULED; §1.2 carries the one added sentence) and here. It creates **no
+divergence** and changes **no** shipped-game claim. The five lore lints stay green (no retired term, no
+mystery-tier entry altered, no fallen-taxonomy proximity, JSON intact).
+
 ## Date: August 2, 2026 (follow-up) — the axis is the CORRUPTED title, not rarity
 
 **Owner final rule (same session):** *"WILD nikes no matter what rarity have 2 phases. 3 phases should apply to
