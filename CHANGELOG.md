@@ -23,9 +23,12 @@ considered and REJECTED** — it would weld Earth's present onto the main clock 
 pig contemporaneous with the shipped Discord game), narrow the Void Between into an explained time-corridor,
 and load continuity debt across the series.
 
-**Bounds — nothing on the main clock moves:** the 3,000-year Silence, Nike Prime's ~3,000-year vigil in the
-trap (a pocket *within* the main reality), and the Echo-Era present all stand; the eight dimensions still
-share the one main clock, only whole *realities* run independent ones. **Scope:** a comic/crossover ruling,
+**Bounds — nothing on the main clock moves:** the 3,000-year Silence and the Echo-Era present all stand, and
+OG Nike's eternal vigil at Void Terminus is on it; the eight named dimensions share ONE time axis (they
+developed in ISOLATION — `ages.json` — yet every Legendary fall is dated in the same `yearsAfterPrimeEra`),
+only whole *realities* run independent ones. (⚠ Nike Prime is **not** cited — his whereabouts are canon-OPEN
+since the Prime Era per `prime-era.json` nikePrime, CORRECTED 2026-07-29.) **Scope:** a comic/crossover
+ruling,
 landed in `CANON.md` §1.2 + here + the crossover bible (§6 Q-TIME); **no `GAME_SPEC.md`/tesana edit** (no
 shipped-game claim changes — the ①↔② byte-diff is untouched). Five lore lints green.
 
@@ -43,8 +46,10 @@ shipped-game claim changes — the ①↔② byte-diff is untouched). Five lore 
   document may never write that phrase near the crossing. **No edit to `GAME_SPEC.md`/the tesana twin is
   required or made** — the mystery text there is unchanged, which is what this ruling protects.
 - **Q2 — the BETTY robot is OUT.** Book 1's robot was **aimed** (`:249–250`, `:257`) and then lost, so
-  "robot stranded on Earth" was never text-supported. The recurring Earth-side threat is **the mice**
-  (`:263–265`), whom Book 1 unambiguously places in the misalignment realm. A future mechanical antagonist
+  "robot stranded on Earth" was never text-supported. The recurring threat is instead **the mice**
+  (`:263–265`) — Book 1's on-page example of what a misaligned send does to whatever it strands. Under Q1
+  the miss is a CLASS, so such a send can surface on **Earth** with **no** claim about the frozen
+  misalignment realm the mice illustrate (Earth is never equated with it). A future mechanical antagonist
   must be a **different, unseen** misaligned send, never the aimed one Hennifer describes.
 
 **Scope:** a comic/crossover ruling (Book 2+), not an MMO mechanic — so it lands in the crossover bible
