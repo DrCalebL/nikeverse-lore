@@ -1,5 +1,34 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: August 16, 2026 (cont.) — cross-reality TIME: realities keep independent clocks (not time travel)
+
+**Owner ruling (Tier 0).** The owner asked how a **Prime-Era** pig (Stoner Nike) can cross to **Earth's
+present** — *"by right stoner should never crossover… because it's a different time period. So how did we
+resolve that? Time travel?"* Ruled, after a 4-designer + 3-adversarial-check vet, on the recommended shape:
+
+**"LATERAL, NOT LONGITUDINAL" — realities keep INDEPENDENT clocks; it is NOT time travel.** The ~3,000-year
+Long Silence is the **internal calendar of the Nikeverse main line** (Prime → Echo), never a universal
+clock; **Earth is a separate reality on no point of it** (`CANON.md` §1.2: *"realities are not eight"*). So
+crossing realities is a **change of world, not a distance in years** — *"3,000 years apart"* is a category
+error. A missed BETTY send fixes no *when* any more than a *where* (Q1 extended one axis), so Stoner Nike
+does not travel forward: he steps off the main clock and surfaces in **Earth's own present.** Delivered
+under a **hard authoring guardrail — the crossing is NEVER dated on the page** (no "3,000 years later"
+caption), dissolving the question the way §1.2.1 dissolves one-soul-many-lives, rather than answering it.
+
+**Mystery guard (confirmed by the vet):** answers **no** frozen Tier-3 mystery. The Void Between (#2, the
+one Q1 protects) stays dark — the miss is treated as *failure-of-lock*, never a narrated passage through
+the misalignment realm, and Earth is never equated with the Void. Cthulhu is cited for his *perception*
+(*"across all realities simultaneously"*, settled canon), never his motive (#5). **Genuine time travel was
+considered and REJECTED** — it would weld Earth's present onto the main clock (Charles Hoskinson's real pet
+pig contemporaneous with the shipped Discord game), narrow the Void Between into an explained time-corridor,
+and load continuity debt across the series.
+
+**Bounds — nothing on the main clock moves:** the 3,000-year Silence, Nike Prime's ~3,000-year vigil in the
+trap (a pocket *within* the main reality), and the Echo-Era present all stand; the eight dimensions still
+share the one main clock, only whole *realities* run independent ones. **Scope:** a comic/crossover ruling,
+landed in `CANON.md` §1.2 + here + the crossover bible (§6 Q-TIME); **no `GAME_SPEC.md`/tesana edit** (no
+shipped-game claim changes — the ①↔② byte-diff is untouched). Five lore lints green.
+
 ## Date: August 16, 2026 — the Stoner×Earth crossover door: the miss is a CLASS, and the robot is out
 
 **Owner rulings (Tier 0), on the two blocking questions in the crossover bible

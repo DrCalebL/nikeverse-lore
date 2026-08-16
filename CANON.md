@@ -61,6 +61,20 @@ why the species reading and the individuals reading were never actually rivals.
 > (`:405`). **The eight dimensions are the reachable, named worlds; realities are not eight.** Nothing in
 > §1.3 moves — eight is still the count of dimensions — and the cap disappears.
 
+> **⚠ EXTENDED 2026-08-16 — realities keep INDEPENDENT clocks; there is no universal timeline (owner
+> ruling).** The thousands of realities are not strung along one shared clock. The ~3,000-year Long Silence
+> is the **internal calendar of the Nikeverse main line** (Prime Era → Echo Era, `timeline/long-silence.json`),
+> never a clock another reality runs. So **"how many years apart are two realities" has no referent** — the
+> number measures a distance along one reality's own clock, and a different reality is not on it. Crossing
+> between realities is a **change of world, not a distance in years**: whoever crosses travels neither
+> forward nor back, because there is no shared axis to travel on. Cthulhu's seeing *"across all realities
+> simultaneously"* is the corroboration read correctly — it does **not** place two realities at the *same*
+> moment; it means there is **no single moment for them to share**. ⚠ **Bounds — nothing on the main clock
+> moves:** the 3,000-year Silence, Nike Prime's ~3,000-year vigil in the trap (a pocket *within* the main
+> reality, on the main clock), and the Echo-Era present all stand; the **eight dimensions still share that
+> one clock**, and only whole *realities* run independent ones. First application: the Stoner×Earth
+> crossover time-ruling, `comic-maker/docs/STONER-NIKE-CROSSOVER.md` §6 Q-TIME.
+
 Two wild Nikes of the same form remain **legal to bond** — they simply do not both advance the 5,555. This
 restores the original vision (`LORE_BIBLE.md` §9, *"all 5,555 Nike types"*, deleted 2026-02-11 without
 rationale) and supersedes `THE_5555.md`'s former assertion that the number *"cannot be a species count."*
