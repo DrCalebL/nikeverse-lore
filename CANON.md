@@ -725,16 +725,17 @@ in the run-up may pre-spend it, and it must never appear anywhere else, spoken b
 
 ## 5 · Reaching
 
-### 5.1 The three ends · **FROZEN** *(second end amended by owner ruling — see `CHANGELOG.md`; the freed soul **returns to the Pattern**, reconciling this end with `GAME_SPEC.md` §4.5.8)*
+### 5.1 The three ends · **FROZEN** *(second end amended by owner ruling — see `CHANGELOG.md`; the freed soul **returns to the Pattern** — rejoins the living weave and runs free in the wild, reconciling this end with `GAME_SPEC.md` §4.5.8)*
 
 A Collector who reaches a shattered soul comes to one of three honest ends, and **all three are real**.
 
 - **Taken into keeping.** The soul walks with the Collector as one of the few who can be carried at once, and
   the Pattern gains a living thread.
-- **Reached, and then let go.** The two part in trust, and the soul **returns to the Pattern** — it leaves the
-  world, and the place it stood later carries a new life. The thread is re-anchored *exactly the same*, the
-  Pattern advances, and nothing has been kept — proof that the count grows by connection and not by possession.
-  This is **never the lesser choice and is never punished**.
+- **Reached, and then let go.** The two part in trust, and the soul **returns to the Pattern** — its thread
+  re-anchored, its connection restored, it **runs free back into the wild** and goes on living, healed and
+  uncorrupted. (The Pattern is the living weave of connection, not a place apart, so returning to it *is*
+  remaining in the world, free.) The Pattern advances, and nothing has been kept — proof that the count grows
+  by connection and not by possession. This is **never the lesser choice and is never punished**.
 - **Forced down without ever being reached.** The soul is not bound, its thread is left frayed, and nothing is
   added to the Pattern. A road a Collector may walk, and not a failure — but the one road that does not advance
   the work.

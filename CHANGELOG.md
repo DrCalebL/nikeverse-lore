@@ -1,29 +1,35 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
-## Date: August 25, 2026 — Free returns the soul to the Pattern (the FROZEN §5.1 second end, swept)
+## Date: August 25, 2026 — Free: the freed soul runs free back into the wild (returns to the Pattern)
 
-**Owner ruling (Tier 0):** amend `CANON.md` §5.1 → *"Reached, and then let go — the two part in trust, and it
-returns to the Pattern."* Chosen from three options put to the owner (amend the FROZEN line · register a
-divergence and defer · hold the wave-4 despawn); the owner chose to **amend**, making all three artifacts tell
-one story.
+**Owner ruling (Tier 0), reconciled across a design conversation.** The Free outcome's end-state: you reach the
+soul and let it go; **it is healed and runs free back into the wild.** Cosmologically it **returns to the
+Pattern** — the living weave of connection, *not* a place apart — so it goes on living, free and uncorrupted,
+out in the world. **Mechanically it runs off and disappears off-screen** (a rendering concession — the game
+stops simulating it once it leaves the frame; the soul is still alive). Counts toward the 5,555 identically to
+Bond.
 
-**The divergence.** `CANON.md` §5.1 (**FROZEN**) still read the second end as *"Reached, and then left wild"* —
-the freed soul stays roaming — while the build ruled the opposite back on **2026-07-28** (Q7, *"Free returns the
-soul to the Pattern"*) and `GAME_SPEC.md` §4.5.8 implements it (the soul is healed, **leaves the world**, its
-spawn point later carries a new life, and it leaves the **Strand**). The FROZEN lore was never swept — surfaced
-by the wave-4 seal-despawn spec (`Nikeverse-mmo-rpg-from-scratch/docs/SEAL_MOMENT_SPEC.md` §8 Q1), which noted
-no `GAME_DELTAS` row existed. The "leaves the world" model is also what the from-scratch `CLAUDE.md` already
-carries (*"Free RETURNS a soul to the Pattern — it departs, and its spawn point later carries a new life"*).
+**Three corrections to what was on the page** (an earlier same-session edit had reconciled in the *wrong*
+direction — recorded here because the error is the instructive part):
+1. **The FROZEN §5.1 *"Reached, and then left wild"*** (soul stays roaming forever) → **"Reached, and then let
+   go"** — it runs free back into the wild and returns to the Pattern. *(Owner authorized amending the FROZEN
+   line.)*
+2. **"Leaves the world"** (prior build wording) is **dropped** — the Pattern is the living weave *of* the world,
+   so returning to it is *remaining* in the world, free; the off-screen despawn is a rendering concession, never
+   a cosmological departure.
+3. **New lives spawn randomly** — a form's next life *"falls somewhere"* (§1.2.2), **never pinned to a freed
+   spot.** The prior *"the spawn point re-populates with a new life"* is dropped, and the **Strand is
+   redefined**: a **warm mark with the freeing Collector's name** where the soul stood — a trace, **not a spawn
+   point and not a bond head-start** for a next arrival (spawns are random, so nothing arrives "there"). Its
+   worth is that the world is warmer where you did it, with your name, for others to find.
 
-**What landed, same session (three-way match):**
-- **`CANON.md`** §5.1 second end amended (FROZEN header notes the amendment); the "free" precision-box example
-  changed *"reached and left wild"* → *"reached and let go."*
-- **`GAME_DELTAS.md`** W9 opened and marked ✅ FIXED (game was right, lore was the stale side).
-- **`Nikeverse-mmo-rpg-from-scratch`** (the build): two stale story docs swept to match — `OPENWORLD_AND_ENDLESS.md`
-  (the "free-wild… stays wild" gloss) and `CAMPAIGN_AND_COMPANIONS.md` (the Nel outcome; her world-heal now the
-  Strand she leaves, not a roaming body). `GAME_SPEC.md` §4.5.8 + the twin already carried "leaves the world" —
-  **no build-code edit, no twin regeneration.** `KNOWN_ISSUES.md` Q7 kept verbatim as the resolution record.
-- **`nikeverse-mmo-rpg`** (the twin): no edit — its `TESANA_BUILD_PROMPT.md` twin already matched `GAME_SPEC`.
+**KO is unchanged** (ratified `CANON.md` §5.2/§5.3): a savable soul zeroed to 0 HP is **knocked out**, roams its
+region **re-corrupted**, still reachable, uncounted; only a past-saving Retnuhxed dies (releases its soul-mote).
+
+**Landed same session (three-way match):** `CANON.md` §5.1 + precision box · `GAME_DELTAS.md` W9 ·
+`GAME_SPEC.md` §4.5.8 (+ the byte-identical twin regenerated) · from-scratch `CLAUDE.md`,
+`OPENWORLD_AND_ENDLESS.md`, `CAMPAIGN_AND_COMPANIONS.md`, `KNOWN_ISSUES.md` Q7 (amended), and
+`SEAL_MOMENT_SPEC.md` (the seal's Free departure = runs off; §8 Q1 resolved). All five lore lints green.
 
 No JSON changed; the freed-soul fate is prose. All five lore lints green.
 
