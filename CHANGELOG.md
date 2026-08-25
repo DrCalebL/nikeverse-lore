@@ -1,5 +1,32 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: August 25, 2026 — Free returns the soul to the Pattern (the FROZEN §5.1 second end, swept)
+
+**Owner ruling (Tier 0):** amend `CANON.md` §5.1 → *"Reached, and then let go — the two part in trust, and it
+returns to the Pattern."* Chosen from three options put to the owner (amend the FROZEN line · register a
+divergence and defer · hold the wave-4 despawn); the owner chose to **amend**, making all three artifacts tell
+one story.
+
+**The divergence.** `CANON.md` §5.1 (**FROZEN**) still read the second end as *"Reached, and then left wild"* —
+the freed soul stays roaming — while the build ruled the opposite back on **2026-07-28** (Q7, *"Free returns the
+soul to the Pattern"*) and `GAME_SPEC.md` §4.5.8 implements it (the soul is healed, **leaves the world**, its
+spawn point later carries a new life, and it leaves the **Strand**). The FROZEN lore was never swept — surfaced
+by the wave-4 seal-despawn spec (`Nikeverse-mmo-rpg-from-scratch/docs/SEAL_MOMENT_SPEC.md` §8 Q1), which noted
+no `GAME_DELTAS` row existed. The "leaves the world" model is also what the from-scratch `CLAUDE.md` already
+carries (*"Free RETURNS a soul to the Pattern — it departs, and its spawn point later carries a new life"*).
+
+**What landed, same session (three-way match):**
+- **`CANON.md`** §5.1 second end amended (FROZEN header notes the amendment); the "free" precision-box example
+  changed *"reached and left wild"* → *"reached and let go."*
+- **`GAME_DELTAS.md`** W9 opened and marked ✅ FIXED (game was right, lore was the stale side).
+- **`Nikeverse-mmo-rpg-from-scratch`** (the build): two stale story docs swept to match — `OPENWORLD_AND_ENDLESS.md`
+  (the "free-wild… stays wild" gloss) and `CAMPAIGN_AND_COMPANIONS.md` (the Nel outcome; her world-heal now the
+  Strand she leaves, not a roaming body). `GAME_SPEC.md` §4.5.8 + the twin already carried "leaves the world" —
+  **no build-code edit, no twin regeneration.** `KNOWN_ISSUES.md` Q7 kept verbatim as the resolution record.
+- **`nikeverse-mmo-rpg`** (the twin): no edit — its `TESANA_BUILD_PROMPT.md` twin already matched `GAME_SPEC`.
+
+No JSON changed; the freed-soul fate is prose. All five lore lints green.
+
 ## Date: August 2, 2026 (follow-up) — the axis is the CORRUPTED title, not rarity
 
 **Owner final rule (same session):** *"WILD nikes no matter what rarity have 2 phases. 3 phases should apply to

@@ -725,13 +725,14 @@ in the run-up may pre-spend it, and it must never appear anywhere else, spoken b
 
 ## 5 · Reaching
 
-### 5.1 The three ends · **FROZEN**
+### 5.1 The three ends · **FROZEN** *(second end amended by owner ruling — see `CHANGELOG.md`; the freed soul **returns to the Pattern**, reconciling this end with `GAME_SPEC.md` §4.5.8)*
 
 A Collector who reaches a shattered soul comes to one of three honest ends, and **all three are real**.
 
 - **Taken into keeping.** The soul walks with the Collector as one of the few who can be carried at once, and
   the Pattern gains a living thread.
-- **Reached, and then left wild.** The two part in trust. The thread is re-anchored *exactly the same*, the
+- **Reached, and then let go.** The two part in trust, and the soul **returns to the Pattern** — it leaves the
+  world, and the place it stood later carries a new life. The thread is re-anchored *exactly the same*, the
   Pattern advances, and nothing has been kept — proof that the count grows by connection and not by possession.
   This is **never the lesser choice and is never punished**.
 - **Forced down without ever being reached.** The soul is not bound, its thread is left frayed, and nothing is
@@ -747,7 +748,7 @@ earns does not complete the bond — it only opens the door.
 > *released without being kept.* The two senses are nearly opposite in what they imply about keeping.
 >
 > **This document therefore never uses the bare verb "free" for the second outcome.** When writing new canon,
-> say *"reached and left wild"* or *"freed from corruption"* — never an unqualified "freed" where the reading is
+> say *"reached and let go"* or *"freed from corruption"* — never an unqualified "freed" where the reading is
 > ambiguous.
 
 ### 5.2 Both endings of a confrontation are real · **FROZEN**
