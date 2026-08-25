@@ -1,5 +1,38 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Date: August 25, 2026 — Free: the freed soul runs free back into the wild (returns to the Pattern)
+
+**Owner ruling (Tier 0), reconciled across a design conversation.** The Free outcome's end-state: you reach the
+soul and let it go; **it is healed and runs free back into the wild.** Cosmologically it **returns to the
+Pattern** — the living weave of connection, *not* a place apart — so it goes on living, free and uncorrupted,
+out in the world. **Mechanically it runs off and disappears off-screen** (a rendering concession — the game
+stops simulating it once it leaves the frame; the soul is still alive). Counts toward the 5,555 identically to
+Bond.
+
+**Three corrections to what was on the page** (an earlier same-session edit had reconciled in the *wrong*
+direction — recorded here because the error is the instructive part):
+1. **The FROZEN §5.1 *"Reached, and then left wild"*** (soul stays roaming forever) → **"Reached, and then let
+   go"** — it runs free back into the wild and returns to the Pattern. *(Owner authorized amending the FROZEN
+   line.)*
+2. **"Leaves the world"** (prior build wording) is **dropped** — the Pattern is the living weave *of* the world,
+   so returning to it is *remaining* in the world, free; the off-screen despawn is a rendering concession, never
+   a cosmological departure.
+3. **New lives spawn randomly** — a form's next life *"falls somewhere"* (§1.2.2), **never pinned to a freed
+   spot.** The prior *"the spawn point re-populates with a new life"* is dropped, and the **Strand is
+   redefined**: a **warm mark with the freeing Collector's name** where the soul stood — a trace, **not a spawn
+   point and not a bond head-start** for a next arrival (spawns are random, so nothing arrives "there"). Its
+   worth is that the world is warmer where you did it, with your name, for others to find.
+
+**KO is unchanged** (ratified `CANON.md` §5.2/§5.3): a savable soul zeroed to 0 HP is **knocked out**, roams its
+region **re-corrupted**, still reachable, uncounted; only a past-saving Retnuhxed dies (releases its soul-mote).
+
+**Landed same session (three-way match):** `CANON.md` §5.1 + precision box · `GAME_DELTAS.md` W9 ·
+`GAME_SPEC.md` §4.5.8 (+ the byte-identical twin regenerated) · from-scratch `CLAUDE.md`,
+`OPENWORLD_AND_ENDLESS.md`, `CAMPAIGN_AND_COMPANIONS.md`, `KNOWN_ISSUES.md` Q7 (amended), and
+`SEAL_MOMENT_SPEC.md` (the seal's Free departure = runs off; §8 Q1 resolved). All five lore lints green.
+
+No JSON changed; the freed-soul fate is prose. All five lore lints green.
+
 ## Date: August 16, 2026 (cont.) — cross-reality TIME: realities keep independent clocks (not time travel)
 
 **Owner ruling (Tier 0).** The owner asked how a **Prime-Era** pig (Stoner Nike) can cross to **Earth's
