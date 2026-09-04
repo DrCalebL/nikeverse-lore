@@ -215,7 +215,14 @@ fi
 
 # Dead-marker sweep: a whole-file waiver that waives nothing is a disabled lint with a comment on it.
 # shellcheck disable=SC2086
-grep -rlE 'canon-allow-file:' $EXCL "$ROOT" > "$MARKERS" 2>/dev/null || true
+# ⚠ -i, AND IT IS NOT COSMETIC. `file_marker_ok()` above matches the marker case-INSENSITIVELY, so
+# `CANON-ALLOW-FILE:` in caps genuinely waives a whole file — MEASURED: it reported "1 file waiver(s)"
+# and exited 0. This sweep was case-SENSITIVE and could not see that same marker, so an uppercase
+# whole-file waiver was UNPRUNABLE: it waived forever and the dead-marker rule never fired on it.
+# That rule is the entire reason `canon-allow-file:` was chosen over an exclusion list, and the three
+# fixture markers in the build repo assert self-pruning in their own headers. The two spellings must
+# agree, and this is the line that used to disagree.
+grep -rliE 'canon-allow-file:' $EXCL "$ROOT" > "$MARKERS" 2>/dev/null || true
 while IFS= read -r M; do
   [ -n "$M" ] || continue
   if ! file_marker_ok "$M"; then
