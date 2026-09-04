@@ -1,5 +1,42 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## `reacher` the MECHANIC is not `Reacher` the retired TITLE — the lint is now case-sensitive for titles
+
+**Owner ruling (Tier 0).** The `canon` CI had been red for months on the word `reacher`. It is a **false
+alarm, and the fix is at the checker, not a rename.** The retired thing is the proper-noun **TITLE**
+`Reacher` — the character now called **the Collector**. The catch code's lowercase `reacher` is a
+**different word**: the game mechanic *"whoever is currently reaching to soothe a soul"*, rooted in the
+canon **reach** verb. They are homographs, and `scripts/check-canon-terms.sh` conflated them only because
+it matched case-insensitively.
+
+**This changes no canon content** — no name, number, gate, title or story moves. It records that the
+mechanic was never the retired term.
+
+**What landed:** `RETIRED_TITLES` (matched with `-w`, **without** `-i`) now holds `Reacher`;
+`RETIRED_TERMS` keeps `keth'vor` / `unraveler` / `sasuke` case-insensitive, because — verified by grep
+across all four repos — none of those three has a legitimate lowercase homograph, so making them
+case-sensitive would let a lowercase revival walk through. Both loops feed one buffer, so the waivers,
+the short-reason bucket and the dead-marker sweep cover titles without knowing they exist.
+
+**Measured, because the numbers are the argument.** Against the build repo the lint reported **151 live
+hits**: 113 lowercase `reacher` (the mechanic), 19 `class Reacher` test-fixture lines (**also** the
+mechanic), 17 lines inside that repo's own runtime ban lists and their tests, and 2 genuine governing
+title mentions. The case split takes **151 → 35**; in-band waivers take **35 → 0**. The prior build repo
+went from **7 hits to 0** in the same change, and every one of those seven was the mechanic.
+
+**⚠ TWO HOLES, NAMED RATHER THAN HIDDEN — and they share one cause.**
+1. `class Reacher` is the mechanic wearing PascalCase, so capitalisation alone does **not** separate title
+   from mechanic. The three fixture files carry a `canon-allow-file:` marker; a genuine title use inside
+   one of them would be waived with it.
+2. An **ALL-CAPS** `THE REACHER` is not caught. Closing it would mint 9 fresh false positives in the build
+   repo, every one the mechanic inside an emphatic all-caps comment.
+
+⭐ **The lesson:** in this codebase **neither PascalCase nor ALL-CAPS is evidence of a proper noun** — the
+first is how a class is spelled, the second is how a comment shouts. Only mixed-case `Reacher` in running
+prose signals the title. The residue is carried by the build repo's own runtime audits
+(`client/ui/funnel.ts`, `client/ui/bond.ts`), which match case-**insensitively** and cover every
+player-facing string.
+
 ## Date: August 25, 2026 — Free: the freed soul runs free back into the wild (returns to the Pattern)
 
 **Owner ruling (Tier 0), reconciled across a design conversation.** The Free outcome's end-state: you reach the

@@ -15,6 +15,7 @@
 #     that is why this check is word-boundary matched on "unraveler", not a substring match.
 #
 #   Reacher    → the Collector       (coined and retired game-side; never appeared in this repo)
+#     ⭐ MATCHED CASE-SENSITIVELY, ALONE AMONG THE FOUR — owner ruling. See RETIRED_TITLES below.
 #   Sasuke     → Toga                (Ninja Nike's reclaimed personal name; the nameplate stays "Ninja Nike")
 #
 # If you are introducing a new word of power, add it to languages/first-tongue/dictionary.json — do NOT
@@ -47,8 +48,47 @@ STATUS=0
 # One term per line. Matched case-insensitively (-i) and on word boundaries (-w).
 RETIRED_TERMS="keth'vor
 unraveler
-reacher
 sasuke"
+
+# ⭐⭐ THE PROPER-NOUN TITLES — MATCHED CASE-SENSITIVELY (no -i), AND THAT IS AN OWNER RULING.
+#
+# `Reacher` is a retired TITLE: the character now called the Collector. The lowercase `reacher` is a
+# DIFFERENT WORD — the game mechanic *"whoever is currently reaching to soothe a soul"*, rooted in the
+# canon "reach" verb. They are homographs, and the case-insensitive list conflated them.
+#
+# ⚠ MEASURED, and the numbers are the whole argument. Against the MMO build repo this lint reported
+# **151 live hits** and was red for months. They decomposed:
+#     113  lowercase `reacher`  — the MECHANIC, in the catch subsystem and its tests. Pure false alarm.
+#      19  `class Reacher` / `: Reacher` / `new Reacher(` — ALSO the mechanic, in three test FIXTURES.
+#      17  the build repo's own runtime ban lists and their tests, which name retired terms to GOVERN
+#          them (the same carve-out the EXCLUDED names below exist for).
+#       2  genuine title mentions, both governing.
+# Splitting the lists takes 151 → 35; the in-band waivers take 35 → 0.
+#
+# ⛔ DO NOT "SIMPLIFY" THIS BY DROPPING -i FROM THE WHOLE SEARCH. The other three have NO legitimate
+# lowercase homograph — verified by grep across all four repos: outside these ban lists, lowercase
+# `unraveler` and `sasuke` appear nowhere, and `keth'vor` is lowercase BY SPELLING. Making them
+# case-sensitive would let a lowercase revival walk straight through.
+#
+# ⛔⛔ AND CAPITALISATION DOES NOT, BY ITSELF, SEPARATE A TITLE FROM A MECHANIC — this is the hole, and
+# it is named rather than hidden. A class is PascalCase because it is a class, so `class Reacher` is the
+# MECHANIC wearing a capital letter. Those three fixture files therefore carry a canon-allow-file:
+# marker, and a genuine title use inside one of them would be waived along with the class. That residue
+# is bounded on purpose: the build repo's own runtime lints (`client/ui/funnel.ts`, `client/ui/bond.ts`)
+# ban the word in every PLAYER-FACING string with their own tests, so what this list still carries for
+# `Reacher` is DESIGN PROSE, which is exactly where the retired title actually lives.
+#
+# ⛔⛔ THE SECOND HOLE, MEASURED AND DELIBERATELY LEFT OPEN: an ALL-CAPS `THE REACHER` is NOT caught.
+# Planted in a non-waived doc it exits 0. It is left open because closing it costs more than it buys —
+# adding `REACHER` to this list mints **9 fresh false positives** in the build repo, every one of them
+# the MECHANIC inside an emphatic all-caps comment (`EVERY REACHER`, `THE REACHER'S FUNNEL STEP`), which
+# is that repo's house comment style.
+# ⭐ THE GENERAL LESSON, and it is why this is a note rather than a bug: IN THIS CODEBASE NEITHER
+# PascalCase NOR ALL-CAPS IS EVIDENCE OF A PROPER NOUN. The first is how a class is spelled, the second
+# is how a comment shouts. Only mixed-case `Reacher` in running prose signals the title, and that is
+# exactly what this list now matches. The residual risk is carried elsewhere: the build repo's runtime
+# audits match case-INSENSITIVELY, so an all-caps title in a PLAYER-FACING string is still caught there.
+RETIRED_TITLES="Reacher"
 
 # Search all canon content. Five files are excluded by NAME because they name the retired terms on
 # purpose, in order to document the retirement: CHANGELOG.md, CANON.md §3.2 (the retired-names section —
@@ -125,6 +165,13 @@ trap 'rm -f "$RAW" "$KEPT" "$WAIVED" "$SHORT" "$HITFILES" "$MARKERS"' EXIT
 # shellcheck disable=SC2086
 for TERM in $RETIRED_TERMS; do
   grep -rnwi $EXCL -- "$TERM" "$ROOT" >> "$RAW" 2>/dev/null || true
+done
+# The titles: same -w, same exclusions, same waivers — everything except the -i. Both loops append to
+# the SAME $RAW, so the waiver machinery, the short-reason bucket and the dead-marker sweep below cover
+# the titles without knowing they exist.
+# shellcheck disable=SC2086
+for TITLE in $RETIRED_TITLES; do
+  grep -rnw $EXCL -- "$TITLE" "$ROOT" >> "$RAW" 2>/dev/null || true
 done
 cut -d: -f1 "$RAW" | sort -u > "$HITFILES"
 
