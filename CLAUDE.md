@@ -32,10 +32,13 @@ enforceable instead of aspirational.**
 
 1. **① ↔ ② is BYTE-IDENTICAL below the fence, and is machine-checked.**
    ```sh
-   SPEC=../Nikeverse-mmo-rpg-from-scratch/docs/GAME_SPEC.md
-   N=$(grep -n '^# NIKEVERSE — THE TESANA.AI BUILD PROMPT' "$SPEC" | head -1 | cut -d: -f1)
-   diff <(tail -n +"$N" "$SPEC") ../nikeverse-mmo-rpg/docs/TESANA_BUILD_PROMPT.md && echo identical
+   ( cd ../Nikeverse-mmo-rpg-from-scratch && npm run check:twin )   # the ONE spelling
    ```
+   ⚠ **The hand-run one-liner this block used to carry CANNOT be run as written.** It was
+   `diff <(tail -n +"$N" "$SPEC") …`; `/bin/sh` is dash and process substitution is a bashism —
+   MEASURED, `Syntax error: "(" unexpected`. It survived for months because it was only ever pasted
+   into an interactive bash prompt. The script uses a pipe. ⚠ It is LOCAL-ONLY: the twin is a private
+   sibling and both repos must be checked out beside each other.
    **NEVER edit `TESANA_BUILD_PROMPT.md` directly.** Edit `GAME_SPEC.md`, then regenerate the twin with
    `tail -n +N` and re-run the diff. The offset is DERIVED, never pinned — the fence grows.
 2. **① ↔ ③ is ASSERTION-CHECKED, not byte-identical.** One side is JSON facts, the other is design prose;
@@ -132,6 +135,28 @@ python3 scripts/check-mystery-tiers.py          # Tier-3 stays dark
 python3 -c "import json,glob;[json.load(open(f)) for f in glob.glob('**/*.json',recursive=True)];print('ok')"
 # and the CI jobs in .github/workflows/canon.yml: dimensions-agree, level-bands, legendary-arithmetic
 ```
+
+## 📌 `scripts/` IS PINNED BY TWO OTHER REPOS — bumping it is a THREE-REPO move, in one order
+
+`Nikeverse-mmo-rpg-from-scratch` and `nikeverse-mmo-rpg` each check this repo out at
+**`CANON_LINT_REF`** (today **`canon-lint/v1`**) and run these lints against their OWN tree, because the
+repo that INTRODUCES a canon defect is the repo whose build must go red. **A pin fails SILENTLY** —
+tighten a rule here and both consumers quietly keep running the old one, with green badges — so
+`.github/workflows/canon.yml`'s **`lint-pin-freshness`** job is the prompt at the moment of drift.
+
+**THE ORDER IS LOAD-BEARING, and it is the only order that fails in the safe direction:**
+1. land the `scripts/` change **here**;
+2. cut the next pin ref at **that** commit (`canon-lint/v2`);
+3. bump `CANON_LINT_REF` in **BOTH** consumers — **same session**, per THE THREE-WAY CANON MATCH.
+
+Cut the ref *before* the change lands and `lint-pin-freshness` goes red instead, which is correct.
+⚠ **The pin is a BRANCH, not a tag, and that is an environment constraint** — the automation credential
+is refused on `refs/tags/` (MEASURED: `HTTP 403`, five attempts, seconds after a branch push to `main`
+succeeded). The job accepts a `canon-lint-v*` **tag** too and PREFERS it, so cutting the real tag later
+needs no edit; the branch lives in its own `canon-lint/` namespace precisely so the two can never be
+the same name pointing at different commits.
+⛔ **Never move an existing pin ref.** A pin that moves is not a pin, and the freshness job cannot tell
+a moved pin from a matching one.
 
 ## Gotchas
 
