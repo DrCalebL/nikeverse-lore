@@ -17,7 +17,12 @@ name: canon
 
 on:
   push:
-    branches: ['**']
+    # ⛔ `canon-lint/**` IS EXCLUDED, AND IT IS NOT COSMETIC. Those refs are PINS: they are cut at a past
+    # commit and never move, so every workflow change after one is cut leaves that ref's run permanently
+    # red for a reason that is not a defect — MEASURED, `canon-lint/v1` reddened on the pre-pin commit the
+    # very push that created it. A ref that is red forever teaches everyone to read red as noise, which is
+    # the one thing a canon gate cannot afford. A pin is a marker, not a branch anyone develops on.
+    branches: ['**', '!canon-lint/**']
   pull_request:
   workflow_dispatch:
 
