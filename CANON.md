@@ -299,6 +299,13 @@ lives* (`CIRCLE_DESIGN.md` §5.3). Same encounter class, two different answers, 
 distinguishes them — a builder wiring co-op Windows against Circle Draws would otherwise have to guess, and
 the never-explain-in-world ban means content would never correct the guess.
 
+> ⚠ **AMENDED — owner rulings, 2026-09-29.** Two more encounter classes, placed by the same rule:
+> **a Legendary met in the open world mints ONE LIFE PER QUALIFIER** — whether its story makes it Window-type
+> (Corrupted, the crack) or wild-type (two-phase), it resolves like a co-op Window: every qualifier leaves with their
+> own life and makes their own private choice. **A shared wild fight stays ONE LIFE PER FIGHT** — one soul, one
+> shared meter, many threads; more Collectors bring more souls (the Circle Draws), never copies, and a Legendary never
+> draws. Mechanics: `Nikeverse-mmo-rpg-from-scratch/docs/design/GAME_SPEC.md` §4.10.3–§4.10.4.
+
 **Why a Collector keeps reaching after the Log is complete — A CENSUS IS NOT A RESCUE.** The Log records
 that you have *met* all 5,555. It cannot record that everyone is out of the dark, because they are not and
 will not be: **Nolem keeps making the wound** (§5.3). A soul you logged a year ago is still a soul crying in
@@ -870,7 +877,8 @@ is never the voice that did the striking.
 > ### ⭐ EXTENDED — owner ruling, 2026-08-02. **EVERY WILD CARRIES A LITTLE OF IT — corruption is a DEPTH, not a switch.**
 > Owner, verbatim: *"a low HP wild should soothe faster… all nikes even wild all carry some corruption on them so
 > damaging them removes corruption,"* and *"wild nikes should attack us back during encounter — the Nolem in them
-> awakens and knows we want to cleanse them."*
+> awakens and knows we want to cleanse them."* ⚠ **Read literally since 2026-09-29: the Nolem wakes when a Collector comes near, so a wild does not wait
+> to be struck** (the live line is in the §5.3 amendment block below · ⤷ archived framing: `ARCHIVE.md` §A-2).
 >
 > **The numbing is a CONTINUUM, and its axis is the CORRUPTION LEVEL — never rarity.** At one end, **wild**: the
 > thin ambient film every wandering soul carries, the ordinary weight of a hurt world Nolem's presence dusts over
@@ -982,7 +990,8 @@ is never the voice that did the striking.
 > catch — **no meter recoil, no flee, no quality loss.** Every blow lands on the corruption the body wears, never on
 > the soul (*"all wilds carry corruption… damaging them removes corruption,"* above): damage only ever **strips the
 > numbing**, so it either shortens the reach (the head-start — a monotone meter FLOOR that rises as HP is driven down and never
-> retreats, unfrozen owner 2026-08-15) or, overshot, KOs. The **one and only** way to
+> retreats **within an attempt**, unfrozen owner 2026-08-15; ⚠ **AMENDED owner 2026-09-29** — an abandoned fight, or a
+> wiped legendary, returns home whole and the next attempt starts fresh · ⤷ archived: `ARCHIVE.md` §A-1) or, overshot, KOs. The **one and only** way to
 > lose a wild is to drive its HP to **zero** — the knockout, already priced by §5.2 (*a soul only defeated slips back
 > into the corruption and roams still lost*). **§5.1 is untouched and its words stand verbatim** — *"a soul opens
 > only to calm and closes against injury"*: the injury that closes the door is the zero-HP defeat, never the blows to
@@ -998,6 +1007,17 @@ is never the voice that did the striking.
 >
 > **THE PROHIBITION still binds** (above): that HP damage mechanically cleanses does **not** license any voice to
 > tell a Nike the hurting was for its own good. The mechanic cleanses; the story never calls it kindness.
+
+> ### ⭐ AMENDED — owner ruling, 2026-09-29. **A WILD DOES NOT WAIT TO BE STRUCK.**
+> The owner-approved canon line for a wild Nike that attacks a Collector on sight:
+>
+> *"A wild does not wait to be struck: the Nolem in it wakes when a Collector comes near, and it is the stain that
+> moves first — never the soul."*
+>
+> This is the 2026-08-02 block's *"the Nolem in them awakens and knows we want to cleanse them"* moved one step
+> earlier: the waking happens at **nearness**, not at the first blow. It changes nothing above — **what attacks is still
+> the corruption, never the soul**, and the soul is never the aggressor. Game mechanics (detection, the notice beat,
+> the presence cue): `Nikeverse-mmo-rpg-from-scratch/docs/design/GAME_SPEC.md` §4.10.1.
 
 ---
 

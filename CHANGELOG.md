@@ -1,5 +1,38 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## The wild: souls stand up from the grass, the Nolem wakes on approach, one soul fell with you — and ARCHIVE.md
+
+**Owner rulings (Tier 0), 2026-09-26 → 2026-09-29.** Recorded in all three places the same session (build repo
+`docs/design/GAME_SPEC.md` §4.10 THE WILD and §5.4 "The choice"; `CIRCLE_DESIGN.md`; this repo).
+
+**New canon** (carried in `CANON.md`, or — for the opening — in `characters/collectors-journey.json` with its
+`ARCHIVE.md` §A-3 entry):
+- **One soul fell with you.** The Walker reaches back for one soul in the fall; it lies dim beside them in the Hub,
+  and at the Mural it settles as Piglet, Emo or Chef — *"…you're the one. You're the one who reached back."* The
+  three are the shapes one soul may take, never three souls in the world. The breach opens only after (step 5).
+  (`characters/collectors-journey.json`; `ARCHIVE.md` §A-3.)
+- **The Nolem wakes when a Collector comes near:** *"A wild does not wait to be struck: the Nolem in it wakes when a
+  Collector comes near, and it is the stain that moves first — never the soul."* (§5.3.)
+- **The head-start never retreats within an attempt;** an abandoned fight, or a wiped legendary, returns home whole.
+  (§5.3, the within-an-attempt amendment; `ARCHIVE.md` §A-1.)
+- **An open-world legendary reached together mints one life per Collector who qualifies** (§1.2.2's composition rule
+  extended); an ordinary wild fight stays one life per fight. (§1.2.2, the 2026-09-29 legendary life-count block.)
+
+**Recorded (build mechanics, GAME_SPEC §4.10)** — design rules the build carries; not written into `CANON.md`:
+- **Wild Nikes stand up out of wild grass** as a Collector passes — they are not waiting at places everyone knows.
+  Never explained in-world. Legendaries never rise from grass: they stand in the open under their story gates.
+- **A wild fight's one life is kept by the Collector who stayed longest** (a Collector who leaves has chosen not to
+  bond; the bond is taken up by the one who stayed — never a "passing of threads").
+- **One Legendary walks with you:** at most one legendary among the six a Collector carries; the others live in the
+  Sanctuary.
+
+**What moved to the archive** (new file `ARCHIVE.md`, verbatim, with reasons): §A-1 the unqualified "never
+retreats"; §A-2 wild aggression framed only as fighting "back"; §A-3 the three-way starter choice
+(`characters/collectors-journey.json`). Each leaves a one-line pointer where it stood.
+
+**Unchanged:** what attacks is the corruption, never the soul; the Resonant stays earned only (no luck odds;
+the build's Q9 ③ stands); Bond and Free equal; the keepsake is for every life; no denominator on the 5,555.
+
 ## `reacher` the MECHANIC is not `Reacher` the retired TITLE — the lint is now case-sensitive for titles
 
 **Owner ruling (Tier 0).** The `canon` CI had been red for months on the word `reacher`. It is a **false

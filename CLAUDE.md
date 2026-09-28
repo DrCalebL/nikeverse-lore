@@ -1,9 +1,10 @@
 # Nikeverse Lore Bible — CLAUDE.md
 
 Notes for AI assistants working in this repo. **Auto-loaded every session — keep it lean.**
-**DURABLE FACTS ONLY.** No commit SHAs, no dates, no status narration, no findings lists. Four
+**DURABLE FACTS ONLY.** No commit SHAs, no dates, no status narration, no findings lists. Five
 destinations, and putting a thing in the wrong one is how this file bloats: a **rule** goes here · a
-**resolution** to a canon question goes in `CHANGELOG.md` · a **cross-repo divergence** goes in
+**resolution** to a canon question goes in `CHANGELOG.md` · **superseded canon** goes in `ARCHIVE.md`
+(verbatim, with the ruling and the reason; a one-line pointer stays where it stood) · a **cross-repo divergence** goes in
 `GAME_DELTAS.md` · **per-wave history** goes in `docs/progress-log.md` and **open defects** in
 `docs/KNOWN_ISSUES.md` — both append-only and **NOT auto-loaded**, grep them.
 Edit this file only when a *rule* changes.
@@ -86,7 +87,9 @@ enforceable instead of aspirational.**
    substring search for "reacher" matches "t-reacher-ous", a real false positive in the sibling repo.
    **The carve-out is deliberate:** `Nol'meth` is glossed "The Unraveling" and is CORRECT.
 4. **Never sweep a retired term out of a file that names it in order to GOVERN it.** `CANON.md`,
-   `CHANGELOG.md` and `CANON_MAP.md` are excluded for exactly this reason. A term's retirement record is
+   `CHANGELOG.md` and `CANON_MAP.md` are excluded for exactly this reason. **`ARCHIVE.md` is governing too** (it
+   keeps superseded text verbatim): if it ever quotes a retired term or *spare*/*extra*, exclude it the same way —
+   never sweep it. A term's retirement record is
    the thing that explains the rule; deleting it leaves the rule unexplained. **The same carve-out now
    covers *spare* / *extra*** (banned as nouns for a soul, §1.2.2): the governing docs quote the owner's
    own *"store all extras in the Sanctuary"* verbatim, so a future lint on those words must exclude them
@@ -179,6 +182,7 @@ evidence split — **read it before citing a comic line** ·
 *history* of the number (six readings in ten months, what is still open; **HISTORY, not canon —
 `CANON.md` §1.2 rules**) · `GAME_DELTAS.md` — the divergence
 register (this repo vs a shipped game, with a ruling each) · `CHANGELOG.md` — resolutions ·
+`ARCHIVE.md` — superseded canon, verbatim with the ruling and the reason (**never cite it as canon**) ·
 `CONTRIBUTING.md` — the source-authority tiers · `MASTER_LORE_PROPOSAL_FINAL.md` — the founding
 synthesis (**provenance, not a live spec** — superseded wherever `CANON.md` speaks)
 **Not auto-loaded — grep these, don't load them:** `docs/progress-log.md` (append-per-wave; grep by wave
