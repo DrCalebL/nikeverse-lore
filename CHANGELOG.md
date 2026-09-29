@@ -1,5 +1,11 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## A wild-type Legendary can still be weakened for the head-start
+
+**Owner ruling (Tier 0), 2026-09-29.** A wild-type Legendary met in the open is weakened before the reaching like any
+wild (the head-start, capped as for wilds); a Window-type one still withholds it. Recorded the same session in
+`CANON.md` §1.2.2's 2026-09-29 amendment, build repo `GAME_SPEC.md` §4.10.4 (was OPEN) and the TESANA twin.
+
 ## The wild: souls stand up from the grass, the Nolem wakes on approach, one soul fell with you — and ARCHIVE.md
 
 **Owner rulings (Tier 0), 2026-09-26 → 2026-09-29.** Recorded in all three places the same session (build repo

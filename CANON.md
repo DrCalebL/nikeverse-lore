@@ -304,7 +304,8 @@ the never-explain-in-world ban means content would never correct the guess.
 > (Corrupted, the crack) or wild-type (two-phase), it resolves like a co-op Window: every qualifier leaves with their
 > own life and makes their own private choice. **A shared wild fight stays ONE LIFE PER FIGHT** — one soul, one
 > shared meter, many threads; more Collectors bring more souls (the Circle Draws), never copies, and a Legendary never
-> draws. Mechanics: `Nikeverse-mmo-rpg-from-scratch/docs/design/GAME_SPEC.md` §4.10.3–§4.10.4.
+> draws. A wild-type Legendary can still be weakened before the reaching begins, as any wild can (the head-start,
+> capped as for wilds; owner, 2026-09-29). Mechanics: `Nikeverse-mmo-rpg-from-scratch/docs/design/GAME_SPEC.md` §4.10.3–§4.10.4.
 
 **Why a Collector keeps reaching after the Log is complete — A CENSUS IS NOT A RESCUE.** The Log records
 that you have *met* all 5,555. It cannot record that everyone is out of the dark, because they are not and
