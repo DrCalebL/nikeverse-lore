@@ -1,5 +1,16 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## The reach also pays XP (core systems, O1)
+
+**Owner ruling (Tier 0), 2026-09-30** — "yes to all recommended" on the build repo's core-systems decisions. **O1: a
+reach pays XP**, the kill formula applied to the reached soul, **identical for Bond and Free, first life and repeat**,
+and **none for a zero-HP knockout** (the reach payout is forfeit). It sits on the prefix both verbs share, so it is
+`CANON.md`'s *"reward the act, not the outcome"* keystone applied to one more currency — not a new rule, and no claim in
+this repo changes. The other rulings of the same answer are build-side presentation only (the Sanctuary arrival line
+*"<Name> is at the Sanctuary. Visit any time."*, a lead-drafted plain-word life-name list under the owner's veto, the
+ratified "Bond +1 (Lv N)" tick kept outside the catch panel, no killable Hub hostile). Recorded the same session in the
+build repo (`GAME_SPEC.md` §4.5.8, §4.7.1) and the TESANA twin.
+
 ## Melon is ruled: "adopt all melon"
 
 **Owner ruling (Tier 0), 2026-09-29.** The Melon consensus and every Melon row that the first ruling left pending
