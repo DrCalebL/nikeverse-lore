@@ -477,6 +477,41 @@ gives up the right to stop, and takes up the eternal vigil as a Dimensional Guar
 
 ---
 
+### 1.5 The timeline · **RATIFIED (owner, 2026-09-29)**
+
+The main line's history, in order. Its **shape, era names, order and each Legendary's fall era are canon**; the year
+ranges are approximate and may shift for a comic (`timeline/long-silence.json` expansionNotes). Detail files:
+`timeline/ages.json`, `timeline/long-silence.json`, `timeline/legendary-falls.json`, `timeline/prime-era.json`.
+
+1. **The deep past** — the Formless Era (only the Singulars; Nolem is entropy) → the Age of Separation (the
+   dimensions crystallise; the Aeth'kai flourish and are wholly absorbed) → the Age of Silence (Nolem sleeps) →
+   the First Bond → the Shattering, the Great Echo (5,555; the 27; the Charles Constant; the Pattern). *Why* Nolem
+   is what he is, and what the Singulars are, stays dark forever (§4.1).
+2. **The Prime Era** (Comic Book 1, about six months). It ends with Nolem **alone** in the trap; Nike Prime and
+   Shiro land alive elsewhere, and his whereabouts are unknown ever since — nothing may assert them.
+3. **The Long Silence** (about three thousand years), seven eras in this order: **the Vigil** (0–50) · **the First
+   Falls** (50–100) · **the Scholar Legacy** (100–300: the Scholars learn **the roads out of the trap** — the knowledge
+   Nolem lacks — and tear the Scholar's Map so no single soul carries it whole) · **the Forgetting** (300–500) · **the
+   Corruption Wars** (500–1500) · **the Dark Age** (1500–2900) · **the Convergence** (2900–3000), closing in
+   **Genesis** (about 3000).
+4. **Who fell when** is `timeline/legendary-falls.json`, with its fifteen-word reason vocabulary. Two placements
+   ruled this day: **Tōga (Ninja Nike)** fell **fifteen years before the Echo Era**, the last Champion to fall after
+   nearly three thousand years of holding out (Yuki was his student). **Melon** chose Nolem — uncorrupted — **in the
+   Dark Age**, and with his choice fell the one great rising of hope that age had. The four Dark-Age falls marked
+   *Unknown* (Professor, Corey Hort, Guthix, Jedi) **stay Unknown** — room for the comics.
+5. **The Echo Era** (now, the game): twenty-four fallen, three who did not (§1.3). It closes at the Sixth Seat.
+6. **After the Seat**, in this order: **the Weaver-Waking** → **the Guardian vigil** (the endless layer; the price
+   is an ending surrendered, §1.4) → **the Coming Storm**, in which OG Nike may yet fall and the Collector carries
+   him. The content of each is open; the order is canon.
+
+**Held open on purpose:** how long Elbonzys has kept his door; Hub Charles's origin; when the first Collector took
+the Vow (Vane's own history stays his). **Expansion room:** the eight named dimensions keep one clock; other
+realities keep their own (§1.2 extension), and expansions may open reserved dimensions and other realities — new
+places arrive without rewriting this history.
+
+> Superseded wording in the timeline files (Nike Prime "in the trap"; "all 27 corrupted"; the old Coming Storm;
+> Tōga in the Forgetting; Melon's era "Unknown"; three conflicting fall reasons) ⤷ archived: ARCHIVE.md §A-4–A-7.
+
 ## 2 · What a Nike is
 
 ### 2.1 Not everything with a body has a soul · **RATIFIED (2026-06-16)**

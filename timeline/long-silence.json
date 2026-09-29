@@ -2,7 +2,8 @@
   "id": "long-silence",
   "name": "The Long Silence",
   "duration": "Approximately 3,000 years",
-  "description": "The gap between the Prime Era (Comic Book 1) and the Echo Era (Discord Game). This is expansion space for future comics.",
+  "description": "The gap between the Prime Era (Comic Book 1) and the Echo Era (the game). This is expansion space for future comics.",
+  "status": "RATIFIED (owner, 2026-09-29) \u2014 the seven eras, their NAMES and ORDER, and each Legendary's fall era are ratified (CANON \u00a71.5); the year ranges are approximate and may shift for a comic.",
   
   "subPeriods": [
     {
@@ -44,13 +45,13 @@
       "name": "The Scholar Legacy",
       "yearsAfterPrimeEra": "100-300",
       "suggestedComic": "Comic Book 4",
-      "summary": "Scholar Nikes discover something about Nike Prime's location. Nolem's forces hunt them.",
+      "summary": "Scholar Nikes discover the roads out of the trap \u2014 the knowledge Nolem lacks. Nolem's forces hunt them. (Formerly 'a trace of Nike Prime in the trap', archived A-4: nothing may assert where Nike Prime is.)",
       "keyEvents": [
         "Scholars decode data from Charles AI",
-        "They find a trace of Nike Prime in the trap",
+        "They learn the roads out of the trap \u2014 the coordinates Nolem cannot fold to without being told",
         "Retnuhxed hunt them across dimensions",
         "Scholars scatter their research into hidden caches",
-        "The Scholar's Map is created (in fragments)"
+        "They tear the Scholar's Map so no single soul carries it whole"
       ],
       "legendaryFalls": [
         { "name": "Dr Caleb Nike", "reason": "Curiosity - wanted to understand Nolem from inside" },
@@ -72,8 +73,7 @@
         "Truth: It wasn't written by Aeth'kai - it was a Scholar Nike"
       ],
       "legendaryFalls": [
-        { "name": "Ninja Nike", "reason": "Lost purpose - saw futures without hope" },
-        { "name": "Viking Nike", "reason": "Addiction - needed battle to feel alive" },
+        { "name": "Viking Nike", "reason": "Boredom - needed battle to feel alive" },
         { "name": "Nel Nike", "reason": "Self-hatred - believed she deserved corruption" },
         { "name": "Wolf Mode Nike", "reason": "Curse - the wolf was always there" }
       ],
@@ -94,7 +94,7 @@
       ],
       "legendaryFalls": [
         { "name": "Gladiator Nike", "reason": "Contract - fighting became all he knew" },
-        { "name": "Nike Tyson Nike", "reason": "Loneliness - boredom at the top" },
+        { "name": "Nike Tyson Nike", "reason": "Boredom - lonely at the top" },
         { "name": "Cyberpunk Nike", "reason": "Ideology - believed Nolem's way was better" },
         { "name": "Colossal Nike", "reason": "Guilt - destroyed a dimension trying to save it" },
         { "name": "Pigsterio Nike", "reason": "Guilt - used power and destroyed something precious" },
@@ -124,6 +124,9 @@
         { "name": "Corey Hort Nike", "reason": "Unknown" },
         { "name": "Guthix Nike", "reason": "Unknown" },
         { "name": "Jedi Nike", "reason": "Unknown" }
+      ],
+      "notFallen": [
+        { "name": "Melon Nike", "reason": "Willing betrayal - NOT corrupted; chose Nolem. With his choice fell the one great rising of hope the Dark Age had (RATIFIED (owner, 2026-09-29))" }
       ],
       "endsWhen": "A mysterious Charles variant begins building something"
     },
@@ -160,8 +163,10 @@
         "A new Collector begins their journey",
         "The prophecy of Nike Prime's return spreads"
       ],
-      "legendaryFalls": [],
-      "endsWhen": "The Echo Era begins (Discord Game)"
+      "legendaryFalls": [
+        { "name": "Ninja Nike", "reason": "Contract - fifteen years before the Echo Era, after nearly three thousand years of holding out; made a deal to protect his people from a Retnuhxed Apex (RATIFIED (owner, 2026-09-29), ARCHIVE A-5)" }
+      ],
+      "endsWhen": "The Echo Era begins"
     }
   ],
   
@@ -175,7 +180,8 @@
     ],
     "fixed": [
       "Prime Era ends with Nike Prime vanishing",
-      "Echo Era begins with all 27 Legendaries corrupted",
+      "Echo Era begins with 24 of the 27 Legendaries fallen; three never fell (CANON \u00a71.3)",
+      "Each Legendary's fall era (RATIFIED (owner, 2026-09-29))",
       "The general progression from hope to despair to hope"
     ]
   }

@@ -74,3 +74,79 @@ The breach moves after the choice so the soul that fell with you is the one that
 (The settling is a witness, never a cause — `CANON.md` §1.2.3's law: *the bond is the witness, never the cause*.
 Charles says the same thing at the Mural, in his own words — *"Reach for it — it will tell you who it is."* — which
 is his line in the build's opening, not a quotation of §1.2.3.)
+
+---
+
+## A-4 · Timeline wording that contradicted ratified canon (archived 2026-09-29)
+
+**Was** (`timeline/ages.json`, `timeline/long-silence.json`), verbatim:
+
+> "Nike Prime traps Nolem but vanishes into the trap with him." · "Nike Prime and Nolem fall into the trap together" ·
+> "endedBy": "Nike Prime vanishing into the trap with Nolem"
+>
+> "Scholar Nikes discover Nike Prime's location, are hunted, scatter their knowledge." · "Scholar Nikes discover
+> something about Nike Prime's location." · "They find a trace of Nike Prime in the trap" · "The Scholar's Map is
+> created (in fragments)"
+>
+> "All 27 Legendary Nikes are corrupted." · "Echo Era begins with all 27 Legendaries corrupted"
+>
+> The Coming Storm: "The final battle. Nike Prime may be completed. The First Bond may be restored." — "Nike Prime
+> is completed with the bonds the Collector gathered" · "TRUE Nike Prime rises (5,555 souls carrying each other)" ·
+> "A sacrifice is made"
+
+**Now:** `CANON.md` §1.5 — Nolem alone in the trap, Nike Prime's whereabouts unknown; the Scholars learn the roads
+out and tear the Map; twenty-four fell and three did not; after the Seat come the Weaver-Waking, the Guardian vigil,
+then the Coming Storm in which OG Nike may fall.
+
+**Ruling:** owner, 2026-09-29 (timeline ratification, housekeeping H1–H4), applying earlier rulings the files had not
+caught up with: the trap/whereabouts correction (2026-07-29), 24+3 (§1.3), the Weaver and the price (§1.4, 2026-06-16).
+
+**Why:** the files still said what those rulings had already changed. A timeline is what every comic and expansion
+builds on; it cannot carry sentences the canon has struck.
+
+---
+
+## A-5 · Tōga (Ninja Nike) fell in the Forgetting (archived 2026-09-29)
+
+**Was** (`timeline/long-silence.json`, `timeline/legendary-falls.json`): Ninja listed among The Forgetting's falls
+(300–500 years after the Prime Era), *"Lost purpose - saw futures without hope"* / *"Saw futures without hope. Made a
+contract to end the visions. The price was his freedom."*
+
+**Now:** he fell **fifteen years before the Echo Era** (Genesis) — the last Champion to fall, after nearly three
+thousand years of holding out — by a contract to protect his people from a Retnuhxed Apex (`characters/legendary-nikes`
+already said so).
+
+**Ruling:** owner, 2026-09-29 (timeline ruling 4).
+
+**Why:** the character file and the timeline disagreed. Fifteen years lets Yuki have been his student and his clan
+still remember him, and a Champion who held out almost the whole Silence is the stronger story.
+
+---
+
+## A-6 · Melon's fall era "Unknown" (archived 2026-09-29)
+
+**Was** (`characters/legendary-nikes/index.json`): `"corruptionEra": "Unknown"`; `timeline/legendary-falls.json`
+filed him only under "Special Status".
+
+**Now:** he chose Nolem — entirely uncorrupted — **in the Dark Age**, and with his choice fell the one great rising of
+hope that age had. Still not a corruption (§1.3). His Prime-Era role and why he was not recruited stay Unknown.
+
+**Ruling:** owner, 2026-09-29 (timeline ruling 6).
+
+**Why:** it explains why hope was "nearly extinct" before the Convergence brought it back, and gives the Dark Age the
+defining event it lacked. The fuller Melon story remains a proposal awaiting his Tier-A ruling.
+
+---
+
+## A-7 · Three conflicting fall reasons (archived 2026-09-29)
+
+**Was** (`timeline/long-silence.json`): Ninja *"Lost purpose"*; Viking *"Addiction - needed battle to feel alive"*;
+Nike Tyson *"Loneliness - boredom at the top"*.
+
+**Now:** the reasons in `timeline/legendary-falls.json`, from the fifteen-word vocabulary: Ninja *contract*, Viking
+*boredom*, Nike Tyson *boredom* (lonely at the top).
+
+**Ruling:** owner, 2026-09-29 (timeline ruling 3).
+
+**Why:** two files gave different reasons; "lost purpose", "addiction" and "loneliness" are not in the canon
+vocabulary.

@@ -56,11 +56,6 @@
       "yearsAfterPrimeEra": "300-500",
       "falls": [
         {
-          "name": "Ninja Nike",
-          "reason": "contract",
-          "story": "Saw futures without hope. Made a contract to end the visions. The price was his freedom."
-        },
-        {
           "name": "Viking Nike",
           "reason": "boredom",
           "story": "Killed everything worth killing. Needed battle to feel alive. Nolem promised worthy opponents forever."
@@ -176,12 +171,24 @@
       ]
     },
     {
+      "era": "Genesis",
+      "yearsAfterPrimeEra": "~2985 (fifteen years before the Echo Era)",
+      "falls": [
+        {
+          "name": "Ninja Nike",
+          "reason": "contract",
+          "story": "The last Champion to fall, after nearly three thousand years of holding out. Fifteen years before the Echo Era he made a deal to protect his people from a Retnuhxed Apex that came through a rift in the Shadow Temple, taking corruption to save them from something worse. He saw futures without hope; the price was his freedom. His clan still remembers him, and his student Yuki fought for him for three years. (RATIFIED owner 2026-09-29; formerly placed in The Forgetting — ARCHIVE A-5.)"
+        }
+      ]
+    },
+    {
       "era": "Special Status",
       "falls": [
         {
           "name": "Melon Nike",
           "reason": "willing-betrayal",
-          "story": "Chose to join Nolem. Community vote determines fate."
+          "era": "The Dark Age",
+          "story": "Chose to join Nolem, entirely uncorrupted, in the Dark Age; with his choice fell the one great rising of hope that age had (RATIFIED owner 2026-09-29; ARCHIVE A-6). Community vote determines fate."
         },
         {
           "name": "OG Nike",
@@ -209,5 +216,5 @@
     },
     "note": "24 of 27 fell to corruption. The other three are three DISTINCT statuses and must not be merged: Melon Nike is entirely uncorrupted and CHOSE Nolem; Elbonzys Nike never fell and is a trial rather than a corruption; OG Nike is the Template, uncorrupted but exhausted, and The Coming Storm may change this."
   },
-  "reachOrderNote": "FALL ERA DOES NOT IMPLY REACH ORDER (2026-07-27). This file is a chronology of CORRUPTION, not of player progression — all 27 are corrupted before the Echo Era begins, so the fall order constrains nothing about the order a Collector meets them. Note especially that the Deep tier is NOT a later cohort: the two earliest falls of all, Berjador (Grand Arena) and Bertus Maximus (Frostfall) in The First Falls, are Deep-tier and fell centuries BEFORE their own region anchors. Dr Caleb and Phoenix likewise precede theirs. Shinden's Nel and Wolf Mode fell in The Forgetting alongside Ninja, the same cohort as their anchor. 'Deep' means deeper in the REGION, not later in history — the anchor is the recent lid; the Deep tier is the older strata beneath it, surfacing locally when the lid is lifted."
+  "reachOrderNote": "FALL ERA DOES NOT IMPLY REACH ORDER (2026-07-27). This file is a chronology of CORRUPTION, not of player progression — all 27 are corrupted before the Echo Era begins, so the fall order constrains nothing about the order a Collector meets them. Note especially that the Deep tier is NOT a later cohort: the two earliest falls of all, Berjador (Grand Arena) and Bertus Maximus (Frostfall) in The First Falls, are Deep-tier and fell centuries BEFORE their own region anchors. Dr Caleb and Phoenix likewise precede theirs. Shinden's Nel and Wolf Mode fell in The Forgetting, some 2,500 years before their anchor Ninja, the last Champion to fall (Genesis, fifteen years before the Echo Era; ruling 2026-09-29). 'Deep' means deeper in the REGION, not later in history — the anchor is the recent lid; the Deep tier is the older strata beneath it, surfacing locally when the lid is lifted."
 }

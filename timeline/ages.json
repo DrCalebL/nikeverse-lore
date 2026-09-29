@@ -84,7 +84,7 @@
             "order": 6,
             "period": "Months (but pivotal)",
             "mediaSource": "Comic Book 1",
-            "description": "Cthulhu warns Stoner Nike of Nolem's return. Five Champions are gathered. The Scholar Nikes build Nike Prime. The Battle of the Colosseum is fought. Nike Prime traps Nolem but vanishes into the trap with him.",
+            "description": "Cthulhu warns Stoner Nike of Nolem's return. Five Champions are gathered. The Scholar Nikes grow Nike Prime. The Battle of the Colosseum is fought. Nike Prime traps Nolem: Nolem alone reaches the pocket dimension, while Nike Prime and Shiro detach in transit and land alive elsewhere \u2014 his whereabouts unknown ever since (CANON \u00a71.5; ARCHIVE A-4).",
             "keyEvents": [
                 "Cthulhu contacts Stoner Nike with warning of Nolem's plan",
                 "Stoner Nike recruits Pico and contacts Hennifer (BETTY Project)",
@@ -94,12 +94,12 @@
                 "Nike Prime emerges at 99% completion (missing empathy core)",
                 "Battle of the Colosseum against Retnuhxed army",
                 "Nike Prime creates space-time distortion field trap",
-                "Nike Prime and Nolem fall into the trap together",
+                "Nike Prime springs the trap; Nolem alone reaches the pocket dimension, Nike Prime and Shiro detach in transit and land alive elsewhere (whereabouts unknown since; ARCHIVE A-4)",
                 "Shiro departs through the portal after Nike Prime (script.md:998) \u2014 \u26d4 formerly 'Shiro critically wounded, merges with Charles AI', STRUCK 2026-07-30: Book 1 has him leave alive, 'absorbs' is the villain's verb, and the phase-out is a rights decision needing no in-world death. See CANON.md \u00a73.1.",
                 "Charles AI gains portal abilities and cat-like personality",
                 "Champions scatter to guard their home dimensions"
             ],
-            "endedBy": "Nike Prime vanishing into the trap with Nolem"
+            "endedBy": "Nolem sealed in the trap, and Nike Prime vanishing"
         },
         {
             "id": "long-silence",
@@ -124,7 +124,7 @@
                 {
                     "name": "The Scholar Legacy",
                     "yearsAfterPrimeEra": "100-300",
-                    "description": "Scholar Nikes discover Nike Prime's location, are hunted, scatter their knowledge.",
+                    "description": "Scholar Nikes discover the roads out of the trap, are hunted, and tear the Scholar's Map so no single soul carries it whole (ARCHIVE A-4).",
                     "suggestedComic": "Comic Book 4"
                 },
                 {
@@ -160,7 +160,7 @@
             "order": 8,
             "period": "Current era",
             "mediaSource": "Discord Game",
-            "description": "All 27 Legendary Nikes are corrupted. A new Collector rises to free them. The trap holding Nolem weakens.",
+            "description": "Twenty-four of the twenty-seven Legendary Nikes lie fallen; three never fell (Melon chose Nolem uncorrupted, Elbonzys keeps the door, OG Nike is exhausted). A new Collector rises to reach them. The trap holding Nolem weakens. The campaign climax closes this era: the Collector takes the Sixth Seat, Nolem is bound (never killed), and the Weaver begins to wake.",
             "keyEvents": [
                 "The Convergence Hub serves as last safe nexus",
                 "Charles AI guides Collectors with portal abilities",
@@ -177,13 +177,12 @@
             "name": "The Coming Storm",
             "order": 9,
             "period": "Prophesied future",
-            "description": "The final battle. Nike Prime may be completed. The First Bond may be restored.",
+            "description": "RATIFIED (owner, 2026-09-29): after the Seat. The Weaver wakes; the Collector takes up the eternal vigil as a Dimensional Guardian (the price is the surrender of an ending, never a death \u2014 CANON \u00a71.4). Then the storm: OG Nike, uncorrupted but exhausted for three thousand years, may yet fall \u2014 and the Pattern must learn to carry its own carrier. Old wording archived: ARCHIVE A-4.",
             "keyEvents": [
-                "The Collector enters Nolem's Maw",
-                "Nike Prime is completed with the bonds the Collector gathered",
-                "TRUE Nike Prime rises (5,555 souls carrying each other)",
-                "A sacrifice is made",
-                "The fate of the multiverse is decided"
+                "The Weaver-Waking",
+                "The Guardian vigil (the endless layer)",
+                "OG Nike may yet fall; the Collector carries him",
+                "Nolem, bound and never killed, always leans on the door"
             ],
             "endedBy": "Unknown"
         }

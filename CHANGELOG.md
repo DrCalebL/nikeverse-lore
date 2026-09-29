@@ -1,5 +1,17 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## The timeline is ratified
+
+**Owner ruling (Tier 0), 2026-09-29 — "adopt all".** The main line's history is now canon in shape, era names, order
+and fall eras (`CANON.md` §1.5); year ranges stay approximate. Housekeeping H1–H4 brought the timeline files into line
+with earlier rulings (Nike Prime not in the trap; 24+3; the Weaver and the price; the Scholars learn the roads out
+of the trap). Rulings: the deep past as written; the seven Long-Silence eras; fall eras per `legendary-falls.json` and
+its reason vocabulary; **Tōga fell fifteen years before the Echo Era**; the Dark-Age Unknowns stay Unknown; **Melon
+chose Nolem in the Dark Age**; Elbonzys's tenure, Hub Charles's origin and the first Vow stay open; other realities and
+reserved dimensions are expansion room; after the Seat come the Weaver-Waking, the Guardian vigil and the Coming Storm.
+Superseded wording: `ARCHIVE.md` §A-4–A-7. Recorded the same session in the build repo `docs/design/GAME_SPEC.md`
+Part 3 §3.1 and the Shinden twist line, and the TESANA twin.
+
 ## A wild-type Legendary can still be weakened for the head-start
 
 **Owner ruling (Tier 0), 2026-09-29.** A wild-type Legendary met in the open is weakened before the reaching like any
