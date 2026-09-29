@@ -37,7 +37,9 @@
             "Conviction Armor",
             "Unwavering Certainty"
         ],
-        "unique": "Unlike every other Legendary, he's not fighting corruption \u2014 he embraced it willingly. His conviction is his armor. The most unsettling encounter because he might be RIGHT."
+        "unique": "Unlike every other Legendary, he carries no corruption at all \u2014 Nolem offered him the numbing and he refused it. His conviction is his armor. The most unsettling encounter because he might be RIGHT (and he is right about the circle and the odds; wrong that the count decides it).",
+        "rulings": "owner, 2026-09-29, 'adopt all melon'; CANON.md \u00a71.6.1 (\u2937 'he embraced it willingly' archived: ARCHIVE.md \u00a7A-20). He never strikes first; Melon's Ledger (solo, non-combat, builder-only name) comes first; afterwards he stands at his post in the open on the rotation as a wild-type Window-tier Legendary with his head-start fixed at zero \u2014 the fight is 'The Reckoning', every mechanic punishing separation. Outcomes: Bond is his own yes (melon_bonded) \u00b7 Free returns him to the Pattern (melon_freed_to_rest) \u00b7 bested, unreached (melon_bested_unreached) \u2014 he stays in the dark until you return.",
+        "mmoKit": ["The Ground Given Away", "The Rising and the Fall", "Bitter Harvest", "Undertow", "Nothing Held", "Answer", "The Circle's Hands", "The Count", "The Reckoning", "Every Thread Back / The Long Way Back"]
     },
     "boss": {
         "name": "Nolem's Shadow",

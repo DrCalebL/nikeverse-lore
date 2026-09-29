@@ -537,9 +537,9 @@ recommendations you have."* The adopted documents are in the build repo, `docs/d
 carries only what they rule about the **world**: history, cosmology, characters, names, what happened and what stays
 dark. Game design (quest grain, UI, seasons, systems) lives in the build repo. Row IDs let each item be traced.
 
-**The bounds of the ruling.** (a) **Melon is not ruled.** Every Melon-only row is **PENDING — owner ruling in
-progress** (D13, D49, D50, D60, D66; B-9, L-25; the Melon tie inside D38 and X-12), and the scraped-mural mystery
-goes with them; his era stays as §1.5 ruled it (D51 is superseded by §1.5). (b) **No new Nolem line is approved
+**The bounds of the ruling.** (a) **Melon was ruled the same day, separately** (*"adopt all melon"*, §1.6.1): the
+rows that were pending for him (D13, D49, D50, D60, D66; B-9, L-25; the Melon tie inside D38 and X-12) are adopted
+there; his era stays as §1.5 ruled it (D51 is superseded by §1.5). (b) **No new Nolem line is approved
 except "Nearly."** (D17); B-2 falls back to line-free carvings. (c) **Vane's text stays what the master storyline
 already stages** (B-14 not approved). (d) **Character looks and turnaround sheets are never covered**: each needs
 the owner's own approval. (e) **Legendary stories stay drafts under Q19** (CLAUDE.md rule 9): a Legendary beat
@@ -661,7 +661,7 @@ Vesper's identity (L-19) and the name rights of Cardano and Satoshi (D71).
     the Log* → the expansions: **The Waiting Sand** (remembers the Vigil and the First Falls; opens the Stillpoint
     and the Faultline) · **The Torn Map** (the Scholar Legacy and the Forgetting; the Threnody and the Penumbra) ·
     **The Coming Storm** (the Thunderhead; the Stillpoint and the Threnody revisited) · **The Rising** (the Dark
-    Age; the Sovereign Deep — PENDING with Melon) · **Something to Fall With** (the Overgrowth, and the Late Shore,
+    Age; the Sovereign Deep; Melon's story, §1.6.1) · **Something to Fall With** (the Overgrowth, and the Late Shore,
     another reality). The Permafrost Steppe, the Ember Reach, the Singularity and the Omniscience stay shut. The
     Stillpoint keeps the main clock (X-3). No era follows the Storm: the vigil is endless (L-9).
 33. **Memory, not travel** (X-5, X-7). Nobody travels in time; the past is walked only as a *Remembering*, which
@@ -697,6 +697,42 @@ Vesper's identity (L-19) and the name rights of Cardano and Satoshi (D71).
     death and his patterns *"absorbed by Charles AI"*; the Retnuhxed as a *"late stage"* (say *past reaching*);
     Dexter Hun as sootheable; *"Carry me."* in any finale; a bond count climbing *toward 5,555*; Olecram as Melon
     reversed; the retired kill verb; Cardano's *"calf"*. (⤷ the lore-side instances: ARCHIVE.md §A-16.)
+
+### 1.6.1 Melon · **RATIFIED (owner, 2026-09-29 — "adopt all melon")**
+
+The owner adopted the Melon consensus (build repo `docs/design/story/proposals/2026-09-29-MELON-CONSENSUS.md`) and
+the Melon rows of the storyline and roadmap (D13, D49, D50, D60, D66; B-9, L-25; the Melon parts of D38 and X-12).
+His **look is not covered**: it is a design brief only, pending the owner's approval of a 2D turnaround.
+
+41. **Entirely uncorrupted.** He went to Nolem and **refused the numbing** — *"He offered me the numbing. I said no.
+    If I was going to do it, I'd feel myself do it."* Nothing in him is a stain. The Discord-tier *"the shadow
+    clings"* and *"manipulated by Nolem"* are retired (⤷ ARCHIVE.md §A-20).
+42. **What happened** (the Dark Age, §1.5). In its one great rising of hope, he was **the soul the rising leaned
+    on** — more threads ran through him than through anyone. A grasping circle, **the First Circle** — unnamed souls,
+    never Charles, never the Champions — demanded his threads as theirs by right. Nolem promised to spare *"the ones
+    who lean on me"*, and **Melon knew it was a lie.** Afraid, he let every thread go at once and gave his weight to
+    Nolem, and the rising fell. He holds no title; *keepers* and *keystone* are retired for this story.
+43. **Right and wrong.** He was right that the circle was grasping and that the odds were bad. He is wrong that the
+    count decides it: *"I counted every thread that ran through me. I never counted the ones that ran between you."*
+    His realism is armour over fear, and **the fear surfaces only in his confession, after his certainty cracks**:
+    *"I was afraid. The count was true, and I was afraid, and I no longer know which came first."* (⤷ the earlier
+    "pressed, he breaks" staging: ARCHIVE.md §A-20.)
+44. **He never strikes first.** There is no stain in him to move first; he waits, arms crossed, and a fight begins
+    only when a Circle of Collectors chooses to reach.
+45. **Bond is his own yes.** The Collector refuses his *argument*, never his *consent*; he takes the hand without
+    recanting: *"I still think I was right. Ask me in a hundred years. I'll walk with you while you find out."*
+    **Bonding him over his refusal is struck everywhere** — it echoes the deleted Nike Who Refuses (§1.2).
+46. **Let go, he returns to the Pattern** — *"Back into the weave I tore. Of course it has room. That was always the
+    part I couldn't forgive."* — never "to the dark he chose". **Bested, unreached**, he stays in the dark at his
+    post until someone returns: *"You won. That proves what I said about winning."*
+47. **The world's traces.** Scraped murals of an earlier rising — every thread converging on one figure, carefully
+    removed — may stand in Shinden and elsewhere, markerless and cleanly cuttable; he scraped himself out and carries
+    the fragments in a pouch. McJared's *"a friend taught me to count like that"* is Melon (a Q19 draft). The Rising
+    (Expansion 4) may replay the episode — a circle claiming one soul's threads, one soul letting go — told only in
+    the world's own terms, never as a wink at the real event (§3.2's provenance ban binds it).
+48. **The realm's memory of him** is narrative-only and per-realm; below quorum it stays **unsettled**. *Justice* and
+    *Forgiveness* survive only as the vote's two wordings, and players never sentence anyone: banishment (to the
+    Void Between or anywhere) is struck.
 
 ## 2 · What a Nike is
 

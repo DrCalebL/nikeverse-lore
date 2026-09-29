@@ -1,5 +1,20 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Melon is ruled: "adopt all melon"
+
+**Owner ruling (Tier 0), 2026-09-29.** The Melon consensus and every Melon row that the first ruling left pending
+(storyline D13, D49, D50, D60, D66; roadmap B-9, L-25; the Melon parts of D38 and X-12) are adopted, including the extra
+that Nolem promised to spare "the ones who lean on me" and Melon knew it was a lie. **New canon:** `CANON.md` §1.6.1
+(items 41–48): entirely uncorrupted (he refused the numbing); the soul the Dark Age rising leaned on; the First Circle;
+right about the circle and the odds, wrong that the count decides it; the fear only in his confession after the crack;
+he never strikes first; Bond is his own yes (bonding over his refusal struck); let go he returns to the Pattern;
+bested, unreached he stays in the dark; the scraped murals; the Rising in the world's own terms; the realm vote
+narrative-only and unsettled below quorum, banishment struck. **JSON:** `characters/legendary-nikes/index.json` (Melon),
+`dimensions/nolem-maw.json`, `timeline/legendary-falls.json`. `GAME_DELTAS.md` O2 ruled; E11 re-staged.
+**Superseded:** `ARCHIVE.md` §A-20. **Not covered:** his look (a design brief only, pending the owner's approval of a 2D
+turnaround). Recorded the same session in the build repo (`GAME_SPEC.md` §3.9, §4.10.4's head-start exception, §5,
+§6.9; the adopted storyline and roadmap; `KNOWN_ISSUES.md`) and the TESANA twin.
+
 ## The story rulings: "record all recommendations", and the Harbinger Constant
 
 **Owner rulings (Tier 0), 2026-09-29.** *"Record all recommendations you have."* Every decision row of the base

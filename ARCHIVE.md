@@ -462,3 +462,41 @@ carried and carrying — and its third stage reads *wake*, never *win*. (`CANON.
 **Why:** "powered by" is the banned fuel register (`CANON.md` §1.2, NOTHING IS CONSUMED); and since 2026-08-01 the
 5,555 is only the personal Log, so a realm of 5,555 souls "standing together" was already superseded and still being
 quoted.
+
+---
+
+## A-20 · Melon before his ruling (archived 2026-09-29)
+
+**Was** (`CANON.md` §1.6, the bounds of the story ruling, verbatim):
+
+> **The bounds of the ruling.** (a) **Melon is not ruled.** Every Melon-only row is **PENDING — owner ruling in
+> progress** (D13, D49, D50, D60, D66; B-9, L-25; the Melon tie inside D38 and X-12), and the scraped-mural mystery
+> goes with them; his era stays as §1.5 ruled it (D51 is superseded by §1.5).
+
+(`characters/legendary-nikes/index.json`, Melon Nike): `"corruptionTheme": "Redemption vs Justice"` ·
+`"specialNote": "Community vote determines fate"` · in `gameNarrative`: *"Pressed hard enough he breaks: "I was
+SCARED, okay?! Is that what you want to hear?! I saw the numbers and I was TERRIFIED and I couldn't... I couldn't face
+another loss...""* and *"Unlike every other Legendary, he's not fighting corruption—he's embraced it willingly, and
+his conviction is his armor."*
+
+(`dimensions/nolem-maw.json`, the Maw's Legendary): *"unique": "Unlike every other Legendary, he's not fighting
+corruption — he embraced it willingly. His conviction is his armor. The most unsettling encounter because he might be
+RIGHT."*
+
+(`timeline/legendary-falls.json`, Melon's story, closing sentence): *"Community vote determines fate."*
+
+(`GAME_DELTAS.md` O2, open): the raid layer's *"neither fully corrupted nor truly free — the shadow clings to him."*
+
+**Now:** `CANON.md` §1.6.1. He is entirely uncorrupted — he refused the numbing. In the Dark Age he was the soul the
+rising leaned on; the First Circle demanded his threads; Nolem's promise to spare the ones who leaned on him was a lie
+he saw through; afraid, he let every thread go, and the rising fell. The fear surfaces only in his confession after his
+certainty cracks. Bond is his own yes; let go, he returns to the Pattern; bested, unreached, he stays in the dark. The
+realm vote is narrative-only and unsettled below quorum; it never decides his fate, and *Justice* and *Forgiveness*
+survive only as its wordings.
+
+**Ruling:** owner, 2026-09-29 — *"adopt all melon"* (the Melon consensus and storyline rows D13, D49, D50, D60, D66;
+roadmap B-9, L-25), including the extra that Nolem's promise was a lie Melon saw through. His look is not ruled.
+
+**Why:** "he embraced it" read the numbing as accepted, which contradicts §1.3's *entirely uncorrupted*; a vote that
+"determines fate" would let a realm sentence a soul and would feed a personal ending from realm state; and a fear shown
+early, under pressure, spends the one confession the Reckoning is built to earn.
