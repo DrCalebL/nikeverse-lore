@@ -1,7 +1,7 @@
 {
-  "description": "The 27 Legendary Nikes - special fragments of OG Nike carrying more of his essence. More power, more burden, more vulnerable to corruption.",
+  "description": "The 27 Legendary Nikes — the twenty-seven of the Shattering (CANON.md §1.3, AMENDED owner 2026-09-29, roadmap B-3) — special fragments of OG Nike carrying more of his essence. More power, more burden, more vulnerable to corruption.",
   "count": 27,
-  "expansionNote": "The Shattering created 5,555 forms. We know of 27 Legendaries. More may exist undiscovered in dimensions we haven't reached.",
+  "expansionNote": "The Shattering created 5,555 forms, and the twenty-seven of the Shattering are the Legendaries. The reserved dimensions hold back further Legendary-rarity forms — the GREAT SOULS — which are NOT among the twenty-seven (owner, 2026-09-29, roadmap B-3): they rank with the rest of the 5,555 in the Absolute Order; 'one Legendary walks with you' applies to them; they are account-bound; and they never rise from grass. ⤷ the old note archived: ARCHIVE.md §A-9.",
   "categories": {
     "champions": "Combat specialists. Warriors who fight on the front lines.",
     "scholars": "Knowledge keepers. The ones who solve problems.",
@@ -231,7 +231,8 @@
         "encounterDimension": "Imperial Colosseum",
         "encounterAct": "Act 2 - Scholar Bunker",
         "gameNarrative": "Found in the Systems Core—the bunker's heart of humming servers and crystalline computing arrays. Maintains the systems that once connected all dimensions, refusing to let them die. His perfect systems turn against intruders—automated defenses activating, data streams weaponized. Reveals the empathy core required 5,555 bonds.",
-        "quote_game": "The design called for the empathy core to be powered by collective bonds. 5,555 bonds, to be precise."
+        "quote_game": "The design called for the empathy core to be woven from collective bonds, never installed. 5,555 bonds, to be precise.",
+        "quote_gameNote": "Reworded owner 2026-09-29 (story ruling D34) from 'powered by collective bonds', which broke NOTHING IS CONSUMED (CANON.md §1.2); ⤷ ARCHIVE.md §A-19. Satoshi keeps a note he guarded from the Scholar Council, the Nikes who grew Nike Prime: 'We counted every vial. We thought if the number was right, the heart would come.' (D38, a Q19 draft.)"
       }
     },
     {
@@ -352,7 +353,7 @@
       "whyNotRecruited": "Internal conflict - the three heads argued endlessly",
       "corruptionTheme": "Unity from division",
       "corruptionReason": "Internal conflict - Nolem offered peace between the heads",
-      "corruptionEra": "The Dark Age",
+      "corruptionEra": "The Corruption Wars (owner, 2026-09-29, story ruling D29; matches timeline/legendary-falls.json; ⤷ ARCHIVE.md §A-17)",
       "raidBoss": true,
       "campaignBoss": false,
       "quote": "For the first time, we agree on something. Silence.",
@@ -424,7 +425,7 @@
       "gameEncounter": {
         "encounterDimension": "Void Terminus",
         "encounterAct": "Act 2 - Final Gate",
-        "gameNarrative": "A dragon of the void, ancient beyond measure, standing before the gate to Nolem's Maw. Not corrupted—just patient and devoted to a single purpose: letting no one pass without proving worthy. Scales shimmer with the light of dead stars. This is not corruption to be broken but a test to be passed. OG Nike says he never managed to earn Elbonzys's respect. The uncorrupted gatekeeper.",
+        "gameNarrative": "A dragon of the void, ancient beyond measure, standing before the gate to Nolem's Maw. Not corrupted—just patient and devoted to a single purpose: letting no one pass without proving worthy. Scales shimmer with the light of dead stars. This is not corruption to be broken but a test to be passed. OG Nike says he never managed to earn Elbonzys's respect — because he never let anyone hold the door with him (owner, 2026-09-29, story ruling D38; a Q19 draft). The uncorrupted gatekeeper.",
         "quote_game": "I am not your enemy. I am your test."
       }
     },
@@ -593,16 +594,16 @@
       "dualType": "Brawler",
       "description": "The original, the legend, the first Nike",
       "primeEraRole": "THE TEMPLATE - source of all 5,555 Nikes",
-      "status": "Not corrupted but EXHAUSTED",
+      "status": "Not corrupted but EXHAUSTED (in the Echo Era)",
       "location": "Edge of reality (Void Terminus)",
       "burden": "Feels every Nike across every dimension—their joys, fears, and deaths",
       "corruptionTheme": "When the foundation crumbles",
       "corruptionReason": "Exhaustion - carrying 5,555 souls for eons",
-      "corruptionEra": "POTENTIAL - The Coming Storm",
+      "corruptionEra": "The Coming Storm — after the Seat he falls truly, by accepting the numbing: a Corrupted Nike, reversible, nobody's failure; the Guardian stays until he leans, and carries him home (owner, 2026-09-29, roadmap L-3; CANON.md §1.6 item 34; ⤷ ARCHIVE.md §A-10)",
       "raidBoss": true,
       "campaignBoss": false,
       "quote": "Nike Prime isn't one soul carrying 5,555. Nike Prime is 5,555 souls carrying each other.",
-      "specialNote": "Final raid boss - represents what happens if the Template falls",
+      "specialNote": "He is never fought. The reserved 'what if the Template falls' raid is REPLACED by the Eye, a soulless construct gathered from the weather of his wound (owner, 2026-09-29, roadmap L-4; the shipped raidBoss flag records the Discord data, not the design). Woken at the Storm's seal, his form ticks the Log; bonded, he counts as the one Legendary who walks with you (L-6). ⤷ ARCHIVE.md §A-10.",
       "gameEncounter": {
         "encounterDimension": "Void Terminus",
         "encounterAct": "Act 2 - Template/Guide",

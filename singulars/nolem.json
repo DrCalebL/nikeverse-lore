@@ -104,8 +104,24 @@
       "text": "Let go. Sleep. I'll take the weight.",
       "context": "How Nolem tempts the exhausted",
       "source": "Raid Lore"
+    },
+    {
+      "text": "Nearly.",
+      "context": "His one word as the Maw opens, spoken with no avatar — the only new Nolem line approved (owner, 2026-09-29, story ruling D17). Every other drafted new line is unapproved; door carvings ship as unread marks (roadmap B-2 fallback).",
+      "source": "Owner ruling 2026-09-29"
     }
   ],
+  "storyRulings20260929": {
+    "presenceRules": [
+      "Every region holds one thing he made on purpose, found as a design, not a disaster.",
+      "Never on screen before Void Terminus: heard through what he made and through the fallen quoting him; personally present at Void; a Shadow at the Maw; one word, 'Nearly.', as the Maw opens.",
+      "He never lies about the weight and never gloats; courteous, patient, tired-sounding; never uses the Collector's name.",
+      "Never explained: no origin, no motive speech, no 'because'; never weather, luck or an ambient force; never immune, never fenced; bound, never killed; he always keeps one."
+    ],
+    "learnsTheRoads": "Why the trap weakens (story ruling D2): every soul he absorbs gives him what it knew, and the roads out of the trap are what the Scholars knew and tore the Map to hide. OG Nike has caught the fallen for three thousand years so he could not learn from them; as OG Nike tires, more slip past. 'He cannot go where he has never been told.' Whether what he holds is the soul or only what it knew is never said (roadmap L-10).",
+    "frostfallSentence": "The Endless Blizzard is a sentence he pronounced in person on the land that produced his strongest foe, renewed each solstice; the carvings in the ice are in his hand. It is the only weather that is his direct act (story ruling D26).",
+    "source": "CANON.md §1.6 items 5, 12–15"
+  },
   "targetSpecies": [
     {
       "species": "Aeth'kai",

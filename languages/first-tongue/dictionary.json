@@ -4,7 +4,8 @@
     "alternateNames": ["The Old Speech", "Aeth'kai Language", "Pre-Shattering"],
     "description": "The primordial language spoken before the Shattering. Fragments survive as runes on artifacts, inscriptions in ancient ruins, and words of power.",
     "origin": "Spoken by OG Nike and OG Charles, and the Aeth'kai civilization",
-    "power": "Speaking certain words in First Tongue has power — especially names"
+    "power": "Speaking certain words in First Tongue has power — especially names",
+    "droppedWords": "Ret'nux was DROPPED (owner, 2026-09-29, story ruling D68): a back-derived gloss of an out-of-world name invites decoding it (CANON.md §3.2). The English word Retnuhxed stands. ⤷ the entry archived verbatim: ARCHIVE.md §A-12."
   },
   
   "phonology": {
@@ -49,15 +50,6 @@
       "etymology": "eth (heart/core) + kara (chain/link)",
       "usage": "Describes the connection between OG Nike and OG Charles",
       "notes": "The most sacred term in the language. USAGE: `kara` is chain-as-LINKAGE — a chain of links, a chain of hands, a chain of custody — never chain-as-restraint. `Eth'kara` and its gloss \"heart-chain\" are retained in the First Tongue register (inscriptions, Scholars, artifacts), where the archaic sense is protected by the foreignness of the word. The bare English \"chain\" is BANNED in player-facing text, because modern English means restraint first and that collides with the never-a-leash art law; player-facing, the visible connection is 'the thread'."
-    },
-    {
-      "word": "Ret'nux",
-      "pronunciation": "RET-nuks",
-      "partOfSpeech": "noun",
-      "meaning": "Shadow servant; entropy's hand",
-      "etymology": "ret (shadow) + nux (servant/slave)",
-      "usage": "Origin of 'Retnuhxed'",
-      "notes": "Describes beings absorbed by Nolem"
     },
     {
       "word": "Shat'ael",

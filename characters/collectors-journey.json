@@ -21,14 +21,12 @@
         ]
     },
     "rescueMission": {
-        "phase": "Convergence Hub - Elena's Rescue",
+        "phase": "Neon City - Elena's Rescue (moved from the Hub, owner 2026-09-29, story ruling D4; ⤷ the Hub rescue of 17 dormant Nikes archived: ARCHIVE.md §A-15)",
         "events": [
-            "Distress signal from a collapsing dimension reaches Charles AI",
-            "Walker enters the dying world to find Elena, a veteran Collector",
-            "Together they rescue 17 dormant Nikes from the collapsing reality",
-            "Elena becomes a mentor figure, demonstrating advanced Collector techniques",
-            "The Blackout Beast—first major combat challenge",
-            "Elena's rescue establishes the stakes: dimensions are actively dying"
+            "Elena is the Walker's mentor from the opening (the handoff), as built",
+            "Later she goes ahead into Neon City and falls silent in the Signal-Storm, among the Nikes she once kept all of, each clean-lined and silent",
+            "The Collector finds her in a node and carries her out: 'You carried me. I'd forgotten what that felt like.'",
+            "Her '…I did.' from the opening is paid in full: the Need shown in the mentor first"
         ]
     },
     "triforceSystem": {
@@ -52,7 +50,7 @@
     },
     "harbingerBriefing": {
         "phase": "Convergence Hub - The Harbingers",
-        "description": "Hub Charles briefs the Walker on the six Harbingers—fallen Collectors (the player-kind) who serve as Nolem's regional lieutenants, each blocking the path to a Legendary Nike. Each fell for deeply personal, tragic reasons."
+        "description": "Hub Charles briefs the Walker on the six REGIONAL Harbingers (Harbingers are countless; six are regional — the Harbinger Constant, owner 2026-09-29)—fallen Collectors (the player-kind) who serve as Nolem's regional lieutenants, each blocking the path to a Legendary Nike. Each fell for deeply personal, tragic reasons."
     },
     "dimensionProgression": {
         "description": "The Walker travels to each dimension in a gated progression based on level and bonds formed.",
@@ -133,7 +131,7 @@
     },
     "endgame": {
         "description": "After clearing Nolem's Maw, the Collector understands the true mission: gathering 5,555 bonds to complete Nike Prime's missing empathy core. The war continues.",
-        "truthRevealed": "Nike Prime's whereabouts have been unknown since the Prime Era. Without the empathy core, he cannot bond the trap shut. The trap is slowly weakening.",
+        "truthRevealed": "Nike Prime's whereabouts have been unknown since the Prime Era. The trap is slowly weakening because Nolem is learning the roads out of it from the souls he absorbs, and OG Nike, who has denied him those souls for three thousand years, is tiring: 'He cannot go where he has never been told.' (owner, 2026-09-29, story ruling D2; ⤷ the old cause archived: ARCHIVE.md §A-13)",
         "truthRevealedNote": "CORRECTED 2026-07-29. Formerly asserted he 'is still inside the trap with Nolem, fighting endlessly for three thousand years' — contradicted by the Tier-1 source (Nolem went alone; Prime and Shiro detached and landed alive, comic-books/book-01/script.md:1033) AND foreclosed by the owner's ruling that the Long Silence is open expansion space. OPEN CONSEQUENCE: the weakening trap now needs a cause that does not depend on Nike Prime being inside it, since he demonstrably left. A later re-entry remains available as a future-comic option and would restore the original wording — but it is not canon until ruled.",
         "prophecy": "Nike Prime isn't one soul carrying 5,555. Nike Prime IS 5,555 souls carrying each other.",
         "path_forward": "Every Nike caught, every Legendary freed, every bond formed between Collectors—it all counts toward the 5,555 needed to complete Nike Prime and seal Nolem forever."

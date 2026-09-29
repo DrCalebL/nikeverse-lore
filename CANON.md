@@ -121,8 +121,9 @@ design* — the 5,555th slot being the player, the Nike Who Refuses a permanentl
 a dex that cannot be finished kills the drive to collect, retroactively, the moment a completionist works out the
 last slot is a trick. **What can never be completed is the WAR** — the holding decays, Nolem is bound and never
 killed, and every expansion grows the body that must be held. *You finish the collecting; you never finish the
-keeping.* Two beats survive rather than being spent: the **5,555th-slot moment** becomes the campaign climax (already
-gated on campaign completion, not on any count), and the **Nike Who Refuses** — ⛔ **DELETED as a category, owner ruling
+keeping.* Two beats survive rather than being spent: the **climax's inward bond** becomes the campaign climax (already
+gated on campaign completion, not on any count — ⚠ **AMENDED (owner, 2026-09-29):** it is *the one bond given inward,
+which no count reaches*, never a 5,555th slot, §1.6 item 31 · ⤷ archived: ARCHIVE.md §A-11), and the **Nike Who Refuses** — ⛔ **DELETED as a category, owner ruling
 2026-07-30, arc included.** Its 2026-07-29 re-scope to *"refusing everyone until you"* **is not refusal, it is
 flattery**: the lesson inverts into *you are special enough to overcome a no*. **Every achievement exemption goes
 with it.** The *some connections are not yours to make* lesson now rides *The Corrupted Nike at Peace*
@@ -451,13 +452,28 @@ wild tables never exclude a form you have reached: the answer to *"I miss the sm
 
 ### 1.3 The canon constants · **RATIFIED**
 
-Twenty-seven Legendary Nikes · eight dimensions · six *named* Harbingers of hundreds · five Champions gathered · a Long Silence of
-roughly three thousand years · Nike Prime released at ninety-nine hundredths.
+**The twenty-seven of the Shattering** · **eight dimensions of the Echo Era** · **the Harbingers, countless — six
+of them the regional Harbingers** · five Champions gathered · a Long Silence of roughly three thousand years · Nike
+Prime released at ninety-nine hundredths.
 
-**Twenty-four of the twenty-seven Legendaries fell to corruption. Three did not, and they are three different
-things — never collapse them into one.** Melon chose Nolem while entirely uncorrupted. Elbonzys never fell at
-all; his bond is to the door he keeps, and he is a test to be passed rather than a corruption to be broken. OG
-Nike is the Template, uncorrupted but exhausted, and The Coming Storm may yet change that.
+> ⚠ **AMENDED (owner, 2026-09-29) — three constants restated so that later canon cannot break them** (full text:
+> §1.6 items 1–4 · ⤷ archived: ARCHIVE.md §A-8, §A-9):
+> - **The Harbinger Constant.** Harbingers are countless. They remain *the Harbingers*: fallen human Collectors,
+>   converted, never corrupted, through the Vow. **Six are the REGIONAL Harbingers** — Yuki, Erik, Slate, Cassius,
+>   Echo and the Abyssal Horror, one to a region. More may be named as the story needs them: **Vesper** is simply a
+>   named Harbinger, arriving in Expansion 4, and **Vane** stands outside the regional six.
+> - **Eight dimensions *of the Echo Era*.** Reserved dimensions that later open are named and reachable, and are not
+>   among the eight.
+> - **The twenty-seven *of the Shattering*.** The great souls the reserved dimensions hold back (Legendary-rarity
+>   forms) are not among the twenty-seven: they rank with the rest of the 5,555 in the Absolute Order (§1.1); *one
+>   Legendary walks with you* applies to them; they are account-bound; and they never rise from grass — they stand in
+>   the open, as Legendaries do.
+
+**In the Echo Era, twenty-four of the twenty-seven Legendaries have fallen to corruption. Three have not, and they
+are three different things — never collapse them into one.** Melon chose Nolem while entirely uncorrupted. Elbonzys
+never fell at all; his bond is to the door he keeps, and he is a test to be passed rather than a corruption to be
+broken. OG Nike is the Template, uncorrupted but exhausted — **until the Coming Storm, in which he falls** (§1.6 item
+34; ⚠ AMENDED owner 2026-09-29 · ⤷ archived: ARCHIVE.md §A-10).
 
 ### 1.4 The Weaver, the Sixth Seat, and the price · **RATIFIED (2026-06-16)**
 
@@ -501,8 +517,9 @@ ranges are approximate and may shift for a comic (`timeline/long-silence.json` e
    *Unknown* (Professor, Corey Hort, Guthix, Jedi) **stay Unknown** — room for the comics.
 5. **The Echo Era** (now, the game): twenty-four fallen, three who did not (§1.3). It closes at the Sixth Seat.
 6. **After the Seat**, in this order: **the Weaver-Waking** → **the Guardian vigil** (the endless layer; the price
-   is an ending surrendered, §1.4) → **the Coming Storm**, in which OG Nike may yet fall and the Collector carries
-   him. The content of each is open; the order is canon.
+   is an ending surrendered, §1.4) → **the Coming Storm**, in which OG Nike falls and the Collector carries him home.
+   The order is canon; the shape of each was ruled the same day (§1.6 items 32–39 · ⚠ AMENDED owner 2026-09-29 —
+   *"may yet fall"* ⤷ archived: ARCHIVE.md §A-10).
 
 **Held open on purpose:** how long Elbonzys has kept his door; Hub Charles's origin; when the first Collector took
 the Vow (Vane's own history stays his). **Expansion room:** the eight named dimensions keep one clock; other
@@ -511,6 +528,175 @@ places arrive without rewriting this history.
 
 > Superseded wording in the timeline files (Nike Prime "in the trap"; "all 27 corrupted"; the old Coming Storm;
 > Tōga in the Forgetting; Melon's era "Unknown"; three conflicting fall reasons) ⤷ archived: ARCHIVE.md §A-4–A-7.
+
+### 1.6 The story rulings of 2026-09-29 · **RATIFIED (owner, 2026-09-29)**
+
+The owner adopted the recommendations of the base storyline and the expansion roadmap: *"record all
+recommendations you have."* The adopted documents are in the build repo, `docs/design/story/STORYLINE_2026-09-29.md`
+(decision rows D1–D72) and `docs/design/story/EXPANSION_ROADMAP_2026-09-29.md` (rows B-, X- and L-). This section
+carries only what they rule about the **world**: history, cosmology, characters, names, what happened and what stays
+dark. Game design (quest grain, UI, seasons, systems) lives in the build repo. Row IDs let each item be traced.
+
+**The bounds of the ruling.** (a) **Melon is not ruled.** Every Melon-only row is **PENDING — owner ruling in
+progress** (D13, D49, D50, D60, D66; B-9, L-25; the Melon tie inside D38 and X-12), and the scraped-mural mystery
+goes with them; his era stays as §1.5 ruled it (D51 is superseded by §1.5). (b) **No new Nolem line is approved
+except "Nearly."** (D17); B-2 falls back to line-free carvings. (c) **Vane's text stays what the master storyline
+already stages** (B-14 not approved). (d) **Character looks and turnaround sheets are never covered**: each needs
+the owner's own approval. (e) **Legendary stories stay drafts under Q19** (CLAUDE.md rule 9): a Legendary beat
+below is the adopted plan and stays open to the Q19 audit, which runs last (D72). (f) **Still the owner's:**
+Vesper's identity (L-19) and the name rights of Cardano and Satoshi (D71).
+
+**The constants (§1.3)**
+1. **The Harbinger Constant** (owner, overriding D7 and B-4). Harbingers are countless. They remain *the
+   Harbingers*: fallen human Collectors, converted, never corrupted, through the Vow. Six are the **regional**
+   Harbingers: Yuki, Erik, Slate, Cassius, Echo and the Abyssal Horror. More may be named as the story needs them.
+   Vesper is simply a named Harbinger, arriving in Expansion 4. Vane stands outside the regional six.
+2. **Eight dimensions of the Echo Era** (B-1). The reserved dimensions open after the Seat; they are named and
+   reachable and are never counted among the eight.
+3. **The twenty-seven of the Shattering** (B-3). Great souls rank with the rest of the 5,555; one Legendary walks
+   with you applies to them; they are account-bound; they never rise from grass.
+4. **Twenty-four fell, in the Echo Era** (L-3). The count is dated: in the Coming Storm OG Nike becomes the
+   twenty-fifth (item 34).
+
+**What has been happening**
+5. **Why the trap is weakening** (D2, B-19). Nolem's limit is knowledge, and the Scholars learned the roads out of
+   the trap and tore the Map so no single soul carried it whole (§1.5). Every soul Nolem absorbs gives him what it
+   knew. For three thousand years OG Nike has caught the fallen so that Nolem could not learn from them, while the
+   Harbingers hunted the Map's scraps and the souls who had seen them. **As OG Nike tires, more slip past him: the
+   trap is weakening because Nolem is learning his way out, one absorbed memory at a time.** Spoken once, in the
+   Maw's Truth Chamber: *"He cannot go where he has never been told."* A soul kept in the Sanctuary and a soul
+   returned to the Pattern are both roads he never learned. This is the only answer; no later story adds a second,
+   and it asserts nothing about Nike Prime. (⤷ the old cause archived: ARCHIVE.md §A-13.)
+6. **The Drift** (D3, D18). The warm soul-mote a fallen Retnuhxed releases (§2.1) drifts on one bearing, everywhere,
+   to OG Nike at the Edge, who catches it so Nolem cannot absorb it. Nothing else about the Retnuhxed changes; Map
+   scraps come only from Harbingers.
+7. **The Aeth'kai Warning** (D40, D57, B-8, D5). Its author is **the last remembering Scholar Nike, in the
+   Forgetting**, who wrote it in the First Tongue so that it would be carried as ancient: hope disguised as
+   destiny. The author stays unnamed, with no pronoun. Its seal is a four-digit handprint. It is revealed in the
+   Hub before the Maw, at the Foundation Stones (Memory-Crystal 3 of 3, beside the eighth Broken Shrine); a later
+   expansion may let a player live the writing of it. Whether any Aeth'kai survived stays open.
+8. **The Scholars** (D34, D38). The Scholar Council — the four who grew Nike Prime — did the growing, not the five
+   Scholars of the Bunker; their fates stay unknown. Satoshi keeps a note he guarded from them: *"We counted every
+   vial. We thought if the number was right, the heart would come."* His line is now: *"The design called for the
+   empathy core to be woven from collective bonds, never installed. 5,555 bonds, to be precise."* (§1.2: nothing is
+   consumed.) The Bunker's reveals are written as the Scholars' mistakes.
+9. **The 5,555 Prophecy is personal** (D35): every form one Collector reaches, bonded or let go, each carried and
+   carrying. Its third stage reads *wake*, never *win*.
+10. **Elena** (D4) is the opening mentor, as built. Later she goes ahead into Neon City and falls silent in the
+    Signal-Storm among the Nikes she once kept all of; the Collector carries her out. There was never a Hub rescue
+    of seventeen dormant Nikes. (⤷ ARCHIVE.md §A-15.)
+11. **The Triforce is canon** (D68): Collectors test each other to discharge corruption, exchange memory and
+    strengthen the web — a courtesy between Collectors, never faction war. It does not name the memory system
+    (X-13). **`Ret'nux` is dropped** from the First Tongue (it invites decoding a name; ⤷ ARCHIVE.md §A-12).
+    **Charles AI's age stays unstated.**
+
+**Nolem**
+12. **Presence rules** (D17). (i) Every region holds one thing he made on purpose, found as a design, not a
+    disaster. (ii) He is never on screen before Void Terminus: he is heard through what he made and through the
+    fallen quoting him; he is personally present at Void; he is a Shadow at the Maw; and he speaks one word,
+    *"Nearly."*, as the Maw opens. (iii) He never lies about the weight and never gloats; he is courteous, patient
+    and tired-sounding, and never uses the Collector's name. (iv) He is never explained — no origin, no motive
+    speech, no "because" — and never weather, luck or an ambient force; never immune, never fenced; bound, never
+    killed; he always keeps one.
+13. **The Frostfall blizzard is a sentence** (D26). Nolem pronounced it in person on the land that produced his
+    strongest foe and returns each solstice to renew it; the carvings in the ice are in his hand. It is the only
+    weather that is his direct act. Every other region's weather is a numbing somebody accepted or shaped over a
+    wound he made.
+14. **His words.** The one new line approved is *"Nearly."* (D17). Every other drafted line is unapproved, and the
+    carvings on the inside of the door ship as unread marks (B-2 fallback). The ratified *"Forty of the same little
+    pig…"* is held out of the base game and spent once, as an unanswered door carving in the season after the Log's
+    final delivery (B-6).
+15. **Whether what he holds of an absorbed soul is the soul or only what it knew is never said** (L-10). It is a
+    writing rule, not a Tier-3 entry; §4.1 does not change.
+
+**The Harbingers**
+16. **Vane** (D12, S5). Every Harbinger quotes one catechism, in one hand, signed *the one no one answered* and
+    ending on the unfinished *"If I call, will—"*. He stands up in person once, at the Void Terminus Memory Graveyard,
+    beside a blank stone, and reads the end of it: *"Is anyone—"*. The Collector may answer *"I heard you."* — not an
+    ask, not a redemption; his thread stays open.
+17. **Yuki** (D8). She held Tōga for three years while he screamed; when the mist sealed her out she took the Vow
+    to stand close to him inside the dark. Her father, the swordsmith Kageyama Sōhei, disowned her and still sets a
+    second bowl each night. Woken Tōga, she stays as the valley's gardener; Tōga only knocked out, she walks away and
+    reappears in Neon City.
+18. **Erik** (D21–D24, D39). In a winter when his daughter **Sigrid** was dying of cold he took the Vow once, in
+    despair — *never lose anyone again* — and has said no to it every day since: *he chose the door; Nolem built the
+    room.* His wife is **Hild**. **Sigrid never speaks.** He has harmed no human; his scar is the souls he FINISHED.
+    The dead in the Frozen Harbor's ice are the drowned of Nolem's storm. Refusing his despair redeems him, and he
+    sits outside the lit window. (⤷ his old sheet: ARCHIVE.md §A-14.)
+19. **The Abyssal Horror** (D46): a Collector once, pronoun open, who carried a dying world alone and lost their
+    name with it. The key is being remembered: Void Charles, the Witness, kept their name and gives it back.
+20. **Slate** (D27), as ratified: he lost six partners, and kept a tally of the times one fighter stepped in front
+    of another. **Lark Brandt** (D6) is a Collector caught in Neon's interface, never a Harbinger.
+
+**The others**
+21. **Tōga fell fifteen years before the Echo Era** (D9), as §1.5 ratified.
+22. **Hydra fell in the Corruption Wars** (D29), as §1.5 ratified; the Legendary file now agrees (⤷ ARCHIVE.md §A-17).
+23. **Jedi's fall stays Unknown** (D11 narrowed by B-7): every line stating why or how he fell is stripped; his
+    encounter may stay as a game-authored draft.
+24. **Tier-B drafts adopted** (D38, X-4, X-12, L-22): Elbonzys never respected OG Nike *because he never let anyone
+    hold the door with him*; Nolem told Bertus there was no room for him; Berjador, who held a breach seven days (in
+    the Faultline), is OG Nike's preview; Nel carries no role word; Viking against Bertus Maximus on the ice was the
+    first battle between Legendaries. All are Q19 drafts.
+25. **Corrupted Charles** (D47) is a Charles Variant — never OG Charles — who lost his Nike and had no one to carry
+    him; he begs a Radiant Collector only to remember his Nike's name.
+26. **Analog Charles** (D70) is Neon City's Charles in fiction, "the Analog Rebel" his epithet.
+27. **The Dimension Eater** (D45, D69) is typed Shadow/Cosmic, an appetite of Nolem's (⤷ ARCHIVE.md §A-18). Its one
+    memory is the Aeth'kai walking away from each other, each alone; it brings the Final Fragment up out of the ark,
+    and OG Nike gives it. It gives nothing else.
+28. **Frostfall's places** (D31) are the Frozen Harbor and the Eternal Battlefield.
+29. **Cardano lost his pod**, his family (D67). Cardano is kept out of the Rising whatever the rights answer (L-20);
+    Satoshi's load-bearing line never moves.
+30. **Hub Charles's origin stays open** (L-13): he appears in no memory of the Convergence.
+
+**The Seat**
+31. (D53, D54, D56, B-10) The Seat's bond is **the one bond given inward, which no count reaches**: it ignites Nike
+    Prime, and the personal Log completes the heart later. No number is shown, and "5,554" is never voiced. The ask
+    is answered by OG Nike first, then the starter (*"…Told you."*), then the Strands and the residents together; in
+    the cold ending it is still answered, by OG Nike alone. *"A cell built for two and occupied by one"* is spoken
+    once, in the Truth Chamber, and is only ever an image after that.
+
+**After the Seat: the saga's shape**
+32. **Five chapters on the ratified order** (B-5, B-18, D62, D63 superseded by X-2): the Weaver-Waking (part of the
+    base game) → the Guardian vigil, endless, whose standing duties are *Hold the Door*, *Tend the Garden* and *Walk
+    the Log* → the expansions: **The Waiting Sand** (remembers the Vigil and the First Falls; opens the Stillpoint
+    and the Faultline) · **The Torn Map** (the Scholar Legacy and the Forgetting; the Threnody and the Penumbra) ·
+    **The Coming Storm** (the Thunderhead; the Stillpoint and the Threnody revisited) · **The Rising** (the Dark
+    Age; the Sovereign Deep — PENDING with Melon) · **Something to Fall With** (the Overgrowth, and the Late Shore,
+    another reality). The Permafrost Steppe, the Ember Reach, the Singularity and the Omniscience stay shut. The
+    Stillpoint keeps the main clock (X-3). No era follows the Storm: the vigil is endless (L-9).
+33. **Memory, not travel** (X-5, X-7). Nobody travels in time; the past is walked only as a *Remembering*, which
+    never changes history and ends at the door of the numbing. **The comics own the Long Silence:** a game may
+    remember its ratified facts at any time and dramatizes one of its scenes only after that era's comic ships, or
+    with the owner's mark. No per-realm outcome ever becomes comic canon.
+34. **The Coming Storm** (L-2–L-6, L-14, L-15, L-24, B-21). OG Nike rests at last and cannot sleep. Nolem recites
+    to him, through the door, the souls he missed, one a night, beginning with Sorrel, a small wild soul of the
+    First Falls (a draft). The storm is the weather of OG Nike's wound — the exhaustion Nolem built on purpose —
+    never Nolem's weather and never a numbing, until OG Nike says *"…Yes."* to the hand through the door. Then **he
+    falls truly, by accepting the numbing: a Corrupted Nike, reversible, and nobody's failure.** He is never fought,
+    and no FINISH can touch him. The Guardian stays beside him until his weight leans into them — his one request is
+    that wordless lean, never a palm-up hand and never words — and carries him home, where the first rain the Hub has
+    ever seen falls once, at his waking, and then the sky is safe again. His form ticks the Log; bonded, he is the
+    one Legendary who walks with you; bonded or let go, he is rested. The reserved "Template falls" raid is replaced
+    by the Eye, a soulless construct. The OG Absence closes here as design — Nolem targeted the Template's
+    exhaustion — never as motive.
+35. **The Shepherd and the Pig** (L-7). The Warning's *"meet again"* is rhymed, never spent: OG Charles is glimpsed
+    once, at the Edge, and Hub Charles does not greet OG Nike on screen.
+36. **The missed and the drowned** (L-12). The souls OG Nike missed were absorbed. The drowned lights of the
+    Sovereign Deep are a different kind: souls the Sovereign drew down before anyone could reach them, kept but never
+    heard.
+37. **The Log's final delivery** (L-1) is the last release that carries a new form, declared once in advance; a
+    completed Log is never reopened without a new owner ruling.
+38. **"Carry me." is never asked again** (B-18). After the Seat the Collector never asks to be carried, held, saved
+    or rescued, anywhere, by any words; they may accept what is offered.
+39. **Held open** (L-13, L-17): Hub Charles's origin; the Forgetting's cause; whether any Aeth'kai survived;
+    Elbonzys's tenure; the first Vow; Nike Prime's whereabouts.
+
+**The strike list** (D67)
+40. Struck wherever they appear: the Tier-3 leaks in drafts (a Singular that Nolem consumed in the Formless Era;
+    *"Nolem ate me before there were words for it"*); Nolem *"locked in eternal combat with Nike Prime"*; Shiro's
+    death and his patterns *"absorbed by Charles AI"*; the Retnuhxed as a *"late stage"* (say *past reaching*);
+    Dexter Hun as sootheable; *"Carry me."* in any finale; a bond count climbing *toward 5,555*; Olecram as Melon
+    reversed; the retired kill verb; Cardano's *"calf"*. (⤷ the lore-side instances: ARCHIVE.md §A-16.)
 
 ## 2 · What a Nike is
 
@@ -562,10 +748,12 @@ A taut line from a hand is the grammar of possession — the very lie a Collecto
 
 A **Harbinger** is a fallen Collector — a *human* who followed Nolem. Never a Nike.
 
-**Harbingers are a POPULATION, not a cast (owner ruling, 2026-07-26).** There are *hundreds*, and more every day,
+**Harbingers are a POPULATION, not a cast (owner ruling, 2026-07-26).** They are *countless*, and more every day,
 because Collectors fall constantly — and in the MMO a **Hollow player becomes a Harbinger**, so the population is
-generated by play itself. **Six are NAMED and authored** — Yuki, Erik, Slate, Cassius, Echo, the Abyssal Horror —
-one to a region. The rest are unnamed and need no lore, ever.
+generated by play itself. **Six are the REGIONAL Harbingers** — Yuki, Erik, Slate, Cassius, Echo, the Abyssal
+Horror — one to a region. More may be named as the story needs them (Vesper, arriving in Expansion 4; Vane stands
+outside the regional six); the rest are unnamed and need no lore, ever. ⚠ **AMENDED (owner, 2026-09-29 — the
+Harbinger Constant, §1.3, §1.6 item 1)** · ⤷ archived: ARCHIVE.md §A-8.
 
 **Consequence — Harbinger lore does NOT need to align across games.** Different products may give Harbingers
 different names, titles, premises and backstories, and that is **not a defect**. Do not open cross-repo
@@ -674,10 +862,9 @@ separate kind of being altogether. Never call a Nike a Harbinger.
 > landing fresh, and **reversible because it is fresh**. Only the *label* the art direction reached for is
 > superseded.
 >
-> ⚠ **OPEN, flagged not resolved:** `Nikeverse-mmo-rpg-from-scratch/docs/story/OPENWORLD_AND_ENDLESS.md:567`
-> has Dexter Hun — *the original Retnuhxed* — *"still aware inside the husk-pattern"* and **sootheable** via a
-> Window, i.e. the bond-meter verbs applied to an `is_nike=0` husk. That collides with "no one remains to be
-> reached." Registered rather than silently absorbed.
+> ✅ **RULED (owner, 2026-09-29; strike list D67 §H20): Dexter Hun is NOT sootheable.** The draft that made the
+> original Retnuhxed reachable through a Window is struck; "no one remains to be reached" stands (§1.6 item 40 ·
+> ⤷ the OPEN flag archived: ARCHIVE.md §A-16).
 
 The word **"Unraveler" is retired** and names nothing. (*`Nol'meth` glossed as "The Unraveling" is a different
 word and stands.*)
@@ -690,8 +877,9 @@ corruption, **`Eth'kara`** for the heart-chain — the First Bond, and the Patte
 name is **`Tōga`**, and his name in the world stays *Ninja Nike*.
 
 > **Never retire an English term whose First-Tongue root is authored.** `Har'ben` is glossed *"Origin of
-> 'Harbinger'"* and `Ret'nux` *"Origin of 'Retnuhxed'"*. Retiring either English word would force re-deriving
-> every phrase and inscription built on its root.
+> 'Harbinger'"*. Retiring the English word would force re-deriving every phrase and inscription built on its
+> root. *(`Ret'nux` was the second example; the owner dropped it on 2026-09-29 — see the box below. Dropping the
+> First-Tongue gloss retires nothing: "Retnuhxed" stands.)*
 
 > ### 🔒 OUT-OF-WORLD PROVENANCE — owner, 2026-07-29. **NEVER IN-WORLD. NEVER SPOKEN BY A CHARACTER.**
 >
@@ -727,12 +915,11 @@ name is **`Tōga`**, and his name in the world stays *Ninja Nike*.
 > 3. **The phase-out is a RIGHTS decision and needs no in-world justification.** It never needed a death, and
 >    the death it acquired is struck — see §3.2's Shiro entry.
 >
-> ⚠ **`Ret'nux` (`languages/first-tongue/dictionary.json:55-61`) is a post-hoc in-world gloss layered over
-> this.** It reads *"ret (shadow) + nux (servant/slave) — Origin of 'Retnuhxed'"*, which is now known to be
-> back-derived. **Not struck — awaiting an owner call.** Recommend keeping it as an **in-world folk
-> etymology**: the First Tongue word is what people *in the world* made of a name whose true origin they
-> could never reach, which is both free and quietly on-theme. Striking it instead would force re-deriving
-> every phrase built on the root, per the rule directly above.
+> ✅ **`Ret'nux` is DROPPED — owner ruling, 2026-09-29 (story ruling D68).** It was a post-hoc in-world gloss
+> layered over this (*"ret (shadow) + nux (servant/slave) — Origin of 'Retnuhxed'"*), back-derived from a name
+> whose only origin is out-of-world, and a gloss **invites decoding the name** — the one thing this box forbids.
+> It is removed from `languages/first-tongue/dictionary.json`; no phrase or inscription was built on it. The word
+> *Retnuhxed* is untouched. ⤷ archived (the entry and the folk-etymology recommendation): ARCHIVE.md §A-12.
 >
 > `scripts/check-canon-terms.sh` enforces all four retirements, case-insensitively and on word boundaries, and
 > runs in CI.
@@ -781,6 +968,10 @@ It is the Collector's first and only **assertion of self** — the section's ori
 amendment is safe: the power was never in muteness, it is in the one who carries everyone finally asking. Nothing
 in the run-up may pre-spend it, and it must never appear anywhere else, spoken by anyone.
 **Souls may OFFER to carry the Collector. The Collector may never ask.**
+
+**After the Seat it is never asked again** (owner, 2026-09-29; §1.6 item 38). In the Weaver-Waking, the vigil, the
+Coming Storm and every expansion, the Collector never asks to be carried, held, saved or rescued, in any words, title
+or translation. They may *accept* what is offered.
 
 ---
 

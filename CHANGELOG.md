@@ -1,5 +1,36 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## The story rulings: "record all recommendations", and the Harbinger Constant
+
+**Owner rulings (Tier 0), 2026-09-29.** *"Record all recommendations you have."* Every decision row of the base
+storyline (D1–D72) and the expansion roadmap (B-, X-, L-rows) is adopted on its recommendation, except: **Melon is not
+ruled** (D13, D49, D50, D60, D66, B-9, L-25 and the Melon parts of D38/X-12 are PENDING, the owner ruling now); rows
+whose recommendation was *the owner rules each* are **not approved** and take their fallback (B-2 → line-free
+carvings; D17 → only "Nearly." among new Nolem lines; B-14 → Vane's text stays as the master stages it; L-19 →
+Vesper's identity stays the owner's; D71 → the Cardano and Satoshi rights stay open); D51 is superseded by §1.5 (Melon
+chose in the Dark Age); and **character designs are never covered**. The same day the owner gave **the Harbinger
+Constant**, overriding D7 and B-4: Harbingers are countless; six are the regional Harbingers; more may be named (Vesper,
+arriving in Expansion 4); Vane stands outside the six.
+
+**New canon:** `CANON.md` **§1.6** (the lore half of the rulings: the trap-weakening cause, the Drift, the Warning's
+author and where it is revealed, Nolem's presence rules and "Nearly.", Tōga, Yuki and Erik, the Retnuhxed motes, the
+Scholars, the Seat, the after-Seat saga shape and "never asks again", OG Nike's fall in the Coming Storm, what stays
+open, the strike list). **Amended:** §1.2 (the climax's inward bond), **§1.3** (the Harbinger Constant; *eight
+dimensions of the Echo Era*; *the twenty-seven of the Shattering*; 24+3 dated to the Echo Era), §1.5 item 6, §3.1 (the
+population; Dexter Hun ruled not sootheable), §3.2 (`Ret'nux` dropped), §4.2 (never asked again after the Seat).
+**JSON:** `characters/harbingers/index.json` (the constant; Vane and Vesper under `namedOutsideTheRegions`; Yuki, Erik,
+the Abyssal Horror) and their dimension copies; `dimensions/index.json`; `characters/legendary-nikes/index.json`
+(great souls; OG Nike; Satoshi's line; Hydra's era; Elbonzys); `timeline/ages.json`, `legendary-falls.json`,
+`prime-era.json`; `characters/collectors-journey.json` (Elena; the briefing); `prophecies/mysteries.json`;
+`singulars/nolem.json`; `characters/charles-variants/index.json`; `entities/dimension-eater.json`;
+`languages/first-tongue/dictionary.json`; `dimensions/nolem-maw.json`. `GAME_DELTAS.md` O4 and O6 and the Eater's
+typing row are ruled. **Superseded canon:** `ARCHIVE.md` §A-8–A-19.
+
+**Not built here, though adopted:** the Silence Ledger and its lint (B-15) and the reserved-words lint (B-13) are
+three-repo moves under the pin rule and are left to the lead. Recorded the same session in the build repo
+(`docs/design/GAME_SPEC.md`, `docs/design/story/STORYLINE_2026-09-29.md`, `EXPANSION_ROADMAP_2026-09-29.md`,
+`docs/design/KNOWN_ISSUES.md`) and the TESANA twin.
+
 ## The timeline is ratified
 
 **Owner ruling (Tier 0), 2026-09-29 — "adopt all".** The main line's history is now canon in shape, era names, order

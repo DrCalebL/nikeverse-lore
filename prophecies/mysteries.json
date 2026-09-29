@@ -49,6 +49,7 @@
             "tier": 1,
             "tierSource": "UNIVERSE_DEPTH_SPEC.md \u00a7T1 tier 1 (PILLARS, answered and locked) \u2014 'the First Bond / Eth'kara / the Charles Constant' and 'the Weaver + sacrifice-as-surrendered-ending'. CANON.md \u00a71.4 (RATIFIED) locks the price.",
             "tierNote": "The prophecy's TEXT and its meaning are tier 1. Its TRUE AUTHOR is a guarded tier-2 reveal (GAME_SPEC.md \u00a73.16) \u2014 a tier-1 rating here is not licence to name who wrote it.",
+            "authorReveal": "RULED owner 2026-09-29 (story rulings D40, D57; roadmap B-8; CANON.md \u00a71.6 item 7): the author is the last remembering Scholar Nike, in the Forgetting \u2014 unnamed, no pronoun \u2014 who wrote it in the First Tongue so it would be carried as ancient. Its seal is a four-digit handprint. Revealed only at the Hub before the Maw (the Foundation Stones, Memory-Crystal 3 of 3). 'The Shepherd and the Pig shall meet again' is rhymed in the Coming Storm and never spent literally (roadmap L-7).",
             "text": {
                 "original": "Nol'meth shat'ael keth'nor, mir'eth char'veth nik'ael thael'vos. Vel prim'nik, eth'kara vor'thael. Keth mir'eth \u2014 shat'ael vel'nos eth'kara.",
                 "translated": "When the Unraveling wakes and the echoes dim, the Shepherd and the Pig shall meet again. Not as one, but as thousands-made-one, the heart-chain restored, the darkness undone. But beware the cost\u2014to bind what was torn, a sacrifice made as it was when first born."
@@ -128,13 +129,15 @@
             "text": {
                 "core": "Nike Prime isn't one soul carrying 5,555. Nike Prime IS 5,555 souls carrying each other.",
                 "aethkai_fragment": "When 5,555 souls carry each other, the trap may open.",
-                "scholar_context": "The 5,555 that scattered when OG Nike shattered become the 5,555 bonds that heal. The trap can only be opened safely when 5,555 souls stand together."
+                "scholar_context": "The 5,555 that scattered when OG Nike shattered become the 5,555 bonds that heal.",
+                "framing": "PERSONAL AND LOG-SHAPED (owner, 2026-09-29, story ruling D35): every form one Collector reaches, bonded or let go, each carried and carrying — never a realm-wide census. Stage 3 reads 'wake', never 'win'. ⤷ the realm framing ('the trap can only be opened safely when 5,555 souls stand together') archived: ARCHIVE.md §A-19."
             },
             "revealStructure": {
                 "stage1": {
                     "location": "Imperial Colosseum \u2014 Scholar Bunker (Act 2)",
                     "method": "Five Scholar Legendaries (Dr Caleb, Professor, Satoshi, Corey Hort, Guthix) reveal Nike Prime's design documents, the missing empathy core, and the 5,555 bond requirement.",
-                    "keyLine": "The design called for the empathy core to be powered by collective bonds. 5,555 bonds, to be precise."
+                    "keyLine": "The design called for the empathy core to be woven from collective bonds, never installed. 5,555 bonds, to be precise.",
+                    "keyLineNote": "Reworded owner 2026-09-29 (story ruling D34); ⤷ ARCHIVE.md §A-19."
                 },
                 "stage2": {
                     "location": "Void Terminus (Act 2)",
@@ -153,7 +156,7 @@
             },
             "fulfillment": {
                 "status": "In progress",
-                "mechanism": "Every Nike caught by a Collector, every Legendary freed, every bond formed between Collectors strengthens the web. When 5,555 bonds exist simultaneously, the trap can be opened and Nike Prime can be completed.",
+                "mechanism": "Every Nike a Collector reaches, bonded or let go, strengthens the web. The Seat's bond is the one bond given inward, which no count reaches: it ignites Nike Prime; the Collector's personal Bond Log, complete, completes the heart (owner rulings 2026-08-01 Q25 and 2026-09-29 D35/D56; ⤷ the simultaneous-5,555 wording archived: ARCHIVE.md §A-19).",
                 "truePrime": "TRUE Nike Prime = The Collector + their bonded Nikes + the freed Legendaries + the original Nike Prime"
             }
         }
@@ -174,7 +177,7 @@
             "mayAnswer": [
                 "That Shiro opens the way is plain \u2014 his FUNCTION is tier-1 canon (CANON.md \u00a74.1).",
                 "That he is seen and never spoken to. Silent visual cameos are the ceiling.",
-                "That his patterns were absorbed by Charles AI, surviving as its unexplained cat-nature (GAME_SPEC.md \u00a73.4 Act 5).",
+                "That Charles AI carries his function (the portals, the cat-quirk) \u2014 a rights decision, never an in-world absorption or death (CANON.md \u00a73.2; the 'patterns absorbed by Charles AI' reading is STRUCK, owner 2026-09-29, story ruling D67 \u00a7H6; \u2937 ARCHIVE.md \u00a7A-16).",
                 "Only his ORIGIN is dark: where he came from, what he is, who sent him. Explain him and you kill him."
             ],
             "mayAnswerTerms": [

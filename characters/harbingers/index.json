@@ -1,11 +1,24 @@
 {
-  "description": "Harbingers are fallen Collectors (the player-kind: fallen people, never Nikes) who serve as Nolem's regional lieutenants, each blocking the path to a corrupted Legendary Nike. A fallen Legendary Nike is a separate category, a 'Corrupted Legendary' (a 'Fallen Champion'): the region bosses the Collector purifies, NOT a Harbinger. Each Harbinger has a deeply personal, tragic relationship with their fall.",
+  "description": "Harbingers are fallen Collectors (the player-kind: fallen people, never Nikes) who serve as Nolem's regional lieutenants, each blocking the path to a corrupted Legendary Nike. THE HARBINGER CONSTANT (owner, 2026-09-29; CANON.md §1.3, §1.6 item 1): Harbingers are countless. They remain 'the Harbingers': fallen human Collectors, converted, never corrupted, through the Vow. Six are the REGIONAL Harbingers, listed below, one to a region. More may be named as the story needs them: Vesper is simply a named Harbinger, arriving in Expansion 4, and Vane stands outside the regional six (both are recorded under namedOutsideTheRegions, not in the harbingers list, which holds the regional six only). A fallen Legendary Nike is a separate category, a 'Corrupted Legendary' (a 'Fallen Champion'): the region bosses the Collector purifies, NOT a Harbinger. Each Harbinger has a deeply personal, tragic relationship with their fall.",
   "nature": {
     "origin": "Collectors who gave in to Nolem's whispers — each for deeply personal reasons",
     "corruption": "Voluntary in most cases, though the 'choice' was often made from unbearable pain",
     "redemption": "Possible — proven by Slate's redemption in the Grand Arena",
     "role": "Serve as Nolem's lieutenants, blocking paths to Legendary Nikes"
   },
+  "namedOutsideTheRegions": [
+    {
+      "id": "vane",
+      "name": "Vane",
+      "title": "The Unanswered",
+      "note": "The first Collector ever to fall. Stands outside the regional six. CANON-BEARING (owner, 2026-07-27): must align everywhere. A recurring voice; every Harbinger quotes his catechism, signed 'the one no one answered' and ending on the unfinished 'If I call, will—'. He stands up in person once, at the Void Terminus Memory Graveyard (owner, 2026-09-29, story ruling D12; CANON.md §1.6 item 16)."
+    },
+    {
+      "id": "vesper",
+      "name": "Vesper",
+      "note": "A named Harbinger, arriving in Expansion 4, outside any base region (owner, 2026-09-29 — the Harbinger Constant). Fell for love. Identity (the pull-you-fallen flagship principle) stays with the owner (roadmap L-19); look needs the owner's separate approval."
+    }
+  ],
   "harbingers": [
     {
       "id": "yuki",
@@ -13,7 +26,8 @@
       "dimension": "Shinden",
       "title": "The Devoted Shadow",
       "emotionalTheme": "Devotion twisted into possession — born from genuine love",
-      "corruptionReason": "Three years fighting corruption while watching Ninja Nike suffer. Nolem offered a way to stay by her master's side.",
+      "corruptionReason": "Three years fighting corruption while watching Ninja Nike suffer. When the mist sealed her out she took the Vow to stand close to him inside the dark (owner, 2026-09-29, story ruling D8).",
+      "family": "Her father, the swordsmith Kageyama Sōhei, disowned her for following a Nike master and still sets a second bowl each night (D8).",
       "backstory": "Ninja Nike's best student. Stood against corruption for three years — longer than anyone else in Shinden. Watched her master twist into something unrecognizable, held them while they screamed at shadows. When Nolem offered his gift, it wasn't weakness — it was exhausted devotion choosing the only remaining path.",
       "gameCharacterization": "Fierce and articulate. Doesn't see herself as corrupted — she's the only one who truly cared enough to sacrifice everything. Her corruption lets her feel what Ninja Nike feels. Genuinely believes freeing him would cause more pain.",
       "abilities": [
@@ -29,10 +43,10 @@
       "name": "Erik",
       "dimension": "Frostfall",
       "title": "The Prisoner in His Own Body",
-      "emotionalTheme": "A man still conscious under corruption — trapped, not willing",
-      "corruptionReason": "Tried to negotiate with Nolem to save his people. Nolem took him and left his consciousness intact as cruelty.",
-      "backstory": "Frostfall's war-leader. Offered himself in exchange for his people's safety. Nolem twisted the deal: Erik's body serves, but his true self watches helplessly. His wife and daughter wait in the resistance camp.",
-      "gameCharacterization": "Not a willing servant — a prisoner. Bjorn the Wise says 'he was like a son to me.' Post-redemption: 'I lived on rage for years. Told myself it was strength. But it was just... fear wearing armor.' His daughter asks: 'Papa, are you going to stay this time?'",
+      "emotionalTheme": "A man who said yes once, in despair, and is trapped inside it — he chose the door; Nolem built the room",
+      "corruptionReason": "In a winter when his daughter Sigrid was dying of cold he took the Vow once, in despair — never lose anyone again — and has said no to it every day since (owner, 2026-09-29, story ruling D21; ⤷ the old sheet archived: ARCHIVE.md §A-14).",
+      "backstory": "Frostfall's war-leader. His body serves, but his true self watches from inside it. His wife Hild and his daughter Sigrid wait in Hvítvik, where Sigrid keeps a lantern lit; Sigrid never speaks (D24). He has harmed no human: his scar is the souls he FINISHED; the dead in the Frozen Harbor's ice are the drowned of Nolem's storm (D23, D39).",
+      "gameCharacterization": "Not a willing servant — a prisoner of his own yes. Bjorn the Wise says 'he was like a son to me.' Post-redemption: 'I lived on rage for years. Told myself it was strength. But it was just... fear wearing armor.' Refusing his despair (and speaking Hild's sayings when his eyes surface) redeems him; he sits outside the lit window and Sigrid carries the lantern out to him (D22).",
       "abilities": [
         "Berserker Command",
         "Raid Tactics",
@@ -102,8 +116,9 @@
       "title": "The Consumed",
       "emotionalTheme": "Complete despair — survived what destroyed everyone else",
       "corruptionReason": "Watched entire dimension consumed by Nolem. Sole survivor. Grief became monstrous.",
-      "backstory": "Watched every friend, family member, every living soul consumed by Nolem. Sole survivor. Grief deepened, solidified, became something monstrous. Didn't choose Nolem — became an extension of the destruction.",
-      "gameCharacterization": "Most alien Harbinger. Barely recognizable as the Collector he once was. Emanates despair rather than speaking. Fighting means confronting absolute hopelessness — the conviction that everything ends, everything is consumed.",
+      "backstory": "A Collector once, who carried a dying world alone and watched every friend, family member, every living soul in it consumed by Nolem. Sole survivor. Grief deepened, solidified, became something monstrous, and their name was lost with their world. Pronoun open (owner, 2026-09-29, story ruling D46; ⤷ ARCHIVE.md §A-14).",
+      "redemptionKey": "Being remembered: Void Charles, the Witness, kept their name and gives it back (D46).",
+      "gameCharacterization": "Most alien Harbinger. Barely recognizable as the Collector they once were. Emanates despair rather than speaking. Fighting means confronting absolute hopelessness — the conviction that everything ends, everything is consumed.",
       "abilities": [
         "Void Gaze",
         "Despair Aura",

@@ -62,6 +62,7 @@
     {
       "id": "analog-charles",
       "name": "Analog Charles",
+      "epithet": "the Analog Rebel — 'Analog Charles' is his name in fiction; the shipped 'Neon Charles' is grandfathered (owner, 2026-09-29, story ruling D70; GAME_DELTAS O4)",
       "dimension": "Neon City",
       "title": "The Philosopher",
       "wisdom": "Technology vs humanity",
@@ -86,7 +87,8 @@
       "wisdom": "What Charles becomes alone",
       "description": "A Charles who lost his Nike and had no one to carry him. Shows what isolation does even to a Shepherd.",
       "status": "Corrupted — Boss fight",
-      "tragedy": "He forgot that bonds work both ways."
+      "tragedy": "He forgot that bonds work both ways.",
+      "ruling": "A Charles Variant, NEVER OG Charles (owner, 2026-09-29, story ruling D47; the Discord DB row label 'OG Charles Hoskinson' is a legacy data label only). He greets a Hollow Collector as kin and begs a Radiant one only to remember his Nike's name; he cannot be reached. After the campaign Hub Charles lights one more light."
     }
   ],
   
