@@ -1,5 +1,17 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Night comes by resting; the three moons stand over the Mural
+
+**Owner rulings (Tier 0), 2026-09-30** — "There should be day and night … it should only happen when Charles teaches
+resting to heal party … then the night comes (like BG3 scenes happen at sanctuary resting)", then "Yes adopt all" on the
+build repo's day & night consensus (D1–D8). **The time rule:** there is no day-cycle clock; night comes from a
+player's own rest at a Charles fire or from an authored place (Shinden's dusk scar, Neon's Quiet Minute); seasonal
+events such as Lantern Night are authored places. Night is presentation only. **The Hub's three moons** stand pale in
+the day sky over the Mural in the opening, restoring the LOCKED "Mural under three moons" awe (a build-side lead
+ruling had dropped them). No claim in this repo changes (it states no day cycle and no moon canon); the Hub's one
+rain stays reserved as `CANON.md` has it. Recorded the same session in the build repo (`GAME_SPEC.md` Convergence Hub
+and §6.1, `MVP.md`, the opening spec §12) and the TESANA twin.
+
 ## The reach also pays XP (core systems, O1)
 
 **Owner ruling (Tier 0), 2026-09-30** — "yes to all recommended" on the build repo's core-systems decisions. **O1: a
