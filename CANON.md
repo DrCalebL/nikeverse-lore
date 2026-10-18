@@ -140,6 +140,8 @@ string is undamaged afterward. No bond is ever spent, drawn down, or un-given.
 *fights* with — so carrying a form nobody else will carry is a genuine sacrifice, paid in attention and
 presence. *Your arms ache. Nothing is consumed.*
 
+**The team move is named "All Hands" — owner ruling, 2026-10-19** ("All hands approved"). In the game a Collector's six live slots can strike together once the fight-skill gauge is full: every present, living Nike in slots 1-6 hits the held target once. The name is the same idea as the line above — the six are the Collector's own *hands*. It names the move only; the gauge has no separate name. Build-side presentation: no claim here changes (it is not a Nike Prime mechanic, and nothing is consumed from any bond).
+
 **It lapses because NOLEM UNMAKES THE SHAPE.** Not appetite — opposition. He tears specific souls back out of
 the weave, and an arrangement with a hole is not the same arrangement. **Re-forming, never refuelling.**
 

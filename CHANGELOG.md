@@ -1,5 +1,13 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## The team move is named "All Hands"
+
+**Owner ruling (Tier 0), 2026-10-19** — "All hands approved" on the build repo's combat-depth team-gauge name options
+(All Hands / Chord). The move where a Collector's six live slots strike together is **All Hands**; the gauge itself has
+no separate name (a suggested "Rally" was not approved). It echoes `CANON.md`'s *"the Collector's own hands"* (the six
+live slots); "chord" stays free for Nike Prime's posture. No claim in this repo changes. Recorded the same session in the
+build repo (`GAME_SPEC.md` §4.12, `sim/team.ts`) and the TESANA twin.
+
 ## Night comes by resting; the three moons stand over the Mural
 
 **Owner rulings (Tier 0), 2026-09-30** — "There should be day and night … it should only happen when Charles teaches
