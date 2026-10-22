@@ -1,5 +1,17 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## The Training Grounds' pocket law (the fitness game)
+
+**Owner rulings (Tier 0), 2026-10-22** — on the fitness game's four-mind lore panel consensus
+(`nikeverse-fitness-game/docs/LORE_PROPOSAL.md`): **"Ratify both"** — the game-authored law *"a pocket holds its shape
+only where someone is moving through it"* and the framing that Charles AI built each Training Grounds pocket from a
+lesson the five Champions taught in the Bunker; **"A shipped common"** — the player's partner is a shipped common Nike,
+never Piglet, Emo or Chef; **"'Same time tomorrow?'"** — Hub Charles's one new line, spoken instead of *"you're
+ready"*; **"Separate figure"** — the game's unnamed dais Harbinger is not the TD's. No existing claim in this repo
+changes: the law elaborates the place's canon *"during dimensional instability"*. Recorded as a `GAME_DELTAS.md` §4
+extension, and the same session in the build repo's `docs/CANON_MAP.md`. `GAME_SPEC.md` (and so the TESANA twin) is
+untouched: the fitness game adds nothing to the MMO's design.
+
 ## Night comes by resting; the three moons stand over the Mural
 
 **Owner rulings (Tier 0), 2026-09-30** — "There should be day and night … it should only happen when Charles teaches
