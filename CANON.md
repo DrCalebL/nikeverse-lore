@@ -341,7 +341,7 @@ not decoration, it is **the entire delivery mechanism** — every other channel 
 Three moments carry it, and the first is already drawn and ratified and currently spent only once:
 
 - **ARRIVAL** — the **falling soul** of the Reach-Back (the sole sanctioned exception to the bipedal law, a
-  soul with no settled form yet; owner ruling 2026-10-25: in the opening it is seen as a small living flame, no limbs, no face, never a Nike silhouette). It is precisely the image of a soul coming to rest and becoming someone.
+  soul with no settled form yet; owner ruling 2026-10-25: in the opening it is seen as a small living flame, no limbs, no face, never a Nike silhouette). It is precisely the image of a soul coming to rest and becoming someone. Owner ruling 2026-10-27: the opening film is the player's own fall seen before they have a face (the figure on screen stands in for "you before you are someone"); creation then answers "who were you", and the player wakes as their own Collector.
   Reuse it wherever a life begins.
 - **RECOGNITION** — *"I know you."* / from the soul's side: *"You looked at me like you already knew me.
   Nobody's ever done that."*
