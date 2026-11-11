@@ -280,11 +280,14 @@ no counter and no reward.**
 > **(a) "A thing that advances no counter can never become a required grind, and that is arithmetic" is
 > FALSE and is struck.** Counters are not what drives grind in this genre; **quality re-rolls** are, and the
 > spec already contains three: per-life IVs and natures, un-normalised outside ranked
-> (`GAME_SPEC.md` §4.3.5); **evolution-line coverage**, since evolution swaps species in place, so holding
+> (`GAME_SPEC.md` §4.3.5) — **the softest of the three (owner 2026-11-11, "soften the line"): the six IVs
+> always sum to 93, so no life is better overall, only shaped differently (each IV about ±7.5% on its stat,
+> a nature +10% on one stat and −10% on another); the pull is toward a preferred shape, never a better
+> Nike**; **evolution-line coverage**, since evolution swaps species in place, so holding
 > both stages of a line requires two lives; and the **Resonant variant's "catch-streak odds"**, which is by
 > definition a mechanic that pays you for catching repeatedly. Unlimited supply plus any of those is a
 > hunt. **The honest claim, which is still strong: no gate, counter or reward requires a repeat — the
-> genetics and variant chases remain, deliberately optional, and are each a live tuning question.**
+> genetics preference (a shape, never a better Nike) and the variant chase remain, deliberately optional, and are each a live tuning question.**
 > **(b) "Free costs you nothing on a form you already hold" is WRONG IN THE OTHER DIRECTION and is struck.**
 > The ratified payout sheet is **Bond → the life itself; Free → Bond-Echoes + Resonance**
 > (`CIRCLE_DESIGN.md` §5.2). Remove the Log tick, as a repeat does, and **Free out-pays Bond** — so on

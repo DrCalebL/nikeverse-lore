@@ -1,5 +1,9 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## IVs and natures are a shape, not a quality chase
+
+**Owner ruling (Tier 0), 2026-11-11** - "Soften the line." `CANON.md` struck-overclaim (a) listed per-life IVs and natures as a quality re-roll chase. Since 2026-11-08 the six IVs always sum to 93 (each IV about ±7.5% on its stat, owner 2026-11-11 "match pokemon"; a nature +10% on one stat, -10% on another), so no life is better overall, only shaped differently. The line now says the pull is toward a preferred shape, never a better Nike; the evolution-coverage and Resonant variant chases are unchanged. Same day: a traded common keeps its genes (only the bond resets; `CANON.md` already said only "bond-reset"). Recorded the same session in the build repo (`GAME_SPEC.md`) and the TESANA twin.
+
 ## The team move is named "All Hands"
 
 **Owner ruling (Tier 0), 2026-10-19** — "All hands approved" on the build repo's combat-depth team-gauge name options
