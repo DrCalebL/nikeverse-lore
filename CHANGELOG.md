@@ -14,7 +14,7 @@ to the clock. Rolled from the life's seed when a wild rises or a Corrupted Nike 
 rng); default about 1 in 1,000, flat, published, the same for every kind, tuned after measuring rises per hour; no
 boosts of any kind, never sold; one owner-approved palette per kind (approved in batches), never reading as another of
 the 5,555 forms; zero stats; on the life; trades Nike for Nike only, never for currency (the colour travels, the bond
-resets, Resonance never trades). A Nike can be both. Golden and Midnight are no longer in-game variant names.
+resets, a traded Nike keeps its First Light colour but loses its Resonance, which resets with the bond (owner 2026-11-13)). A Nike can be both. Golden and Midnight are no longer in-game variant names.
 **Amended:** `CANON.md` §2.4 (the Resonant and rare-colour bullets) and §1.2.2 struck-overclaim (a); `THE_5555.md`.
 Recorded the same session in the build repo (`GAME_SPEC.md` §7.9 *Customisation* and §8.1, `ART_DIRECTION.md`,
 `CONSENSUS_TARGET.md`, and stale "Resonant = our shiny" lines in `OPENWORLD_AND_ENDLESS.md` §3.4, `STORY_BIBLE.md`,
