@@ -284,8 +284,10 @@ no counter and no reward.**
 > always sum to 93, so no life is better overall, only shaped differently (each IV about ±7.5% on its stat,
 > a nature +10% on one stat and −10% on another); the pull is toward a preferred shape, never a better
 > Nike**; **evolution-line coverage**, since evolution swaps species in place, so holding
-> both stages of a line requires two lives; and the **Resonant variant's "catch-streak odds"**, which is by
-> definition a mechanic that pays you for catching repeatedly. Unlimited supply plus any of those is a
+> both stages of a line requires two lives; and ~~the **Resonant variant's "catch-streak odds"**, which is by
+> definition a mechanic that pays you for catching repeatedly~~ ⚠ *stale (owner 2026-11-13): the Resonant has no odds — it
+> is earned only; the luck is the **Golden** and **Midnight** colours (§2.4), a flat chance per rise or waking with no streak bonus, which still
+> rewards meeting more wilds*. Unlimited supply plus any of those is a
 > hunt. **The honest claim, which is still strong: no gate, counter or reward requires a repeat — the
 > genetics preference (a shape, never a better Nike) and the variant chase remain, deliberately optional, and are each a live tuning question.**
 > **(b) "Free costs you nothing on a form you already hold" is WRONG IN THE OTHER DIRECTION and is struck.**
@@ -794,10 +796,17 @@ What a life may carry, each piece approved by the owner:
 - **keepsakes** on the neck, the wrist and the back, **and hats** (*"Also allow hats and rare colours"*);
 - **small flourishes** of light and movement (a footstep trail, a flourish when the Collector becomes them, a pose);
 - **its own identity** — a name, a nature, a Mark, a nameplate;
-- **the Resonant**, earned and never a matter of luck, its look (a gold rim and motes) approved by the owner;
-- **rare colours** — allowed in principle. **How a rare colour is come by, and whether it belongs to the Resonant, is
-  OPEN** (awaiting the owner). Whatever is ruled, each rare colour is approved by the owner and checked against every
-  one of the five thousand five hundred and fifty-five forms, so it never reads as another form.
+- **the Resonant**, earned and never a matter of luck — the gold light **the bond adds** (a rim and motes, its look
+  approved by the owner);
+- **Golden and Midnight**, the rare colours (the names the Discord game already gave them: *"Midnight and golden"*),
+  and a different thing from the Resonant. The corruption absorbs light; a few souls rise from the grass, or wake from
+  the numbing, still holding their own light (*"corrupted Nikes woken should also have the chance to be shiny"*). It is
+  luck, not merit: a flat chance, the same for every kind — about one in a hundred for Golden, one in a thousand for Midnight
+  (*"Midnight even more rare than golden. As per the discord game."*) — that no streak or event raises and nobody can buy, and it is
+  seen before the soothing begins. The catch itself stays free of chance. Each kind has one Golden and one Midnight
+  colour, approved by the owner, never matching any of the five thousand five hundred and fifty-five forms. They give
+  no strength, belong to the life, and stay through every settling. A soul can hold both: its own light, and the gold
+  a bond adds.
 
 A Nike look is never a reward for holding anything outside the world: a holder of the original art may show a quiet
 **Holder's Seal** (a nameplate frame, a plaque in their Sanctuary, one charm) — recognition only, never power and never

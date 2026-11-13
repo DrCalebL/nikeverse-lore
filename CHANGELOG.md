@@ -1,5 +1,34 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## Golden and Midnight: the rare colours are luck, and they are not the Resonant
+
+**Owner rulings (Tier 0), 2026-11-13** - closing the rare-colour question the entry below left OPEN. The rare colours
+and the Resonant are **separate**. The rare colours keep the names the Discord game already uses: *"It's already
+called something else in my discord game. Midnight and golden."* - two tiers, **Golden** and **Midnight**. They are
+the luck reward of the catch loop, rolled from the life's seed when a wild rises from the grass and also when a
+Corrupted Nike is woken (*"corrupted Nikes woken should also have the chance to be shiny"*); the catch itself still
+draws zero rng. Seen before soothing (a sparkle and a sound); one owner-approved palette per kind per tier, never
+colliding with any of the 5,555 forms; zero stats; flat, published odds, the same for every kind, as in the Discord game (owner, same day: *"Let's make both variants into game. Midnight even more rare than golden. As per the discord game."*):
+Golden about 1 in 100, Midnight about 1 in 1,000, per rise and per woken Corrupted Nike, one roll deciding none /
+Golden / Midnight; no chains, no
+boosted events, never sold; the flag sits on the life and survives evolution; it trades with the colour kept (the
+bond resets). The **Resonant stays as ratified** (earned only, gold light, a tiny stat bump) and is no longer called
+"the shiny"; a Nike can be both. **Meaning:** the corruption absorbs light; a few souls rise or wake still holding
+their own light; the Resonant's gold is the light the bond adds. **New canon:** `CANON.md` §2.4 (rewritten bullet).
+**Stale lines amended:** `CANON.md` §1.2.2 struck-overclaim (a) and `THE_5555.md` both cited the Resonant's
+"catch-streak odds" (the Resonant has had no odds since 2026-09-29). Recorded the same session in the build repo
+(`GAME_SPEC.md` §7.9 *Customisation* and §8.1, `ART_DIRECTION.md`, `CONSENSUS_TARGET.md`) and the TESANA twin.
+
+## Marks replace titles everywhere (consensus)
+
+**3-Opus consensus, unanimous, 2026-11-13** - under the build repo's rule that every doc-vs-doc conflict gets a
+multi-Opus consensus. `GAME_SPEC.md` §7.4 ④ already made Marks the replacement for titles (owner: *"titles only
+celebrate the top few"*), but §7.6, §7.9 and §7.10 still granted, sold or ranked titles. Now: housing shows trophy/Mark
+displays; Containment Spirals cosmetics never include a title; challenge modes award Marks (any skill level can
+finish); the "Deepest Containment" title is struck (the combined board still weights the purify track); server-first
+clears are recorded permanently in the Reaching (every name who was there, unranked). No claim in this repo changes.
+Recorded the same session in the build repo and the TESANA twin.
+
 ## A kind keeps its look; players walk as Collectors and become their Nikes
 
 **Owner rulings (Tier 0), 2026-11-13** - on the build repo's customisation plan, ruled one by one. *"Nikes don't
