@@ -1,5 +1,23 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## A kind keeps its look; players walk as Collectors and become their Nikes
+
+**Owner rulings (Tier 0), 2026-11-13** - on the build repo's customisation plan, ruled one by one. *"Nikes don't
+accompany collectors. We become Nikes and each Nike looks the same of the same species."* Then, correcting the same
+day: *"Also allow hats and rare colours."* **New canon:** `CANON.md` §2.4. No Nike follows a Collector as a companion;
+a kind always wears the same look; a life may carry owner-approved keepsakes (neck, wrist, back, and hats), small
+flourishes, its identity (name, nature, Mark, nameplate) and the earned-only Resonant (gold rim + motes, look approved
+from stills); no Nike look is ever sold. **Rare colours are allowed in principle; how they are obtained and whether
+they are tied to the Resonant is OPEN, awaiting the owner** (each palette owner-approved and checked against the forms
+so it never reads as another form). NFT holders get an opt-in, recognition-only Holder's Seal (nameplate frame,
+Sanctuary plaque, one charm): no power, no exclusive Nike. Build-side rulings of the same answer (no claim here
+changes): about two-thirds of looks earned and the most striking per slot always earned; the shop sells items and dyes,
+never face edits; free re-edit; trading later, crafted items only; Collector faces carry emotion through AI video
+portrait loops, a player's live portrait head only blinks and drifts its eyes, region-blended faces are a proof only;
+the 14 old Collector presets retired except p7d. The Golden and Midnight variants stop being recolours and become
+candidate rare palettes. Recorded the same session in the build repo (`GAME_SPEC.md` §7.9 row 4 struck + *Customisation*,
+§8.1 variants; `ART_DIRECTION.md`; `CONSENSUS_TARGET.md`) and the TESANA twin.
+
 ## IVs and natures are a shape, not a quality chase
 
 **Owner ruling (Tier 0), 2026-11-11** - "Soften the line." `CANON.md` struck-overclaim (a) listed per-life IVs and natures as a quality re-roll chase. Since 2026-11-08 the six IVs always sum to 93 (each IV about ±7.5% on its stat, owner 2026-11-11 "match pokemon"; a nature +10% on one stat, -10% on another), so no life is better overall, only shaped differently. The line now says the pull is toward a preferred shape, never a better Nike; the evolution-coverage and Resonant variant chases are unchanged. Same day: a traded common keeps its genes (only the bond resets; `CANON.md` already said only "bond-reset"). Recorded the same session in the build repo (`GAME_SPEC.md`) and the TESANA twin.

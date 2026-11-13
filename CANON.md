@@ -781,6 +781,28 @@ A taut line from a hand is the grammar of possession — the very lie a Collecto
 > asserts four legs, and a *standing* lion-character with hands satisfies the law. They are simply the places
 > where it is easiest to go wrong.
 
+### 2.4 A kind keeps its look; a life is marked, never re-drawn · **RATIFIED (owner, 2026-11-13)**
+
+*"Nikes don't accompany collectors. We become Nikes and each Nike looks the same of the same species."* A Collector
+walks the world as a Collector and **becomes** their Nikes; no Nike follows a Collector about as a companion. Out of
+battle a Collector may also walk as one of their Nikes, for its gifts and its own conversations.
+
+So every Nike of one kind wears the same look — the look its own form gave it — and what is personal to a player is
+drawn on the **Collector**. A life is never re-drawn into a different-looking Nike, and **no Nike look is ever sold.**
+What a life may carry, each piece approved by the owner:
+
+- **keepsakes** on the neck, the wrist and the back, **and hats** (*"Also allow hats and rare colours"*);
+- **small flourishes** of light and movement (a footstep trail, a flourish when the Collector becomes them, a pose);
+- **its own identity** — a name, a nature, a Mark, a nameplate;
+- **the Resonant**, earned and never a matter of luck, its look (a gold rim and motes) approved by the owner;
+- **rare colours** — allowed in principle. **How a rare colour is come by, and whether it belongs to the Resonant, is
+  OPEN** (awaiting the owner). Whatever is ruled, each rare colour is approved by the owner and checked against every
+  one of the five thousand five hundred and fifty-five forms, so it never reads as another form.
+
+A Nike look is never a reward for holding anything outside the world: a holder of the original art may show a quiet
+**Holder's Seal** (a nameplate frame, a plaque in their Sanctuary, one charm) — recognition only, never power and never
+a Nike of their own that others cannot meet.
+
 ---
 
 ## 3 · The fallen
