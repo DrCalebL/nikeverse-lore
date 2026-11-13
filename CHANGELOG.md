@@ -1,5 +1,25 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## First Light: the one rare colour; Golden and Midnight are lore links only
+
+**Owner rulings (Tier 0), 2026-11-13** - later the same day, replacing the Golden/Midnight luck tiers in the entry
+below. *"Let's make golden mean resonant in function (earned not luck) and midnight variant mean shiny in function"*;
+*"So we call it resonant and first light in our game but linked in lore to golden and midnight"*; *"I don't really
+want it literally appearing at midnight only. Just trying to justify why it is named as such but just call it first
+light and let them spawn very rarely"*. Now: the **Resonant** (unchanged: earned only, gold light, a tiny stat bump)
+carries over the Discord game's **Golden**, and its look may lean gold. **First Light** is the one luck colour (the
+shiny) and carries over the Discord game's **Midnight**; its line is *"First light in the dark of midnight"* and its
+meaning stays: the corruption swallows light, and a rare soul rises still holding its own first light. It is not tied
+to the clock. Rolled from the life's seed when a wild rises or a Corrupted Nike is woken (the catch still draws zero
+rng); default about 1 in 1,000, flat, published, the same for every kind, tuned after measuring rises per hour; no
+boosts of any kind, never sold; one owner-approved palette per kind (approved in batches), never reading as another of
+the 5,555 forms; zero stats; on the life; trades Nike for Nike only, never for currency (the colour travels, the bond
+resets, Resonance never trades). A Nike can be both. Golden and Midnight are no longer in-game variant names.
+**Amended:** `CANON.md` §2.4 (the Resonant and rare-colour bullets) and §1.2.2 struck-overclaim (a); `THE_5555.md`.
+Recorded the same session in the build repo (`GAME_SPEC.md` §7.9 *Customisation* and §8.1, `ART_DIRECTION.md`,
+`CONSENSUS_TARGET.md`, and stale "Resonant = our shiny" lines in `OPENWORLD_AND_ENDLESS.md` §3.4, `STORY_BIBLE.md`,
+`RAID_AND_REWARDS_SPEC.md`) and the TESANA twin.
+
 ## Golden and Midnight: the rare colours are luck, and they are not the Resonant
 
 **Owner rulings (Tier 0), 2026-11-13** - closing the rare-colour question the entry below left OPEN. The rare colours
