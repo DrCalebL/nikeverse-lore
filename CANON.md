@@ -633,7 +633,9 @@ Vesper's identity (L-19) and the name rights of Cardano and Satoshi (D71).
 19. **The Abyssal Horror** (D46): a Collector once, pronoun open, who carried a dying world alone and lost their
     name with it. The key is being remembered: Void Charles, the Witness, kept their name and gives it back.
 20. **Slate** (D27), as ratified: he lost six partners, and kept a tally of the times one fighter stepped in front
-    of another. **Lark Brandt** (D6) is a Collector caught in Neon's interface, never a Harbinger.
+    of another. ⚠ **AMENDED — owner ruling, 2026-11-19:** he **fell through the Vow**, like every Harbinger (item 1);
+    his wound is *lost* six partners, never "severed" or "cast out" (those lines are retired). His redemption trigger
+    and its rules live in GAME_SPEC (Slate, Grand Arena). **Lark Brandt** (D6) is a Collector caught in Neon's interface, never a Harbinger.
 
 **The others**
 21. **Tōga fell fifteen years before the Echo Era** (D9), as §1.5 ratified.
@@ -847,6 +849,10 @@ Harbinger lore is otherwise free to differ between products — names, titles, p
    region or his redemption and you change whether the door swings both ways.
 *(Everything else about Slate — his exact wounds, his dialogue, his title in any given product — remains free.
 What must align is that HE is the first redeemed, and that redemption returns a Harbinger to Collector.)*
+⚠ **AMENDED — owner ruling, 2026-11-19:** **Slate's fall is through the Vow** (as every Harbinger's, §1.6 item 1), so
+the door he proves swings both ways is the Vow's door. **First-redeemed ordering rule:** Frostfall and the Grand Arena
+are free-order, so in a Frostfall-first run **Erik's redeemed ending waits until Slate has turned**; Slate stays the
+first Harbinger the player redeems in every run.
 
 **EXCEPTION 1 — THE FIRST HARBINGER.** The first Collector ever to fall and worship Nolem: likely the
 strongest of them, and the leader the rest answer to. This figure **is** canon-bearing and must align everywhere
@@ -862,7 +868,8 @@ he appears. He does **not exist yet** — the concept is the owner's (2026-07-26
 >   graffiti, words other Harbingers quote without knowing whose they are — standing up in person at most once, late.
 > - **THE FIRST HARBINGER REDEEMED** — **Slate**, the first Harbinger the player redeems **back into a Collector**
 >   in-game (`characters/harbingers/index.json`, `dimensions/grand-arena.json`). A gameplay milestone, not a
->   cosmological one, and — per the ruling above — free to differ between games.
+>   cosmological one, and — per the ruling above — free to differ between games. ⚠ **AMENDED — owner ruling,
+>   2026-11-19:** "first" holds in every run order; Erik's redeemed ending waits until Slate has turned (above).
 >
 > These have nothing to do with each other. **Never shorten Slate's milestone to "the First Harbinger."** Always
 > write it as *"the first Harbinger redeemed"* or *"the first redemption."*
