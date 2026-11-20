@@ -1,5 +1,20 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## The Harbinger route: Corrupted Nikes treat a Harbinger as kin; the loss rule
+
+**Owner ruling (Tier 0), 2026-11-20** - "yes to all your recommendations", on the build repo's Harbinger-route
+choice list (`docs/design/research/2026-11-20-harbinger-route/MERGED.md`, recorded as ruling 7 of
+`docs/design/BATTLES-PROPOSAL-2026-11-19.md`). Two of the twelve points touch lore and are registered as game-facing
+delta `GAME_DELTAS.md` L13: (3) **Corrupted Nikes treat a fallen player's body as kin and do not attack it** (ordinary
+wild Nikes still do), which narrows the reading of `CANON.md` §5.3's "the Nolem in it wakes when a Collector comes
+near" for Harbingers; (1) a fallen player's seized six **scatter, still lost, only when a warm player beats them**
+(opt-in PvP duel or PvP raid loss); a PvE fall is "you fell" and nothing is lost. The rest (seizing by holding still
+beside a standing Corrupted Nike, a seized Nike at the player's level and never gaining Bond, Map-scrap bidding, wall
+holds, "Take the hand?" starting the Redemption Road) is game design and lives in the build repo. Still owed by the owner:
+the seize verb, the "Take the hand?" words, Map scrap counts and words, the art for Vane's marks. **`CANON.md` is not
+edited**; a proposed CANON addition awaits owner confirmation (worded in `GAME_DELTAS.md` L13). Recorded the same session in the build repo (`GAME_SPEC.md`,
+`FALLEN_PATH_AND_ENDINGS.md`, `HARBINGER-ROUTE-RULES-DRAFT.md`); the TESANA twin is regenerated.
+
 ## Slate's redemption: a guard-swap tally; he fell through the Vow; he is redeemed first
 
 **Owner ruling (Tier 0), 2026-11-19** - "Yes, adopt", on the build repo's 3-Opus consensus
