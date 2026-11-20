@@ -1328,6 +1328,14 @@ is never the voice that did the striking.
 > earlier: the waking happens at **nearness**, not at the first blow. It changes nothing above — **what attacks is still
 > the corruption, never the soul**, and the soul is never the aggressor. Game mechanics (detection, the notice beat,
 > the presence cue): `Nikeverse-mmo-rpg-from-scratch/docs/design/GAME_SPEC.md` §4.10.1.
+>
+> ### ⭐ AMENDED — owner ruling, 2026-11-20. **A CORRUPTED NIKE READS A HARBINGER AS KIN.**
+> *"A Corrupted Nike does not wake against a Harbinger. It reads one as kin and lets them near; a wild Nike that is
+> not Corrupted still wakes against any Collector."*
+>
+> This narrows the line above for Harbingers only. A Harbinger IS still a Collector (§5.3), and every other wild
+> still wakes at its nearness. Game mechanics (seizing, the loss rule): `GAME_DELTAS.md` L13 and
+> `Nikeverse-mmo-rpg-from-scratch/docs/design/BATTLES-PROPOSAL-2026-11-19.md` ruling 7.
 
 ---
 

@@ -11,8 +11,8 @@ near" for Harbingers; (1) a fallen player's seized six **scatter, still lost, on
 (opt-in PvP duel or PvP raid loss); a PvE fall is "you fell" and nothing is lost. The rest (seizing by holding still
 beside a standing Corrupted Nike, a seized Nike at the player's level and never gaining Bond, Map-scrap bidding, wall
 holds, "Take the hand?" starting the Redemption Road) is game design and lives in the build repo. Still owed by the owner:
-the seize verb, the "Take the hand?" words, Map scrap counts and words, the art for Vane's marks. **`CANON.md` is not
-edited**; a proposed CANON addition awaits owner confirmation (worded in `GAME_DELTAS.md` L13). Recorded the same session in the build repo (`GAME_SPEC.md`,
+the seize verb, the "Take the hand?" words, Map scrap counts and words, the art for Vane's marks. **`CANON.md` §5.3 is
+amended** (owner 2026-11-20, "Yes, add it"): the kin line now follows the 2026-09-29 "a wild does not wait to be struck" block. Recorded the same session in the build repo (`GAME_SPEC.md`,
 `FALLEN_PATH_AND_ENDINGS.md`, `HARBINGER-ROUTE-RULES-DRAFT.md`); the TESANA twin is regenerated.
 
 ## Slate's redemption: a guard-swap tally; he fell through the Vow; he is redeemed first
