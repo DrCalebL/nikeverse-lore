@@ -1,5 +1,14 @@
 # NIKEVERSE LORE ↔ GAME RECONCILIATION — CHANGELOG
 
+## The Void Terminus weather is "the Gossamer" on screen
+
+**Owner ruling (Tier 0), 2026-11-21** - "all recommended", on a 3-Opus naming consensus (2-1) in the build repo
+(`docs/design/research/2026-11-21-region-identity/void-name-judge-*.md`). The Void weather (silver threads drifting in still air,
+look and sound only per D19) was called "the Unraveling" in the game docs; that is the gloss of Nol'meth (`CANON.md`) and Nolem is
+never weather, so the game now shows **"the Gossamer"** (plain English, no First-Tongue entry). "The Unraveling" stays the gloss of
+Nol'meth only. No lore file named the weather, so `CANON.md` and the dimension files are unchanged; recorded in the build repo's
+`GAME_SPEC.md` and the TESANA twin the same session.
+
 ## The Harbinger route: Corrupted Nikes treat a Harbinger as kin; the loss rule
 
 **Owner ruling (Tier 0), 2026-11-20** - "yes to all your recommendations", on the build repo's Harbinger-route
